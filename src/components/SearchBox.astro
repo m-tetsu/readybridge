@@ -1,0 +1,78 @@
+---
+/* 横断検索ボックス（平時・有事をまとめて全文検索／クライアント側） */
+interface Props {
+  placeholder?: string;
+  scope?: 'all' | 'prepare' | 'recover';
+}
+const { placeholder = 'キーワードで探す（例：BCP、備蓄、休業手当、融資、納税猶予）', scope = 'all' } = Astro.props;
+---
+<div class="searchbox" data-scope={scope}>
+  <div class="search-row">
+    <input
+      type="search"
+      class="search-input"
+      placeholder={placeholder}
+      aria-label="サイト内検索"
+      autocomplete="off"
+    />
+    <button class="btn search-go" type="button">探す<span class="arr">→</span></button>
+  </div>
+  <div class="search-results" hidden></div>
+</div>
+
+<script>
+  type Item = {
+    url: string; question: string; summary: string;
+    category: string; categoryLabel: string; pillar: string; pillarLabel: string;
+  };
+  let cache: Item[] | null = null;
+
+  async function load(): Promise<Item[]> {
+    if (cache) return cache;
+    const res = await fetch('/search-index.json');
+    cache = (await res.json()) as Item[];
+    return cache;
+  }
+
+  function norm(s: string) { return s.toLowerCase(); }
+
+  function render(box: HTMLElement, items: Item[], q: string) {
+    const panel = box.querySelector('.search-results') as HTMLElement;
+    if (!q.trim()) { panel.hidden = true; panel.innerHTML = ''; return; }
+    const scope = box.getAttribute('data-scope') || 'all';
+    const nq = norm(q);
+    const hits = items
+      .filter((it) => scope === 'all' || it.pillar === scope)
+      .filter((it) => norm(it.question + ' ' + it.summary + ' ' + it.categoryLabel).includes(nq))
+      .slice(0, 8);
+    if (hits.length === 0) {
+      panel.innerHTML = '<p class="search-empty">該当する記事が見つかりませんでした。AI相談もご利用ください。</p>';
+    } else {
+      panel.innerHTML = hits
+        .map(
+          (it) => `<a class="search-hit" href="${it.url}">
+            <span class="sh-tag sh-${it.pillar}">${it.pillarLabel}・${it.categoryLabel}</span>
+            <span class="sh-q">${it.question}</span>
+          </a>`
+        )
+        .join('');
+    }
+    panel.hidden = false;
+  }
+
+  document.querySelectorAll<HTMLElement>('.searchbox').forEach((box) => {
+    const input = box.querySelector('.search-input') as HTMLInputElement;
+    const go = box.querySelector('.search-go') as HTMLButtonElement;
+    const run = async () => render(box, await load(), input.value);
+    input.addEventListener('input', run);
+    input.addEventListener('focus', () => { if (input.value) run(); });
+    go.addEventListener('click', run);
+    input.addEventListener('keydown', (e) => { if (e.key === 'Enter') run(); });
+    document.addEventListener('click', (e) => {
+      if (!box.contains(e.target as Node)) {
+        const panel = box.querySelector('.search-results') as HTMLElement;
+        panel.hidden = true;
+      }
+    });
+  });
+</script>

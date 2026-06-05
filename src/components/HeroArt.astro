@@ -1,0 +1,228 @@
+---
+/*
+  ヒーロー用アイソメトリック・イラスト（詳細版）
+  テーマ：被災した企業の復旧（壊れたビル・機械、トンカチで修理する作業員）＋
+          支援物資の搬入（トラック・運ぶ人）＋
+          社会貢献（炊き出しで地域住民に食事を提供）
+  すべてインラインSVG（外部画像なし＝軽量・無料・差し替え容易）
+  投影：P(x,y,z) = [320+(x-y)*24, 235+(x+y)*12 - z*22]
+*/
+---
+<svg viewBox="0 0 640 560" role="img" aria-label="壊れた建物を作業員が修理し、トラックで支援物資を運び込み、手前では炊き出しで地域住民に食事を提供している様子のイラスト" xmlns="http://www.w3.org/2000/svg">
+  <!-- 地面の影 -->
+  <ellipse cx="320" cy="438" rx="248" ry="56" fill="#0a4d45" opacity="0.07" />
+
+  <!-- 台座 -->
+  <polygon points="512,331 320,427 320,439 512,343" fill="#d4e6df" />
+  <polygon points="128,331 320,427 320,439 128,343" fill="#cadcd4" />
+  <polygon points="320,235 512,331 320,427 128,331" fill="#e6f1ec" />
+
+  <!-- クレーン（後方） -->
+  <g stroke-linecap="round">
+    <line x1="150" y1="300" x2="150" y2="95" stroke="#b8552e" stroke-width="7" />
+    <line x1="150" y1="112" x2="95" y2="104" stroke="#b8552e" stroke-width="6" />
+    <line x1="150" y1="112" x2="362" y2="143" stroke="#d2693f" stroke-width="6" />
+    <line x1="150" y1="98" x2="346" y2="132" stroke="#d2693f" stroke-width="2.4" opacity="0.7" />
+    <line x1="352" y1="141" x2="352" y2="198" stroke="#1c2a29" stroke-width="2" />
+    <polygon points="139,298 161,298 150,112" fill="none" stroke="#e9c4ad" stroke-width="1.3" opacity="0.55" />
+  </g>
+  <g class="float2">
+    <polygon points="352,198 364,204 352,210 340,204" fill="#fbeede" />
+    <polygon points="364,204 352,210 352,219 364,213" fill="#d2693f" />
+    <polygon points="340,204 352,210 352,219 340,213" fill="#b8552e" />
+  </g>
+
+  <!-- 壊れた建物（復旧中） -->
+  <g>
+    <polygon points="272,203 320,227 320,297 272,273" fill="#0a4d45" />
+    <polygon points="368,203 320,227 320,297 368,273" fill="#0f6e63" />
+    <polygon points="320,179 368,203 320,227 272,203" fill="#eef5f1" />
+
+    <!-- 屋上の損傷（崩れた一角） -->
+    <polygon points="368,203 320,227 332,233 360,210" fill="#0a4d45" opacity="0.55" />
+    <polygon points="356,206 348,214 360,210" fill="#cbb89a" />
+
+    <!-- ひび割れ -->
+    <polyline points="352,210 346,224 353,234 347,252" fill="none" stroke="#063b35" stroke-width="1.6" />
+    <polyline points="300,232 305,250 299,268" fill="none" stroke="#063b35" stroke-width="1.4" opacity="0.8" />
+
+    <!-- 窓（無傷ガラス） -->
+    <polygon points="361,220 351,225 351,238 361,233" fill="#bfe0d6" />
+    <!-- 窓（破損） -->
+    <polygon points="344,228 334,233 334,246 344,241" fill="#0a3a34" />
+    <line x1="344" y1="229" x2="334" y2="245" stroke="#5e6f6c" stroke-width="1" />
+    <line x1="334" y1="234" x2="344" y2="240" stroke="#5e6f6c" stroke-width="1" />
+    <!-- 窓（板で応急処置） -->
+    <polygon points="361,240 351,244 351,258 361,253" fill="#b98a5a" />
+    <line x1="361" y1="245" x2="351" y2="249" stroke="#8a6240" stroke-width="1.2" />
+    <line x1="361" y1="250" x2="351" y2="254" stroke="#8a6240" stroke-width="1.2" />
+    <!-- 入口 -->
+    <polygon points="289,253 301,259 301,288 289,282" fill="#0a3a34" />
+
+    <!-- 足場 -->
+    <g stroke="#c79a3a" stroke-width="2" fill="none" opacity="0.9">
+      <line x1="368" y1="234" x2="320" y2="258" />
+      <line x1="368" y1="212" x2="320" y2="236" />
+      <line x1="368" y1="212" x2="368" y2="234" />
+      <line x1="344" y1="224" x2="344" y2="246" />
+    </g>
+
+    <!-- 足場の上で修理する作業員 -->
+    <g>
+      <rect x="344" y="222" width="13" height="20" rx="6.5" fill="#0f6e63" />
+      <circle cx="350.5" cy="216" r="5.6" fill="#f1d7bd" />
+      <path d="M345,216 A5.6,5.6 0 0 1 356,216 Z" fill="#d9a93f" />
+      <rect x="343" y="214.5" width="15" height="2.4" rx="1.2" fill="#c79a3a" />
+      <line x1="345" y1="225" x2="337" y2="218" stroke="#5e6f6c" stroke-width="2.4" stroke-linecap="round" />
+      <rect x="333" y="214" width="7" height="4" rx="1" fill="#2b3a38" transform="rotate(-32 336 216)" />
+    </g>
+    <g>
+      <rect x="327" y="236" width="13" height="20" rx="6.5" fill="#0f6e63" />
+      <circle cx="333.5" cy="230" r="5.6" fill="#f1d7bd" />
+      <path d="M328,230 A5.6,5.6 0 0 1 339,230 Z" fill="#d9a93f" />
+      <rect x="326" y="228.5" width="15" height="2.4" rx="1.2" fill="#c79a3a" />
+      <line x1="328" y1="239" x2="320" y2="232" stroke="#5e6f6c" stroke-width="2.4" stroke-linecap="round" />
+      <rect x="316" y="228" width="7" height="4" rx="1" fill="#2b3a38" transform="rotate(-32 319 230)" />
+    </g>
+
+    <!-- 足元のがれき -->
+    <polygon points="312,295 325,300 318,307 305,302" fill="#bcb4a2" />
+    <polygon points="326,299 337,303 331,310 320,306" fill="#a7b1ad" />
+    <polygon points="300,300 309,303 304,308 296,305" fill="#cbb89a" />
+  </g>
+
+  <!-- 壊れた機械（前方左）＋ 修理する人 -->
+  <g>
+    <g class="float">
+      <ellipse cx="262" cy="272" rx="9" ry="5" fill="#b9b1a0" opacity="0.45" />
+      <ellipse cx="256" cy="260" rx="7" ry="4" fill="#b9b1a0" opacity="0.4" />
+      <ellipse cx="251" cy="250" rx="5" ry="3" fill="#b9b1a0" opacity="0.35" />
+    </g>
+    <polygon points="243,278 265,288 243,299 222,288" fill="#8a9794" />
+    <polygon points="265,288 243,299 243,319 265,308" fill="#5e6f6c" />
+    <polygon points="222,288 243,299 243,319 222,308" fill="#4a5957" />
+    <line x1="254" y1="293" x2="254" y2="313" stroke="#3a4644" stroke-width="1.4" />
+    <polyline points="247,300 251,308 246,314" fill="none" stroke="#2b3a38" stroke-width="1.4" />
+    <!-- 外れた部品 -->
+    <circle cx="276" cy="318" r="7" fill="#4a5957" stroke="#2b3a38" stroke-width="1.4" />
+    <line x1="276" y1="312" x2="276" y2="324" stroke="#2b3a38" stroke-width="1" />
+    <!-- 修理する人（レンチ） -->
+    <ellipse cx="214" cy="326" rx="12" ry="4" fill="#0a4d45" opacity="0.14" />
+    <rect x="206" y="300" width="16" height="26" rx="8" fill="#0f6e63" />
+    <circle cx="214" cy="293" r="7" fill="#f1d7bd" />
+    <path d="M205,293 A9,9 0 0 1 223,293 Z" fill="#d9a93f" />
+    <rect x="203" y="291.5" width="22" height="3" rx="1.5" fill="#c79a3a" />
+    <line x1="224" y1="306" x2="240" y2="300" stroke="#6b7c79" stroke-width="3" stroke-linecap="round" />
+    <circle cx="241" cy="300" r="2.6" fill="#6b7c79" />
+  </g>
+
+  <!-- 支援物資のトラック（後方右） -->
+  <g>
+    <!-- 荷台 -->
+    <polygon points="416,263 459,285 435,297 392,275" fill="#fbeede" />
+    <polygon points="459,285 435,297 435,334 459,322" fill="#d2693f" />
+    <polygon points="392,275 435,297 435,334 392,313" fill="#b8552e" />
+    <!-- 荷台の物資 -->
+    <g>
+      <polygon points="412,270 424,276 412,282 400,276" fill="#f6e4d8" />
+      <polygon points="424,276 412,282 412,290 424,284" fill="#d2693f" />
+      <polygon points="400,276 412,282 412,290 400,284" fill="#b8552e" />
+      <polygon points="432,275 442,280 432,285 422,280" fill="#cfe0dc" />
+      <polygon points="442,280 432,285 432,292 442,287" fill="#0f6e63" />
+      <polygon points="422,280 432,285 432,292 422,287" fill="#0a4d45" />
+    </g>
+    <!-- 運転席 -->
+    <polygon points="397,267 416,277 392,289 373,279" fill="#cfe0dc" />
+    <polygon points="416,277 392,289 392,313 416,301" fill="#0f6e63" />
+    <polygon points="373,279 392,289 392,313 373,303" fill="#0a4d45" />
+    <polygon points="397,267 373,279 373,303 397,291" fill="#0f6e63" />
+    <polygon points="395,275 377,284 377,296 395,289" fill="#bfe0d6" />
+    <circle cx="382" cy="299" r="2.4" fill="#d9a93f" />
+    <!-- 車輪 -->
+    <ellipse cx="392" cy="316" rx="8.5" ry="5" fill="#2b3a38" /><circle cx="392" cy="316" r="3" fill="#6b7c79" />
+    <ellipse cx="414" cy="327" rx="8.5" ry="5" fill="#2b3a38" /><circle cx="414" cy="327" r="3" fill="#6b7c79" />
+    <ellipse cx="432" cy="337" rx="8.5" ry="5" fill="#2b3a38" /><circle cx="432" cy="337" r="3" fill="#6b7c79" />
+  </g>
+
+  <!-- 物資を運ぶ人 -->
+  <g>
+    <ellipse cx="372" cy="342" rx="12" ry="4" fill="#0a4d45" opacity="0.14" />
+    <rect x="364" y="314" width="16" height="26" rx="8" fill="#0f6e63" />
+    <circle cx="372" cy="307" r="7" fill="#f1d7bd" />
+    <path d="M365,304 a7,7 0 0 1 14,0 Z" fill="#274b46" />
+    <polygon points="360,316 368,319 360,322 352,319" fill="#f6e4d8" />
+    <polygon points="368,319 360,322 360,331 368,328" fill="#d2693f" />
+    <polygon points="352,319 360,322 360,331 352,328" fill="#b8552e" />
+  </g>
+
+  <!-- 炊き出し（前方中央）：地域住民へ食事を提供 -->
+  <g>
+    <!-- カウンター天板 -->
+    <polygon points="282,314 330,338 310,347 262,323" fill="#fffdf8" />
+    <!-- ポール -->
+    <g stroke="#b98a5a" stroke-width="2.2" stroke-linecap="round">
+      <line x1="253" y1="288" x2="262" y2="323" />
+      <line x1="282" y1="274" x2="282" y2="314" />
+      <line x1="339" y1="303" x2="330" y2="338" />
+      <line x1="310" y1="317" x2="310" y2="347" />
+    </g>
+    <!-- 屋根（テント） -->
+    <polygon points="282,274 339,303 310,317 253,288" fill="#d2693f" />
+    <line x1="270" y1="280" x2="327" y2="309" stroke="#fbeede" stroke-width="3" />
+    <line x1="261" y1="284" x2="318" y2="313" stroke="#fbeede" stroke-width="3" opacity="0.85" />
+
+    <!-- カウンターで配膳する人（後ろ側） -->
+    <g>
+      <rect x="291" y="284" width="16" height="28" rx="8" fill="#0f6e63" />
+      <rect x="292" y="296" width="14" height="16" fill="#fffdf8" opacity="0.92" />
+      <circle cx="299" cy="277" r="7" fill="#f1d7bd" />
+      <path d="M292,274 a7,7 0 0 1 14,0 Z" fill="#274b46" />
+      <line x1="307" y1="292" x2="299" y2="326" stroke="#6b7c79" stroke-width="2.2" stroke-linecap="round" />
+      <ellipse cx="299" cy="326" rx="4.5" ry="2.4" fill="#8a9794" />
+    </g>
+
+    <!-- カウンター前面（配膳係の足元を隠す） -->
+    <polygon points="330,338 310,347 310,369 330,360" fill="#0a4d45" />
+    <polygon points="262,323 310,347 310,369 262,345" fill="#0f6e63" />
+    <polygon points="262,331 310,355 310,360 262,336" fill="#0a4d45" opacity="0.4" />
+
+    <!-- 鍋＋湯気 -->
+    <ellipse cx="294" cy="330" rx="13" ry="6" fill="#2b3a38" />
+    <ellipse cx="294" cy="328" rx="11" ry="5" fill="#4a5957" />
+    <g class="float" stroke="#cdd8d4" stroke-width="2" fill="none" opacity="0.7" stroke-linecap="round">
+      <path d="M289,322 q-3,-6 0,-12 q3,-6 0,-12" />
+      <path d="M298,322 q3,-6 0,-12 q-3,-6 0,-12" />
+    </g>
+    <!-- 配膳トレイ -->
+    <ellipse cx="276" cy="324" rx="6" ry="3" fill="#f1d7bd" />
+    <ellipse cx="314" cy="343" rx="6" ry="3" fill="#f1d7bd" />
+  </g>
+
+  <!-- 食事を受け取る地域住民（前方） -->
+  <g>
+    <ellipse cx="338" cy="364" rx="12" ry="4" fill="#0a4d45" opacity="0.14" />
+    <rect x="330" y="336" width="16" height="24" rx="8" fill="#7d8c89" />
+    <circle cx="338" cy="329" r="7" fill="#f1d7bd" />
+    <path d="M331,326 a7,7 0 0 1 14,0 Z" fill="#4a5957" />
+    <ellipse cx="324" cy="340" rx="6" ry="3" fill="#fffdf8" />
+  </g>
+  <g>
+    <ellipse cx="364" cy="374" rx="11" ry="4" fill="#0a4d45" opacity="0.14" />
+    <rect x="356.5" y="348" width="15" height="22" rx="7.5" fill="#9aa7a4" />
+    <circle cx="364" cy="341" r="6.5" fill="#f1d7bd" />
+    <path d="M357.5,338 a6.5,6.5 0 0 1 13,0 Z" fill="#5e6f6c" />
+  </g>
+  <g>
+    <ellipse cx="386" cy="376" rx="8" ry="3" fill="#0a4d45" opacity="0.14" />
+    <rect x="380" y="356" width="12" height="18" rx="6" fill="#8a9794" />
+    <circle cx="386" cy="350" r="5.5" fill="#f1d7bd" />
+  </g>
+
+  <!-- 再生の象徴：樹木 -->
+  <g>
+    <ellipse cx="470" cy="330" rx="18" ry="5" fill="#0a4d45" opacity="0.08" />
+    <rect x="467" y="308" width="6" height="22" rx="2" fill="#8a6240" />
+    <circle cx="470" cy="300" r="18" fill="#2f8f7e" />
+    <circle cx="463" cy="294" r="10" fill="#3aa491" opacity="0.85" />
+  </g>
+</svg>

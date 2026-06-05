@@ -1,0 +1,63 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import SearchBox from '../components/SearchBox.astro';
+import { CATEGORIES, categoriesByPillar, type CategoryKey } from '../categories';
+
+const cats = categoriesByPillar('prepare');
+const faqs = (await getCollection('faq')).filter((f) =>
+  cats.includes(f.data.category as CategoryKey)
+);
+const byCategory = cats.map((key) => ({
+  key,
+  meta: CATEGORIES[key],
+  items: faqs.filter((f) => f.data.category === key).sort((a, b) => a.data.order - b.data.order),
+}));
+---
+<Base title="平時の備え｜ReadyBridge" description="事業を止めないための平時の備え。BCP策定・資金・設備・体制・備蓄を、カテゴリ別に確認できます。">
+  <section class="hero" style="padding-bottom:18px">
+    <div class="container hero-center">
+      <span class="eyebrow reveal"><span class="dot"></span>平時の備え ／ これから備える企業へ</span>
+      <h1 class="reveal d1" style="font-size:clamp(1.8rem,4vw,2.8rem)">事業を止めないための、<span class="accent">平時の備え。</span></h1>
+      <p class="lead reveal d2">いざというときに事業を続けられるよう、平時のうちにできる備えをカテゴリ別に整理しました。</p>
+      <div class="reveal d3" style="margin-top:20px"><SearchBox scope="prepare" placeholder="平時の備えを探す（例：BCP、備蓄、バックアップ）" /></div>
+    </div>
+  </section>
+
+  <section style="padding-top:8px">
+    <div class="container">
+      <div class="section-head"><span class="kicker">CATEGORY</span><h2>備えのカテゴリ</h2></div>
+      <div class="trouble-grid">
+        {byCategory.map((c) => (
+          <a class="trouble" href={`#${c.key}`}>
+            <span class="ic">{c.meta.icon}</span>
+            <span class="cat">{c.meta.label}</span>
+            <p class="ttl">{c.meta.trouble}</p>
+            <p class="d">{c.meta.desc}</p>
+            <span class="go">記事を見る →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:8px">
+    <div class="container">
+      {byCategory.map((c) => (
+        <div class="catblock" id={c.key}>
+          <div class="ch"><span class="ic">{c.meta.icon}</span><h3>{c.meta.label}</h3></div>
+          <p class="cdesc">{c.meta.desc}</p>
+          {c.items.length === 0 ? (
+            <p class="cdesc">準備中です。</p>
+          ) : (
+            <ul class="faq-list">
+              {c.items.map((f) => (
+                <li><a href={`/faq/${f.id}`}><span>{f.data.question}</span><span class="arr">→</span></a></li>
+              ))}
+            </ul>
+          )}
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>

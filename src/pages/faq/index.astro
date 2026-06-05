@@ -1,0 +1,48 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { CATEGORIES, PILLARS, categoriesByPillar, type CategoryKey, type PillarKey } from '../../categories';
+
+const faqs = await getCollection('faq');
+const pillarKeys = Object.keys(PILLARS) as PillarKey[];
+const grouped = pillarKeys.map((pk) => ({
+  pillar: PILLARS[pk],
+  cats: categoriesByPillar(pk).map((key) => ({
+    key,
+    meta: CATEGORIES[key],
+    items: faqs.filter((f) => f.data.category === key).sort((a, b) => a.data.order - b.data.order),
+  })),
+}));
+---
+<Base title="記事一覧｜ReadyBridge">
+  <section class="hero" style="padding-bottom:18px">
+    <div class="container hero-center">
+      <span class="eyebrow reveal"><span class="dot"></span>記事一覧</span>
+      <h1 class="reveal d1" style="font-size:clamp(1.8rem,4vw,2.8rem)">すべての<span class="accent">記事</span></h1>
+      <p class="lead reveal d2">平時の備えと有事の対応・再建、すべての記事をまとめています。</p>
+    </div>
+  </section>
+  <section style="padding-top:8px">
+    <div class="container">
+      {grouped.map((g) => (
+        <div style="margin-bottom:18px">
+          <div class="section-head"><span class="kicker">{g.pillar.short}</span><h2>{g.pillar.icon} {g.pillar.label}</h2></div>
+          {g.cats.map((c) => (
+            <div class="catblock" id={c.key}>
+              <div class="ch"><span class="ic">{c.meta.icon}</span><h3>{c.meta.label}</h3></div>
+              {c.items.length === 0 ? (
+                <p class="cdesc">準備中です。</p>
+              ) : (
+                <ul class="faq-list">
+                  {c.items.map((f) => (
+                    <li><a href={`/faq/${f.id}`}><span>{f.data.question}</span><span class="arr">→</span></a></li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>

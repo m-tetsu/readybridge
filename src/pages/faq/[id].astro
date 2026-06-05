@@ -1,0 +1,49 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { CATEGORIES, PILLARS, pillarOf, type CategoryKey } from '../../categories';
+
+export async function getStaticPaths() {
+  const faqs = await getCollection('faq');
+  return faqs.map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const cat = CATEGORIES[entry.data.category as CategoryKey];
+const pillar = PILLARS[pillarOf(entry.data.category as CategoryKey)];
+const updated = entry.data.updated
+  ? entry.data.updated.toLocaleDateString('ja-JP')
+  : null;
+---
+<Base title={`${entry.data.question}｜ReadyBridge`} description={entry.data.summary}>
+  <section style="padding-top:36px">
+    <div class="container" style="max-width:780px">
+      <article class="article reveal">
+        <p class="breadcrumb"><a href={pillar.href}>{pillar.icon} {pillar.label}</a> ／ <a href={`${pillar.href}#${entry.data.category}`}>{cat.icon} {cat.label}</a></p>
+        <h1>{entry.data.question}</h1>
+        {updated && <p class="meta">最終更新：{updated}</p>}
+        <div class="prose">
+          <Content />
+        </div>
+
+        {entry.data.sources.length > 0 && (
+          <div class="sources">
+            <h2>出典・参照先</h2>
+            <ul>
+              {entry.data.sources.map((s) => (
+                <li><a href={s.url} target="_blank" rel="noopener">{s.label}</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <p class="disclaimer">
+          本ページは一般的な制度の概要を示すものです。制度の有無・要件・補助率・期限は災害ごと、また時期により変わります。
+          実際の適用可否は必ず各窓口・公式情報でご確認ください。
+        </p>
+      </article>
+      <p class="after-link"><a href="/chat">自社の状況に合わせてAIに相談する<span>→</span></a></p>
+    </div>
+  </section>
+</Base>

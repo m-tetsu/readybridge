@@ -1,0 +1,86 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import SearchBox from '../components/SearchBox.astro';
+import { CATEGORIES, categoriesByPillar, type CategoryKey } from '../categories';
+
+const cats = categoriesByPillar('recover');
+const faqs = (await getCollection('faq')).filter((f) =>
+  cats.includes(f.data.category as CategoryKey)
+);
+const byCategory = cats.map((key) => ({
+  key,
+  meta: CATEGORIES[key],
+  items: faqs.filter((f) => f.data.category === key).sort((a, b) => a.data.order - b.data.order),
+}));
+
+const phases = [
+  { tag: '発災直後（〜24時間）', title: 'まず安全と記録', items: ['従業員・家族の安否確認', '二次災害の防止（電源・ガス遮断）', '被害状況を写真・メモで記録'] },
+  { tag: '〜1週間以内', title: '資金と雇用の手当て', items: ['取引金融機関へ被災を相談', '休業手当・雇調金の要否を確認', 'り災証明の申請・保険連絡'] },
+  { tag: '復旧期', title: '事業再建の支援活用', items: ['グループ補助金等の措置を確認', '税・公共料金の猶予を申請', '既存債務の返済猶予を相談'] },
+];
+---
+<Base title="有事の対応・再建｜ReadyBridge" description="被災後にまず確認すべき公的支援。給与・資金繰り・施設復旧・税を、お困りごとから探せます。">
+  <section class="hero" style="padding-bottom:18px">
+    <div class="container hero-center">
+      <span class="eyebrow reveal"><span class="dot"></span>有事の対応・再建 ／ 被災した企業へ</span>
+      <h1 class="reveal d1" style="font-size:clamp(1.8rem,4vw,2.8rem)">被災した今、<span class="accent">まず確認すべき支援。</span></h1>
+      <p class="lead reveal d2">給与・資金繰り・施設復旧・税。被災後に直面する疑問と公的支援を、お困りごとから探せます。</p>
+      <div class="reveal d3" style="margin-top:20px"><SearchBox scope="recover" placeholder="支援を探す（例：休業手当、融資、納税猶予）" /></div>
+    </div>
+  </section>
+
+  <!-- フェーズ別 -->
+  <section style="padding-top:8px">
+    <div class="container">
+      <div class="section-head"><span class="kicker">TIMELINE</span><h2>いま、まず確認すべきこと</h2><p>被災からの時間に応じて、優先してやるべきことを整理しました。</p></div>
+      <div class="timeline">
+        {phases.map((p, i) => (
+          <div class="phase">
+            <span class="num">{String(i + 1).padStart(2, '0')}</span>
+            <span class="tag">{p.tag}</span>
+            <h3>{p.title}</h3>
+            <ul>{p.items.map((it) => <li>{it}</li>)}</ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:8px">
+    <div class="container">
+      <div class="section-head"><span class="kicker">CATEGORY</span><h2>お困りごとのカテゴリ</h2></div>
+      <div class="trouble-grid">
+        {byCategory.map((c) => (
+          <a class="trouble" href={`#${c.key}`}>
+            <span class="ic">{c.meta.icon}</span>
+            <span class="cat">{c.meta.label}</span>
+            <p class="ttl">{c.meta.trouble}</p>
+            <p class="d">{c.meta.desc}</p>
+            <span class="go">関連する支援を見る →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:8px">
+    <div class="container">
+      {byCategory.map((c) => (
+        <div class="catblock" id={c.key}>
+          <div class="ch"><span class="ic">{c.meta.icon}</span><h3>{c.meta.label}</h3></div>
+          <p class="cdesc">{c.meta.desc}</p>
+          {c.items.length === 0 ? (
+            <p class="cdesc">準備中です。</p>
+          ) : (
+            <ul class="faq-list">
+              {c.items.map((f) => (
+                <li><a href={`/faq/${f.id}`}><span>{f.data.question}</span><span class="arr">→</span></a></li>
+              ))}
+            </ul>
+          )}
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>

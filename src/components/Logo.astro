@@ -1,0 +1,22 @@
+---
+/* ReadyBridge ロゴ：橋のマーク（2つの点＝企業と社会／平時と有事）＋ ワードマーク */
+interface Props {
+  variant?: 'header' | 'footer';
+}
+const { variant = 'header' } = Astro.props;
+const gid = `rb-grad-${variant}`;
+---
+<span class="logo">
+  <svg class="logo-mark" viewBox="0 0 56 30" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id={gid} x1="0" y1="0" x2="1" y2="0.2">
+        <stop offset="0" stop-color="#3aa491" />
+        <stop offset="1" stop-color="#0f6e63" />
+      </linearGradient>
+    </defs>
+    <path d="M11,26 L11,16 Q28,3 45,16 L45,26" fill="none" stroke={`url(#${gid})`} stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="11" cy="8" r="5.2" fill={`url(#${gid})`} />
+    <circle cx="45" cy="8" r="5.2" fill={`url(#${gid})`} />
+  </svg>
+  <span class="logo-word">Ready<b>Bridge</b></span>
+</span>
