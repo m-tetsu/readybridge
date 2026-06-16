@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import SearchBox from '../components/SearchBox.astro';
+import Icon from '../components/Icon.astro';
 import { CATEGORIES, categoriesByPillar, type CategoryKey } from '../categories';
 
 const cats = categoriesByPillar('prepare');
@@ -30,7 +31,7 @@ const byCategory = cats.map((key) => ({
       <div class="trouble-grid">
         {byCategory.map((c) => (
           <a class="trouble" href={`#${c.key}`}>
-            <span class="ic">{c.meta.icon}</span>
+            <span class="ic"><Icon name={c.meta.icon} size={28} /></span>
             <span class="cat">{c.meta.label}</span>
             <p class="ttl">{c.meta.trouble}</p>
             <p class="d">{c.meta.desc}</p>
@@ -45,7 +46,7 @@ const byCategory = cats.map((key) => ({
     <div class="container">
       {byCategory.map((c) => (
         <div class="catblock" id={c.key}>
-          <div class="ch"><span class="ic">{c.meta.icon}</span><h3>{c.meta.label}</h3></div>
+          <div class="ch"><span class="ic"><Icon name={c.meta.icon} size={28} /></span><h3>{c.meta.label}</h3></div>
           <p class="cdesc">{c.meta.desc}</p>
           {c.items.length === 0 ? (
             <p class="cdesc">準備中です。</p>

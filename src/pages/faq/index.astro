@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
 import { CATEGORIES, PILLARS, categoriesByPillar, type CategoryKey, type PillarKey } from '../../categories';
 
 const faqs = await getCollection('faq');
@@ -26,10 +27,10 @@ const grouped = pillarKeys.map((pk) => ({
     <div class="container">
       {grouped.map((g) => (
         <div style="margin-bottom:18px">
-          <div class="section-head"><span class="kicker">{g.pillar.short}</span><h2>{g.pillar.icon} {g.pillar.label}</h2></div>
+          <div class="section-head"><span class="kicker">{g.pillar.short}</span><h2><Icon name={g.pillar.icon} size={24} />{g.pillar.label}</h2></div>
           {g.cats.map((c) => (
             <div class="catblock" id={c.key}>
-              <div class="ch"><span class="ic">{c.meta.icon}</span><h3>{c.meta.label}</h3></div>
+              <div class="ch"><span class="ic"><Icon name={c.meta.icon} size={20} /></span><h3>{c.meta.label}</h3></div>
               {c.items.length === 0 ? (
                 <p class="cdesc">準備中です。</p>
               ) : (
