@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
 import { CATEGORIES, PILLARS, pillarOf, type CategoryKey } from '../../categories';
 
 export async function getStaticPaths() {
@@ -20,7 +21,7 @@ const updated = entry.data.updated
   <section style="padding-top:36px">
     <div class="container" style="max-width:780px">
       <article class="article reveal">
-        <p class="breadcrumb"><a href={pillar.href}>{pillar.icon} {pillar.label}</a> ／ <a href={`${pillar.href}#${entry.data.category}`}>{cat.icon} {cat.label}</a></p>
+        <p class="breadcrumb"><a href={pillar.href}><Icon name={pillar.icon} size={16} />{pillar.label}</a> ／ <a href={`${pillar.href}#${entry.data.category}`}><Icon name={cat.icon} size={16} />{cat.label}</a></p>
         <h1>{entry.data.question}</h1>
         {updated && <p class="meta">最終更新：{updated}</p>}
         <div class="prose">
