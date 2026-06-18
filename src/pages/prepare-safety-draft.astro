@@ -24,6 +24,10 @@ import Icon from '../components/Icon.astro';
             <li><strong>家族の安否確認も考慮する</strong>——従業員が家族の安否を確認できないと、職場に留まれない。家族間の連絡手段も促す。</li>
           </ul>
 
+          <figure class="illust">
+            <img src="/images/safety-anpi.png" alt="安否確認手段の全体像：SMS・LINE・メール・171の複数手段を用意し、連絡先リストを紙でも持つ。報告ルール（誰が・誰に・何分以内に）を決め、家族の安否確認も考慮する。" width="1500" height="900" loading="lazy" />
+          </figure>
+
           <div class="point-box">
             <p class="point-title">災害用伝言ダイヤル（171）</p>
             <p>NTTが災害時に開設する伝言サービス。毎月1日・15日に体験利用できる。「171」に電話→ガイダンスに従い伝言を録音・再生。従業員への周知と体験利用を推奨。</p>
@@ -111,5 +115,14 @@ import Icon from '../components/Icon.astro';
     font-size: 1.08rem;
     color: var(--ink);
     margin: 24px 0 10px;
+  }
+  .illust {
+    margin: 24px 0;
+    text-align: center;
+  }
+  .illust img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius);
   }
 </style>
