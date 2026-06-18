@@ -53,6 +53,13 @@ import Icon from '../components/Icon.astro';
             <li><strong>在庫の積み増し・分散保管</strong>——主要な商品・部材の在庫を通常より多めに持つ。複数拠点への分散保管も有効。</li>
             <li><strong>配管・ダクトの耐震支持</strong>——ガス管・水道管・空調ダクトの支持金具を確認。破損すると二次被害（漏水・ガス漏れ）につながる。</li>
           </ul>
+          <div class="ref-links">
+            <p class="ref-title">対策の詳細・事例</p>
+            <ul>
+              <li><a href="https://www.chusho.meti.go.jp/bcp/" target="_blank" rel="noopener">中小企業庁「中小企業BCP策定運用指針」</a>——業種別の対策事例あり</li>
+              <li><a href="https://www.bousai.go.jp/kyoiku/kigyou/keizoku/" target="_blank" rel="noopener">内閣府「事業継続ガイドライン」</a>——地震対策の考え方と実践例</li>
+            </ul>
+          </div>
 
           <h2>水害への対策</h2>
           <p>浸水の深さと速度によって被害規模が変わります。ハザードマップで自社の想定浸水深を確認し、その深さに応じた対策を取ります。</p>
@@ -63,6 +70,13 @@ import Icon from '../components/Icon.astro';
             <li><strong>排水ポンプの設置</strong>——地下や低地にある事業所では、浸水時の排水手段を確保。</li>
             <li><strong>土のう・水のうの備蓄</strong>——緊急時の応急止水用に備蓄。水のうはゴミ袋と水で即席に作れることも周知。</li>
           </ul>
+          <div class="ref-links">
+            <p class="ref-title">対策の詳細・事例</p>
+            <ul>
+              <li><a href="https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/" target="_blank" rel="noopener">国土交通省「事業所における水害対策」</a>——止水板・かさ上げ等の具体的手法</li>
+              <li><a href="https://www.mlit.go.jp/river/basic_info/jigyo_keikaku/saigai/tisiki/hazardmap/" target="_blank" rel="noopener">国土交通省「水害ハザードマップマニュアル」</a>——浸水深ごとの被害と対策の考え方</li>
+            </ul>
+          </div>
 
           <h2>サイバー攻撃への対策</h2>
           <p>自然災害だけでなく、サイバー攻撃も事業を止める大きなリスクです。ランサムウェアによる被害は中小企業でも増加しています。</p>
@@ -73,14 +87,13 @@ import Icon from '../components/Icon.astro';
             <li><strong>パスワード管理とアクセス制御</strong>——使い回しをやめ、多要素認証を導入。退職者のアカウントは速やかに無効化。</li>
             <li><strong>不審メールへの注意喚起</strong>——従業員向けに具体例を示した注意喚起を定期的に行う。</li>
           </ul>
-
-          <h2>火災への対策</h2>
-          <ul>
-            <li><strong>消火設備の点検</strong>——消火器の期限・位置を確認。スプリンクラーがある場合は定期点検を実施。</li>
-            <li><strong>防火区画の確認</strong>——防火扉・防火シャッターが正常に閉まるか確認。物で塞がないよう管理。</li>
-            <li><strong>電気系統の点検</strong>——タコ足配線の解消、古い配線の交換。漏電ブレーカーの動作確認。</li>
-            <li><strong>可燃物の管理</strong>——危険物・可燃物の保管場所と量を適正に管理。消防法の基準を確認。</li>
-          </ul>
+          <div class="ref-links">
+            <p class="ref-title">対策の詳細・事例</p>
+            <ul>
+              <li><a href="https://www.ipa.go.jp/security/guide/sme/" target="_blank" rel="noopener">IPA「中小企業の情報セキュリティ対策ガイドライン」</a>——中小企業向けに具体策をまとめた定番資料</li>
+              <li><a href="https://security-portal.nisc.go.jp/" target="_blank" rel="noopener">NISC「みんなでしっかりサイバーセキュリティ」</a>——わかりやすい解説と対策チェックリスト</li>
+            </ul>
+          </div>
 
           <h2>早期復旧のための備え</h2>
           <p>被害を完全に防ぐことはできなくても、<strong>復旧までの時間を短くする</strong>備えは可能です。</p>
@@ -101,9 +114,10 @@ import Icon from '../components/Icon.astro';
         </div>
 
         <div class="sources">
-          <h2>参考リンク</h2>
+          <h2>出典・参照先</h2>
           <ul>
             <li><a href="https://www.chusho.meti.go.jp/bcp/" target="_blank" rel="noopener">中小企業庁「中小企業BCP策定運用指針」</a></li>
+            <li><a href="https://www.bousai.go.jp/kyoiku/kigyou/keizoku/" target="_blank" rel="noopener">内閣府「事業継続ガイドライン」</a></li>
             <li><a href="https://www.ipa.go.jp/security/guide/sme/" target="_blank" rel="noopener">IPA「中小企業の情報セキュリティ対策ガイドライン」</a></li>
             <li><a href="https://www.bousai.go.jp/kyoiku/keigen/gensai/index.html" target="_blank" rel="noopener">内閣府「減災のてびき」</a></li>
           </ul>
@@ -124,5 +138,29 @@ import Icon from '../components/Icon.astro';
     font-size: 1.08rem;
     color: var(--ink);
     margin: 24px 0 10px;
+  }
+  .ref-links {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    padding: 14px 18px;
+    margin: 12px 0 28px;
+  }
+  .ref-links .ref-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--teal-dark);
+    margin: 0 0 8px;
+  }
+  .ref-links ul {
+    margin: 0;
+    padding-left: 18px;
+  }
+  .ref-links li {
+    font-size: 0.88rem;
+    margin-bottom: 4px;
+  }
+  .ref-links a {
+    color: var(--teal-dark);
   }
 </style>
