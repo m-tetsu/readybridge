@@ -1,0 +1,177 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+---
+<Base title="【試作】地域のハザードを知る｜ReadyBridge">
+  <section style="padding-top:36px">
+    <div class="container" style="max-width:780px">
+      <article class="article reveal">
+        <p class="breadcrumb"><a href="/prepare-draft"><Icon name="shield" size={16} />平時の備え</a> ／ <a href="/prepare-draft"><Icon name="map-pin" size={16} />地域のハザードを知る</a></p>
+        <h1>自社のリスクを知ることが、備えの第一歩。</h1>
+        <p class="meta">最終更新：2026年6月</p>
+
+        <div class="prose">
+          <p>「備えよう」と言われても、自社にどんなリスクがあるかわからなければ、何から手をつけるべきかも決められません。</p>
+          <p>同じ市内でも、地形や建物の構造によって想定される被害は大きく異なります。まずは自社の所在地にどんなハザード（自然災害のリスク）があるかを確認しましょう。</p>
+
+          <h2>確認すべきハザード</h2>
+          <table>
+            <thead><tr><th>種類</th><th>確認すること</th></tr></thead>
+            <tbody>
+              <tr><td>地震</td><td>想定震度、揺れやすさ、液状化リスク、活断層の近さ</td></tr>
+              <tr><td>洪水・浸水</td><td>河川氾濫の想定浸水深、内水氾濫（下水逆流）の有無</td></tr>
+              <tr><td>土砂災害</td><td>土砂災害警戒区域・特別警戒区域に入っているか</td></tr>
+              <tr><td>津波</td><td>沿岸部：想定浸水域と到達時間</td></tr>
+              <tr><td>高潮</td><td>沿岸・低地：高潮浸水想定区域</td></tr>
+            </tbody>
+          </table>
+
+          <h2>調べ方</h2>
+
+          <h3>Step 1：地震の揺れを知る</h3>
+          <ul>
+            <li><strong>J-SHIS</strong>（地震ハザードステーション）で、自社所在地の「今後30年以内に震度○以上の揺れに見舞われる確率」を確認する。</li>
+            <li><strong>自治体の被害想定</strong>を確認する。「○○市 地震被害想定」で検索すると、想定される震度分布図や建物被害率が公開されていることが多い。</li>
+            <li><strong>地震10秒診断</strong>で、自社の住所を入れると想定震度・ライフライン停止日数の目安が即座にわかる。</li>
+          </ul>
+
+          <h3>Step 2：水害リスクを知る</h3>
+          <ul>
+            <li><strong>ハザードマップポータルサイト</strong>の「重ねるハザードマップ」で自社住所を検索し、洪水・土砂・津波・高潮のリスクをまとめて確認する。</li>
+            <li><strong>「わがまちハザードマップ」</strong>から自治体ごとの詳細な浸水想定を見る。内水氾濫のマップがある場合は併せて確認する。</li>
+            <li>拠点が複数ある場合は、それぞれの所在地で確認する。</li>
+          </ul>
+
+          <h2>その震度・浸水深で、何が起きるか</h2>
+          <p>ハザードマップで自社の想定震度や浸水深がわかったら、次はその数値で<strong>実際にどんな被害が起きるか</strong>を把握しましょう。</p>
+
+          <h3>震度別：建物・設備への影響</h3>
+          <table>
+            <thead><tr><th>震度</th><th>建物・設備の被害</th></tr></thead>
+            <tbody>
+              <tr><td><strong>5強</strong></td><td>固定していない家具が倒れる。補強されていないブロック塀が崩れることがある。</td></tr>
+              <tr><td><strong>6弱</strong></td><td>耐震性が低い建物は壁や柱が破損。タイル・窓ガラスが落下。固定していない重量物が移動・転倒。</td></tr>
+              <tr><td><strong>6強</strong></td><td>耐震性が低い建物は倒壊するものがある。耐震性が高い建物でも壁・柱にひび割れ。</td></tr>
+              <tr><td><strong>7</strong></td><td>耐震性が高い建物でも傾いたり、倒壊するものがある。</td></tr>
+            </tbody>
+          </table>
+          <p class="src">出典：気象庁「震度階級関連解説表」</p>
+
+          <h3>震度別：ライフライン停止期間の目安</h3>
+          <table>
+            <thead><tr><th>震度</th><th>電力</th><th>上水道</th><th>都市ガス</th><th>通信</th></tr></thead>
+            <tbody>
+              <tr><td><strong>5強</strong></td><td>一部停電（数時間〜）</td><td>一部断水の可能性</td><td>—</td><td>輻輳で繋がりにくい</td></tr>
+              <tr><td><strong>6弱</strong></td><td>停電（〜数日）</td><td>断水（〜1週間）</td><td>一部停止（〜数週間）</td><td>基地局停波あり</td></tr>
+              <tr><td><strong>6強</strong></td><td>停電（数日〜1週間）</td><td>断水（1〜数週間）</td><td>広域停止（数週間〜）</td><td>固定電話不通域あり</td></tr>
+              <tr><td><strong>7</strong></td><td>広域停電（〜1週間超）</td><td>広域断水（数週間）</td><td>広域停止（1〜2ヶ月）</td><td>広範囲で不通</td></tr>
+            </tbody>
+          </table>
+          <p class="src">出典：内閣府「南海トラフ巨大地震の被害想定」「首都直下地震の被害想定」を基に構成</p>
+
+          <h3>浸水深別：事業所への影響の目安</h3>
+          <table>
+            <thead><tr><th>浸水深</th><th>被害の目安</th></tr></thead>
+            <tbody>
+              <tr><td><strong>〜0.5m</strong><br><span class="sub">床下〜膝</span></td><td>床下浸水。屋外設備・車両に被害。営業は一時停止。</td></tr>
+              <tr><td><strong>0.5〜1.0m</strong><br><span class="sub">腰まで</span></td><td>床上浸水。1階の什器・在庫が水損。電気設備がショートするおそれ。歩行での避難が困難に。</td></tr>
+              <tr><td><strong>1.0〜2.0m</strong><br><span class="sub">1階天井付近</span></td><td>1階が水没。設備・商品は壊滅的被害。復旧に数週間〜数ヶ月。</td></tr>
+              <tr><td><strong>2.0m以上</strong></td><td>2階以上まで浸水。建物の構造にも被害。事業再開に数ヶ月以上。</td></tr>
+            </tbody>
+          </table>
+          <p class="src">出典：国土交通省「水害ハザードマップマニュアル」を基に構成</p>
+
+          <h3>事業停止期間の実績（参考）</h3>
+          <ul>
+            <li><strong>東日本大震災</strong>では、被災した中小企業の約4割が1ヶ月以上の事業停止を経験。</li>
+            <li><strong>水害</strong>では、床上1m以上の浸水で復旧に平均1〜3ヶ月。泥の除去・設備交換・衛生確認が必要。</li>
+          </ul>
+          <p class="src">出典：中小企業庁「中小企業白書」</p>
+
+          <h2>調べた結果を、次の備えにつなげる</h2>
+          <ul>
+            <li>想定される震度・浸水深がわかったら、上の表で自社への影響をイメージする。</li>
+            <li>「電力が○日止まったら、自社の業務はどうなるか」を具体的に考える。</li>
+            <li>その結果を、<a href="/prepare-draft">BCP策定</a>や<a href="/prepare-draft">被害を減らす対策</a>に反映する。</li>
+          </ul>
+        </div>
+
+        <div class="sources">
+          <h2>ハザードマップ・リンク集</h2>
+          <ul>
+            <li><a href="https://disaportal.gsi.go.jp/" target="_blank" rel="noopener">ハザードマップポータルサイト（国土交通省）</a><br><span class="link-desc">全国の洪水・土砂・津波・高潮のハザードマップを一括検索。「重ねるハザードマップ」で複数リスクを地図上に重ねて表示できる。</span></li>
+            <li><a href="https://disaportal.gsi.go.jp/hazardmapportal/hazardmap/maps/index.html" target="_blank" rel="noopener">わがまちハザードマップ（国土交通省）</a><br><span class="link-desc">自治体ごとのハザードマップへのリンク集。より詳細な浸水想定を確認できる。</span></li>
+            <li><a href="https://www.j-shis.bosai.go.jp/" target="_blank" rel="noopener">J-SHIS 地震ハザードステーション（防災科学技術研究所）</a><br><span class="link-desc">地点ごとの地震発生確率・想定震度・揺れやすさを地図で確認できる。</span></li>
+            <li><a href="https://nied-weblabo.bosai.go.jp/10sec-sim/" target="_blank" rel="noopener">地震10秒診断（防災科学技術研究所）</a><br><span class="link-desc">住所を入力するだけで、想定震度とライフライン停止日数の目安が即座にわかる。</span></li>
+          </ul>
+        </div>
+
+        <div class="sources" style="background: var(--surface); border: 1px solid var(--line);">
+          <h2>出典・参照先</h2>
+          <ul>
+            <li><a href="https://www.data.jma.go.jp/eqev/data/en/tsunami/kaisetsu.html" target="_blank" rel="noopener">気象庁「震度階級関連解説表」</a></li>
+            <li><a href="https://www.bousai.go.jp/jishin/nankai/taisaku_wg/pdf/20130318_higai.pdf" target="_blank" rel="noopener">内閣府「南海トラフ巨大地震の被害想定」</a></li>
+            <li><a href="https://www.bousai.go.jp/jishin/syuto/taisaku_wg/" target="_blank" rel="noopener">内閣府「首都直下地震の被害想定」</a></li>
+            <li><a href="https://www.mlit.go.jp/river/basic_info/jigyo_keikaku/saigai/tisiki/hazardmap/" target="_blank" rel="noopener">国土交通省「水害ハザードマップマニュアル」</a></li>
+            <li><a href="https://www.chusho.meti.go.jp/pamflet/hakusyo/" target="_blank" rel="noopener">中小企業庁「中小企業白書」</a></li>
+          </ul>
+        </div>
+
+        <p class="disclaimer">
+          本ページの被害想定・停止期間は過去の大規模災害に基づく目安です。実際の被害は地形・建物構造・時間帯・季節により大きく異なります。
+          必ず自治体の最新情報とあわせてご確認ください。
+        </p>
+      </article>
+    </div>
+  </section>
+</Base>
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+    margin: 16px 0 8px;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: var(--teal-soft);
+    color: var(--teal-dark);
+    font-weight: 700;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+  td strong {
+    color: var(--ink);
+  }
+  .sub {
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .src {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin: 4px 0 24px;
+  }
+  .link-desc {
+    font-size: 0.85rem;
+    color: var(--muted);
+    display: block;
+    margin-top: 2px;
+  }
+  h3 {
+    font-family: var(--font-display);
+    font-size: 1.08rem;
+    color: var(--ink);
+    margin: 24px 0 10px;
+  }
+  @media (max-width: 600px) {
+    table { font-size: 0.82rem; }
+    th, td { padding: 8px; }
+  }
+</style>
