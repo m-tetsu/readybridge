@@ -1,9 +1,8 @@
 import { defineConfig } from 'astro/config';
-import cloudflare from '@astrojs/cloudflare';
+
+import cloudflare from "@astrojs/cloudflare";
 
 export default defineConfig({
   site: 'https://example.pages.dev',
-  // 既定は静的生成。SSR が必要なルート（/api/chat 等）だけ
-  // `export const prerender = false` でオンデマンド化する。
-  adapter: cloudflare(),
+  adapter: cloudflare()
 });
