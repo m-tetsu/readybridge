@@ -26,6 +26,36 @@
       "disaster_scope": "reiwa-6-noto",
       "pathPrefix": "",
       "maxDepth": 2
+    },
+    {
+      "id": "jfc-saigai-kashitsuke",
+      "source_name": "日本政策金融公庫",
+      "url": "https://www.jfc.go.jp/n/finance/search/saigaikashitsuke_m.html",
+      "pillar": "recover",
+      "category": "finance",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 1
+    },
+    {
+      "id": "mhlw-koyo-chosei",
+      "source_name": "厚生労働省",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00177.html",
+      "pillar": "recover",
+      "category": "wage",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 1
+    },
+    {
+      "id": "nta-saigai",
+      "source_name": "国税庁",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
+      "pillar": "recover",
+      "category": "tax",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 1
     }
   ]
 }
