@@ -193,6 +193,14 @@
   - トーン：「免責」ではなく「確認のお願い」。怖がらせず必ず目に入る配置。
   - 実装分担：①は `chat.astro` のUI、②③は `/api/chat` の回答整形。
 
+- **[確定] Anthropic APIキー管理 = Workers Secrets 一本**（2026-06-19）
+  - 論点①②でCloudflareに寄せた結果、鍵管理対象は実質**Anthropicキー1つだけ**（埋め込みはWorkers AIで鍵不要）。
+  - **本番**：`ANTHROPIC_API_KEY` を **Workers Secrets（Encrypted）**で保存（`wrangler secret put` or ダッシュボードのEncrypted変数）。Worker内は `env.ANTHROPIC_API_KEY` で参照。`wrangler.toml` の `vars`（平文）には**絶対に書かない**。
+  - **ローカル**：`.dev.vars` に記載し**必ず `.gitignore` に追加**（RAG着手時に最初に対応）。
+  - **権限/ローテーション**：Anthropicコンソールで**用途別の専用キー**を発行。漏洩時は Secrets 再登録だけでローテーション完結（コード変更不要）。
+  - **コスト保険**：Anthropic側で使用上限を設定＋Worker側で `max_tokens` 上限と簡易レート制限（KVで回数管理）。
+  - **セキュリティ**：キーはサーバー（Worker）側のみで使用、フロントに渡さない。ログにキー・生レスポンスを出さない。
+
 ### 未決
 - [ ] 回答に「免責（最終判断は公式情報・専門家へ）」をどう常時表示するか。
 - [ ] Anthropic API キーの管理（Cloudflare の環境変数 / Secrets）。
