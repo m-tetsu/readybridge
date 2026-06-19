@@ -46,12 +46,13 @@ npx wrangler vectorize create-metadata-index readybridge-rag --property-name=dis
 `/api/chat`（AI相談のバックエンド）はオンデマンド実行（SSR）が必要なため、**`@astrojs/cloudflare` アダプタを導入済み**（`astro.config.mjs`）。
 
 - 既定は静的生成のまま。SSR が必要なルートだけ `export const prerender = false`（`/api/chat` で設定済み）。
-- `npm run build` の出力は `dist/_worker.js`（SSRエントリ）＋静的アセット＋`dist/_routes.json`。静的ページは事前生成され、`/api/chat` のみ Worker で処理される。
-- **デプロイ上の注意**：Cloudflare 側のビルド/デプロイ設定が、生成された Worker（`dist/_worker.js`）と静的アセットを配信する構成になっているか確認する。バインディング（`VECTORIZE` / `AI`）と Secret（`ANTHROPIC_API_KEY`）が未設定の場合、`/api/chat` は `503 not_configured` を返し、フロントは「準備中」表示にフォールバックする（サイトは正常稼働）。
+- `npm run build` の出力は `dist/_worker.js`（SSRエントリ）＋静的アセット。
+- **デプロイ設定はリポジトリの `wrangler.toml` に定義済み**（Worker名 `readybridge`、`main`、`[assets]`、`VECTORIZE`/`AI` バインディング）。`npx wrangler deploy` がこれを読んでデプロイする。`public/.assetsignore` で `_worker.js` 等を公開アセットから除外している。
+- `ANTHROPIC_API_KEY` は Secret として別途登録（`wrangler.toml` には書かない）。Secret はデプロイをまたいで保持される。
+- バインディング（`VECTORIZE`/`AI`）は `wrangler.toml` 側が正となる。ダッシュボードで設定済みでも、`wrangler deploy` 時は設定ファイルの内容が適用される（名前は一致させてある）。
+- 未設定（バインディング/鍵欠落）の場合、`/api/chat` は `503 not_configured` を返し、フロントは「準備中」表示にフォールバックする（サイトは正常稼働）。
 
-下記はバインディングの設定例（ダッシュボード設定でも可）。
-
-> Worker を追加した実装PRで有効化する。
+下記はバインディングの設定内容（`wrangler.toml` と対応）。
 
 ```toml
 # name / compatibility_date 等は実装時に設定
