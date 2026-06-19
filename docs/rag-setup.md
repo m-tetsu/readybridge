@@ -41,9 +41,17 @@ npx wrangler vectorize create-metadata-index readybridge-rag --property-name=dis
 
 論点②の決定。Workers AI を有効化し、Worker にバインドする。鍵は不要（同一アカウント内）。
 
-## 4. wrangler.toml（バインディング雛形）
+## 4. SSR アダプタ（実装済み）と wrangler.toml（バインディング）
 
-> 実装PRで Worker を追加する際に有効化する。現時点は参照用の雛形。
+`/api/chat`（AI相談のバックエンド）はオンデマンド実行（SSR）が必要なため、**`@astrojs/cloudflare` アダプタを導入済み**（`astro.config.mjs`）。
+
+- 既定は静的生成のまま。SSR が必要なルートだけ `export const prerender = false`（`/api/chat` で設定済み）。
+- `npm run build` の出力は `dist/_worker.js`（SSRエントリ）＋静的アセット＋`dist/_routes.json`。静的ページは事前生成され、`/api/chat` のみ Worker で処理される。
+- **デプロイ上の注意**：Cloudflare 側のビルド/デプロイ設定が、生成された Worker（`dist/_worker.js`）と静的アセットを配信する構成になっているか確認する。バインディング（`VECTORIZE` / `AI`）と Secret（`ANTHROPIC_API_KEY`）が未設定の場合、`/api/chat` は `503 not_configured` を返し、フロントは「準備中」表示にフォールバックする（サイトは正常稼働）。
+
+下記はバインディングの設定例（ダッシュボード設定でも可）。
+
+> Worker を追加した実装PRで有効化する。
 
 ```toml
 # name / compatibility_date 等は実装時に設定
