@@ -6,39 +6,14 @@ import Base from '../layouts/Base.astro';
     <div class="container">
       <span class="eyebrow reveal"><span class="dot"></span>AI相談（試験運用）</span>
       <h1 class="reveal d1" style="font-size:clamp(1.8rem,4vw,2.8rem)"><span class="accent">自社の状況</span>に合わせて、<br />AIが出典付きで回答</h1>
-      <p class="lead reveal d2">業種や被害の状況を入れて質問すると、収集した公的な支援情報をもとに、出典リンク付きで回答します。</p>
+      <p class="lead reveal d2">質問を入力すると、収集した公的な支援情報をもとに、出典リンク付きで回答します。</p>
     </div>
   </section>
 
   <section style="padding-top:6px">
     <div class="container" style="max-width:820px">
-      <!-- 状況入力フォーム -->
+      <!-- 質問入力フォーム -->
       <form class="chat-form" id="chat-form" autocomplete="off">
-        <div class="situation">
-          <div class="field">
-            <label for="f-industry">業種</label>
-            <input id="f-industry" name="industry" type="text" placeholder="例：飲食業、製造業、小売" />
-          </div>
-          <div class="field">
-            <label for="f-size">規模（従業員数）</label>
-            <select id="f-size" name="size">
-              <option value="">未選択</option>
-              <option value="1-5">1〜5人</option>
-              <option value="6-20">6〜20人</option>
-              <option value="21-50">21〜50人</option>
-              <option value="51-">51人以上</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="f-damage">主な被害</label>
-            <input id="f-damage" name="damage" type="text" placeholder="例：店舗浸水、設備損壊、休業中" />
-          </div>
-          <div class="field">
-            <label for="f-area">地域</label>
-            <input id="f-area" name="area" type="text" placeholder="例：◯◯県◯◯市" />
-          </div>
-        </div>
-
         <div class="ask-row">
           <textarea id="f-question" name="question" rows="2" required
             placeholder="質問を入力（例：浸水で休業中です。使える支援と、まず何をすべきか教えてください）"></textarea>
@@ -62,19 +37,15 @@ import Base from '../layouts/Base.astro';
 
 <style>
   .chat-form { background: var(--surface, #fff); border: 1px solid var(--line, #e6e1d6); border-radius: 14px; padding: 18px; box-shadow: var(--shadow, 0 6px 20px rgba(0,0,0,.05)); }
-  .situation { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; }
-  .field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
-  .field label { font-size: .82rem; color: var(--ink-soft, #5b574e); font-weight: 700; }
-  .field input, .field select, .ask-row textarea {
-    width: 100%; box-sizing: border-box; padding: 10px 12px;
+  .ask-row { display: flex; gap: 10px; align-items: stretch; }
+  .ask-row textarea {
+    flex: 1; resize: vertical; width: 100%; box-sizing: border-box; padding: 10px 12px;
     border: 1.5px solid var(--line-strong, #d8d2c4); border-radius: 10px;
     font: inherit; color: inherit; background: #fff;
   }
-  .field input:focus, .field select:focus, .ask-row textarea:focus {
+  .ask-row textarea:focus {
     outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px var(--teal-soft);
   }
-  .ask-row { display: flex; gap: 10px; align-items: stretch; margin-top: 14px; }
-  .ask-row textarea { flex: 1; resize: vertical; }
   .ask-go { white-space: nowrap; align-self: stretch; }
   .form-note { font-size: .78rem; color: var(--ink-soft, #5b574e); margin: 10px 2px 0; }
 
@@ -103,7 +74,6 @@ import Base from '../layouts/Base.astro';
   .disclaimer-bar b { color: var(--terra-dark); }
 
   @media (max-width: 640px) {
-    .situation { grid-template-columns: 1fr; }
     .ask-row { flex-direction: column; }
   }
 </style>
@@ -181,13 +151,6 @@ import Base from '../layouts/Base.astro';
     const question = String(fd.get('question') || '').trim();
     if (!question) return;
 
-    const situation = {
-      industry: String(fd.get('industry') || '').trim(),
-      size: String(fd.get('size') || '').trim(),
-      damage: String(fd.get('damage') || '').trim(),
-      area: String(fd.get('area') || '').trim(),
-    };
-
     addUser(question);
     (form.querySelector('#f-question') as HTMLTextAreaElement).value = '';
     const pending = addAi('回答を準備しています…', true);
@@ -196,7 +159,7 @@ import Base from '../layouts/Base.astro';
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ question, situation }),
+        body: JSON.stringify({ question }),
       });
       if (!res.ok) throw new Error(`status ${res.status}`);
       const data = (await res.json()) as ChatResponse;
