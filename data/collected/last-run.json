@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "ran_at": "2026-06-19T23:04:31.696Z",
+    "pages_fetched": 0,
+    "new": 0,
+    "changed": 0,
+    "unchanged": 0,
+    "skipped": 5
+  },
+  "new": [],
+  "changed": [],
+  "unchanged": [],
+  "skipped": [
+    [
+      "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/index.html",
+      "fetch"
+    ],
+    [
+      "https://www.jfc.go.jp/n/finance/search/saigaikashitsuke_m.html",
+      "fetch"
+    ],
+    [
+      "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00177.html",
+      "fetch"
+    ],
+    [
+      "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00442.html",
+      "fetch"
+    ],
+    [
+      "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
+      "fetch"
+    ]
+  ]
+}
