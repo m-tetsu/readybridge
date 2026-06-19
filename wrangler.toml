@@ -1,0 +1,22 @@
+name = "readybridge"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+main = "./dist/_worker.js/index.js"
+
+# 静的アセット（事前生成された各ページ）。SSRルート（/api/chat）は Worker が処理する。
+[assets]
+binding = "ASSETS"
+directory = "./dist"
+
+# ベクトルストア（論点①）。index は `wrangler vectorize create` 済みの readybridge-rag。
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "readybridge-rag"
+
+# 埋め込み（論点②：@cf/baai/bge-m3 を実行）。
+[ai]
+binding = "AI"
+
+# ANTHROPIC_API_KEY は Secret（暗号化）として登録済みのため、ここには書かない。
+#   npx wrangler secret put ANTHROPIC_API_KEY --name readybridge
+# もしくはダッシュボードの Encrypted Secrets で登録する。
