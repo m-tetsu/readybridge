@@ -16,6 +16,11 @@ yarn-error.log*
 .env.local
 .env.development
 
+# Cloudflare Workers local secrets (RAG: Anthropic API key 等)
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+
 # editor / OS
 .vscode/
 .idea/
