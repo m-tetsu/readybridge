@@ -1,0 +1,40 @@
+name: Collect support info (RAG)
+
+# 公的支援情報を定期巡回し、差分があれば PR を起票する（論点③：反映前に人がレビュー）。
+# クロール自体は自動。Vectorize への反映（upsert）はマージ後の別ステップで行う想定。
+
+on:
+  schedule:
+    - cron: '0 21 * * *' # 毎日 06:00 JST（21:00 UTC）
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - name: Crawl
+        run: npm run crawl
+      - name: Create PR on changes
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto/rag-collected-update
+          title: '収集: 支援情報の差分を取り込み'
+          commit-message: '収集: 支援情報の差分を取り込み（自動）'
+          body: |
+            クローラが検知した公的支援情報の差分です。
+
+            - 内容（`data/collected/` の追加・変更）を確認してマージしてください。
+            - マージ後、Vectorize への反映（`tools/crawler/upsert.mjs`）を実施します。
+            - `data/collected/last-run.json` に新規/更新の要約があります。
+          labels: |
+            automated
+            rag-collect

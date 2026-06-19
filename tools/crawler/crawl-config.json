@@ -1,0 +1,31 @@
+{
+  "userAgent": "ReadyBridgeBot/0.1 (+https://readybridge.tetsu315.workers.dev; 中小企業の事業継続支援情報の集約)",
+  "allowedDomainSuffixes": [".go.jp", ".lg.jp"],
+  "maxDepth": 2,
+  "maxPagesPerRun": 300,
+  "requestDelayMs": 1500,
+  "requestTimeoutMs": 20000,
+  "outDir": "data/collected",
+  "hostNames": {
+    "www.chusho.meti.go.jp": "中小企業庁",
+    "www.meti.go.jp": "経済産業省",
+    "www.bousai.go.jp": "内閣府(防災)",
+    "www.cao.go.jp": "内閣府",
+    "www.mhlw.go.jp": "厚生労働省",
+    "www.nta.go.jp": "国税庁",
+    "www.jfc.go.jp": "日本政策金融公庫",
+    "www.smrj.go.jp": "中小機構"
+  },
+  "seeds": [
+    {
+      "id": "chusho-r6-noto",
+      "source_name": "中小企業庁",
+      "url": "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/index.html",
+      "pillar": "recover",
+      "category": "finance",
+      "disaster_scope": "reiwa-6-noto",
+      "pathPrefix": "",
+      "maxDepth": 2
+    }
+  ]
+}
