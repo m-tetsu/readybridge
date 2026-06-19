@@ -1,0 +1,9 @@
+# Cloudflare Workers ローカル開発用の秘密値テンプレート
+# このファイルをコピーして `.dev.vars` を作成し、実値を入れる（`.dev.vars` は .gitignore 済み）。
+#   cp .dev.vars.example .dev.vars
+#
+# 本番は wrangler secret put / ダッシュボードの Encrypted Secrets で登録する（このファイルには入れない）。
+# 詳細は docs/rag-setup.md を参照。
+
+# Anthropic API キー（AI相談の生成に使用。Claude Haiku 4.5）
+ANTHROPIC_API_KEY=
