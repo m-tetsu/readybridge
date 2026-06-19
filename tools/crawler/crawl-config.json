@@ -48,6 +48,16 @@
       "maxDepth": 1
     },
     {
+      "id": "mhlw-koyo-chosei-2",
+      "source_name": "厚生労働省",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00442.html",
+      "pillar": "recover",
+      "category": "wage",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 1
+    },
+    {
       "id": "nta-saigai",
       "source_name": "国税庁",
       "url": "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
