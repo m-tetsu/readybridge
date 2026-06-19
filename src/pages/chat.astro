@@ -1,22 +1,176 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="AIに相談（準備中）｜ReadyBridge">
+<Base title="AIに相談｜ReadyBridge">
   <section class="hero">
     <div class="container">
-      <span class="eyebrow reveal"><span class="dot"></span>AI相談（準備中）</span>
+      <span class="eyebrow reveal"><span class="dot"></span>AI相談（試験運用）</span>
       <h1 class="reveal d1" style="font-size:clamp(1.8rem,4vw,2.8rem)"><span class="accent">自社の状況</span>に合わせて、<br />AIが出典付きで回答</h1>
-      <p class="lead reveal d2">収集した最新の支援情報をもとに、被災企業の個別の質問へ出典リンク付きで回答するAI相談を準備しています。</p>
+      <p class="lead reveal d2">質問を入力すると、収集した公的な支援情報をもとに、出典リンク付きで回答します。</p>
     </div>
   </section>
-  <section style="padding-top:10px">
-    <div class="container" style="max-width:780px">
-      <article class="article">
-        <div class="prose">
-          <p>この機能は今後のフェーズで提供予定です。それまでは、よく寄せられる疑問をまとめた <a href="/faq">FAQ一覧</a> をご利用ください。</p>
+
+  <section style="padding-top:6px">
+    <div class="container" style="max-width:820px">
+      <!-- 質問入力フォーム -->
+      <form class="chat-form" id="chat-form" autocomplete="off">
+        <div class="ask-row">
+          <textarea id="f-question" name="question" rows="2" required
+            placeholder="質問を入力（例：浸水で休業中です。使える支援と、まず何をすべきか教えてください）"></textarea>
+          <button class="btn ask-go" type="submit">相談する<span class="arr">→</span></button>
         </div>
-      </article>
-      <p class="after-link"><a href="/faq">FAQ一覧を見る<span>→</span></a></p>
+        <p class="form-note">送信内容は回答の生成にのみ使われます。個人情報や機密情報は入力しないでください。</p>
+      </form>
+
+      <!-- 回答表示エリア -->
+      <div class="chat-log" id="chat-log" aria-live="polite"></div>
     </div>
   </section>
+
+  <!-- 免責①：常設スティッキー注記 -->
+  <div class="disclaimer-bar" role="note">
+    <div class="container">
+      本回答はAIによる<b>参考情報</b>です。支援制度は災害・時期により変わります。申請前に必ず<b>出典の公式ページと窓口</b>でご確認ください。
+    </div>
+  </div>
 </Base>
+
+<style>
+  .chat-form { background: var(--surface, #fff); border: 1px solid var(--line, #e6e1d6); border-radius: 14px; padding: 18px; box-shadow: var(--shadow, 0 6px 20px rgba(0,0,0,.05)); }
+  .ask-row { display: flex; gap: 10px; align-items: stretch; }
+  .ask-row textarea {
+    flex: 1; resize: vertical; width: 100%; box-sizing: border-box; padding: 10px 12px;
+    border: 1.5px solid var(--line-strong, #d8d2c4); border-radius: 10px;
+    font: inherit; color: inherit; background: #fff;
+  }
+  .ask-row textarea:focus {
+    outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px var(--teal-soft);
+  }
+  .ask-go { white-space: nowrap; align-self: stretch; }
+  .form-note { font-size: .78rem; color: var(--ink-soft, #5b574e); margin: 10px 2px 0; }
+
+  .chat-log { margin: 22px 0 40px; display: flex; flex-direction: column; gap: 16px; }
+  .msg { border-radius: 12px; padding: 14px 16px; }
+  .msg-user { background: var(--teal-soft); align-self: flex-end; max-width: 90%; }
+  .msg-ai { background: var(--paper-2, #f5f5f5); border: 1px solid var(--line, #e6e1d6); }
+  .msg-meta { font-size: .78rem; color: var(--ink-soft, #5b574e); margin: 0 0 6px; }
+  .msg-body { line-height: 1.7; }
+  .msg-pending .msg-body { color: var(--ink-soft, #5b574e); }
+
+  /* 免責③：災害特設の但し書き */
+  .disaster-note { margin-top: 10px; font-size: .82rem; color: var(--terra-dark); background: var(--terra-soft); border-radius: 8px; padding: 8px 10px; }
+
+  /* 出典カード（論点④②：回答の根拠） */
+  .sources { margin-top: 12px; border-top: 1px dashed var(--line-strong, #d8d2c4); padding-top: 10px; }
+  .sources-title { font-size: .8rem; font-weight: 700; color: var(--ink-soft, #5b574e); margin: 0 0 8px; }
+  .source-card { display: block; border: 1px solid var(--line, #e6e1d6); border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; text-decoration: none; color: inherit; background: #fff; }
+  .source-card:hover { border-color: var(--teal); background: var(--teal-soft); }
+  .source-card .sc-name { font-size: .76rem; color: var(--teal-dark); font-weight: 700; }
+  .source-card .sc-title { display: block; margin: 2px 0; }
+  .source-card .sc-date { font-size: .74rem; color: var(--ink-soft, #5b574e); }
+
+  .disclaimer-bar { position: sticky; bottom: 0; z-index: 5; background: var(--paper-2, #f5f5f5); border-top: 1px solid var(--line-strong, #d8d2c4); font-size: .82rem; color: var(--ink-soft, #5b574e); }
+  .disclaimer-bar .container { padding-top: 10px; padding-bottom: 10px; }
+  .disclaimer-bar b { color: var(--terra-dark); }
+
+  @media (max-width: 640px) {
+    .ask-row { flex-direction: column; }
+  }
+</style>
+
+<script>
+  // AI相談クライアント。/api/chat（後続PRで実装）へ問い合わせる。
+  // バックエンド未接続の間は丁寧な「準備中」表示にフォールバックする。
+  type SourceRef = {
+    source_name: string;
+    title: string;
+    url: string;
+    updated_at?: string;
+  };
+  type ChatResponse = {
+    answer: string;
+    sources?: SourceRef[];
+    fetched_at?: string;       // 情報取得日（免責③）
+    disaster_scope?: string;   // 災害特設の但し書き用（免責③）
+  };
+
+  const form = document.getElementById('chat-form') as HTMLFormElement;
+  const log = document.getElementById('chat-log') as HTMLElement;
+
+  function esc(s: string): string {
+    return s.replace(/[&<>"']/g, (c) =>
+      ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] as string)
+    );
+  }
+
+  function addUser(text: string) {
+    const el = document.createElement('div');
+    el.className = 'msg msg-user';
+    el.innerHTML = `<div class="msg-body">${esc(text)}</div>`;
+    log.appendChild(el);
+  }
+
+  function addAi(html: string, pending = false): HTMLElement {
+    const el = document.createElement('div');
+    el.className = 'msg msg-ai' + (pending ? ' msg-pending' : '');
+    el.innerHTML = `<p class="msg-meta">ReadyBridge AI</p><div class="msg-body">${html}</div>`;
+    log.appendChild(el);
+    el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    return el;
+  }
+
+  function renderSources(sources: SourceRef[]): string {
+    if (!sources.length) return '';
+    const cards = sources
+      .map(
+        (s) => `<a class="source-card" href="${esc(s.url)}" target="_blank" rel="noopener">
+          <span class="sc-name">${esc(s.source_name)}</span>
+          <span class="sc-title">${esc(s.title)}</span>
+          ${s.updated_at ? `<span class="sc-date">最終更新：${esc(s.updated_at)}</span>` : ''}
+        </a>`
+      )
+      .join('');
+    return `<div class="sources"><p class="sources-title">出典（必ず公式ページでご確認ください）</p>${cards}</div>`;
+  }
+
+  function renderAnswer(data: ChatResponse): string {
+    let html = `<p>${esc(data.answer).replace(/\n/g, '<br />')}</p>`;
+    if (data.disaster_scope) {
+      html += `<p class="disaster-note">これは特定災害（${esc(data.disaster_scope)}）向けの制度を含みます。対象・期限を必ずご確認ください。</p>`;
+    }
+    html += renderSources(data.sources ?? []);
+    if (data.fetched_at) {
+      html += `<p class="msg-meta" style="margin:10px 0 0">情報取得日：${esc(data.fetched_at)}</p>`;
+    }
+    return html;
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const fd = new FormData(form);
+    const question = String(fd.get('question') || '').trim();
+    if (!question) return;
+
+    addUser(question);
+    (form.querySelector('#f-question') as HTMLTextAreaElement).value = '';
+    const pending = addAi('回答を準備しています…', true);
+
+    try {
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ question }),
+      });
+      if (!res.ok) throw new Error(`status ${res.status}`);
+      const data = (await res.json()) as ChatResponse;
+      pending.classList.remove('msg-pending');
+      (pending.querySelector('.msg-body') as HTMLElement).innerHTML = renderAnswer(data);
+    } catch {
+      // バックエンド（/api/chat）が未接続の場合のフォールバック
+      pending.classList.remove('msg-pending');
+      (pending.querySelector('.msg-body') as HTMLElement).innerHTML =
+        'AI相談は現在準備中です。回答エンジンの接続後にご利用いただけます。' +
+        'それまでは <a href="/faq">FAQ一覧</a> をご活用ください。';
+    }
+  });
+</script>
