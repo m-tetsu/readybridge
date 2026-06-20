@@ -59,7 +59,7 @@ function frontmatter(meta) {
   ].join('\n');
 }
 
-async function fetchResource(url, cfg) {
+async function fetchOnce(url, cfg) {
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), cfg.requestTimeoutMs);
   try {
@@ -87,6 +87,13 @@ async function fetchResource(url, cfg) {
   } finally {
     clearTimeout(t);
   }
+}
+
+async function fetchResource(url, cfg) {
+  const first = await fetchOnce(url, cfg);
+  if (!first.skip) return first;
+  await sleep(3000);
+  return fetchOnce(url, cfg);
 }
 
 // content-type または HTML の meta から文字コードを推定する。
