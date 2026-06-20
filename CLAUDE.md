@@ -148,9 +148,10 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 ### 反映フロー（自動化）
 1. `collect.yml`（cron）→ クロール → `auto/rag-collected-update` ブランチ宛にPR起票（→ main にマージで反映。**人のレビューを挟む設計**＝論点③）
 2. main の `data/collected/**` 更新を検知 → `upsert.yml` が自動で `npm run rag:upsert` → Vectorize 反映
+   - `upsert.yml` は Secrets 未登録時はスキップして成功扱い（失敗メール抑止）。登録済みなら本実行。
 
 ### 残タスク
-- [ ] **GitHub Secrets 登録**（ユーザー側作業）：`CLOUDFLARE_ACCOUNT_ID` / `CLOUDFLARE_API_TOKEN`（Workers AI Read＋Vectorize Edit）。未登録のため upsert.yml run#1 は認証ガードで失敗。登録後に再実行で1,900ベクトル投入。
+- [x] ~~**GitHub Secrets 登録**~~（完了 2026-06-20）：`CLOUDFLARE_ACCOUNT_ID` / `CLOUDFLARE_API_TOKEN` 登録済み。手動実行（workflow_dispatch）で upsert 成功を確認。
 - [ ] upsert 成功後、`/api/chat` を実データで動作確認
 - [ ] （将来）削除/移動チャンクの掃除、エスカレーション（Opus）発火条件の計測
 
@@ -166,7 +167,7 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 - [ ] **独自ドメイン**（Cloudflare Registrar 想定／松下さん側で取得検討中）
 - [x] ~~**SEO / OG メタタグ**~~ 済（Base.astro に og:image/Twitter Card 追加）
 - [ ] **OG画像の作成**（1200×630 の実画像を `public/` に配置）
-- [~] **AI 相談（RAG）第3フェーズ**：設計・実装・インフラ完了。Secrets登録→upsert実行が残（上記「AI相談（RAG）」節参照）
+- [~] **AI 相談（RAG）第3フェーズ**：設計・実装・インフラ・Secrets登録・upsert実行まで完了（2026-06-20）。残るは実データでの `/api/chat` 動作確認（上記「AI相談（RAG）」節参照）
 - [ ] **meti.go.jp HTML "empty" 問題**（プロキシは通るが本文抽出で<40文字。優先度低）
 
 ## やり取りの好み（松下さんの指示スタイル）
