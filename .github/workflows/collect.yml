@@ -21,6 +21,18 @@ jobs:
         with:
           node-version: '22'
       - run: npm ci
+      - name: Diagnose chusho reachability
+        # 能登シードが AbortError で取れない原因切り分け（bot UAブロック or 遅延）。
+        # 失敗してもクロール本体は続行する。
+        continue-on-error: true
+        run: |
+          URL="https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/index.html"
+          BOT_UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 ReadyBridgeBot/0.1 (+https://readybridge.tetsu315.workers.dev)"
+          PLAIN_UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+          echo "== bot UA =="
+          curl -sS -o /dev/null -A "$BOT_UA" -m 60 -w 'http=%{http_code} time=%{time_total}s size=%{size_download}\n' "$URL" || echo "bot UA: FAILED"
+          echo "== plain UA =="
+          curl -sS -o /dev/null -A "$PLAIN_UA" -m 60 -w 'http=%{http_code} time=%{time_total}s size=%{size_download}\n' "$URL" || echo "plain UA: FAILED"
       - name: Crawl
         run: npm run crawl
       - name: Create PR on changes
