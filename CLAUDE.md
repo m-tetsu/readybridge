@@ -149,8 +149,10 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 2. main の `data/collected/**` 更新を検知 → `upsert.yml` が自動で `npm run rag:upsert` → Vectorize 反映
 
 ### 残タスク
-- [ ] **GitHub Secrets 登録**（ユーザー側作業）：`CLOUDFLARE_ACCOUNT_ID` / `CLOUDFLARE_API_TOKEN`（Workers AI Read＋Vectorize Edit）。未登録のため upsert.yml run#1 は認証ガードで失敗。登録後に再実行で1,900ベクトル投入。
-- [ ] upsert 成功後、`/api/chat` を実データで動作確認
+- [x] ~~**GitHub Secrets 登録**~~：`CLOUDFLARE_ACCOUNT_ID` / `CLOUDFLARE_API_TOKEN` 登録済み。
+- [x] ~~**upsert 実行**~~：upsert.yml run#3（workflow_dispatch）で `done: 1900 vectors` 成功（2026-06-20）。Vectorize に1,900ベクトル投入済み。
+  - ※途中の失敗：run#1 は Secrets 未登録、run#2 は ACCOUNT_ID にメールアドレスを誤登録（エラー7003 Could not route）。ACCOUNT_ID を正しい32桁（`ab1357c3fdbb2ae57009c72c8826f214`）に直して run#3 で成功。
+- [ ] `/api/chat` を実データで動作確認（手元で `curl -X POST .../api/chat -d '{"question":"…"}'`。本リモート環境は workers.dev 通信不可のため未実施）
 - [ ] （将来）削除/移動チャンクの掃除、エスカレーション（Opus）発火条件の計測
 
 ### オフライン検証済みの数値（実データ500件）
@@ -165,7 +167,7 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 - [ ] **独自ドメイン**（Cloudflare Registrar 想定／松下さん側で取得検討中）
 - [x] ~~**SEO / OG メタタグ**~~ 済（Base.astro に og:image/Twitter Card 追加）
 - [ ] **OG画像の作成**（1200×630 の実画像を `public/` に配置）
-- [~] **AI 相談（RAG）第3フェーズ**：設計・実装・インフラ完了。Secrets登録→upsert実行が残（上記「AI相談（RAG）」節参照）
+- [~] **AI 相談（RAG）第3フェーズ**：設計・実装・インフラ・upsert（1,900ベクトル投入）完了。残るは `/api/chat` の実地動作確認のみ（上記「AI相談（RAG）」節参照）
 - [ ] **meti.go.jp HTML "empty" 問題**（プロキシは通るが本文抽出で<40文字。優先度低）
 
 ## やり取りの好み（松下さんの指示スタイル）
