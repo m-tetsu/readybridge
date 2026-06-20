@@ -7,7 +7,7 @@
   "requestTimeoutMs": 40000,
   "outDir": "data/collected",
   "proxyBase": "https://readybridge.tetsu315.workers.dev/api/gov-proxy",
-  "proxyHosts": ["www.chusho.meti.go.jp"],
+  "proxyHosts": ["www.chusho.meti.go.jp", "www.meti.go.jp", "www.jpo.go.jp"],
   "hostNames": {
     "www.chusho.meti.go.jp": "中小企業庁",
     "www.meti.go.jp": "経済産業省",
