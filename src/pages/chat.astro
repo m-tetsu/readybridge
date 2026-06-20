@@ -79,8 +79,8 @@ import Base from '../layouts/Base.astro';
 </style>
 
 <script>
-  // AI相談クライアント。/api/chat（後続PRで実装）へ問い合わせる。
-  // バックエンド未接続の間は丁寧な「準備中」表示にフォールバックする。
+  // AI相談クライアント。/api/chat へ問い合わせ、出典付きの回答を表示する。
+  // 通信失敗・サーバ側エラー時は丁寧なエラー表示にフォールバックする。
   type SourceRef = {
     source_name: string;
     title: string;
@@ -166,11 +166,11 @@ import Base from '../layouts/Base.astro';
       pending.classList.remove('msg-pending');
       (pending.querySelector('.msg-body') as HTMLElement).innerHTML = renderAnswer(data);
     } catch {
-      // バックエンド（/api/chat）が未接続の場合のフォールバック
+      // 通信失敗・サーバ側エラー時のフォールバック
       pending.classList.remove('msg-pending');
       (pending.querySelector('.msg-body') as HTMLElement).innerHTML =
-        'AI相談は現在準備中です。回答エンジンの接続後にご利用いただけます。' +
-        'それまでは <a href="/faq">FAQ一覧</a> をご活用ください。';
+        'うまく回答を取得できませんでした。少し時間をおいて、もう一度お試しください。' +
+        'お急ぎの場合は <a href="/faq">FAQ一覧</a> もご活用ください。';
     }
   });
 </script>
