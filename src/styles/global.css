@@ -2,7 +2,7 @@
    被災企業支援ナビ — Design System
    方向性：明るく信頼できる公共サービス × 大胆な見出し・探す導線
    配色：温かい紙色背景 / ディープティール（安心・信頼） / テラコッタ（人間味・行動喚起）
-   書体：Shippori Mincho（大見出し＝品格） + Zen Kaku Gothic New（本文・UI）
+   書体：Zen Kaku Gothic New（見出し・本文・UI統一）
    ========================================================= */
 
 :root {
@@ -36,7 +36,7 @@
   --shadow: 0 18px 40px -24px rgba(28, 42, 41, 0.35);
   --shadow-sm: 0 8px 20px -16px rgba(28, 42, 41, 0.4);
 
-  --font-display: "Shippori Mincho", "Hiragino Mincho ProN", serif;
+  --font-display: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif;
   --font-body: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif;
 }
 
@@ -62,7 +62,7 @@ a { color: var(--teal-dark); text-underline-offset: 3px; }
 
 .container { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
 
-h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.35; letter-spacing: 0.02em; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.35; letter-spacing: 0.01em; }
 
 /* ---------- Header ---------- */
 .site-header {
@@ -316,10 +316,10 @@ section { padding: 54px 0; }
 .breadcrumb { font-size: 0.85rem; color: var(--muted); margin-bottom: 14px; }
 .breadcrumb a { color: var(--muted); text-decoration: none; display: inline-flex; align-items: center; gap: 5px; }
 .breadcrumb a:hover { color: var(--teal-dark); }
-.article h1 { font-size: clamp(1.5rem, 3.2vw, 2rem); margin: 0 0 8px; line-height: 1.45; }
+.article h1 { font-size: clamp(1.6rem, 3.5vw, 2.1rem); margin: 0 0 10px; line-height: 1.4; }
 .article .meta { font-size: 0.82rem; color: var(--muted); margin: 0 0 22px; }
 .prose { font-size: 1.02rem; color: var(--ink-soft); }
-.prose h2 { font-family: var(--font-display); font-size: 1.22rem; color: var(--ink); margin: 30px 0 12px; padding-left: 14px; border-left: 4px solid var(--teal); }
+.prose h2 { font-family: var(--font-display); font-size: 1.35rem; color: var(--ink); margin: 36px 0 14px; padding-left: 14px; border-left: 4px solid var(--teal); }
 .prose ul, .prose ol { padding-left: 22px; }
 .prose li { margin-bottom: 8px; }
 .prose strong { color: var(--ink); }
