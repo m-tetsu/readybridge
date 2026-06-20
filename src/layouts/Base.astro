@@ -4,13 +4,13 @@ import Logo from '../components/Logo.astro';
 interface Props {
   title: string;
   description?: string;
-  /** OG/Twitter 画像（サイトルートからの絶対パス）。既定はヒーロー画像。 */
+  /** OG/Twitter 画像（サイトルートからの絶対パス）。既定はSNS共有用OG画像。 */
   image?: string;
 }
 const {
   title,
   description = '災害で被災した中小企業が、まず確認すべき公的支援（給与・資金繰り・施設復旧・税）をすぐに調べられる情報サイト。',
-  image = '/hero.webp',
+  image = '/og.png',
 } = Astro.props;
 
 // canonical / og:url / og:image は絶対URL化する（Astro.site = 本番URL）。
