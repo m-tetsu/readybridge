@@ -15,9 +15,15 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
+import dns from 'node:dns';
 import path from 'node:path';
 import { extractHtml, extractPdf } from './lib/extract.mjs';
 import { isAllowed } from './lib/robots.mjs';
+
+// IPv4 を優先する。政府系サイトの一部は AAAA(IPv6) を公開するが応答せず、
+// IPv6 優先環境（GitHub Actions 等）から接続が 60s ハングする（http=000）。
+// 例：chusho.meti.go.jp の能登ページが AbortError で取得できない問題への対策。
+dns.setDefaultResultOrder('ipv4first');
 
 const ROOT = process.cwd();
 const CONFIG_PATH = path.join(ROOT, 'tools/crawler/crawl-config.json');

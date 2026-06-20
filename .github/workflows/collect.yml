@@ -22,17 +22,23 @@ jobs:
           node-version: '22'
       - run: npm ci
       - name: Diagnose chusho reachability
-        # 能登シードが AbortError で取れない原因切り分け（bot UAブロック or 遅延）。
+        # 能登シードが取れない真因を切り分ける。前回 http=000/size=0（応答ゼロ）だった
+        # ため、UAではなく接続レベルの問題（IPv6ブラックホール疑い）を疑って検証する。
         # 失敗してもクロール本体は続行する。
         continue-on-error: true
         run: |
-          URL="https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/index.html"
-          BOT_UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 ReadyBridgeBot/0.1 (+https://readybridge.tetsu315.workers.dev)"
-          PLAIN_UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-          echo "== bot UA =="
-          curl -sS -o /dev/null -A "$BOT_UA" -m 60 -w 'http=%{http_code} time=%{time_total}s size=%{size_download}\n' "$URL" || echo "bot UA: FAILED"
-          echo "== plain UA =="
-          curl -sS -o /dev/null -A "$PLAIN_UA" -m 60 -w 'http=%{http_code} time=%{time_total}s size=%{size_download}\n' "$URL" || echo "plain UA: FAILED"
+          HOST="https://www.chusho.meti.go.jp"
+          URL="$HOST/saigai/r6_noto_jishin/index.html"
+          echo "== DNS (A / AAAA) =="
+          getent ahosts www.chusho.meti.go.jp || true
+          echo "== robots.txt (ホスト到達性) =="
+          curl -sS -o /dev/null -m 30 -w 'http=%{http_code} time=%{time_total}s\n' "$HOST/robots.txt" || echo "robots: FAILED"
+          echo "== noto page: 既定(自動) =="
+          curl -sS -o /dev/null -m 60 -w 'http=%{http_code} time=%{time_total}s size=%{size_download}\n' "$URL" || echo "auto: FAILED"
+          echo "== noto page: IPv4強制(-4) =="
+          curl -4 -sS -o /dev/null -m 60 -w 'http=%{http_code} time=%{time_total}s size=%{size_download}\n' "$URL" || echo "ipv4: FAILED"
+          echo "== noto page: IPv6強制(-6) =="
+          curl -6 -sS -o /dev/null -m 60 -w 'http=%{http_code} time=%{time_total}s size=%{size_download}\n' "$URL" || echo "ipv6: FAILED"
       - name: Crawl
         run: npm run crawl
       - name: Create PR on changes
