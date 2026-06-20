@@ -58,7 +58,16 @@ src/
 ├─ styles/global.css        # 全 CSS（デザインシステム）
 └─ pages/
     ├─ index.astro          # ハブ（ヒーロー＋検索＋2大カード＋信頼＋AI相談CTA）
-    ├─ prepare.astro        # 平時の備え
+    ├─ prepare/
+    │   ├─ index.astro      # 平時の備え（8カードグリッド）
+    │   ├─ hazard.astro     # 地域のハザードを知る
+    │   ├─ safety.astro     # 安全を確保する
+    │   ├─ damage.astro     # 被害を減らす
+    │   ├─ bcp.astro        # BCP・事業継続力強化計画を作る
+    │   ├─ life.astro       # 生活を守る（備蓄・帰宅困難者）
+    │   ├─ training.astro   # 訓練をする
+    │   ├─ fund.astro       # 資金・保険を備える
+    │   └─ links.astro      # 更に知りたい人へ
     ├─ recover.astro        # 有事の対応・再建
     ├─ faq/index.astro      # 全記事一覧（柱ごとグルーピング）
     ├─ faq/[id].astro       # 記事詳細
