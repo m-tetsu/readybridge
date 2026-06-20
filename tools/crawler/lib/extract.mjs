@@ -5,7 +5,8 @@ import { PDFParse } from 'pdf-parse';
 // div ベースのグローバルナビ／パンくず／SNS等を class・id 名で狙い撃つセレクタ。
 // 部分一致（[class*=...]）で gnav / globalnav / header-nav 等の派生も拾う。
 const NAV_NOISE_KEYS = [
-  'header', 'footer', 'gnav', 'globalnav', 'global-nav', 'navbar', 'menu',
+  'gnav', 'globalnav', 'global-nav', 'g-nav', 'navbar',
+  'site-header', 'site-footer', 'global-header', 'global-footer',
   'breadcrumb', 'pankuzu', 'sitemap', 'sns', 'share', 'sidebar', 'side-nav',
   'pagetop', 'page-top', 'utility', 'language', 'lang-', 'skip',
 ];
