@@ -41,6 +41,24 @@ function hostAllowed(url, suffixes) {
   }
 }
 
+// 遮断ホスト（Akamai 等が Actions IP を弾く）は Cloudflare エッジ経由で取得する。
+// proxyHosts に含まれるホストの URL を proxyBase?url=... に書き換える。
+function toFetchUrl(url, cfg) {
+  try {
+    if (cfg.proxyBase && (cfg.proxyHosts || []).includes(new URL(url).hostname)) {
+      return `${cfg.proxyBase}?url=${encodeURIComponent(url)}`;
+    }
+  } catch {
+    /* 不正URLはそのまま */
+  }
+  return url;
+}
+
+// isAllowed 等に渡す、proxyHosts を自動でエッジ経由にする fetch ラッパー。
+function makeProxiedFetch(cfg) {
+  return (url, opts) => fetch(toFetchUrl(url, cfg), opts);
+}
+
 function slugFor(url) {
   const u = new URL(url);
   const p = (u.pathname + (u.search || '')).replace(/[^a-zA-Z0-9/_.-]/g, '_').replace(/\/+/g, '_').replace(/^_|_$/g, '') || 'index';
@@ -69,7 +87,7 @@ async function fetchOnce(url, cfg) {
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), cfg.requestTimeoutMs);
   try {
-    const res = await fetch(url, {
+    const res = await fetch(toFetchUrl(url, cfg), {
       headers: {
         'user-agent': cfg.userAgent,
         accept: 'text/html,application/xhtml+xml,application/pdf,*/*',
@@ -137,6 +155,7 @@ async function main() {
   }
 
   const result = { new: [], changed: [], unchanged: [], skipped: [] };
+  const proxiedFetch = makeProxiedFetch(cfg); // robots.txt も遮断ホストはエッジ経由で取る
   let pages = 0;
 
   while (queue.length && pages < cfg.maxPagesPerRun) {
@@ -150,7 +169,7 @@ async function main() {
     if (seed.pathPrefix && new URL(url).hostname === seedHost && !new URL(url).pathname.startsWith(seed.pathPrefix)) {
       result.skipped.push([url, 'pathPrefix']); continue;
     }
-    if (!(await isAllowed(url, cfg.userAgent, fetch, cfg.requestTimeoutMs))) { result.skipped.push([url, 'robots']); continue; }
+    if (!(await isAllowed(url, cfg.userAgent, proxiedFetch, cfg.requestTimeoutMs))) { result.skipped.push([url, 'robots']); continue; }
 
     const fetched = await fetchResource(url, cfg);
     await sleep(cfg.requestDelayMs); // 礼儀：リクエスト間隔
