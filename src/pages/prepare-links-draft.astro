@@ -1,0 +1,158 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+---
+<Base title="【試作】更に知りたい人へ｜ReadyBridge">
+  <section style="padding-top:36px">
+    <div class="container" style="max-width:780px">
+      <article class="article reveal">
+        <p class="breadcrumb"><a href="/prepare-draft"><Icon name="shield" size={16} />平時の備え</a> ／ <a href="/prepare-draft"><Icon name="book-open" size={16} />更に知りたい人へ</a></p>
+        <h1>信頼できる情報源を、まとめました。</h1>
+        <p class="meta">最終更新：2026年6月</p>
+
+        <div class="prose">
+          <p>ReadyBridgeの各ページでは要点を絞って解説していますが、より詳しく学びたい方、自社の業種に合った具体策を知りたい方のために、信頼性の高い公的なガイドライン・ツールをまとめました。</p>
+
+          <h2>BCP策定の基本資料</h2>
+          <div class="link-group">
+            <div class="link-card">
+              <h3><a href="https://www.chusho.meti.go.jp/bcp/" target="_blank" rel="noopener">中小企業BCP策定運用指針</a></h3>
+              <p class="link-org">中小企業庁</p>
+              <p>中小企業向けBCP策定の定番ガイド。入門・基本・中級・上級の4コースがあり、自社の段階に合わせて取り組める。様式・記入例つき。</p>
+            </div>
+            <div class="link-card">
+              <h3><a href="https://www.bousai.go.jp/kyoiku/kigyou/keizoku/" target="_blank" rel="noopener">事業継続ガイドライン</a></h3>
+              <p class="link-org">内閣府（防災担当）</p>
+              <p>企業の事業継続に関する包括的なガイドライン。BCPの策定から訓練・見直しまでの考え方を体系的に整理。</p>
+            </div>
+            <div class="link-card">
+              <h3><a href="https://www.chusho.meti.go.jp/keiei/antei/bousai/keizokuryoku.htm" target="_blank" rel="noopener">事業継続力強化計画</a></h3>
+              <p class="link-org">中小企業庁</p>
+              <p>BCPの「簡易版」。認定を受けると税制優遇・補助金の加点・金融支援が受けられる。まずはここから取り組むのがおすすめ。</p>
+            </div>
+          </div>
+
+          <h2>ハザード・防災情報</h2>
+          <div class="link-group">
+            <div class="link-card">
+              <h3><a href="https://disaportal.gsi.go.jp/" target="_blank" rel="noopener">ハザードマップポータルサイト</a></h3>
+              <p class="link-org">国土交通省</p>
+              <p>洪水・土砂・津波・高潮のハザードマップを地図上に重ねて表示。まず最初に確認すべきサイト。</p>
+            </div>
+            <div class="link-card">
+              <h3><a href="https://www.j-shis.bosai.go.jp/" target="_blank" rel="noopener">J-SHIS 地震ハザードステーション</a></h3>
+              <p class="link-org">防災科学技術研究所</p>
+              <p>地点ごとの地震発生確率・想定震度・地盤の揺れやすさを確認できる。</p>
+            </div>
+            <div class="link-card">
+              <h3><a href="https://www.fdma.go.jp/relocation/bousai_manual/" target="_blank" rel="noopener">職場における防災対策</a></h3>
+              <p class="link-org">消防庁</p>
+              <p>職場の防災対策マニュアル。避難計画・備蓄・訓練の具体策を網羅。</p>
+            </div>
+          </div>
+
+          <h2>資金・保険</h2>
+          <div class="link-group">
+            <div class="link-card">
+              <h3><a href="https://www.jfc.go.jp/" target="_blank" rel="noopener">日本政策金融公庫</a></h3>
+              <p class="link-org">日本政策金融公庫</p>
+              <p>中小企業・小規模事業者向けの融資を行う政府系金融機関。災害時の特別貸付制度あり。</p>
+            </div>
+            <div class="link-card">
+              <h3><a href="https://www.smrj.go.jp/kyosai/" target="_blank" rel="noopener">小規模企業共済・経営セーフティ共済</a></h3>
+              <p class="link-org">中小機構</p>
+              <p>経営者の退職金制度（小規模企業共済）と、取引先倒産時の貸付制度（経営セーフティ共済）。どちらも税制優遇あり。</p>
+            </div>
+            <div class="link-card">
+              <h3><a href="https://www.giroj.or.jp/ratemaking/fire/" target="_blank" rel="noopener">火災保険・地震保険の概要</a></h3>
+              <p class="link-org">損害保険料率算出機構</p>
+              <p>火災保険と地震保険の仕組みを解説。補償範囲の違い、保険料の考え方が分かる。</p>
+            </div>
+          </div>
+
+          <h2>セキュリティ</h2>
+          <div class="link-group">
+            <div class="link-card">
+              <h3><a href="https://www.ipa.go.jp/security/guide/sme/" target="_blank" rel="noopener">中小企業の情報セキュリティ対策ガイドライン</a></h3>
+              <p class="link-org">IPA（情報処理推進機構）</p>
+              <p>中小企業向けの定番セキュリティ資料。「まず何をすべきか」から段階的に解説。SECURITY ACTIONの自己宣言にも使える。</p>
+            </div>
+            <div class="link-card">
+              <h3><a href="https://security-portal.nisc.go.jp/" target="_blank" rel="noopener">みんなでしっかりサイバーセキュリティ</a></h3>
+              <p class="link-org">NISC（内閣サイバーセキュリティセンター）</p>
+              <p>一般向けにわかりやすくサイバーセキュリティを解説。従業員教育にも活用できる。</p>
+            </div>
+          </div>
+
+          <h2>相談窓口</h2>
+          <div class="link-group">
+            <div class="link-card">
+              <h3><a href="https://www.smrj.go.jp/sme/consulting/" target="_blank" rel="noopener">中小企業の経営相談</a></h3>
+              <p class="link-org">中小機構</p>
+              <p>経営全般の無料相談。BCP策定の支援も受けられる。電話・オンライン対応あり。</p>
+            </div>
+            <div class="link-card">
+              <h3><a href="https://www.jcci.or.jp/" target="_blank" rel="noopener">日本商工会議所</a></h3>
+              <p class="link-org">日本商工会議所</p>
+              <p>各地の商工会議所で経営相談が可能。地域の支援情報にも詳しい。</p>
+            </div>
+            <div class="link-card">
+              <h3><a href="https://yorozu.smrj.go.jp/" target="_blank" rel="noopener">よろず支援拠点</a></h3>
+              <p class="link-org">中小機構</p>
+              <p>全国47都道府県に設置。中小企業・小規模事業者の経営相談にワンストップで対応。何度でも無料。</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="disclaimer">
+          リンク先の情報は各機関が管理しています。URLの変更や内容の更新がある場合があります。
+          リンク切れを発見された場合はお知らせください。
+        </p>
+      </article>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .link-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 16px 0 32px;
+  }
+  .link-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    padding: 16px 20px;
+  }
+  .link-card h3 {
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+    margin: 0 0 4px;
+  }
+  .link-card h3 a {
+    color: var(--teal-dark);
+    text-decoration: none;
+  }
+  .link-card h3 a:hover {
+    text-decoration: underline;
+  }
+  .link-org {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin: 0 0 8px;
+  }
+  .link-card p:last-child {
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+    margin: 0;
+    line-height: 1.65;
+  }
+  h3 {
+    font-family: var(--font-display);
+    font-size: 1.08rem;
+    color: var(--ink);
+    margin: 24px 0 10px;
+  }
+</style>
