@@ -82,8 +82,8 @@ src/
 
 - ホスティング：**Cloudflare（Workers Static Assets / Pages 統合）**
 - GitHub リポジトリ：`https://github.com/m-tetsu/readybridge`
-- 本番 URL：`https://ready-bridge.com`（Cloudflare Registrar で取得・2026-06-20）。`readybridge.tetsu315.workers.dev` も引き続き有効
-- `Astro.site`（canonical / og:url / og:image の絶対URL生成元）は `astro.config.mjs` で `https://ready-bridge.com` に設定
+- 本番 URL：`https://www.ready-bridge.com`（正規）。`ready-bridge.com` apex は www へリダイレクト。Cloudflare Registrar で取得・2026-06-20。`readybridge.tetsu315.workers.dev` も引き続き有効
+- `Astro.site`（canonical / og:url / og:image の絶対URL生成元）は `astro.config.mjs` で `https://www.ready-bridge.com` に設定
 - ビルド：`npm run build`（出力 `dist/`）／Node 20
 - ワークフロー：`git push` → Cloudflare が自動ビルド & 反映
 - 環境変数：`NODE_VERSION=20`
