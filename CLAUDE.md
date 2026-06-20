@@ -165,7 +165,7 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 
 - [x] ~~**試作ページの正式化**~~（ネストURL `/prepare/*` で本番化済み）
 - [ ] **`safety-tentoboushi.png`のアップロード**（ユーザー側作業）
-- [x] ~~**独自ドメイン**~~ 取得済（2026-06-20・`ready-bridge.com`／Cloudflare Registrar）。`Astro.site` 更新済。**残：Cloudflare ダッシュボードで Worker にカスタムドメインを割り当て**（Workers & Pages → readybridge → Settings → Domains & Routes → Add → `ready-bridge.com`、必要なら `www` も）
+- [x] ~~**独自ドメイン**~~ 完了（2026-06-20・`www.ready-bridge.com`／Cloudflare Registrar）。Worker にカスタムドメイン割当済・公開確認済。apex→www リダイレクト設定。`Astro.site` も更新済
 - [x] ~~**SEO / OG メタタグ**~~ 済（Base.astro に og:image/Twitter Card 追加）
 - [x] ~~**OG画像の作成**~~ 済（2026-06-20）：`public/og.png`（1200×630・ブランド配色＋橋ロゴ＋ヒーロー見出し）を作成し、Base.astro の og:image 既定に設定
 - [~] **AI 相談（RAG）第3フェーズ**：設計・実装・インフラ・Secrets登録・upsert実行まで完了（2026-06-20）。残るは実データでの `/api/chat` 動作確認（上記「AI相談（RAG）」節参照）
