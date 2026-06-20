@@ -129,7 +129,32 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 - GitHub Actions cron でクロール → `data/collected/` に保存 → 差分PR
 - Cloudflare Edge proxy（`/api/gov-proxy`）で Akamai 遮断ホストも取得可能
 - `proxyHosts`: chusho/meti/jpo + 地方経産局8局
-- 直近の収集結果：500ページ（maxPagesPerRun=500）
+- 直近の収集結果：500ページ（maxPagesPerRun=500）。**main に取り込み済み**（`data/collected/`、md 297＋pdf名 204＝計500件）
+
+---
+
+## AI相談（RAG・第3フェーズ）進行中
+
+設計は `docs/rag-plan.md`（論点①〜⑥確定済み）。実装も一通り完了：
+- `/api/chat`（`src/pages/api/chat.ts`）：質問→bge-m3埋め込み→Vectorize検索→Haiku生成→出典付き回答
+- フロント `src/pages/chat.astro`：入力フォーム＋出典カード＋免責3点セット
+- `tools/crawler/upsert.mjs`：チャンク→埋め込み→Vectorize upsert（`.md`＋`.pdf`名の両方対象に修正済／embedは50件バッチ）
+
+### インフラ（確認済み 2026-06-20）
+- Vectorize インデックス `readybridge-rag`（1024次元・cosine）作成済み
+- Workers AI `[ai]` バインディング・`ANTHROPIC_API_KEY` Secret（Worker）登録済み
+
+### 反映フロー（自動化）
+1. `collect.yml`（cron）→ クロール → `auto/rag-collected-update` ブランチ宛にPR起票（→ main にマージで反映。**人のレビューを挟む設計**＝論点③）
+2. main の `data/collected/**` 更新を検知 → `upsert.yml` が自動で `npm run rag:upsert` → Vectorize 反映
+
+### 残タスク
+- [ ] **GitHub Secrets 登録**（ユーザー側作業）：`CLOUDFLARE_ACCOUNT_ID` / `CLOUDFLARE_API_TOKEN`（Workers AI Read＋Vectorize Edit）。未登録のため upsert.yml run#1 は認証ガードで失敗。登録後に再実行で1,900ベクトル投入。
+- [ ] upsert 成功後、`/api/chat` を実データで動作確認
+- [ ] （将来）削除/移動チャンクの掃除、エスカレーション（Opus）発火条件の計測
+
+### オフライン検証済みの数値（実データ500件）
+取り込み500件・生成ベクトル1,900・最大メタデータ2,784B（Vectorize上限10,240B内）
 
 ---
 
@@ -140,7 +165,7 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 - [ ] **独自ドメイン**（Cloudflare Registrar 想定／松下さん側で取得検討中）
 - [x] ~~**SEO / OG メタタグ**~~ 済（Base.astro に og:image/Twitter Card 追加）
 - [ ] **OG画像の作成**（1200×630 の実画像を `public/` に配置）
-- [ ] **AI 相談（RAG）の検討着手**（第3フェーズ）
+- [~] **AI 相談（RAG）第3フェーズ**：設計・実装・インフラ完了。Secrets登録→upsert実行が残（上記「AI相談（RAG）」節参照）
 - [ ] **meti.go.jp HTML "empty" 問題**（プロキシは通るが本文抽出で<40文字。優先度低）
 
 ## やり取りの好み（松下さんの指示スタイル）
