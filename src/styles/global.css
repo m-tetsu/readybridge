@@ -319,7 +319,7 @@ section { padding: 54px 0; }
 .article h1 { font-size: clamp(1.6rem, 3.5vw, 2.1rem); font-weight: 800; margin: 0 0 10px; line-height: 1.4; }
 .article .meta { font-size: 0.82rem; color: var(--muted); margin: 0 0 22px; }
 .prose { font-size: 1.02rem; color: var(--ink-soft); }
-.prose h2 { font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; color: var(--ink); margin: 36px 0 14px; padding-left: 14px; border-left: 4px solid var(--teal); }
+.prose h2 { font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; color: var(--teal-dark); margin: 36px 0 14px; padding: 0 0 8px; border-left: none; border-bottom: 3px solid var(--teal); }
 .prose ul, .prose ol { padding-left: 22px; }
 .prose li { margin-bottom: 8px; }
 .prose strong { color: var(--ink); }
