@@ -2,7 +2,7 @@
   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 ReadyBridgeBot/0.1 (+https://readybridge.tetsu315.workers.dev)",
   "allowedDomainSuffixes": [".go.jp", ".lg.jp"],
   "maxDepth": 2,
-  "maxPagesPerRun": 300,
+  "maxPagesPerRun": 500,
   "requestDelayMs": 1500,
   "requestTimeoutMs": 40000,
   "outDir": "data/collected",
