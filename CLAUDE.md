@@ -33,7 +33,7 @@
 - ヒーロー画像：`public/hero.webp`（左＝平時／右＝有事を矢印でつなぐアイソメ図）。差し替えは同名ファイルで上書き
 - 「平時の備え」「有事の対応・再建」の分離（柱）
 - フォント：見出し Shippori Mincho、本文 Zen Kaku Gothic New、ワードマーク Quicksand
-- 配色（CSS変数）：`--teal #0f6e63` / `--terra #d2693f` / `--paper #f5f1e8` ほか `src/styles/global.css`
+- 配色（CSS変数）：`--teal #0f6e63` / `--terra #d2693f` / `--paper #ffffff`（白背景に変更済み） ほか `src/styles/global.css`
 - 見出しや小見出しの説明文は **デスクトップで改行しない**（`white-space: nowrap` ＋ 〜820px / 〜1040pxで自動復帰）
 
 ## 技術スタック
@@ -52,6 +52,7 @@ src/
 ├─ content/faq/             # Markdown 記事（追加するだけで反映）
 ├─ components/
 │   ├─ Logo.astro           # ロゴ
+│   ├─ Icon.astro           # 単色SVGアイコン（stroke="currentColor"）
 │   ├─ SearchBox.astro      # 横断/絞り込み検索
 │   └─ HeroArt.astro        # 旧 SVG（未使用・参考に残置）
 ├─ layouts/Base.astro       # 共通レイアウト（ヘッダ・フッタ・フォント）
@@ -64,7 +65,12 @@ src/
     ├─ faq/[id].astro       # 記事詳細
     ├─ search-index.json.ts # 検索インデックス（ビルド時生成）
     ├─ chat.astro           # AI 相談（準備中）
-    └─ sources.astro        # 参照する公的ソース一覧
+    ├─ sources.astro        # 参照する公的ソース一覧
+    ├─ prepare-draft.astro      # 【試作】平時の備え（8カード構成）
+    ├─ prepare-hazard-draft.astro  # 【試作】地域のハザードを知る
+    ├─ prepare-safety-draft.astro  # 【試作】安全を確保する
+    ├─ prepare-damage-draft.astro  # 【試作】被害を減らす
+    └─ prepare-bcp-draft.astro     # 【試作】BCP・事業継続力強化計画を作る
 ```
 
 ## デプロイ
@@ -101,10 +107,109 @@ npm run preview
 平時：BCP始め方／資金の備え／設備・データ保護／備蓄
 有事：休業手当／資金繰り／施設復旧／税・公共料金
 
+---
+
+## 進行中：「平時の備え」セクション再構築（2026-06）
+
+### 背景
+
+旧 `/prepare` はカテゴリ別5グループだったが、**アクション指向の8カード構成**に再設計中。
+各カードから詳細ページへリンクする構成。すべて `-draft` 付きの試作ページとして作成し、
+完成後に正式ページへ差し替える想定。
+
+### 8カードの一覧と進捗
+
+| # | カード名 | アイコン | 試作ファイル | 状態 |
+|---|---------|---------|-------------|------|
+| 1 | 地域のハザードを知る | `map-pin` | `src/pages/prepare-hazard-draft.astro` | **完成** |
+| 2 | 安全を確保する | `shield` | `src/pages/prepare-safety-draft.astro` | **完成** |
+| 3 | 被害を減らす | `home` | `src/pages/prepare-damage-draft.astro` | **完成** |
+| 4 | BCP・事業継続力強化計画を作る | `document` | `src/pages/prepare-bcp-draft.astro` | **完成** |
+| 5 | 生活を守る | `box` | — | **未着手** |
+| 6 | 訓練をする | `users` | — | **未着手** |
+| 7 | 資金・保険を備える | `banknote` | — | **未着手** |
+| 8 | 更に知りたい人へ | `book-open` | — | **未着手** |
+
+### カード一覧ページ
+
+- `src/pages/prepare-draft.astro` — 8カードのグリッド表示
+- カードの `href` はすべて `#`（プレースホルダー）→ 詳細ページ完成後にリンクを更新する
+
+### 各詳細ページの内容メモ
+
+**1. prepare-hazard-draft（地域のハザードを知る）**
+- 確認すべきハザード一覧表（地震・洪水・土砂・津波・高潮）
+- 調べ方：Step 1（地震／J-SHIS・自治体被害想定・地震10秒診断）、Step 2（水害／ハザードマップポータル）
+- 震度別：建物被害表・ライフライン停止期間表
+- 浸水深別：被害目安表
+- 事業停止期間の実績
+- 最下部：ハザードマップリンク集（ポータル・わがまち・J-SHIS・10秒診断）
+
+**2. prepare-safety-draft（安全を確保する）**
+- 3セクション：安否確認手段 → 避難経路・避難場所 → 落下・転倒防止
+- 各セクションに「やるべきこと」リスト
+- ポイントボックス：災害用伝言ダイヤル(171)、「まずは職場を見渡す」
+- 画像3枚（`public/images/`）：
+  - `safety-anpi.png` — **アップ済み**
+  - `safety-hinan.png` — **アップ済み**
+  - `safety-tentoboushi.png` — **未アップ**（ユーザーがGitHub Web UIから上げる想定）
+
+**3. prepare-damage-draft（被害を減らす）**
+- 共通対策（バックアップ・書類保全・非常用電源・代替手段）
+- 災害別対策：地震 → 水害 → サイバー攻撃（火災セクションは削除済み）
+- 各災害セクション末尾に「対策の詳細・事例」参考リンクボックス
+- 早期復旧のための備え（代替部品・代替調達先・復旧業者・相互応援協定・仮設営業）
+
+**4. prepare-bcp-draft（BCP・事業継続力強化計画を作る）**
+- Step 1 → Step 2 のフロー図（ティール→テラコッタ色分け）
+- Step 1：事業継続力強化計画（ジギョケイ）——BCPとの比較表、認定メリット5つ、記載事項、申請の流れ
+- Step 2：BCP——中核事業の特定→RTO→ボトルネック→事前対策→発動基準→復旧手順
+- 策定のポイント（完璧を目指さない・経営者主導・取引先連携・定期見直し）
+- 支援窓口（商工会議所・よろず支援拠点・中小機構・自治体補助金）
+
+### 残り4ページの方向性（未確定・ユーザー確認が必要）
+
+- **生活を守る**：備蓄（水・食料・衛生用品）、従業員の生活支援、帰宅困難者対策
+- **訓練をする**：避難訓練、安否確認訓練、BCP発動シミュレーション、訓練の頻度と見直し
+- **資金・保険を備える**：損害保険・共済の点検、手元資金の確保、災害時融資制度の事前把握
+- **更に知りたい人へ**：外部リンク集、ガイドライン、自治体支援窓口の案内
+
+### 正式化の手順（全ページ完成後）
+
+1. `prepare-draft.astro` の各カードの `href` を詳細ページURLに更新
+2. ファイル名から `-draft` を外すか、正式な URL 構成を決める（例：`/prepare/hazard`）
+3. 旧 `prepare.astro`（カテゴリ別構成）を差し替え
+4. ナビゲーション・パンくずのリンクを更新
+
+---
+
+## このセッションで行った変更（2026-06）
+
+### アイコン単色化
+
+- **`src/components/Icon.astro`**（新規）— アイコン名→SVGパスのマップコンポーネント。全アイコン `stroke="currentColor"`、24x24 viewBox。
+- **`src/categories.ts`** — PILLARS/CATEGORIESの `icon` 値を絵文字→アイコン名文字列に変更
+- **`src/pages/prepare.astro`** / **`recover.astro`** / **`faq/index.astro`** / **`faq/[id].astro`** — Icon コンポーネントに差し替え
+- **`src/styles/global.css`** — `.ic` のスタイルをemoji前提からSVG対応に変更、`align-items` 修正
+
+### 背景色の変更
+
+- `--paper: #f5f1e8` → `#ffffff`
+- `--paper-2: #efe9db` → `#f5f5f5`
+
+### 画像ディレクトリ
+
+- `public/images/` を新規作成（GitHub MCP経由で`.gitkeep`）
+- PNG画像はGitHub Web UIから直接アップロード
+
+---
+
 ## 開いている論点・次の候補
 
+- [ ] **「平時の備え」残り4ページの作成**（生活を守る／訓練をする／資金・保険を備える／更に知りたい人へ）
+- [ ] **試作ページの正式化**（`-draft` 外し、URL設計、旧prepare.astro差し替え）
+- [ ] **`safety-tentoboushi.png`のアップロード**（ユーザー側作業）
 - [ ] **独自ドメイン**（Cloudflare Registrar 想定／松下さん側で取得検討中）
-- [ ] **記事の追加**（特に平時：体制・訓練／有事：細かい個別質問）
 - [ ] **SEO / OG 画像**（`og:image` 等の整備）
 - [ ] **AI 相談（RAG）の検討着手**（第3フェーズ）
 - [ ] **収集パイプライン**（第2フェーズ／GitHub Actions cron で支援情報の差分検知→PR起票）
