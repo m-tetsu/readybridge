@@ -152,7 +152,8 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 - [x] ~~**GitHub Secrets 登録**~~：`CLOUDFLARE_ACCOUNT_ID` / `CLOUDFLARE_API_TOKEN` 登録済み。
 - [x] ~~**upsert 実行**~~：upsert.yml run#3（workflow_dispatch）で `done: 1900 vectors` 成功（2026-06-20）。Vectorize に1,900ベクトル投入済み。
   - ※途中の失敗：run#1 は Secrets 未登録、run#2 は ACCOUNT_ID にメールアドレスを誤登録（エラー7003 Could not route）。ACCOUNT_ID を正しい32桁（`ab1357c3fdbb2ae57009c72c8826f214`）に直して run#3 で成功。
-- [ ] `/api/chat` を実データで動作確認（手元で `curl -X POST .../api/chat -d '{"question":"…"}'`。本リモート環境は workers.dev 通信不可のため未実施）
+- [x] ~~`/api/chat` を実データで動作確認~~：2026-06-20 成功。質問「地震で被災した中小企業が使える資金繰り支援は？」に対し、能登地震「なりわい再建支援事業」を出典PDF5件付きで回答。`disaster_scope: reiwa-6-noto` も正しく推定。**RAG 第3フェーズはこれで完了**。
+- [ ] （改善・優先度低）出典 `title` が URL のまま（PDF抽出でタイトル未取得のフォールバック）。フロントでファイル名のみ表示 or クローラでタイトル抽出のいずれか。
 - [ ] （将来）削除/移動チャンクの掃除、エスカレーション（Opus）発火条件の計測
 
 ### オフライン検証済みの数値（実データ500件）
@@ -167,7 +168,7 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 - [ ] **独自ドメイン**（Cloudflare Registrar 想定／松下さん側で取得検討中）
 - [x] ~~**SEO / OG メタタグ**~~ 済（Base.astro に og:image/Twitter Card 追加）
 - [ ] **OG画像の作成**（1200×630 の実画像を `public/` に配置）
-- [~] **AI 相談（RAG）第3フェーズ**：設計・実装・インフラ・upsert（1,900ベクトル投入）完了。残るは `/api/chat` の実地動作確認のみ（上記「AI相談（RAG）」節参照）
+- [x] ~~**AI 相談（RAG）第3フェーズ**~~：設計・実装・インフラ・upsert（1,900ベクトル）・`/api/chat` 実地確認まで**完了**（2026-06-20）。以降は収集データ更新で自動 upsert される運用フェーズ。
 - [ ] **meti.go.jp HTML "empty" 問題**（プロキシは通るが本文抽出で<40文字。優先度低）
 
 ## やり取りの好み（松下さんの指示スタイル）
