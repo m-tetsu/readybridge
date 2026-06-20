@@ -1,0 +1,37 @@
+name: Upsert to Vectorize (RAG)
+
+# 収集データが main に反映されたら、自動で埋め込み生成 → Vectorize へ upsert する。
+# 反映フロー（rag-plan.md 論点③）：
+#   クロール（collect.yml）→ PR 起票 → 人がレビュー＆マージ →（このワークフロー）自動 upsert。
+#
+# 必要な Secrets（リポジトリ Settings > Secrets and variables > Actions）:
+#   - CLOUDFLARE_ACCOUNT_ID : Cloudflare アカウントID
+#   - CLOUDFLARE_API_TOKEN  : Workers AI 実行 + Vectorize 編集の権限を持つ API トークン
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/collected/**'
+      - 'tools/crawler/upsert.mjs'
+  workflow_dispatch: {}
+
+# 同時実行を抑止（連続マージ時に upsert が重ならないように）。
+concurrency:
+  group: rag-upsert
+  cancel-in-progress: false
+
+jobs:
+  upsert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm ci
+      - name: Upsert collected docs to Vectorize
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npm run rag:upsert
