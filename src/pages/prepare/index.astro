@@ -133,10 +133,16 @@ const steps = [
     color: var(--teal-dark);
     font-weight: 600;
     font-size: 0.82rem;
-    padding: 0;
-    transition: color 0.15s;
+    padding: 7px 18px;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
   }
   .prep-btn .arr { transition: transform 0.2s; }
-  .prep-card:hover .prep-btn { color: var(--teal); }
+  .prep-card:hover .prep-btn {
+    color: var(--teal);
+    border-color: var(--teal);
+    background: var(--teal-soft);
+  }
   .prep-card:hover .prep-btn .arr { transform: translateX(3px); }
 </style>
