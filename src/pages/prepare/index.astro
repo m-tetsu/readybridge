@@ -68,10 +68,10 @@ const steps = [
       <div class="prep-grid">
         {steps.map((s) => (
           <a class="prep-card" href={s.href}>
-            <span class="prep-icon"><Icon name={s.icon} size={28} /></span>
+            <span class="prep-icon"><Icon name={s.icon} size={30} /></span>
             <h3>{s.title}</h3>
             <p>{s.desc}</p>
-            <span class="go">詳しく見る →</span>
+            <span class="prep-btn">詳しく見る<span class="arr">→</span></span>
           </a>
         ))}
       </div>
@@ -82,42 +82,36 @@ const steps = [
 <style>
   .prep-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 18px;
   }
   .prep-card {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: var(--radius);
-    padding: 26px 24px 22px;
+    padding: 30px 22px 26px;
     text-decoration: none;
     color: var(--ink);
-    position: relative;
     transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
-  }
-  .prep-card::before {
-    content: "";
-    position: absolute;
-    inset: 0 auto 0 0;
-    width: 5px;
-    background: var(--teal);
-    opacity: 0.8;
-    border-radius: var(--radius) 0 0 var(--radius);
-    transition: width 0.2s;
   }
   .prep-card:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow);
     border-color: var(--line-strong);
   }
-  .prep-card:hover::before { width: 8px; }
   .prep-icon {
-    display: flex;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--teal-soft);
     color: var(--teal);
-    margin-bottom: 14px;
+    margin-bottom: 16px;
   }
   .prep-card h3 {
     font-family: var(--font-display);
@@ -128,16 +122,22 @@ const steps = [
   .prep-card p {
     font-size: 0.9rem;
     color: var(--muted);
-    margin: 0;
+    margin: 0 0 20px;
     flex: 1;
   }
-  .prep-card .go {
-    margin-top: 16px;
-    font-size: 0.88rem;
-    color: var(--terra-dark);
-    font-weight: 700;
+  .prep-btn {
     display: inline-flex;
-    gap: 6px;
     align-items: center;
+    gap: 6px;
+    background: var(--teal);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 10px 22px;
+    border-radius: 999px;
+    transition: background 0.15s;
   }
+  .prep-btn .arr { transition: transform 0.2s; }
+  .prep-card:hover .prep-btn { background: var(--teal-dark); }
+  .prep-card:hover .prep-btn .arr { transform: translateX(4px); }
 </style>
