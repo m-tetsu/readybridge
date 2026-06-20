@@ -111,7 +111,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.
 .btn:hover .arr { transform: translateX(4px); }
 
 /* ---------- Hero ---------- */
-.hero { position: relative; overflow: hidden; padding: 64px 0 40px; }
+.hero { position: relative; overflow-x: clip; padding: 64px 0 40px; }
 .hero-top { display: grid; grid-template-columns: 1fr 1.08fr; gap: 28px; align-items: center; }
 .hero-copy { min-width: 0; }
 .hero-art { min-width: 0; display: flex; justify-content: center; }
@@ -186,7 +186,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.
 .hero-img { width: 100%; height: auto; display: block; border-radius: var(--radius); }
 .hero-overlay { position: absolute; top: 4%; left: 5%; right: auto; max-width: none; z-index: 2; }
 .hero-overlay h1 { margin: 12px 0 0; font-size: clamp(1.3rem, 2.9vw, 2.4rem); line-height: 1.3; white-space: nowrap; text-shadow: 0 1px 3px rgba(245, 241, 232, 0.85); }
-.hero-center { max-width: 760px; }
+.hero-center { max-width: 760px; position: relative; z-index: 5; }
 .hero-center .lead { max-width: 56ch; }
 .lead-nowrap { white-space: nowrap; max-width: none; }
 @media (max-width: 1040px) { .lead-nowrap { white-space: normal; max-width: 56ch; } }
