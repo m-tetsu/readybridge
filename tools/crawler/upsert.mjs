@@ -50,11 +50,16 @@ async function* walk(dir) {
   for (const ent of await readdir(dir, { withFileTypes: true })) {
     const p = path.join(dir, ent.name);
     if (ent.isDirectory()) yield* walk(p);
-    else if (ent.name.endsWith('.md')) yield p;
+    // 収集物は拡張子に関わらず frontmatter＋抽出テキスト。PDF由来は .pdf 名で
+    // 保存される（中身はテキスト）ため .md と .pdf の両方を対象にする。
+    // README.md は url frontmatter が無いため後段の `if (!meta.url) continue` で除外。
+    else if (ent.name.endsWith('.md') || ent.name.endsWith('.pdf')) yield p;
   }
 }
 
-async function embed(texts) {
+const EMBED_BATCH = 50; // Workers AI は1リクエストあたりのテキスト数に上限がある（100目安）。安全側に。
+
+async function embedBatch(texts) {
   const res = await fetch(
     `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/ai/run/${EMBED_MODEL}`,
     {
@@ -66,6 +71,16 @@ async function embed(texts) {
   const json = await res.json();
   if (!json.success) throw new Error('embed failed: ' + JSON.stringify(json.errors));
   return json.result.data; // number[][]
+}
+
+// 大型ドキュメント（多チャンク）でも上限を超えないよう分割して埋め込む。
+async function embed(texts) {
+  const out = [];
+  for (let i = 0; i < texts.length; i += EMBED_BATCH) {
+    const part = await embedBatch(texts.slice(i, i + EMBED_BATCH));
+    out.push(...part);
+  }
+  return out;
 }
 
 async function upsertNdjson(lines) {
