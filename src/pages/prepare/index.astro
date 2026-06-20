@@ -128,16 +128,15 @@ const steps = [
   .prep-btn {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    background: var(--teal);
-    color: #fff;
-    font-weight: 700;
-    font-size: 0.9rem;
-    padding: 10px 22px;
-    border-radius: 999px;
-    transition: background 0.15s;
+    gap: 5px;
+    background: transparent;
+    color: var(--teal-dark);
+    font-weight: 600;
+    font-size: 0.82rem;
+    padding: 0;
+    transition: color 0.15s;
   }
   .prep-btn .arr { transition: transform 0.2s; }
-  .prep-card:hover .prep-btn { background: var(--teal-dark); }
-  .prep-card:hover .prep-btn .arr { transform: translateX(4px); }
+  .prep-card:hover .prep-btn { color: var(--teal); }
+  .prep-card:hover .prep-btn .arr { transform: translateX(3px); }
 </style>
