@@ -64,23 +64,47 @@ async function fetchResource(url, cfg) {
   const t = setTimeout(() => ctrl.abort(), cfg.requestTimeoutMs);
   try {
     const res = await fetch(url, {
-      headers: { 'user-agent': cfg.userAgent, accept: 'text/html,application/pdf,*/*' },
+      headers: {
+        'user-agent': cfg.userAgent,
+        accept: 'text/html,application/xhtml+xml,application/pdf,*/*',
+        'accept-language': 'ja,en;q=0.8',
+      },
+      redirect: 'follow',
       signal: ctrl.signal,
     });
-    if (!res.ok) return null;
+    if (!res.ok) return { skip: `status ${res.status}` };
     const ct = (res.headers.get('content-type') || '').toLowerCase();
+    const buf = Buffer.from(await res.arrayBuffer());
     if (ct.includes('application/pdf') || url.toLowerCase().endsWith('.pdf')) {
-      const buf = Buffer.from(await res.arrayBuffer());
       return { type: 'pdf', buffer: buf };
     }
-    if (ct.includes('text/html') || ct === '' ) {
-      return { type: 'html', html: await res.text() };
+    if (ct.includes('html') || ct.includes('text/plain') || ct === '') {
+      return { type: 'html', html: decodeBuf(buf, detectCharset(ct, buf)) };
     }
-    return null; // 画像など対象外
-  } catch {
-    return null;
+    return { skip: `content-type ${ct || 'unknown'}` };
+  } catch (e) {
+    return { skip: `${e.name || 'error'}: ${(e.message || '').slice(0, 60)}` };
   } finally {
     clearTimeout(t);
+  }
+}
+
+// content-type または HTML の meta から文字コードを推定する。
+function detectCharset(ct, buf) {
+  const m = ct.match(/charset=["']?([\w-]+)/);
+  if (m) return m[1].toLowerCase();
+  const head = buf.subarray(0, 2048).toString('latin1').toLowerCase();
+  const mm = head.match(/charset=["']?([\w-]+)/);
+  return mm ? mm[1].toLowerCase() : 'utf-8';
+}
+
+// Shift_JIS / EUC-JP / UTF-8 をデコードする（Node の full-ICU 前提）。
+function decodeBuf(buf, charset) {
+  const norm = charset === 'shift-jis' || charset === 'x-sjis' ? 'shift_jis' : charset;
+  try {
+    return new TextDecoder(norm).decode(buf);
+  } catch {
+    return new TextDecoder('utf-8').decode(buf);
   }
 }
 
@@ -117,7 +141,7 @@ async function main() {
 
     const fetched = await fetchResource(url, cfg);
     await sleep(cfg.requestDelayMs); // 礼儀：リクエスト間隔
-    if (!fetched) { result.skipped.push([url, 'fetch']); continue; }
+    if (!fetched || fetched.skip) { result.skipped.push([url, fetched?.skip || 'fetch']); continue; }
 
     let extracted;
     if (fetched.type === 'pdf') extracted = await extractPdf(fetched.buffer);
