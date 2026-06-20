@@ -29,7 +29,7 @@
 - サイト名：**ReadyBridge**（橋＝企業と社会／平時と有事をつなぐ）
 - ロゴ：橋（2点＋アーチ）のSVGマーク＋"ReadyBridge" ワードマーク（Quicksand）。`src/components/Logo.astro`
 - ヒーロー見出し：「**備えるときも、続けるときも。**」
-- アイブロウ：「中小企業の事業継続（BCP）を、平時から有事まで」
+- アイブロウ：「事業継続（BCP）を、平時から有事まで」
 - ヒーロー画像：`public/hero.webp`（左＝平時／右＝有事を矢印でつなぐアイソメ図）。差し替えは同名ファイルで上書き
 - 「平時の備え」「有事の対応・再建」の分離（柱）
 - フォント：見出し Shippori Mincho、本文 Zen Kaku Gothic New、ワードマーク Quicksand
@@ -121,7 +121,7 @@ npm run preview
 URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `training` / `fund` / `links`
 
 ### 残タスク
-- [ ] `safety-tentoboushi.png` のアップロード（ユーザー側作業）
+- [x] ~~`safety-tentoboushi.png` のアップロード~~（完了 2026-06-20）
 
 ---
 
@@ -164,7 +164,6 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 ## 開いている論点・次の候補
 
 - [x] ~~**試作ページの正式化**~~（ネストURL `/prepare/*` で本番化済み）
-- [ ] **`safety-tentoboushi.png`のアップロード**（ユーザー側作業）
 - [x] ~~**独自ドメイン**~~ 完了（2026-06-20・`www.ready-bridge.com`／Cloudflare Registrar）。Worker にカスタムドメイン割当済・公開確認済。apex→www リダイレクト設定。`Astro.site` も更新済
 - [x] ~~**SEO / OG メタタグ**~~ 済（Base.astro に og:image/Twitter Card 追加）
 - [x] ~~**OG画像の作成**~~ 済（2026-06-20）：`public/og.png`（1200×630・ブランド配色＋橋ロゴ＋ヒーロー見出し）を作成し、Base.astro の og:image 既定に設定
