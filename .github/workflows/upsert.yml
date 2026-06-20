@@ -7,6 +7,9 @@ name: Upsert to Vectorize (RAG)
 # 必要な Secrets（リポジトリ Settings > Secrets and variables > Actions）:
 #   - CLOUDFLARE_ACCOUNT_ID : Cloudflare アカウントID
 #   - CLOUDFLARE_API_TOKEN  : Workers AI 実行 + Vectorize 編集の権限を持つ API トークン
+#
+# Secrets 未登録の間は upsert をスキップして成功扱いにする（失敗メールを出さない）。
+# 登録後は自動でそのまま本実行される。
 
 on:
   push:
@@ -24,14 +27,27 @@ concurrency:
 jobs:
   upsert:
     runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
     steps:
+      - name: Check Cloudflare secrets
+        id: check
+        run: |
+          if [ -z "$CLOUDFLARE_ACCOUNT_ID" ] || [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "::notice title=RAG upsert skipped::CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN が未登録のため upsert をスキップしました。Settings > Secrets で登録すると自動で有効になります。"
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/checkout@v5
+        if: steps.check.outputs.configured == 'true'
       - uses: actions/setup-node@v5
+        if: steps.check.outputs.configured == 'true'
         with:
           node-version: '22'
       - run: npm ci
+        if: steps.check.outputs.configured == 'true'
       - name: Upsert collected docs to Vectorize
-        env:
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        if: steps.check.outputs.configured == 'true'
         run: npm run rag:upsert
