@@ -166,7 +166,7 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 - [ ] **`safety-tentoboushi.png`のアップロード**（ユーザー側作業）
 - [ ] **独自ドメイン**（Cloudflare Registrar 想定／松下さん側で取得検討中）
 - [x] ~~**SEO / OG メタタグ**~~ 済（Base.astro に og:image/Twitter Card 追加）
-- [ ] **OG画像の作成**（1200×630 の実画像を `public/` に配置）
+- [x] ~~**OG画像の作成**~~ 済（2026-06-20）：`public/og.png`（1200×630・ブランド配色＋橋ロゴ＋ヒーロー見出し）を作成し、Base.astro の og:image 既定に設定
 - [~] **AI 相談（RAG）第3フェーズ**：設計・実装・インフラ・Secrets登録・upsert実行まで完了（2026-06-20）。残るは実データでの `/api/chat` 動作確認（上記「AI相談（RAG）」節参照）
 - [ ] **meti.go.jp HTML "empty" 問題**（プロキシは通るが本文抽出で<40文字。優先度低）
 
