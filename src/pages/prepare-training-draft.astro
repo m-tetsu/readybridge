@@ -1,0 +1,188 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+---
+<Base title="【試作】訓練をする｜ReadyBridge">
+  <section style="padding-top:36px">
+    <div class="container" style="max-width:780px">
+      <article class="article reveal">
+        <p class="breadcrumb"><a href="/prepare-draft"><Icon name="shield" size={16} />平時の備え</a> ／ <a href="/prepare-draft"><Icon name="users" size={16} />訓練をする</a></p>
+        <h1>計画は、試さなければ動かない。</h1>
+        <p class="meta">最終更新：2026年6月</p>
+
+        <div class="prose">
+          <p>BCPや防災マニュアルを作っても、いざというとき従業員が動けなければ意味がありません。「知っている」と「できる」の差は、訓練でしか埋まりません。</p>
+          <p>大がかりな訓練でなくても構いません。まずは短時間の訓練から始めて、少しずつ範囲を広げていくことが大切です。</p>
+
+          <h2>訓練の種類と進め方</h2>
+          <p>自社の段階に応じて、取り組みやすいものから始めましょう。</p>
+
+          <table>
+            <thead><tr><th>段階</th><th>訓練の内容</th><th>所要時間</th><th>頻度の目安</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><strong>Step 1</strong><br><span class="sub">まずはここから</span></td>
+                <td><strong>避難訓練</strong><br>避難経路の確認、集合場所への移動、点呼</td>
+                <td>15〜30分</td>
+                <td>年2回以上</td>
+              </tr>
+              <tr>
+                <td><strong>Step 2</strong><br><span class="sub">連絡を試す</span></td>
+                <td><strong>安否確認訓練</strong><br>安否確認ツール・SNS・171での報告テスト</td>
+                <td>10〜15分</td>
+                <td>年2回</td>
+              </tr>
+              <tr>
+                <td><strong>Step 3</strong><br><span class="sub">判断を試す</span></td>
+                <td><strong>机上訓練（図上演習）</strong><br>災害シナリオに沿って対応を話し合う</td>
+                <td>1〜2時間</td>
+                <td>年1回以上</td>
+              </tr>
+              <tr>
+                <td><strong>Step 4</strong><br><span class="sub">本番に近づける</span></td>
+                <td><strong>BCP発動シミュレーション</strong><br>実際にBCPを発動し、代替拠点での業務を試す</td>
+                <td>半日〜1日</td>
+                <td>年1回</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2>Step 1：避難訓練</h2>
+          <p>最も基本的で、すぐ始められる訓練です。消防法で義務づけられている事業所も多く、これだけは必ず実施しましょう。</p>
+          <h3>やり方</h3>
+          <ul>
+            <li>地震発生の合図（放送・サイレン）で、まず身を守る行動（机の下に潜る等）を取る。</li>
+            <li>揺れが収まった想定で、決められた避難経路を通って集合場所へ移動する。</li>
+            <li>集合場所で点呼を取り、全員の安否を確認する。</li>
+            <li>終了後、問題点を話し合う（経路の障害物、点呼に時間がかかった、など）。</li>
+          </ul>
+          <div class="point-box">
+            <p class="point-title">形だけの避難訓練にしないために</p>
+            <p>「予告なし」「夜間想定」「エレベーター停止想定」「一部の経路が使えない想定」など、毎回少し条件を変えると、本番に近い判断力が身につきます。</p>
+          </div>
+
+          <h2>Step 2：安否確認訓練</h2>
+          <p>災害直後に「全員無事か」を素早く把握するための訓練です。</p>
+          <h3>やり方</h3>
+          <ul>
+            <li>抜き打ちで安否確認メール・SMSを送信し、返信率と所要時間を計測する。</li>
+            <li>災害用伝言ダイヤル（171）の体験利用を行う（毎月1日・15日に利用可能）。</li>
+            <li>連絡がつかない場合のエスカレーション手順（家族への連絡、安否不明者リストの作成）を試す。</li>
+          </ul>
+
+          <h2>Step 3：机上訓練（図上演習）</h2>
+          <p>実際に体を動かさなくても、「考える訓練」で判断力を鍛えられます。少人数でもできるため、中小企業に特に向いています。</p>
+          <h3>やり方</h3>
+          <ol>
+            <li><strong>シナリオを設定する</strong>――「平日14時に震度6強の地震が発生。停電・断水。電話は輻輳で繋がりにくい」など。</li>
+            <li><strong>時間軸に沿って対応を確認する</strong>――「発災直後（0〜1時間）→当日中→翌日以降」で、誰が何をするかをBCPに照らして話し合う。</li>
+            <li><strong>判断が分かれるポイントを議論する</strong>――「工場の安全確認は誰が行くか」「取引先への連絡はいつ・誰がするか」など。</li>
+            <li><strong>BCPの修正点を洗い出す</strong>――訓練で見つかった抜け漏れを計画に反映する。</li>
+          </ol>
+          <div class="point-box">
+            <p class="point-title">シナリオ例</p>
+            <p>自社のハザードに合わせたシナリオを使うと効果的です。<a href="/prepare-hazard-draft">地域のハザードを知る</a>で確認した想定震度・浸水深を元にシナリオを作ると、リアリティが増します。</p>
+          </div>
+
+          <h2>Step 4：BCP発動シミュレーション</h2>
+          <p>最も本格的な訓練です。BCPを策定済みの企業が、計画の実効性を検証するために行います。</p>
+          <h3>やり方</h3>
+          <ul>
+            <li><strong>BCP発動の判断</strong>を実際にシミュレーションする（発動基準に達したかの確認→発動宣言）。</li>
+            <li><strong>代替拠点・リモートワーク</strong>での業務を実際に試す。VPN接続、クラウドツールへのアクセス、電話転送などを確認。</li>
+            <li><strong>優先業務の遂行</strong>を試す。BCPで定めた「最優先で復旧する業務」を、限られたリソースで実際に回してみる。</li>
+            <li><strong>取引先への連絡</strong>を模擬的に行う（事前に了承を得た上で）。</li>
+          </ul>
+
+          <h2>訓練を続けるコツ</h2>
+          <ul>
+            <li><strong>短時間でいい</strong>――15分の避難訓練でも、やらないよりはるかに効果がある。</li>
+            <li><strong>毎回テーマを1つに絞る</strong>――「今回は安否確認だけ」「今回は初動対応だけ」と範囲を限定する。</li>
+            <li><strong>振り返りを必ず行う</strong>――訓練後に5分でも振り返りの時間を取り、改善点を記録する。</li>
+            <li><strong>防災の日（9/1）や会社の記念日に合わせる</strong>――年間行事に組み込めば、忘れずに実施できる。</li>
+          </ul>
+
+          <h2>次のステップ</h2>
+          <ul>
+            <li>避難訓練の前提となる避難経路・安否確認は<a href="/prepare-safety-draft">安全を確保する</a>で整備する。</li>
+            <li>机上訓練のシナリオ作りには<a href="/prepare-hazard-draft">地域のハザードを知る</a>の情報を活用する。</li>
+            <li>BCP発動シミュレーションの前に、まず計画を<a href="/prepare-bcp-draft">BCP・事業継続力強化計画を作る</a>で策定する。</li>
+          </ul>
+        </div>
+
+        <div class="sources">
+          <h2>出典・参照先</h2>
+          <ul>
+            <li><a href="https://www.chusho.meti.go.jp/bcp/" target="_blank" rel="noopener">中小企業庁「中小企業BCP策定運用指針」</a>――訓練の進め方・チェックリストあり</li>
+            <li><a href="https://www.bousai.go.jp/kyoiku/kigyou/keizoku/" target="_blank" rel="noopener">内閣府「事業継続ガイドライン」</a>――訓練・点検の考え方</li>
+            <li><a href="https://www.fdma.go.jp/relocation/bousai_manual/" target="_blank" rel="noopener">消防庁「職場における防災対策」</a></li>
+            <li><a href="https://web171.jp/" target="_blank" rel="noopener">災害用伝言板（web171）</a></li>
+          </ul>
+        </div>
+
+        <p class="disclaimer">
+          本ページは一般的な訓練内容の概要です。業種・規模・立地により必要な訓練は異なります。
+          消防法で定められた訓練義務については、所轄の消防署にご確認ください。
+        </p>
+      </article>
+    </div>
+  </section>
+</Base>
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+    margin: 16px 0 8px;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: var(--teal-soft);
+    color: var(--teal-dark);
+    font-weight: 700;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+  td strong {
+    color: var(--ink);
+  }
+  .sub {
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .point-box {
+    background: var(--teal-soft);
+    border-left: 4px solid var(--teal);
+    border-radius: var(--radius-sm);
+    padding: 16px 20px;
+    margin: 20px 0 24px;
+  }
+  .point-box .point-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--teal-dark);
+    margin: 0 0 6px;
+  }
+  .point-box p {
+    font-size: 0.92rem;
+    margin: 0;
+    color: var(--ink-soft);
+  }
+  h3 {
+    font-family: var(--font-display);
+    font-size: 1.08rem;
+    color: var(--ink);
+    margin: 24px 0 10px;
+  }
+  @media (max-width: 600px) {
+    table { font-size: 0.82rem; }
+    th, td { padding: 8px; }
+  }
+</style>

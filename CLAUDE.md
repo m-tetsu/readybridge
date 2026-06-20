@@ -101,13 +101,47 @@ npm run preview
 平時：BCP始め方／資金の備え／設備・データ保護／備蓄
 有事：休業手当／資金繰り／施設復旧／税・公共料金
 
+## 平時の備え詳細ページ（試作 -draft）
+
+新しい `/prepare` の詳細ページを Astro ページ（`src/pages/prepare-*-draft.astro`）として作成中。
+全ページ完成後、`-draft` を外して正式化し、旧 `prepare.astro` と差し替える。
+
+### デザイン変更
+- アイコン：絵文字→単色SVG（`src/components/Icon.astro` 新規作成）
+- 背景色：`#f5f1e8` → `#ffffff` に変更
+
+### ページ一覧（8/8 試作完了）
+| # | カード名 | ファイル | 状態 |
+|---|---------|---------|------|
+| 1 | 地域のハザードを知る | `prepare-hazard-draft.astro` | 試作完了 |
+| 2 | 安全を確保する | `prepare-safety-draft.astro` | 試作完了 |
+| 3 | 被害を減らす | `prepare-damage-draft.astro` | 試作完了 |
+| 4 | BCP・事業継続力強化計画を作る | `prepare-bcp-draft.astro` | 試作完了 |
+| 5 | 生活を守る | `prepare-life-draft.astro` | 試作完了 |
+| 6 | 訓練をする | `prepare-training-draft.astro` | 試作完了 |
+| 7 | 資金・保険を備える | `prepare-fund-draft.astro` | 試作完了 |
+| 8 | 更に知りたい人へ | `prepare-links-draft.astro` | 試作完了 |
+
+### 残タスク
+- [ ] `prepare-draft.astro` のカードリンク（全部 `#`）→ 詳細ページURLに更新
+- [ ] `safety-tentoboushi.png` のアップロード（ユーザー側作業）
+- [ ] 全ページの見直し・文言調整後、`-draft` を外して正式化
+- [ ] 旧 `prepare.astro` と差し替え
+
+## 収集パイプライン（第2フェーズ・完了）
+
+- GitHub Actions cron でクロール → `data/collected/` に保存 → 差分PR
+- Cloudflare Edge proxy（`/api/gov-proxy`）で Akamai 遮断ホストも取得可能
+- `proxyHosts`: chusho/meti/jpo + 地方経産局8局
+- 直近の収集結果：500ページ（maxPagesPerRun=500）
+
 ## 開いている論点・次の候補
 
 - [ ] **独自ドメイン**（Cloudflare Registrar 想定／松下さん側で取得検討中）
-- [ ] **記事の追加**（特に平時：体制・訓練／有事：細かい個別質問）
-- [ ] **SEO / OG 画像**（`og:image` 等の整備）
+- [x] ~~**SEO / OG メタタグ**~~ 済（Base.astro に og:image/Twitter Card 追加）
+- [ ] **OG画像の作成**（1200×630 の実画像を `public/` に配置）
 - [ ] **AI 相談（RAG）の検討着手**（第3フェーズ）
-- [ ] **収集パイプライン**（第2フェーズ／GitHub Actions cron で支援情報の差分検知→PR起票）
+- [ ] **meti.go.jp HTML "empty" 問題**（プロキシは通るが本文抽出で<40文字。優先度低）
 
 ## やり取りの好み（松下さんの指示スタイル）
 
