@@ -1,1 +1,3002 @@
-{}
+{
+  "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/index.html": {
+    "hash": "80a6057b796ec4a8b9888fa120f17f3d1810fc5d8c0da1ef859b14986bc2d081",
+    "title": "中小企業庁：令和6年能登半島災害（地震、大雨）関連情報",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/saigai_r6_noto_jishin_index.html.md"
+  },
+  "https://www.jfc.go.jp/n/finance/search/saigaikashitsuke_m.html": {
+    "hash": "c26197a7df9d6db207c9e931d1f31b34127adfa789ab2c9f3a699b7f758a3605",
+    "title": "災害貸付｜日本政策金融公庫",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jfc.go.jp/n_finance_search_saigaikashitsuke_m.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00177.html": {
+    "hash": "1459cd423307de0a7c56383c7e9725157a10e58a2cbd66560318b3af667f31dd",
+    "title": "自然災害が発生した場合の支援や制度について（労働基準関係） ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_0000121431_00177.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00442.html": {
+    "hash": "a5798095b818d65450d0122d7781aeadff4d8991aa2821fd19950957af5821f9",
+    "title": "令和６年石川県能登地方を震源とする地震について｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_0000121431_00442.html.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm": {
+    "hash": "ca08ad158a012f01ac3bf1a98cfa96b42bcc6c3240c928be41ec806d7b10366f",
+    "title": "災害関連情報｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_saigai_index.htm.md"
+  },
+  "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/guidebook.pdf?ver09": {
+    "hash": "439f4ac69c9a867112b523b627f99c0f2761a7a4a8f5265b6f0cace9cdede362",
+    "title": "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/guidebook.pdf?ver09",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/saigai_r6_noto_jishin_dl_guidebook.pdf_ver09.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/yosan/r7/r6_jizoku_saigai.pdf": {
+    "hash": "be106aea154b071a04215f301cf58f128cf93612087927556e7edc78aa5ac677",
+    "title": "https://www.chusho.meti.go.jp/koukai/yosan/r7/r6_jizoku_saigai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_yosan_r7_r6_jizoku_saigai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/nariwai.pdf": {
+    "hash": "0fff2b83c48b5e10578072b3a615c7de4107c4a8335eaaf5ba25c84010aba8cc",
+    "title": "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/saigai_r6_noto_jishin_dl_nariwai.pdf"
+  },
+  "https://www.mhlw.go.jp/content/11700000/001195028.pdf": {
+    "hash": "a259c75ab2ff9e34f79d9194400afbfbef42fe13be7518d9a50a54ea1ec07bd6",
+    "title": "https://www.mhlw.go.jp/content/11700000/001195028.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_11700000_001195028.pdf"
+  },
+  "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/advisor.pdf": {
+    "hash": "d69be07c4be3bb96610e77a0d79db3a05e7d60a64b4432016258487352b539bb",
+    "title": "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/advisor.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/saigai_r6_noto_jishin_dl_advisor.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/dl/02flyer_nigiwai.pdf": {
+    "hash": "1b1fe63bc247f3dc62f628ffd20e3fb340e0a508c0248b0780a2341b4f989662",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/dl/02flyer_nigiwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_dl_02flyer_nigiwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/dl/03flyer_saigai.pdf": {
+    "hash": "86504887295f1d833b5708bf6c52dfbd9d43b2cadfcb640b3013b8f7ab3738e6",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/dl/03flyer_saigai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_dl_03flyer_saigai.pdf"
+  },
+  "https://www.smrj.go.jp/reconstruction/news/2023/c7moap0000007nwf-att/kasetsu_shienjigyou202403.pdf": {
+    "hash": "cdf7e23613aba690f482be7b9695116f170913ff4232ef56209803eebb87f209",
+    "title": "https://www.smrj.go.jp/reconstruction/news/2023/c7moap0000007nwf-att/kasetsu_shienjigyou202403.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.smrj.go.jp/reconstruction_news_2023_c7moap0000007nwf-att_kasetsu_shienjigyou202403.pdf"
+  },
+  "https://www.meti.go.jp/press/2023/01/20240104001/20240104001-r2.pdf": {
+    "hash": "05213722be413d26d90c5a69d9854457482eb9e93e7b7f4f76d53e9eb8797757",
+    "title": "https://www.meti.go.jp/press/2023/01/20240104001/20240104001-r2.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.meti.go.jp/press_2023_01_20240104001_20240104001-r2.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/260616001.html": {
+    "hash": "7952dce4ec3c3a78f9367e79423fa2a89efd9430758edc59957246b0805d3282",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～富山県の23者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_260616001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/260612001.html": {
+    "hash": "423c18043ba8c93de0e524c0d7f3814bc3f4115597827861b2c831d18b8994fe",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の77者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_260612001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/260528001.html": {
+    "hash": "6f31ad81d6fde401b38357bfdc87f6237608146b9248728dec3d36d3ee11e074",
+    "title": "「商店街災害復旧事業」の6次募集の補助事業者を交付決定（追加）しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_260528001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/260520001.html": {
+    "hash": "6b2f57c3a8b8ed57dc6ca87d23b0dc3056fcf708a55e8b54b99792ed3d0c3c4b",
+    "title": "「商店街にぎわい創出事業」の8次公募1次締切の補助事業者を採択しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_260520001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/260515001.html": {
+    "hash": "b3adc509f151f981f77cd7403e86d00425d1f43d0b23ecfff4798473da0b33eb",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の96者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_260515001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/260501001.html": {
+    "hash": "6dac48209d8682f2fce99f1b5166faccfe7f92835bce0de9eba388d0e49883b9",
+    "title": "「商店街災害復旧事業」の6次募集の補助事業者を交付決定しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_260501001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/260324001.html": {
+    "hash": "cd5f476661ec6759a184a68e867b78cd7fba86bef9722467733da5635d607840",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の66者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_260324001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240215kino_fukugo.html": {
+    "hash": "1462222e5ae2c8be90aae712bc70e53b99e25b8163146f6c29802b59d45781ab",
+    "title": "令和7年度補正「地域商業機能複合化推進事業（被災商店街等再建支援事業）」の概要について | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240215kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/260225001.html": {
+    "hash": "914efde75fd7217bf74336919026f5d81247e346efb01ae3e3f914d404ed8e01",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の76者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_260225001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/260206001.html": {
+    "hash": "6431563d594a7432e5eea27e19bbe4a7bb21c1ec8779a585aa3b9746448497d1",
+    "title": "「商店街災害復旧事業」の5次募集の補助事業者を交付決定しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_260206001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/260130001.html": {
+    "hash": "6c968dc4690e2fd4fb262478b10f14c07b8d856d0517668ea7b33a5e58a4d41c",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～新潟県の10者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_260130001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251226001.html": {
+    "hash": "232a3d05a347c45ff8fef57ad7ad779fd9898c5fed08728cf7016221953763e2",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の26者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251226001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251225003.html": {
+    "hash": "868bd02b2392426e28bb3b198c5fd036111906a4f132786a0f9ccf89cd679df7",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～新潟県の12者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251225003.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251225002.html": {
+    "hash": "5b1635f54b1232df39bfe0e1df8fb8a21349287e100822dd20764efac2859cf5",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～福井県の6者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251225002.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251225001.html": {
+    "hash": "f357f5019780eb029e8fd0fb31570ff24347a84e875803daf101aea60685db02",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～富山県の27者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251225001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251222001.html": {
+    "hash": "e9056e66c91b7c210c661f301ee431fe6e876e04462f9c94b9ff4d319ebc9fe4",
+    "title": "「小規模事業者持続化補助金＜一般型・災害支援枠＞」について、第8次公募の採択事業者を決定しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251222001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251215001.html": {
+    "hash": "efba005d4a59e199860ee237e636e1c76517822b721323419e172b7e7e86e328",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の110者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251215001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251212001.html": {
+    "hash": "b8f6b764042b51de9d33c91aca29079c4020ba789b9216a25fa4dcb93835ad78",
+    "title": "「商店街にぎわい創出事業」の6次公募4次締切の補助事業者を採択しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251212001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251126001.html": {
+    "hash": "e4f3894860a7cd1ab919221119113307d7fb411e8b7e7f7c2755f23284c1c086",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～新潟県の6者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251126001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251111001.html": {
+    "hash": "dbdf65924d563d58a6cc1e9e397d4f0b0a49f5cf20dc82a7e93c1adbf4461a8c",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の50者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251111001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251031001.html": {
+    "hash": "07bddb8226f81ff47e44d799a6ced349710bfc9baf16a9086db4fb1c51b75ad5",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～富山県の20者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251031001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/251029kino_fukugo.html": {
+    "hash": "df889e19330362b70420e5989729603e5caec9e8b374f117d4e6556582896c2f",
+    "title": "「商店街にぎわい創出事業」の6次公募3次締切の補助事業者を採択しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2025_251029kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/kobo/2025/251028001.html": {
+    "hash": "93dbc4615275f63ded4557ef2d89ac2699b71656e93ac7f38673b7ddda47d49e",
+    "title": "「小規模事業者持続化補助金＜一般型・災害支援枠＞（9次）」の公募要領を公開しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_kobo_2025_251028001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251024001.html": {
+    "hash": "55136bd0ec2e06bd7ca70b6b0386b1df12ec488606f18a026fd0b3f92afb0630",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～福井県の3者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251024001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251014001.html": {
+    "hash": "aaed538226cd81126a2ce603c16da564aaf821da8149f608b5f16cd4b63994fd",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～新潟県の7者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251014001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251010001.html": {
+    "hash": "5fde93f1056b69e49832a77b87de1aeededd12b3642160b1d9f0e8e113cfcc9e",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の72者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251010001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/251003001.html": {
+    "hash": "327a88589981a39055c32e516dcaca58ffb40ff5370b1a39da941e6df183b14d",
+    "title": "「小規模事業者持続化補助金＜一般型・災害支援枠＞」について、第7次公募の採択事業者を決定しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_251003001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250908nariwai.html": {
+    "hash": "af4d19c28dbe8b6d1495a13823bc70347ab4a8882bc330e298349ff52bfc01a3",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の71者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250908nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250829nariwai.html": {
+    "hash": "9aca305830c63fa8e644b68801ed4059a8dde1c917e45fdf6c6e09f6f2e49635",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～新潟県の7者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250829nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250827nariwai.html": {
+    "hash": "79e5ce60908f6cf721ee4c6fa4c9cde5d96cd08b1835ba24f4ce30324575249d",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～富山県の24者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250827nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250825nariwai.html": {
+    "hash": "6f0b6eb90e8ebb868ed912dd4fdd3e99e0502a6029445282d344f74cd6a678da",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～福井県の5者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250825nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250819jizoku.html": {
+    "hash": "3630293dbaeb2ce5703e03e247a7cd5231b2069cc94c4c0295e2e823a928c77c",
+    "title": "「小規模事業者持続化補助金＜一般型・災害支援枠＞（8次）」の申請受付を開始しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250819jizoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250808nariwai.html": {
+    "hash": "a975f1868d503cda1878500303ec31f0e8e3cec3f2039bbc0e21daaa2595f05f",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の74者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250808nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250807kino_fukugo.html": {
+    "hash": "7cb29a5d39fa6091bea49d00a5f23401d7fc133e037b915919c1cd2a716fd293",
+    "title": "「商店街にぎわい創出事業」の6次公募2次締切の補助事業者を採択しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2025_250807kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250730nariwai.html": {
+    "hash": "89162f0d626373b8328d55fac054336d26e17efd0371acb917efbbcca4f603b4",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～新潟県の15者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250730nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250711nariwai.html": {
+    "hash": "3209902a31a1b844e9109f1e9f823bf5e262b1f250393eb463d1ab79efd48adf",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の67者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250711nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250630nariwai.html": {
+    "hash": "35a9ed56fd365c6e2d12501e3a2eded7fae21784a68e4fdc87fc9d58910428c8",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～新潟県の7者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250630nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250625nariwai.html": {
+    "hash": "5d279643e85029ae9cb755023c9a99bddcd206dcdbb1b83d192638a41190a37a",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～福井県の5者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250625nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250620nariwai.html": {
+    "hash": "b25f2faeb91863a269d38f4e4007f057d8d0f37fa2324a6b6edf797d131aa379",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～富山県の29者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250620nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250618kino_fukugo.html": {
+    "hash": "6c30d32cd612d4aa976f033a7bf5d9461bb001c4d095633bb650b119ce48da78",
+    "title": "｢商店街にぎわい創出事業｣の6次公募1次締切の補助事業者を採択しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2025_250618kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250613nariwai.html": {
+    "hash": "65b87ee88f5b269abf4b1863249ba53608a2c270789aeb44ca801867563b25fe",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の67者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250613nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/koubo/2025/k250516001.html": {
+    "hash": "172f85e9878cc8088e74dedc9fd4d87bd52ea3e3af61520430437aefef597236",
+    "title": "「小規模事業者持続化補助金＜一般型・災害支援枠＞（7次）」の申請受付を開始しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_koubo_2025_k250516001.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250513nariwai.html": {
+    "hash": "13e4caa7cab9630953e0f0cec4bc4738cb66b1602dd4ac3fcf006ffb5f6f23e5",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の82者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250513nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250422nariwai.html": {
+    "hash": "a4c64c0c0789aa0dcae9dd4714482bdc16f5d79c5bf9c4e6825773adb99a2afc",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～富山県の19者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250422nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250417kino_fukugo.html": {
+    "hash": "4ab9037f82a04391bc4639b20ec6e7d90939f0d482a054f577599640ad9cad74",
+    "title": "「商店街にぎわい創出事業」の5次公募の補助事業者を採択しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2025_250417kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250325nariwai.html": {
+    "hash": "920b5cb3c63f3ebdd10a196243946bd456bb5cd95fc95c7a67864dbcea27754e",
+    "title": "令和6年能登半島地震等「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の144者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250325nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250321jizoku.html": {
+    "hash": "4d8a91cc2229647853972f357f8f1ae5b0283970b69a9b2135f8720b2f16698c",
+    "title": "「小規模事業者持続化補助金＜一般型・災害支援枠＞（6次）」の申請受付を開始しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250321jizoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250312kino_fukugo.html": {
+    "hash": "e185a239ea99be596ea3cda6df5eeb02684590f402b4da4a1a2b6aa8950b5267",
+    "title": "「商店街災害復旧事業」の3次募集の補助事業者を交付決定しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2025_250312kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250217kino_fukugo.html": {
+    "hash": "4344edd02d58b82e5f0eaa0d821d857d2a01d0d496be5677ad0493bdc30af760",
+    "title": "「商店街にぎわい創出事業」の4次公募の補助事業者を採択しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2025_250217kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250127nariwai.html": {
+    "hash": "2ee5d5f80bf574c859ba9f4065002b5d4ed81f73bd60225bd02e5dec5bc336da",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～新潟県の11者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250127nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250120nariwai.html": {
+    "hash": "a086aa49e3bc16985cc0b730ec2530623cdc0a86622672b892b4b3a5ec03c629",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～新潟県の44者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250120nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250114nariwai.html": {
+    "hash": "21beccfcf0c0c36c493128f8f95fb9358df5d0dcb361137b1932690c2d6c87c4",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の20者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250114nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241226nariwai.html": {
+    "hash": "8a0cd01f5a9508c4daeebb3b0e04767b6b91880854e0a88008d22de070aa2a5b",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～富山県の76者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241226nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241220nariwai.html": {
+    "hash": "64b9820bfa6ade56de7c177a447e70166cdc01246ff6012c98471e7150490cf5",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の126者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241220nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241218nariwai.html": {
+    "hash": "35833b819d38e9c022d08df0c50df57c8431d4ce979063782fe9869b3bba3e1e",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～福井県の2者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241218nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241216nariwai.html": {
+    "hash": "fbcd26ba13f2833e8a4a3f0f0bce37aa2d5f16ab5e7cee373f75a9737af6599b",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～新潟県の42者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241216nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241127nariwai.html": {
+    "hash": "d1a45145efdcd3410cb76409fe222f2b592b872a29e813baa631d6b8d7734472",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～福井県の5者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241127nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241118jizoku.html": {
+    "hash": "b9c1d8520646da50bfade9ea070283332f1760a473b048fdeb63a664b59ff8f2",
+    "title": "「小規模事業者持続化補助金＜災害支援枠＞（第5回）」の補助事業者が採択されました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241118jizoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/241115kino_fukugo.html": {
+    "hash": "2dfa8720c4d346c8e72f028abd89885a439e3fb15efbc4d4d6414cb79976adcc",
+    "title": "「商店街にぎわい創出事業」の3次公募／2次締切の補助事業者を採択しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_241115kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241112nariwai.html": {
+    "hash": "f9cf3aa88115a8ece51a1fc34f6911d0089a46de81691e3fe0387a5b4888c4c6",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～新潟県の47者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241112nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/2024/240524_kikan.html": {
+    "hash": "7f6d90d74292c15e6de550c819ff8e56446958b5fc321d0bd7802e4dd47157c4",
+    "title": "能登産業復興相談センターでの債権買取支援の基準について | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_2024_240524_kikan.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241025nariwai_ishikawa.html": {
+    "hash": "7c322019b65b2cd462b42bc939c166693e31ded3807075543027ecc2df48855c",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の82者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241025nariwai_ishikawa.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241025nariwai_toyama.html": {
+    "hash": "717fa6bc3101405ccd27511b8d4218dc66d140dbd53fecc42e73a6c3863ad91d",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～富山県の52者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241025nariwai_toyama.html.md"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/sinyouhosyou/karikae.html": {
+    "hash": "fe03172f73ac60d7c645e72d636f576c8e4122797dc63c7cc8dd40c632cb70c9",
+    "title": "民間ゼロゼロ融資等の返済負担軽減のための保証制度(コロナ借換保証)を開始します。 | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_sinyouhosyou_karikae.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/241011kino_fukugo.html": {
+    "hash": "202f05f4ed78e1e7940a2027697df08b4d99c9281d46967b69148cc97e859fc0",
+    "title": "「商店街にぎわい創出事業」の3次公募／1次締切の補助事業者を採択しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_241011kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241004nariwai.html": {
+    "hash": "8cf34b75dd0b8cfe753b513916d52f2429d247c1389e6caa1db69ce868d9be49",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～福井県の7者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241004nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241001jizoku.html": {
+    "hash": "29bb405cdecdfb89bfea62cfd52e93a272fe9808c57e97a642f3c67df9e41099",
+    "title": "「小規模事業者持続化補助金＜災害支援枠＞（第4回）」の補助事業者が採択されました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241001jizoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240925kino_fukugo.html": {
+    "hash": "06af9c748f099f9ade0d89e92b5d5f36a5d1ea3c53c0c54ef5f17adcc0bf4af9",
+    "title": "「商店街災害復旧事業」の2次募集／2次締切の補助事業者を交付決定しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240925kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240910nariwai.html": {
+    "hash": "8a689579c95a5a6e7ac9c2523a89b302ce10f76beb8f511ebb2862fcb4a037f1",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～新潟県の58者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240910nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240909jizoku.html": {
+    "hash": "9445eed7ca7ff1c27dc6085160b82e6202672aa6ee740835677d548c850995df",
+    "title": "「小規模事業者持続化補助金＜災害支援枠＞（第5回）」の申請受付を開始しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240909jizoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240904nariwai.html": {
+    "hash": "a4839754bcc98364d046662e3917906d417da6f7e87a73be8f6cc253c29355b2",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～富山県の51者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240904nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240903kino_fukugo.html": {
+    "hash": "dcf5e91be70299412ad7b453eaea0d243d327142946cfb33cd72fd016eb79763",
+    "title": "「商店街災害復旧事業」の2次募集／1次締切の補助事業者を交付決定しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240903kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240830nariwai.html": {
+    "hash": "12bffe9ad5c65834b813735f9119788812a4e80d34407ea6d19aecf475ee5279",
+    "title": "なりわい再建支援補助金の活用事例を公開しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240830nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240829nariwai.html": {
+    "hash": "465fc881dbea2939b3dc389733c2233f083881be6033b63205e586a65574ac8f",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～福井県の11者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240829nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240827jizoku.html": {
+    "hash": "b42a2aa5e6b6003916e2ebc51d26381ca6192ea226228a9a6689c65f6e39eb97",
+    "title": "「小規模事業者持続化補助金＜災害支援枠＞（第3回）」の補助事業者が採択されました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240827jizoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240823nariwai.html": {
+    "hash": "2f0c2f408a3cdd3c90a01c815863715d1b8fec916e23b0bd7877a0ae05d1a3fc",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました～石川県の74者を交付決定～ | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240823nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240819jizoku.html": {
+    "hash": "c2f550d315436187fd4bf2aced48e39cb67933d5d4c2a71ad20a447d23677021",
+    "title": "「小規模事業者持続化補助金＜災害支援枠＞（第5回）」の公募要領を公開しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240819jizoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240813saitaku02.html": {
+    "hash": "f9d9020c92978f33e8b290e025348987077bbd31ae4ccc6af3b5e4d5e08a5c2c",
+    "title": "「被災地向け共同・協業販路開拓支援補助金」の補助事業者が採択されました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240813saitaku02.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240731nariwai_niigata.html": {
+    "hash": "aa8de34e83f408973f90183e64dc3b81a9f136753a6d8273b93cc6989e8ef30b",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240731nariwai_niigata.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240729nariwai_toyama.html": {
+    "hash": "e4cdbee3c2b035211b5f6ad226c132466b93df13738936cd0e90cc3200bde902",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240729nariwai_toyama.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240723kino_fukugo.html": {
+    "hash": "268586ad0c721595d225523ec120c7c097cdd3109b3cb27356f905755962a864",
+    "title": "「商店街にぎわい創出事業」の2次公募／2次締切の補助事業者を採択しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240723kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240705jizoku.html": {
+    "hash": "a12a0877418361ff394d9747a1c3d14e3d2ff347be678b822f8ffffef50d131a",
+    "title": "「小規模事業者持続化補助金＜災害支援枠＞（第4回）」の公募要領を公開しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240705jizoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240628nariwai_ishikawa.html": {
+    "hash": "1db550323bc7a40c5225aa095267c9271ab60fdf5a91e4c97341d6ef7f34c7c3",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240628nariwai_ishikawa.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240628nariwai_fukui.html": {
+    "hash": "13e3d7f34cf9c35c2d89da6c328e4dcff9a922c28b35d6737bd200e9fe0d4c6e",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240628nariwai_fukui.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240624nariwai.html": {
+    "hash": "a24b21d0c5314def4a5833329a8fcad8d36e7964d524145c18e2bbe096d17d6f",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240624nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240621kino_fukugo.html": {
+    "hash": "d0378ef3092c7e75cbe52f638c398c0ee8147069482076309d29af6ec8333bb1",
+    "title": "「商店街災害復旧事業」の1次募集の補助事業者を交付決定（追加）しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240621kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240619jizoku.html": {
+    "hash": "85704d66693d13088f2084827443dce8f3bee0e5a378e887349eb1535888ebbb",
+    "title": "「小規模事業者持続化補助金＜災害支援枠＞（第2回）」の補助事業者が採択されました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240619jizoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240618hanro.html": {
+    "hash": "1ef80c50d690ed1324ca533bfa2a17c0669aa8bb7c63a0c48fa8d2a48a77788d",
+    "title": "「被災地向け共同・協業販路開拓支援補助金」の申請受付を開始しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240618hanro.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240617nariwai.html": {
+    "hash": "968ea74bf60aca2174294d43f0d92d7909063162be4f480fa6918f0e78fb2f67",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240617nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240617kino_fukugo.html": {
+    "hash": "8cbe4a5b0653c737d946560894bd262bb26631a0db1d0163bcdd1e9c84e58b6e",
+    "title": "「商店街にぎわい創出事業」の2次公募／1次締切の補助事業者を採択しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240617kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/sefu_net_4gou.html": {
+    "hash": "62f84a63f638ab4f3836a4b336cdf827f6288ab782232425359a644244c243a7",
+    "title": "セーフティネット保証制度(4号:突発的災害(自然災害等)) | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_sefu_net_4gou.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240607kino_fukugo.html": {
+    "hash": "ea0ab45ac564128ac8e4b68f53277cd480933c3c2cef12924a90ecc1ed46fc2d",
+    "title": "「商店街災害復旧事業」の1次募集の補助事業者を交付決定しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240607kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240515kino_fukugo.html": {
+    "hash": "c463bdb705e58722c717dde6d46b0a164d985ef199dbb08e90d52f8137904840",
+    "title": "「商店街にぎわい創出事業」の1次公募／3次締切の補助事業者を採択しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240515kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240510jizoku.html": {
+    "hash": "e232ecfbce6876b1e216bd51288fd129675ca40a1cc278989519cb7db5d48d2c",
+    "title": "「小規模事業者持続化補助金＜災害支援枠＞（第3回）」の申請受付を開始しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240510jizoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240510nariwai_ishikawa.html": {
+    "hash": "257916c248f7791dbf683ba764ede7de5b7e3ba2c83c3987583d7c4c735ce9b9",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240510nariwai_ishikawa.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240510nariwai_fukui.html": {
+    "hash": "14a940faff02e27576fdb68caf14d4ca39226025e46c7cd9b64200d1f2c38fe8",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240510nariwai_fukui.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240426jizoku.html": {
+    "hash": "d97c3d7a163df4e9d986c96e9341a3808b0b8170616be84814193a71a04be867",
+    "title": "「小規模事業者持続化補助金＜災害支援枠＞（第3回）」の公募要領を公開しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240426jizoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240426nariwai.html": {
+    "hash": "a885a50b6aa7ddbaed6b4e8b3cb55440601393a21aa6adeee63f45b8d284aaae",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240426nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/hensai_program.pdf": {
+    "hash": "bcdd0221470e57bcddd7dc12de7b5d754b04a22b9454faa8d83ff49e48c943fc",
+    "title": "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/hensai_program.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/saigai_r6_noto_jishin_dl_hensai_program.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240412jizoku.html": {
+    "hash": "002e6d81baf97edbaf707485d0bdbc779c164a54c1a660687918ed31dd63643e",
+    "title": "「小規模事業者持続化補助金＜災害支援枠＞（第1回）」の補助事業者が採択されました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240412jizoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240411nariwai.html": {
+    "hash": "3eb27e5262b9b683a52f77b7cfb16558356017e54136e84ef616e65ed656925b",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240411nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240327nariwai.html": {
+    "hash": "09820f3476c02a8456db2dc0e4988a7f21cf06cf58342f8c64252fbe16a38695",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付申請の公募を開始します（新潟県） | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240327nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240327kino_fukugo.html": {
+    "hash": "3426edd108ce986a03cf8f1448b22821f1884b6cf82ad79e72dfb0dccf432a4f",
+    "title": "「商店街にぎわい創出事業」の2次締切の補助事業者を採択しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240327kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/sapoin/2024/240321kobo.html": {
+    "hash": "67cc2f85de6e68f754f85650a067b967e3d10fb8de49f332af83224e35d3b8ba",
+    "title": "令和6年能登半島地震で被害を受けた中小企業・小規模事業者を対象に「ものづくり・商業・サービス生産性向上促進補助金」(18次締切)の公募期間を延長します | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_sapoin_2024_240321kobo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240308jizoku.html": {
+    "hash": "041d0e01dbc1c805451a86d58668802089dfae491789f40306531d63008dd589",
+    "title": "「小規模事業者持続化補助金＜災害支援枠＞（第2回）」の公募要領を公開しました | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240308jizoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240305nariwai.html": {
+    "hash": "3857cc5ae81f3d6a8abd7193e4e2c7c967c9db3d30ecb0e2ce58516c86dd4e3a",
+    "title": "令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付申請の公募を開始します（新潟県） | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240305nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240228nariwai.html": {
+    "hash": "e0e321feaa6de02a3a6981779ea985f9720e072be7545111d67bfd56347e599a",
+    "title": "中小企業庁：令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付申請の公募を開始します",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240228nariwai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240228kino_fukugo.html": {
+    "hash": "ffbc1e5465740cdd7d6881c3582f33290e963ce1ba8dfdf520efb718c929e903",
+    "title": "「商店街にぎわい創出事業」の補助事業者を採択しました",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240228kino_fukugo.html.md"
+  },
+  "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/2024/20240207.html": {
+    "hash": "edab5461ce2754d3c639290bc0a2423a32b6a62320bd5717bfbb3bdb752f1a33",
+    "title": "中小企業庁：中小企業基盤整備機構とクラウドファンディング企業3社が連携し、令和6年能登半島地震の被災事業者が行う資金調達（クラウドファンディング）を支援する企画を実施いたします",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/saigai_r6_noto_jishin_2024_20240207.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240201jizoku.html": {
+    "hash": "0c28e12d51972594f8286f135fa825c6c2c78e8026c9077cd9ef5f487c23fbab",
+    "title": "中小企業庁：「小規模事業者持続化補助金＜災害支援枠＞」の申請受付を開始しました",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240201jizoku.html.md"
+  },
+  "https://www.bousai.go.jp/pdf/240125_shien.pdf": {
+    "hash": "4190c7a27abaa3634c43fbb98438faf69391c6b78c33d2fe762ab27090cf96bf",
+    "title": "https://www.bousai.go.jp/pdf/240125_shien.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.bousai.go.jp/pdf_240125_shien.pdf"
+  },
+  "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/shikinguri_leaflet.html": {
+    "hash": "da191383c6eb88c8b2a6407876af834bdcf7cb8fe56c0bb5e09f9c7f8bd78905",
+    "title": "中小企業庁：「被災者の生活と生業支援のためのパッケージ」を踏まえた各種資金繰り支援について、リーフレットにまとめました",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/saigai_r6_noto_jishin_shikinguri_leaflet.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240125jizoku.html": {
+    "hash": "469b947e7a54f04d3c1c79411ac895a5513ff43e0363c4d97b2f3dcaf0f1103a",
+    "title": "中小企業庁：「小規模事業者持続化補助金＜災害支援枠＞」の公募要領を公開しました",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240125jizoku.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37498.html": {
+    "hash": "9d70fd0a87179be7b91ea7d0fa0211b7ad3d2543c6873af6b233bb8636e3ec7d",
+    "title": "雇用・労働関係の特例措置をまとめたリーフレットを作成しました｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37498.html.md"
+  },
+  "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/2024/20240122.html": {
+    "hash": "5225429afe99e421b0c4cdab4130a196a2a2b53c483ccd7bc8990c67debf6f9b",
+    "title": "中小企業庁：令和6年能登半島地震にかかる小規模企業共済制度および中小企業倒産防止共済制度の特例措置を講じました",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/saigai_r6_noto_jishin_2024_20240122.html.md"
+  },
+  "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/shikinguri.pdf": {
+    "hash": "44c97a55b174dce8e0303e3ad63995c8d1f32887a50180e2274c04cc7f47ae36",
+    "title": "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/shikinguri.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/saigai_r6_noto_jishin_dl_shikinguri.pdf"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/index.html": {
+    "hash": "08541be7f7f66fdd6f1a37fa5e159a721be7eab4948a10fc1d0f4cbe5eb05903",
+    "title": "令和6年（2024年）能登半島地震の発生に伴う各国・地域の知財庁の救済措置等について | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_index.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/20240112_encho.html": {
+    "hash": "607bf1f1073f4feb0cf51556db502c2c83559292d84a609fdef34645d1791701",
+    "title": "特定非常災害特別措置法第3条第3項に基づく令和6年能登半島地震により影響を受けた手続期間の延長について | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_20240112_encho.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/2024_noto/index.html": {
+    "hash": "d4b6d8165e46935b681bf11228cdfd7c3a63287ee5a6463a67b11ac898a1c540",
+    "title": "令和6年（2024年）能登半島地震により影響を受けた方への特別な措置について | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_2024_noto_index.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/saigai-tetsuduki-20240104.html": {
+    "hash": "67cef2c24a7406f0baa4e0c9384002de0791363afe200a384aa075ffa2f3ce5d",
+    "title": "令和6年能登半島地震により影響を受けた手続の取扱いについて | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_saigai-tetsuduki-20240104.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai.html": {
+    "hash": "4c54d02282fb54fffcba336d94ec9cf9d5f4417ef56162aab289e15b151be4a6",
+    "title": "石川県なりわい再建支援補助金 | 石川県",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_nariwai.html.md"
+  },
+  "https://www.pref.fukui.lg.jp/doc/sinsan/nariwai.html": {
+    "hash": "aa6b7854be718204e033e8accdc672eed2182a6c3a6065e383620e48580341ab",
+    "title": "令和６年能登半島地震に係る事業者支援施策について  | 福井県ホームページ",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.fukui.lg.jp/doc_sinsan_nariwai.html.md"
+  },
+  "https://www.pref.niigata.lg.jp/site/chiikishinko/nariwai.html": {
+    "hash": "4d42ea759852d9079e1f09df3c0d7865a8e4350c0a7aa37120a3aa897a929b8a",
+    "title": "新潟県なりわい再建支援補助金について - 新潟県ホームページ",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.niigata.lg.jp/site_chiikishinko_nariwai.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_question.pdf": {
+    "hash": "927e4f6bff847ccf09d52f8bd8ef8528662453adbb28375a9f680ef714f1ac47",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_question.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_0_nariwai_question.pdf"
+  },
+  "https://www.pref.fukui.lg.jp/doc/sinsan/nariwai_d/fil/qa.pdf": {
+    "hash": "4f5a2d8bf789d48a1ac00ffa052fcde161d8a12ee5bfff3469574f8ebdb9dae7",
+    "title": "https://www.pref.fukui.lg.jp/doc/sinsan/nariwai_d/fil/qa.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.fukui.lg.jp/doc_sinsan_nariwai_d_fil_qa.pdf"
+  },
+  "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/shokibo_jizoku_saigai_qa.pdf": {
+    "hash": "53606cc277d9da8534c43863cd768e195fbe09872e6e01d2033dcf491fc19649",
+    "title": "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/shokibo_jizoku_saigai_qa.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/saigai_r6_noto_jishin_dl_shokibo_jizoku_saigai_qa.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/kino_fukugo/qa.pdf": {
+    "hash": "41fc165bc3febb0ac46be70b53ee82b23cbfa4ed5842112fdb3f149e4a2f79cf",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/kino_fukugo/qa.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_kino_fukugo_qa.pdf"
+  },
+  "https://www.meti.go.jp/main/yosan/yosan_fy2023/pdf/yobihi_noto.pdf": {
+    "hash": "ad5984bca9752cba757d2198df7a1d057659c9183745262945d0d3e502cbb7ce",
+    "title": "https://www.meti.go.jp/main/yosan/yosan_fy2023/pdf/yobihi_noto.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.meti.go.jp/main_yosan_yosan_fy2023_pdf_yobihi_noto.pdf"
+  },
+  "https://www.meti.go.jp/main/yosan/yosan_fy2023/pdf/pr_noto.pdf": {
+    "hash": "fd001e99105a42153a4a0bb36f8d6e60d6ede67120903823ce720650605574b2",
+    "title": "https://www.meti.go.jp/main/yosan/yosan_fy2023/pdf/pr_noto.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.meti.go.jp/main_yosan_yosan_fy2023_pdf_pr_noto.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/saigai/202401jishin-mokutekibetsu.html": {
+    "hash": "4bcc7701cdffc7f04c7aba250ec6b8ada073a6865b57009c7d97c11aa5a4d754",
+    "title": "目的別・令和6年（2024年）能登半島地震に関する情報 | 石川県",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/saigai_202401jishin-mokutekibetsu.html.md"
+  },
+  "https://www.pref.fukui.lg.jp/index.html": {
+    "hash": "8f0aa2019bfa8ad576fb68881b42608365e08177495a1f515b2b798b031a3087",
+    "title": "ホーム | 福井県ホームページ",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.fukui.lg.jp/index.html.md"
+  },
+  "https://www.pref.niigata.lg.jp/sec/kikitaisaku/240101jishin.html": {
+    "hash": "b52b451a6f0ba8eb073e5c859a4a364ec80a920fd5b5995315bc400719e8be5e",
+    "title": "令和6年能登半島地震に関する情報（被害状況・お問合せ先） - 新潟県ホームページ",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.niigata.lg.jp/sec_kikitaisaku_240101jishin.html.md"
+  },
+  "https://www.jfc.go.jp/n/finance/search/index.html": {
+    "hash": "9d9fee61db8d836aa781917c7044c70a67be4f8a6b0a91631fbcdeb5347219f5",
+    "title": "事業資金｜日本政策金融公庫",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jfc.go.jp/n_finance_search_index.html.md"
+  },
+  "https://www.jfc.go.jp/n/finance/search/index_k.html": {
+    "hash": "42b273ca26acb387681ddb1c62ec8ab9bc34569d965e2ead63e953af836d4e6e",
+    "title": "事業資金 小規模事業者／個人事業主の方【国民生活事業】｜日本政策金融公庫",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jfc.go.jp/n_finance_search_index_k.html.md"
+  },
+  "https://www.jfc.go.jp/n/rate/index.html": {
+    "hash": "34cd415d2e46ff1a26658922262b48fbff73c01e656cfb0b47d1395d0617f9bb",
+    "title": "金利情報 小規模事業者／個人事業主の方【国民生活事業】｜日本政策金融公庫",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jfc.go.jp/n_rate_index.html.md"
+  },
+  "https://www.jfc.go.jp/n/finance/search/keitoku.html": {
+    "hash": "95cb2a2f8625acb24e1e3c94fcf25fbddfd72779ded18453d237cf3f2d9d1dc8",
+    "title": "経営者保証免除特例制度｜日本政策金融公庫",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jfc.go.jp/n_finance_search_keitoku.html.md"
+  },
+  "https://www.jfc.go.jp/n/finance/search/sogyo_tokurei_m.html": {
+    "hash": "dff3f871b444e4441e485519735d44f6b91464970918afb84c860551b763b308",
+    "title": "創業支援貸付利率特例制度｜日本政策金融公庫",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jfc.go.jp/n_finance_search_sogyo_tokurei_m.html.md"
+  },
+  "https://www.mhlw.go.jp/index.html": {
+    "hash": "418d8020e5eb44751b8de6178f25d89d03d31979c3a0a99a312f8dbb7ba9b675",
+    "title": "ホーム｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/index.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/index.html": {
+    "hash": "b7fecdc64c3baac49fd0fd9102b40bc26fabb4a9ac17fdc7ac9637adcedd108c",
+    "title": "政策について ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_index.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/index.html": {
+    "hash": "b23f082ed5d8a695c62878cb423dfcb368ba75bda8c2cce0196b943d79dc3755",
+    "title": "分野別の政策一覧 ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_index.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/index.html": {
+    "hash": "a50e5c0ff0992247e6c850f428b9a6eaaf0ad96281091428ddf9e44a6b3f0435",
+    "title": "雇用・労働 ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_koyou_roudou_index.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/index.html": {
+    "hash": "3da3156b828342c6ce6304d9c30542f0f2022ad23b3d493428d87128e5b5ba49",
+    "title": "労働基準 ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_koyou_roudou_roudoukijun_index.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/pageL07_20200515.html": {
+    "hash": "a404fc781b1e2cfe4394e07fe07036ae9dc936295751fa45f6bc1ebb520bbd1f",
+    "title": "雇用調整助成金 ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_koyou_roudou_koyou_kyufukin_pageL07_20200515.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000055967.html": {
+    "hash": "39fbf6d77891cc7810a5da4349bf03ca879dab16537a8ce57c307518d1284b6a",
+    "title": "災害・危機管理 ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_0000055967.html.md"
+  },
+  "https://www.mhlw.go.jp/content/000666154.pdf": {
+    "hash": "5333c4b3dc382f2e4057e1e694c1e80563973eade505d1dcd885af9cede75c07",
+    "title": "https://www.mhlw.go.jp/content/000666154.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_000666154.pdf"
+  },
+  "https://www.mhlw.go.jp/content/000647898.pdf": {
+    "hash": "8f5fb9f5ecccb095cbdf51687a82834a9c9cae425a05dc4fbf34146d667e8a01",
+    "title": "https://www.mhlw.go.jp/content/000647898.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_000647898.pdf"
+  },
+  "https://www.mhlw.go.jp/content/000647900.pdf": {
+    "hash": "36a3ca89d17d3d221d6d1c26700f095fc8ac9dfecbf60c728a3015e40307aa5b",
+    "title": "https://www.mhlw.go.jp/content/000647900.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_000647900.pdf"
+  },
+  "https://neccyusho.mhlw.go.jp/": {
+    "hash": "f3b02302ac61054262e6cde92b57a543ba6409df3e91abb584b0cfc2ba5c2103",
+    "title": "職場における熱中症予防情報",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/neccyusho.mhlw.go.jp/index.md"
+  },
+  "https://www.mhlw.go.jp/content/001508489.pdf": {
+    "hash": "9cfc07ba8f437a9ec7f755753b0ee037b6cc37e1cd24d35439ae82fe41b151c0",
+    "title": "https://www.mhlw.go.jp/content/001508489.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001508489.pdf"
+  },
+  "https://www.johas.go.jp/tabid/595/Default.aspx": {
+    "hash": "26ac4750aa4879566156b8d2ac84fc7532536c8d0c41cd1696d837fa6930188d",
+    "title": "お知らせ | JOHAS(労働者健康安全機構)",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.johas.go.jp/tabid_595_Default.aspx.md"
+  },
+  "https://www.mhlw.go.jp/content/000647899.pdf": {
+    "hash": "8b218f153d228d442d872d6a79eeed47233b881a872bd6c03f8a9f6b61407ee7",
+    "title": "https://www.mhlw.go.jp/content/000647899.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_000647899.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001549842.pdf": {
+    "hash": "a259c75ab2ff9e34f79d9194400afbfbef42fe13be7518d9a50a54ea1ec07bd6",
+    "title": "https://www.mhlw.go.jp/content/001549842.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001549842.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001549843.pdf": {
+    "hash": "936dcfee988024e43978a5efe0f7dddeec33d5cc7bc53016494454aa79f77cc4",
+    "title": "https://www.mhlw.go.jp/content/001549843.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001549843.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001562482.pdf": {
+    "hash": "dd98b7c124212f541f3a080610b2c4879d6176a6a7b6f448c9d879480a0d26b6",
+    "title": "https://www.mhlw.go.jp/content/001562482.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001562482.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/hoken/yuuyo.html": {
+    "hash": "837deafd24ef6da82ade9410fe7ed760e1e28f731bee4ba15d146394cf53ae9b",
+    "title": "労働保険料等を一時に納付できない方のための猶予制度について｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_koyou_roudou_roudoukijun_hoken_yuuyo.html.md"
+  },
+  "https://www.mhlw.go.jp/content/001191693.pdf": {
+    "hash": "74b5ded5586636db81b17b1bfed63f319adaabd38b6d47d9128271cafece716c",
+    "title": "https://www.mhlw.go.jp/content/001191693.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001191693.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001264888.pdf": {
+    "hash": "85c0a3303a71f39d8bbf5ad8abacbe89a3785f3f23dd7bb734ff58f97ef881d3",
+    "title": "https://www.mhlw.go.jp/content/001264888.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001264888.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001189912.pdf": {
+    "hash": "41c83a1f952675edfd105234645d0b77970ea0c4092fd72b458a8b2fa1e2e77e",
+    "title": "https://www.mhlw.go.jp/content/001189912.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001189912.pdf"
+  },
+  "https://www.mhlw.go.jp/kouseiroudoushou/shozaiannai/roudoukyoku/index.html": {
+    "hash": "45b301769e1af6f8c7676adb3d6445657d12e53157fd81d6304842cfa382ab63",
+    "title": "都道府県労働局(労働基準監督署、公共職業安定所)所在地一覧｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/kouseiroudoushou_shozaiannai_roudoukyoku_index.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00157.html": {
+    "hash": "e6967dd4963492afbad3d5fecd2f209061d038db840d8f3e08b1cfdd20ae7f3b",
+    "title": "賃金などの労働条件について、使用者が守らなければならないことをQ＆Aにまとめました｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_0000121431_00157.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00073.html": {
+    "hash": "1728edca99ee21b0eb861f135bd7f6ef79370fc4ec728aa8409a604217a06d74",
+    "title": "賃金などの労働条件について、使用者が守らなければならないことをQ＆Aにまとめました｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_0000121431_00073.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000122746_00004.html": {
+    "hash": "f891e56a3990a80280c0723355756eed51237db57137d8fd4718950cf1be3a29",
+    "title": "賃金や解雇などの労働条件について、使用者が守らなければならないことをQ＆Aにまとめました｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_0000122746_00004.html.md"
+  },
+  "https://www.mhlw.go.jp/content/001195153.pdf": {
+    "hash": "4bcef17cb50297773ae29cb72b5907658970596fb37f866eef61b6924263382d",
+    "title": "https://www.mhlw.go.jp/content/001195153.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195153.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_12262.html": {
+    "hash": "10e6804abd06079ef4063b7af5e8cc42ed7cb5ed65231fc7df7329c9b9c25fe9",
+    "title": "労災保険の請求は、事業主や医療機関の証明がなくても受け付けます｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_12262.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_12265.html": {
+    "hash": "2a6538b3edf9d1e1e0c8b84f81ebdd95e4270aee44f0d09f89c42b0fb0a395b9",
+    "title": "アフターケア手帳を提示できなくてもアフターケアを受診することができます。また、義肢等補装具がき損等した場合は、修理費用・購入費用を支給します。｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_12265.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_12318.html": {
+    "hash": "be02f563b546da29ffce1defa47541f74471f6d9451fa2d682b0f30fe26a7441",
+    "title": "労災給付の預金通帳・証書・届出印等を紛失した場合｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_12318.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/16849.html": {
+    "hash": "7ff9d0ce50398f0691b9932335ed80f89230fc92b1e8cce4b3b56427a6b9b6c4",
+    "title": "未払賃金の立替払制度について、申請手続の簡略化を行っています｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_16849.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/shinsai_rousaihoshouseido/tatekae/index.html": {
+    "hash": "09ab612663c941331b23171291f90265b2c38bd7446af7b0c430e989b10ac7e8",
+    "title": "未払賃金立替払制度の概要と実績 ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_koyou_roudou_roudoukijun_shinsai_rousaihoshouseido_tatekae_index.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/2r98520000014uzs-img/2r98520000018wa4.pdf": {
+    "hash": "61447fb422e4f6caa690cd5cef9be5d458dba92188b3c19caf2e2486505e219e",
+    "title": "https://www.mhlw.go.jp/stf/houdou/2r98520000014uzs-img/2r98520000018wa4.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_houdou_2r98520000014uzs-img_2r98520000018wa4.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/2r98520000014uzs-att/2r9852000001fs23.pdf": {
+    "hash": "39d0948bd1ebf031fee543b0798d95b98d5617eba2775ffae75a59e9849349ac",
+    "title": "https://www.mhlw.go.jp/stf/houdou/2r98520000014uzs-att/2r9852000001fs23.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_houdou_2r98520000014uzs-att_2r9852000001fs23.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/2r98520000014uzs-img/2r98520000018wac.pdf": {
+    "hash": "cd0a95fa55ba9a1c11de1c80958fb3b3c935d0e620fc9ec066cd02c3c2d0bcd3",
+    "title": "https://www.mhlw.go.jp/stf/houdou/2r98520000014uzs-img/2r98520000018wac.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_houdou_2r98520000014uzs-img_2r98520000018wac.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/2r98520000014uzs-att/2r9852000001bi8t.pdf": {
+    "hash": "ed68c41bb2917bd5bb02a39bce98904e6fe6aa6a68bbcf5405dc74cdb82f4b0f",
+    "title": "https://www.mhlw.go.jp/stf/houdou/2r98520000014uzs-att/2r9852000001bi8t.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_houdou_2r98520000014uzs-att_2r9852000001bi8t.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/2r9852000001apoc-img/2r9852000001aps2.pdf": {
+    "hash": "4568520fafb2c4b699498bd8ee3fe5bed3ddbaecaf6bb23c670d0def395de922",
+    "title": "https://www.mhlw.go.jp/stf/houdou/2r9852000001apoc-img/2r9852000001aps2.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_houdou_2r9852000001apoc-img_2r9852000001aps2.pdf"
+  },
+  "https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/torikumi.pdf": {
+    "hash": "a2d396669405723a32d83a1c5c814603937c2e036d59549390fe345b81f7f762",
+    "title": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/torikumi.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/file_06-Seisakujouhou-11200000-Roudoukijunkyoku_torikumi.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hokabunya/index.html": {
+    "hash": "85e3e48e8fd3ae357210ee9131e3bd3fbb2eba44fb1898d7b3078a42970371c4",
+    "title": "他分野の取り組み ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_hokabunya_index.html.md"
+  },
+  "https://www.mhlw.go.jp/content/001293205.pdf": {
+    "hash": "3e038834d694bc93de652eba8ae2f6214616177f7685c1a42eee30a3756b4d7b",
+    "title": "https://www.mhlw.go.jp/content/001293205.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001293205.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001707313.pdf": {
+    "hash": "56fbe74765ab7b23a2bd58a700f9fdce79147f8b0a0a20b951bfa14dfb5677e0",
+    "title": "https://www.mhlw.go.jp/content/001707313.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001707313.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37198.html": {
+    "hash": "9141ccffbe65a22416dc06b55e5dc4dd0d89c7dc0d56bf2d0b4e127946596631",
+    "title": "令和６年石川県能登地方を震源とする地震｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37198.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_00346.html": {
+    "hash": "8f2e27acd98dbc21e332e8b9d839bae25033ad02bca6733206bdc349f5d51c24",
+    "title": "災害時における避難所での感染症対策｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_00346.html.md"
+  },
+  "https://www.niid.go.jp/niid/ja/disaster/12445-saigaikiji-2.html": {
+    "hash": "3615d89fa4805540fd7345f0f7b8daeaab405df73329ff290f702017614b6d29",
+    "title": "令和6年能登半島地震（2024年1月）｜国立健康危機管理研究機構 感染症情報提供サイト",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.niid.go.jp/niid_ja_disaster_12445-saigaikiji-2.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_00341.html": {
+    "hash": "3c2a5307dd15dae597804c1bc7ff380b7f6124348a7f5b1f112c656e590f1bd1",
+    "title": "被災した家屋での感染症対策｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_00341.html.md"
+  },
+  "https://www.mhlw.go.jp/content/001195825.pdf": {
+    "hash": "844f3cc8e4d2011ea72f1f72231e48436eae88150b3894ad9cdeb52d93aa48af",
+    "title": "https://www.mhlw.go.jp/content/001195825.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195825.pdf"
+  },
+  "https://www.niid.go.jp/niid/ja/disaster/12476-saigaikiji-2-volunteer.html": {
+    "hash": "77d2909b9241c57fe5704b2516a980bcbcffea1dd0367ee75e566a67150e4585",
+    "title": "被災地・避難所でボランティアを計画されている皆様の感染症予防について（令和 6 年能登半島地震関連）｜国立健康危機管理研究機構 感染症情報提供サイト",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.niid.go.jp/niid_ja_disaster_12476-saigaikiji-2-volunteer.html.md"
+  },
+  "https://www.mhlw.go.jp/content/0000170800.pdf": {
+    "hash": "7226bea720939208c52f501067ec5f11cb316333f5042de5938cdae15e0491c2",
+    "title": "https://www.mhlw.go.jp/content/0000170800.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_0000170800.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37331.html": {
+    "hash": "c33311149cdd31301074ef94729b9c8af34a707a71bd9b6599463394f39df8b9",
+    "title": "「令和６年能登半島地震」で被災された方々の医療機関等での窓口での支払いは不要です｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37331.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_06756.html": {
+    "hash": "6247851bcc8d65a6b3a6b760ce83e71f983a3f6620011086add3cd73820e52de",
+    "title": "保険証がなくても医療機関等を受診できます｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_06756.html.md"
+  },
+  "https://www.mhlw.go.jp/content/001186722.pdf": {
+    "hash": "3600cded94eff7d7c403ed5b07f7bcd9e093cc591a166430fb4b81d320568422",
+    "title": "https://www.mhlw.go.jp/content/001186722.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186722.pdf"
+  },
+  "https://www.wam.go.jp/hp/home/home-topics_list-tabid-394/recovery-tabid-351/": {
+    "hash": "93aaf89411306a341fb37c01788cce46eee997f842eba77da6287ba4fb0ff7e1",
+    "title": "『災害復旧資金』のお取扱いについて | WAM",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.wam.go.jp/hp_home_home-topics_list-tabid-394_recovery-tabid-351.md"
+  },
+  "https://www.mhlw.go.jp/content/001186724.pdf": {
+    "hash": "6646fb56a6c268fbbb35db7b5c82a0884aaa9cf373453b7625dadbd16f3f8bd0",
+    "title": "https://www.mhlw.go.jp/content/001186724.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186724.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001186728.pdf": {
+    "hash": "4f8478d0855ae4a4b9762df7c6a2e355d806f67a3a17a2f60bb9016871b424c7",
+    "title": "https://www.mhlw.go.jp/content/001186728.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186728.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001186729.pdf": {
+    "hash": "5656bfba6ddac9c2c2f163e66a7e009120e06d70ee250e8f60e7a2c33425fa9b",
+    "title": "https://www.mhlw.go.jp/content/001186729.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186729.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/shougai_r6notojishin.html": {
+    "hash": "33c78a1da8be0e5fb3c484a7d3ed027216fc309271dec820c5048c635b40d8e0",
+    "title": "避難所等における障害児者への配慮事項等について（令和６年能登半島地震について）｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_shougai_r6notojishin.html.md"
+  },
+  "https://www.mhlw.go.jp/content/001186730.pdf": {
+    "hash": "f034c2247fcbdb338d3e75abc95d36f8bd2155c33951e0783a70a4ec22c5bf78",
+    "title": "https://www.mhlw.go.jp/content/001186730.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186730.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37423.html": {
+    "hash": "2a0982e92b5fb160125e0feb25340ce40735ea47d9cc81a92b310baba0c14618",
+    "title": "「令和６年能登半島地震」で被災された方々の介護サービス事業所等での利用料の支払いは不要です｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37423.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37422.html": {
+    "hash": "1a2e7ae03787737dd3bfafc8c10b5526d427d6aee5432d28862920377b83878c",
+    "title": "被保険者証等がなくても介護サービスが受けられます｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37422.html.md"
+  },
+  "https://www.mhlw.go.jp/content/001193698.pdf": {
+    "hash": "143559f936e4ffd0ca4fc2966be8733e2202e104f49b87cffd30785cbc49ec05",
+    "title": "https://www.mhlw.go.jp/content/001193698.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001193698.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001389624.pdf": {
+    "hash": "3b661495db3646aaa2d6b32ba0e8770996b41a9af2e1d29da706ed9a32cf40b3",
+    "title": "https://www.mhlw.go.jp/content/001389624.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001389624.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001389625.pdf": {
+    "hash": "ce858ce405fa358391328023e2661e4b8b076954aa11dd79329016a36a45655f",
+    "title": "https://www.mhlw.go.jp/content/001389625.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001389625.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001189144.pdf": {
+    "hash": "d6dd2ea7526a310164e590088a0ccb66ffd8d7b4f56fe92b884ce5c3e864b6a5",
+    "title": "https://www.mhlw.go.jp/content/001189144.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001189144.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001233547.pdf": {
+    "hash": "5970bd8ef53d8ed35e915d925e807fce3dbb7acff00e468a4c7a5db51cda1790",
+    "title": "https://www.mhlw.go.jp/content/001233547.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001233547.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195722.pdf": {
+    "hash": "ce224bc2acbd4b9c14828210345ea3cd0e86d1c7254b7bcabdea0010fb75f04c",
+    "title": "https://www.mhlw.go.jp/content/001195722.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195722.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195723.pdf": {
+    "hash": "8421ef57f4cc020fd4a9a34024993ce4057c09023b8cc224787131ced5874bb4",
+    "title": "https://www.mhlw.go.jp/content/001195723.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195723.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195724.pdf": {
+    "hash": "1922668dbea3570aa1edf83642d085dbf00479cd095d2464cb1a81effd754881",
+    "title": "https://www.mhlw.go.jp/content/001195724.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195724.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195734.pdf": {
+    "hash": "b269ea4f351cfd5ad4d770e5beec6b9aaac9cdac465bdc5f8fef98d96bb8d69f",
+    "title": "https://www.mhlw.go.jp/content/001195734.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195734.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195735.pdf": {
+    "hash": "f6623ee67700bf1242919acf1447539be3d3fb3fd66a1b5560f52b8e60d1ad93",
+    "title": "https://www.mhlw.go.jp/content/001195735.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195735.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195736.pdf": {
+    "hash": "8c657279e5b97122b2e947b6beabe277cdd0874f5e6a51ccb0bb561bc7b9378a",
+    "title": "https://www.mhlw.go.jp/content/001195736.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195736.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195737.pdf": {
+    "hash": "72e304d9e18307b1305c7c2c31c843564f555bd042b1a2f92a44f795f723a904",
+    "title": "https://www.mhlw.go.jp/content/001195737.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195737.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195738.pdf": {
+    "hash": "1797fe9420011a4ba26d1ef5c92a8e351236a8a6aeda8a8140da61a133966768",
+    "title": "https://www.mhlw.go.jp/content/001195738.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195738.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195739.pdf": {
+    "hash": "5a3babecf5303443784f654978fefb023759f761823f3345e00a4d2ecd10aac5",
+    "title": "https://www.mhlw.go.jp/content/001195739.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195739.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195740.pdf": {
+    "hash": "ab4ae76a481506031082acc99082ddf60715f85e4e407c69c58738a3eaa3fd64",
+    "title": "https://www.mhlw.go.jp/content/001195740.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195740.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37207.html": {
+    "hash": "03df1a4366c7bb1412b8cda537df422713bab92acdfd967e9fc6df1c64375243",
+    "title": "石川県能登地方を震源とする地震による中小企業退職金共済制度、勤労者財産形成持家融資制度、財形住宅貯蓄制度及び財形年金貯蓄制度の特例措置及び労働金庫における金融上の措置について｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37207.html.md"
+  },
+  "https://www.mhlw.go.jp/content/001191728.pdf": {
+    "hash": "0292ebe319ced1a85ec610324fee4f0e9a4e0ff4cb40b8da48b384cf13e62e30",
+    "title": "https://www.mhlw.go.jp/content/001191728.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001191728.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001196812.pdf": {
+    "hash": "49e8aba970185f9ab1d5e6d51107aa43f9e5ac72505b11a7b6023602bd1a7f78",
+    "title": "https://www.mhlw.go.jp/content/001196812.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001196812.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001190510.pdf": {
+    "hash": "936dcfee988024e43978a5efe0f7dddeec33d5cc7bc53016494454aa79f77cc4",
+    "title": "https://www.mhlw.go.jp/content/001190510.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001190510.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001190470.pdf": {
+    "hash": "b3d731f9ff21091a056fabaa28796ea772f379b86b834f44b4134e782101490c",
+    "title": "https://www.mhlw.go.jp/content/001190470.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001190470.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37206.html": {
+    "hash": "4a69136f1b7218f906e828dabfde434d21fc5fbaddf2475fbeb5b1adbd435460",
+    "title": "石川県能登地方を震源とする地震による中小企業退職金共済制度、勤労者財産形成持家融資制度、財形住宅貯蓄制度及び財形年金貯蓄制度の特例措置について｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37206.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_40713.html": {
+    "hash": "0621456868d904f7b2ee50b3cbd418b2a438f5e9232a3204b7105724171bc4aa",
+    "title": "令和６年能登半島地震関係 富山県と石川県の一部地域における労働保険料、障害者雇用納付金などの、申告・納期限の延長後の期限を７月31日と決定しました｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_40713.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_46733.html": {
+    "hash": "2ddf26d27d165e06429d41dd528475c0e8f557f20c79c2404798410b174353f0",
+    "title": "令和６年能登半島地震関係 石川県の一部地域における労働保険料、障害者雇用納付金などの、申告・納期限の延長後の期限を令和７年１月31日と決定しました｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_46733.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_63038.html": {
+    "hash": "8f8a2d7099660b5acf571417c93e057185d34167611116e3815f2a90a4695260",
+    "title": "令和６年能登半島地震関係 石川県奥能登２市２町における労働保険料、障害者雇用納付金などの、 申告・納期限の延長後の期限を令和７年10月31日と決定し、延長措置は終了します｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_63038.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/hoken/roudouhoken21/index.html": {
+    "hash": "2b48b69304bf742dad3a24a666fc5b9e968807b0d3a93ce776555356896a7889",
+    "title": "労働保険年度更新に係るお知らせ ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_koyou_roudou_roudoukijun_hoken_roudouhoken21_index.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/hoken/hokenryou/index.html": {
+    "hash": "d478428d368780eb015faa25dc04237459b6964dbc733cd4c7b18208df97a20c",
+    "title": "労働保険等の口座振替納付｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_koyou_roudou_roudoukijun_hoken_hokenryou_index.html.md"
+  },
+  "https://www.mhlw.go.jp/content/001186953.pdf": {
+    "hash": "2f2dfbf65d779cbcf9fe2fd9b764aadf2f8ef4b387dca0516207f2178f8d7d82",
+    "title": "https://www.mhlw.go.jp/content/001186953.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186953.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001264285.pdf": {
+    "hash": "e836f1a3f6cd670c906d086049f8b84ded900fadb5d52ca433c18e846c5dea24",
+    "title": "https://www.mhlw.go.jp/content/001264285.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001264285.pdf"
+  },
+  "https://www.otit.go.jp/": {
+    "hash": "b7ea96556b9bd06f4f4dfa88ec075e16cbe1185f4f5d61e60f32b3ac3291683f",
+    "title": "外国人技能実習機構",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.otit.go.jp/index.md"
+  },
+  "https://www.mhlw.go.jp/content/001196814.pdf": {
+    "hash": "ebe826e0b15ede58482ed30c526f375ece2744b44305f6a71aa59714f9778458",
+    "title": "https://www.mhlw.go.jp/content/001196814.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001196814.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html": {
+    "hash": "de1c49b305014b13dfa59ac84a45aea529565ace8034ed672b1b0061a4faa3f1",
+    "title": "人材開発支援助成金｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_seisakunitsuite_bunya_koyou_roudou_koyou_kyufukin_d01-1.html.md"
+  },
+  "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/chiiki_koyou.html": {
+    "hash": "69382ac23eeb3f4feeb40ad63b810ef58325ecacbfc21819da4aea6e75801bc5",
+    "title": "地域雇用開発助成金（地域雇用開発コース）｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/seisakunitsuite_bunya_koyou_roudou_koyou_kyufukin_chiiki_koyou.html.md"
+  },
+  "https://www.mhlw.go.jp/content/001389626.pdf": {
+    "hash": "3df8a6ba305040b42312eafe0b4bbd55b838cf99b2b7e54bac83d5a7b1ebbef7",
+    "title": "https://www.mhlw.go.jp/content/001389626.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001389626.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195024.pdf": {
+    "hash": "b9fe43cdc337f28f8a5adf5ca5f51dddfcd7444d0d6ac30dae0ae32de96d7012",
+    "title": "https://www.mhlw.go.jp/content/001195024.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195024.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195025.pdf": {
+    "hash": "a259c75ab2ff9e34f79d9194400afbfbef42fe13be7518d9a50a54ea1ec07bd6",
+    "title": "https://www.mhlw.go.jp/content/001195025.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195025.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195026.pdf": {
+    "hash": "1280f7ace983d9f2e1b8d8b0603252b5dcd705a5a770293f8a58184ca64bfa4a",
+    "title": "https://www.mhlw.go.jp/content/001195026.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195026.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001186927.pdf": {
+    "hash": "1b0c7e0bef9deb5b1c699243b0bc10f84de460b78906f87eae597ca0b227e96f",
+    "title": "https://www.mhlw.go.jp/content/001186927.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186927.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001186955.pdf": {
+    "hash": "ce8c9599c79b665805e5ac4037b6ac7a3989874aa878f211c132b398b581ee5c",
+    "title": "https://www.mhlw.go.jp/content/001186955.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186955.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001186956.pdf": {
+    "hash": "d2aff1ea58bd1d0be485b9ca7f143417d0af4f762aa7c0e02e2a87b5e6d449b2",
+    "title": "https://www.mhlw.go.jp/content/001186956.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186956.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001186957.pdf": {
+    "hash": "2422b1182eebf5326c7bd8665825a6c2d82f00c6a804d2b3267b72155c21ca20",
+    "title": "https://www.mhlw.go.jp/content/001186957.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186957.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001186958.pdf": {
+    "hash": "4a25357dbeb34ad4ca2ed1c7e5775da9ca1c0a1f1638ab97ff7f5cf6831f32cb",
+    "title": "https://www.mhlw.go.jp/content/001186958.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186958.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001186959.pdf": {
+    "hash": "8f5fb9f5ecccb095cbdf51687a82834a9c9cae425a05dc4fbf34146d667e8a01",
+    "title": "https://www.mhlw.go.jp/content/001186959.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186959.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001186960.pdf": {
+    "hash": "b2a55aa2487f2571b8da3106153baac9d6a315a08a14c73e1e986194c14a0361",
+    "title": "https://www.mhlw.go.jp/content/001186960.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186960.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001186961.pdf": {
+    "hash": "8c6c6fe163774de148ea5fa7c30a5d148d8a75bba6fccb40fdc675b92b39449c",
+    "title": "https://www.mhlw.go.jp/content/001186961.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001186961.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001191705.pdf": {
+    "hash": "ed39928bb4fd7deb0e79e7e44a8d08de0cffff6c6d9005c267fffd2ef3bb558b",
+    "title": "https://www.mhlw.go.jp/content/001191705.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001191705.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001191706.pdf": {
+    "hash": "fbfc5eb0f4ff64cd672567f591ee29283f60ed509fff71edd27327a742680477",
+    "title": "https://www.mhlw.go.jp/content/001191706.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001191706.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001188637.pdf": {
+    "hash": "7f90b2365fb27d6572472b7898055b6d424c4c42cd75855c37a09cfe5ee46ad5",
+    "title": "https://www.mhlw.go.jp/content/001188637.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001188637.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001191707.pdf": {
+    "hash": "453e5303b59c8cbf77e93a68107673b6b22b91fc3d35a80ddf5d4d0df5242b6e",
+    "title": "https://www.mhlw.go.jp/content/001191707.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001191707.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001195754.pdf": {
+    "hash": "d1048f533ef472963534be12e18e74f297b128333fb7bd13f8fd19d74acb840a",
+    "title": "https://www.mhlw.go.jp/content/001195754.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001195754.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001389630.pdf": {
+    "hash": "8af6ecb65b292393d733b690a2bb488dd68c2dd12df8d495392aa46313af3bc9",
+    "title": "https://www.mhlw.go.jp/content/001389630.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001389630.pdf"
+  },
+  "https://www.nenkin.go.jp/oshirase/topics/2024/0109.html": {
+    "hash": "bc0ab9caa8673204fd5393bbc2baa088c169068991933cb533bb679e483ba181",
+    "title": "令和6年能登半島地震により被害を受けられた皆さまへ｜日本年金機構",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nenkin.go.jp/oshirase_topics_2024_0109.html.md"
+  },
+  "https://www.mhlw.go.jp/content/001187718.pdf": {
+    "hash": "abe8bee7d81da52a1d1f840375f5fc966c5b0834de21376a5cc7ded7356db146",
+    "title": "https://www.mhlw.go.jp/content/001187718.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001187718.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37224.html": {
+    "hash": "a353cc7f717ae6a45a8f5bde66aa9f5e987704a563c6d31700f0a2231429a080",
+    "title": "国民年金保険料の免除について｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37224.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37328.html": {
+    "hash": "3185c8ddb4e09d7591e3dd55dde609aa9f1b4cdc28de6e3c91aaf58e0cfb55f1",
+    "title": "厚生年金保険料等に関する納期限の延長措置について｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37328.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_40632.html": {
+    "hash": "cfa309fb91ff5b2206d5f019710893b1444b11ce217237dc26dd8515951d12a1",
+    "title": "厚生年金保険料等に関する納期限の延長措置について(納期限の決定)(令和６年12月９日告示)  ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_40632.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37221.html": {
+    "hash": "19afbae77d9a6296b7a10b4b186ccdb9777dbe837ac508d0b28c32e33a00b01c",
+    "title": "厚生年金保険料等の口座振替及び納付の猶予についてのお知らせ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37221.html.md"
+  },
+  "https://www.nenkin.go.jp/section/soudan/index.html": {
+    "hash": "a49973cbb63ee41fb6b3869c516d60d26d79b76478c038e389612b8c40a375d9",
+    "title": "全国の相談・手続き窓口｜日本年金機構",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nenkin.go.jp/section_soudan_index.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37424.html": {
+    "hash": "32e259cdd4eed4a4e4e3951b8b077bc6a94a9c42268f8985ef24a4caa2dfc10b",
+    "title": "現況届等の提出期限の延長について｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37424.html.md"
+  },
+  "https://www.wam.go.jp/hp/home-topics_list-recovery-recovery-tabid-1129/": {
+    "hash": "c93e79ba36e43f70cbf7b53ea704cb78044f66c8d7aa55fe248b3ae3141e587a",
+    "title": "返済条件の緩和等のお取扱いについて | WAM",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.wam.go.jp/hp_home-topics_list-recovery-recovery-tabid-1129.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37351.html": {
+    "hash": "ecbb047d0f875e2408b34d4568a31849120ae34193ae9dd9128e7e23a9f050ff",
+    "title": "確定拠出年金の事業主掛金及び加入者掛金の納付期限の延長措置について｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37351.html.md"
+  },
+  "https://www.mhlw.go.jp/content/001213457.pdf": {
+    "hash": "2b315845d1d44070413cbff738bb2009a7a72e4db134649bd9a51bfc467125d2",
+    "title": "https://www.mhlw.go.jp/content/001213457.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001213457.pdf"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37199.html": {
+    "hash": "edda6c146814cba9cfa21807fbef45f75c49bf0a5fbd0ac6aab9711d66d9ca63",
+    "title": "石川県能登地方を震源とする地震に関する通知・事務連絡等｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37199.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37321.html": {
+    "hash": "24587ec265a559b7236c9d0e13e3254c7ee6bf1ca11ae2ddc14ba2ed879caa5b",
+    "title": "現地における被害状況の把握と早期の復旧活動について｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37321.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_37496.html": {
+    "hash": "1af27e24be75113de43c9416c616d6e6aac46c4897bcd5af716d5f8e39bb3bbb",
+    "title": "厚生労働省災害対策本部会議の開催状況｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_newpage_37496.html.md"
+  },
+  "https://www.mhlw.go.jp/content/001189386.pdf": {
+    "hash": "650c8c1ddd0052920c3ec9d036dca223171722497ba483628027a88daf73cda0",
+    "title": "https://www.mhlw.go.jp/content/001189386.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001189386.pdf"
+  },
+  "https://www.mhlw.go.jp/content/001190166.pdf": {
+    "hash": "a32a3b62f18b7d8a81071ed275376e5b58e78c15ccc50ca0b8605e00b86bad1b",
+    "title": "https://www.mhlw.go.jp/content/001190166.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_001190166.pdf"
+  },
+  "https://www.bousai.go.jp/updates/r60101notojishin/index.html": {
+    "hash": "1ef8ffca7402fdf5fa58f788a5e39f996bb111c71b60aef10c91d2ece29094f7",
+    "title": "令和６年能登半島地震による被害状況等について : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.bousai.go.jp/updates_r60101notojishin_index.html.md"
+  },
+  "https://www.soumu.go.jp/r6_noto_jishin/index.html": {
+    "hash": "96e372acb381feb3899efc13f8fdccfbe7648b98f210789e89e4156cca3af53b",
+    "title": "総務省｜災害関連情報｜令和6年能登半島地震関連情報",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.soumu.go.jp/r6_noto_jishin_index.html.md"
+  },
+  "https://www.jma.go.jp/jma/menu/20240101_noto_jishin.html": {
+    "hash": "0008ba4eb8d07ecd1e591b1c860de01559e90623562a0fdb7c51ea0723bdc0fc",
+    "title": "令和6年能登半島地震等の関連情報 | 気象庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jma.go.jp/jma_menu_20240101_noto_jishin.html.md"
+  },
+  "https://www.mlit.go.jp/saigai/saigai_240101.html": {
+    "hash": "d53938dd7e775b0aff221629f620d60128d62114c2fb30fe3f2888b55dad0655",
+    "title": "災害・防災情報：令和６年能登半島地震における被害と対応について - 国土交通省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mlit.go.jp/saigai_saigai_240101.html.md"
+  },
+  "https://www.nta.go.jp/about/organization/access/map.htm": {
+    "hash": "de45d644fef36fc47c451ffb840471fb0e8c47cc689f580bf26109ce6a58ae37",
+    "title": "税務署の所在地などを知りたい方｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/about_organization_access_map.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/kosei/annai/2834.htm": {
+    "hash": "c12535b15f217c98e30795dfea5aa522ae27e420f355b8334f2e93640c5f517b",
+    "title": "C1-15、H1-22　災害による申告、納付等の期限延長申請｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_tetsuzuki_shinsei_annai_kosei_annai_2834.htm.md"
+  },
+  "https://www.nta.go.jp/publication/pamph/koho/kurashi/html/04_4.htm": {
+    "hash": "08c1576f01925094027d045033b5c00335ce4d5b80b66b76ab3cb6aeede74584",
+    "title": "災害等にあったとき｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/publication_pamph_koho_kurashi_html_04_4.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-saigai.htm": {
+    "hash": "0f5c041b7be6d6ddd2802e925feb8ae90b49e3d3df15b9247ebba69a7f5a4c2b",
+    "title": "災害｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_taxanswer_code_bunya-saigai.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/saigai/h30/pdf/0018009-029.pdf": {
+    "hash": "b2fb0a848b8f58e4f8f4d39f93e0b61bbb2ee325744fddfdfa312f4b80c5e62d",
+    "title": "https://www.nta.go.jp/taxes/shiraberu/saigai/h30/pdf/0018009-029.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_saigai_h30_pdf_0018009-029.pdf"
+  },
+  "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shohi/annai/5024.htm": {
+    "hash": "ba8573d87892d53e93d36ef39f08d968d9fd323c0605b7b610835818834b1abd",
+    "title": "D1-60 災害等による消費税簡易課税制度選択（不適用）届出に係る特例承認申請手続｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_tetsuzuki_shinsei_annai_shohi_annai_5024.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/saigai/h30/0018008-045/index.htm": {
+    "hash": "da357479243ed7d59f2433ba70fd06e1c82243a2ff190c3d7e712cd266fd1939",
+    "title": "災害に関する所得税の取扱い（個人の方）｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_saigai_h30_0018008-045_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/saigai/r6/0023001-073/index.htm": {
+    "hash": "2e067e4164467df55f5df8266fe95083e2dca041d8f8fd127d3980adb3f8d685",
+    "title": "災害に関する相続税及び贈与税の取扱い｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_saigai_r6_0023001-073_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/saigai/h30/pdf/0018007-094_01.pdf": {
+    "hash": "b5bb998d1bc6f78331532581299b7604d948e35bef21358cc0b67ce592eb53c7",
+    "title": "https://www.nta.go.jp/taxes/shiraberu/saigai/h30/pdf/0018007-094_01.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_saigai_h30_pdf_0018007-094_01.pdf"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/saigai/h30/0018008-048/index.htm": {
+    "hash": "a08a4bddac97ab295357201cfd6a32bdedb1114b730dc6b235e3cb50a2f61075",
+    "title": "義援金に関する税務上の取扱いFAQ｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_saigai_h30_0018008-048_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/saigai/r01/pdf/0019007-031.pdf": {
+    "hash": "ab91f73a5ae5ac71a8f204c7a2d64d9094b8068e003a0ce97d93833a0d7118c9",
+    "title": "https://www.nta.go.jp/taxes/shiraberu/saigai/r01/pdf/0019007-031.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_saigai_r01_pdf_0019007-031.pdf"
+  },
+  "https://www.nta.go.jp/publication/pamph/inshi/pdf/inshi_2904.pdf": {
+    "hash": "a49ebd6f1081df6569052204ae7a2fcefaa0a0f96c6e28d3e7b741f0b43d04c0",
+    "title": "https://www.nta.go.jp/publication/pamph/inshi/pdf/inshi_2904.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/publication_pamph_inshi_pdf_inshi_2904.pdf"
+  },
+  "https://www.nta.go.jp/publication/pamph/kansetsu/shizen_saigai.pdf": {
+    "hash": "b13e29cffe94f10a6221535507b40d001c1d46bf3b25b6c4970b2b3fcdbeeac9",
+    "title": "https://www.nta.go.jp/publication/pamph/kansetsu/shizen_saigai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/publication_pamph_kansetsu_shizen_saigai.pdf"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8017.htm": {
+    "hash": "f02fd401ec29c33b4b4d3b566bbba8df100a1aa04978e00932c27d538922a6ef",
+    "title": "No.8017 災害により帳簿等を消失した場合｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_taxanswer_saigai_8017.htm.md"
+  },
+  "https://www.nta.go.jp/about/organization/sendai/topics/saigai/r7ofunato/index.htm": {
+    "hash": "46130b86f89d21773afd9caa731871b0adbdd95d251fe0d7d2a48cf6ff9973eb",
+    "title": "大船渡市の林野火災により被害を受けた皆様へ｜仙台国税局",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/about_organization_sendai_topics_saigai_r7ofunato_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/saigai/r6/noto/index.htm": {
+    "hash": "031ce9dcb0a43686c60c4676dfdc52b6ad0a21f34a06e56b9425c3d56f5cf673",
+    "title": "令和６年能登半島地震に関するお知らせ｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_saigai_r6_noto_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/saigai/r3/0021002-091/index.htm": {
+    "hash": "f7f1755c8cd47d2ad6749d92003e8be394a00e7f4841307183b49f315f7dc20f",
+    "title": "福島県沖を震源とする地震により被害を受けた酒類業者の皆様へ｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_saigai_r3_0021002-091_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/saigai/r2/0020007-044/index.htm": {
+    "hash": "2597fdfa41376ea90effe0f3d46f8e976cb5b43732e2371ecbff6b58be9e7c74",
+    "title": "令和2年7月豪雨に関するお知らせ｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_saigai_r2_0020007-044_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/saigai/r1/0019010-071/index.htm": {
+    "hash": "94ef3b45bd20c04f4c078094be0bc48679cb38250d11fac29725857891a1739e",
+    "title": "令和元年東日本台風（台風第19号）に関するお知らせ｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_saigai_r1_0019010-071_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/saigai/r1/0019008-120/index.htm": {
+    "hash": "5a27be5be7b7d8eb6731c9300181aa19cf19a24eb5e6eb24559019d75dcece4e",
+    "title": "令和元年8月の前線に伴う大雨により被害を受けられた皆様方へ｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_saigai_r1_0019008-120_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/saigai/r1/0019007-045/index.htm": {
+    "hash": "8fb1267e81deab4e33130efdcd32c9917b887d95e47401729a4b37917ce702a1",
+    "title": "山形県沖を震源とする地震により被害を受けられた皆様方へ｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_saigai_r1_0019007-045_index.htm.md"
+  },
+  "https://warp.da.ndl.go.jp/info:ndljp/pid/11295955/www.nta.go.jp/taxes/shiraberu/saigai/index.htm": {
+    "hash": "c18b0cbb6d4a60e6a6d35898e4dfdb5f1fcbb690032f902f30bca094f8e7bd35",
+    "title": "国立国会図書館インターネット資料収集保存事業（WARP）",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/warp.da.ndl.go.jp/info_ndljp_pid_11295955_www.nta.go.jp_taxes_shiraberu_saigai_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/index.htm": {
+    "hash": "a679e2c90e5f4847861b800d7a2fdd8ec2cc94af395a631535288e1b82260e6e",
+    "title": "税の情報・手続・用紙｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/index.htm": {
+    "hash": "f5974c8469c5a8ef37f8e8ad078cb87336282fd8aa3271081ff481ca3ce738f1",
+    "title": "税について調べる｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm": {
+    "hash": "451a78f4c77fb0d30fdc5894793d429a0df636d9c03c7e28daf1b3a9bc540f7c",
+    "title": "所得税の確定申告｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_shinkoku_kakutei.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm": {
+    "hash": "b29942c54def61bc71cdf2aa524582da9c7bebbb96cd48f96c7ccb38f83ba4e9",
+    "title": "タックスアンサー（よくある税の質問）｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_taxanswer_index2.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/sodan/index.htm": {
+    "hash": "420badbaf6d34c0baa7aab6773524ab50ac2e5b142dbb9bb7a532b12701bacdf",
+    "title": "税の相談｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_sodan_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/index.htm": {
+    "hash": "c7962cc2adfcd09efc03c4a44224d2372ba01e5f8c45faaa7eaefa1baf1cafb6",
+    "title": "税目別情報｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_zeimokubetsu_index.htm.md"
+  },
+  "http://www.rosenka.nta.go.jp/": {
+    "hash": "2a424b5e3bb1818d93e6bce5e5aacc7c354da18b8b0a0acc38d56eb190dac46d",
+    "title": "財産評価基準書｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.rosenka.nta.go.jp/index.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/kokusai/index.htm": {
+    "hash": "44628586f522aeed70d260978f09835f32e5765703bcc26ed7eb753f572d3b31",
+    "title": "国際税務関係情報｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_kokusai_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/shirabekata/info.htm": {
+    "hash": "b07154027b523db55b39048c72096aee48c1a144002c97a0968ae657d66ef8ff",
+    "title": "税についての上手な調べ方｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_shiraberu_shirabekata_info.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/tetsuzuki/index.htm": {
+    "hash": "e48f3e4242d6bd0f0d400ae0c0a64e161f8edbbac0345bd7034b8ffe542e3ec0",
+    "title": "申告手続・用紙｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_tetsuzuki_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/index.htm": {
+    "hash": "7ead4ec1f0a9d4bed096b4d37887bd71a411e2d076bd872dd45b68fa822f7ac9",
+    "title": "申告・申請・届出等、用紙（手続の案内・様式）｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_tetsuzuki_shinsei_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/index.htm": {
+    "hash": "949b91acc0b43d96cda592111df0df3ec23ce625554087d02f132eea45bc7137",
+    "title": "社会保障・税番号制度＜マイナンバー＞について｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_tetsuzuki_mynumberinfo_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/nozei/index.htm": {
+    "hash": "776b71b8665a7a64ec749eba1d5118f5f8ed563d4c813c62a206b9d55aff29fd",
+    "title": "納税・納税証明書手続｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_nozei_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/nozei/annai/index.htm": {
+    "hash": "2b5cd1d6cb552874de7a95140f73b04938c05cab339fb19b53aa8bf26eb622f2",
+    "title": "納税に関する総合案内｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_nozei_annai_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/nozei/nozei-shomei/01.htm": {
+    "hash": "1b322b648909b4bb0828c6d7bf01cd7725b94313c2ab3436996142105be1efd9",
+    "title": "G-1　納税証明書の交付請求手続｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_nozei_nozei-shomei_01.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/nozei/enno-butsuno/01.htm": {
+    "hash": "b4a9cf016bf4c0525de072a74e11db615ef17771d0a5aeb4e5dd6c9e42afd9cc",
+    "title": "延納・物納申請等｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_nozei_enno-butsuno_01.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/nozei/entaizei/keisan/entai.htm": {
+    "hash": "352e67b0a29681bda6b98c48e94d71c32eff0eedad379114dc2f7acdb10ca4ce",
+    "title": "延滞税の計算方法｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_nozei_entaizei_keisan_entai.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/zeirishi/index.htm": {
+    "hash": "122957034eeee3213d880abdfc4376187f5867d1b29ccad60bd55d3b992091c7",
+    "title": "税理士に関する情報｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_zeirishi_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/seido.htm": {
+    "hash": "bac1e1d8961338599489235a86af3dbc1f0afd0b7e54d328e4ca0c894118f886",
+    "title": "税理士制度｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_zeirishi_zeirishiseido_seido.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/zeirishi/zeirishishiken/zeirishi.htm": {
+    "hash": "5448869c3345e543b474df30f4295551e3ed0d5b24b89cf9e4d171bfdddf6020",
+    "title": "税理士試験｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_zeirishi_zeirishishiken_zeirishi.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/zeirishi/chokai/chokai.htm": {
+    "hash": "2424c57894794603e44601f97c34aed826f474a4d0d2a2143eda82eb025fed4f",
+    "title": "税理士等に対する懲戒処分等｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_zeirishi_chokai_chokai.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/zeirishi/search/search.htm": {
+    "hash": "b0af17b9a3b566d7ecf9433288041fa96e86662a8c5b5e8068efbda587d40cb0",
+    "title": "税理士をお探しの方へ｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_zeirishi_search_search.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/qa.htm": {
+    "hash": "0c785242be2fc145405bd6a519de46befaafe37df41499ca6c342d28148aee8e",
+    "title": "税理士関係法令等・Q&A｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_zeirishi_zeirishiseido_qa.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/sake/index.htm": {
+    "hash": "1c13ef284171737d0c23a6fcd3482fc0f9cf93244ded7ce2bfe00a964cfdd41c",
+    "title": "お酒に関する情報｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_sake_index.htm.md"
+  },
+  "https://www.nta.go.jp/taxes/kids/index.htm": {
+    "hash": "cd0335b9461546becd33dfd62891550a92b4a94904148638fa1cd72125f5f7b3",
+    "title": "税の学習コーナー｜国税庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.nta.go.jp/taxes_kids_index.htm.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260616001.pdf": {
+    "hash": "f7c31b05058ed557bb2589fbf85addf427cabe46485fb5a92f6e4e406f366455",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260616001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_dl_260616001.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_kettei.html": {
+    "hash": "0272065763b85368ad2a06ae96ce9b76c4a533604b95aa287d69f8407ba72e2a",
+    "title": "石川県なりわい再建支援補助金の交付決定について | 石川県",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_nariwai_kettei.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260612001.pdf": {
+    "hash": "dfaae3b4e7260dbd4365bf46f4cb54d2d18061588c17267b700c925134180b7d",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260612001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_dl_260612001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260528001.pdf": {
+    "hash": "c9117ddf4fda619130d43ffe3fa33db3df4fd1e8e7eea5689a090e46bcf8b186",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260528001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_dl_260528001.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/hukkyuu_shotengai.html": {
+    "hash": "437c238a18eeb8c293a71ab2f3bbe69e635e6c003800ee40d58d8bcc38277a3b",
+    "title": "商店街災害復旧事業補助金 | 石川県",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_hukkyuu_shotengai.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260520001.pdf": {
+    "hash": "1b8b219b5eda52b4e96c4f8655856ec8972fea91b1e18b0b5bb05ad566b298b1",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260520001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_dl_260520001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260515001.pdf": {
+    "hash": "f1f49a2da1e30ed8f7c1f0a8ee270d7cd7b6935f291bd2c0b205e49abb56c64a",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260515001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_dl_260515001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260501001.pdf": {
+    "hash": "084edc20ab8e04e1312e5e48a3c9e55b2a995ad6277c9979dd90a64a0a560733",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260501001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_dl_260501001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260324001.pdf": {
+    "hash": "2fc57d97d0e064ddba03db7b871cae8761d84674d6a625667e4b50ca4d1ac3f6",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260324001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_dl_260324001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/dl/01yokou.pdf": {
+    "hash": "78b107a07917b941c4dec8416ec26f077ad375bd9cf4eddb05061cfca0086e4a",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/dl/01yokou.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_dl_01yokou.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/dl/04qa.pdf": {
+    "hash": "41fc165bc3febb0ac46be70b53ee82b23cbfa4ed5842112fdb3f149e4a2f79cf",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/dl/04qa.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_dl_04qa.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/dl/05jirei.pdf": {
+    "hash": "5465bcb0eb2a6566266ee64e2be28abf6ccb36f9c60cbeb65511e0030a79bc35",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/dl/05jirei.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_dl_05jirei.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/dl/yoryo.pdf": {
+    "hash": "843da2b42b7c80ed5bed087abaa50efdd64567f0f784bbc53b57fdb806a645cb",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/dl/yoryo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_dl_yoryo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/nigiwai01.pdf": {
+    "hash": "15acc18075ffb3489f2d60f7363d305e39e75712fc221f4a6b326cd8216a15f1",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/nigiwai01.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_saitaku_nigiwai01.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/nigiwai02.pdf": {
+    "hash": "5ae34b1f274262979259b6aad6a58db238ebfc481c028e883d8668f37c43bf23",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/nigiwai02.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_saitaku_nigiwai02.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/nigiwai03.pdf": {
+    "hash": "903e6e992af4a8c58bcdfe83596076d1070f1c3723fdeb5501071aa0f11c3602",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/nigiwai03.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_saitaku_nigiwai03.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/nigiwai04.pdf": {
+    "hash": "9e5a521ea361ff13046df4936f5f93d1781a786d3af040544fe7bc01093a7d99",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/nigiwai04.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_saitaku_nigiwai04.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/nigiwai05.pdf": {
+    "hash": "218f50532baad78955059f16f703733b1fd92c7d818fb49023fb58598db9b2fe",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/nigiwai05.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_saitaku_nigiwai05.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/nigiwai06.pdf": {
+    "hash": "9807164bb1f73fc2de3307635a46d129f5816e205d248680935474e1e6a40598",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/nigiwai06.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_saitaku_nigiwai06.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/saigai_koufu01.pdf": {
+    "hash": "6bdd35864d2cdbba0fde59b4719e3103186583bd9050e8ea6d02ec6c46e675f7",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/saigai_koufu01.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_saitaku_saigai_koufu01.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/saigai_koufu02.pdf": {
+    "hash": "e6f8bde772f0da64098162a2f1072b571a7e4ce9b1bf2de14dd3a4dfb0e0b9b0",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/saigai_koufu02.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_saitaku_saigai_koufu02.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/saigai_koufu03.pdf": {
+    "hash": "071a22cb8660d190812e24d94814e1bad0a4abb16f8d3d990c3d7d7e27f86b98",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/saigai_koufu03.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_saitaku_saigai_koufu03.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/saigai_koufu05.pdf": {
+    "hash": "d7a68b966bf8f607851846563708173bf41c3f1204109e6abd212dad534e03c7",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/saitaku/saigai_koufu05.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_hojyokin_kino_fukugo_saitaku_saigai_koufu05.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260225001.pdf": {
+    "hash": "7b6d0acf0217a75f033cc7e46f17b0e2a2a95b119e242c080be6c676df524daa",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260225001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_dl_260225001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260206001.pdf": {
+    "hash": "d7a68b966bf8f607851846563708173bf41c3f1204109e6abd212dad534e03c7",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260206001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_dl_260206001.pdf"
+  },
+  "https://www.pref.niigata.lg.jp/site/chiikishinko/jigyosaiken.html": {
+    "hash": "880f1a17243f50d7b0c25d43ed96f3138c97be4d5a11bd6b5b5a072d2d8a7a7b",
+    "title": "令和6年能登半島地震に伴う中小企業等の事業再建支援（補助金関連）について - 新潟県ホームページ",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.niigata.lg.jp/site_chiikishinko_jigyosaiken.html.md"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260130001.pdf": {
+    "hash": "6d6882ab0192cb94de02001df4b4e72a2c240b97b9a5d33d4c0c0cb45a4e0199",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260130001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_dl_260130001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251226001.pdf": {
+    "hash": "01f5b0b7cffaab7b7100910f2271e3f5787135a31567f883ffa4e2b2cb2552c8",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251226001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_dl_251226001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251225003.pdf": {
+    "hash": "f2a24b96fcbaecf4b4e53b4e92f8c0cc7e136952eae1466673111e7e59109c6e",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251225003.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_dl_251225003.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251225002.pdf": {
+    "hash": "4fcb427a98588e5d24d2aefe66325e0a7c869b1f0566bcd272de2267d0a2d381",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251225002.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_dl_251225002.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251225001.pdf": {
+    "hash": "6ee0c4d427af523df31a826f0e28253334fa953c9ed47b35fa1173ed2ad802da",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251225001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_dl_251225001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251215001.pdf": {
+    "hash": "f89c8db5f2011d3f0a30e2094765a9fb11c905dc2481bab4beaf4e54dcbf18dd",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251215001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_dl_251215001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251212001.pdf": {
+    "hash": "31671051343b1d60c1b2530c2135426452a895d132f91ea99c47e13a1375b604",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251212001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_dl_251212001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251126001.pdf": {
+    "hash": "dc398f20673fb0736b1ba35e41489ef69e7970cf19186c1ece726344aff007e1",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251126001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_dl_251126001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251111001.pdf": {
+    "hash": "c750e31a95df091a1aa6e2d895f34ffe39983be19f7c0f3600d0a3a7563b7109",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251111001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_dl_251111001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251031001.pdf": {
+    "hash": "d2f31e36ffb7f2d8b75a8e84b6cb46a99ef9d0d69bbb943650ff2557a931d4fb",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251031001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_dl_251031001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/251029kino_fukugo.pdf": {
+    "hash": "38164d50ae630cdf8cb48f643436d332077d513b153485b7c3da0e2ad258b7c0",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/251029kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2025_251029kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251024001.pdf": {
+    "hash": "a5cd6b499241b32c166e71ec9039773817cf41dbd1bb6cc4e9e9556f027c9386",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251024001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_dl_251024001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251014001.pdf": {
+    "hash": "89423a3d0f084c05b0c3507b01c89e533af8a259cf56992e982efe37dc7c91b0",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251014001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_dl_251014001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251010001.pdf": {
+    "hash": "293ff64f85a701de08c335476c589f294654a62e073dadd018e849d0ccf13c32",
+    "title": "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2025/dl/251010001.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2025_dl_251010001.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250908nariwai.pdf": {
+    "hash": "c53058df0254caefa28268d36a3cf8b22947092743821ff8cd8e24b249f6a9f9",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250908nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250908nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250829nariwai.pdf": {
+    "hash": "3f20d640ee7bcf491aeead60b67652c5dc46d526481be8dfd438ee8af698a14b",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250829nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250829nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250827nariwai.pdf": {
+    "hash": "a7d55382d0393c0325f1853252f7d1e8cea41d039f52e0ed2b272ee15092e4cf",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250827nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250827nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250825nariwai.pdf": {
+    "hash": "82b252f7db842e3ef9b22d8935e4d230c351d1557b6d56f459027d4a3d3df73e",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250825nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250825nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250808nariwai.pdf": {
+    "hash": "cd9f13673db55ed43415cda12fbd8d40f38a2468cf52e308faa013b07fd49c51",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250808nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250808nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250807kino_fukugo.pdf": {
+    "hash": "ff148c6d90340775c4f81fe8da50c6918d6a49304badcccf34f0cb8b2d5e5876",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250807kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2025_250807kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250730nariwai.pdf": {
+    "hash": "c1f53e94c89f43f4770bd207305d06016adf8a82f9afcea6311f5ae26c461841",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250730nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250730nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250711nariwai.pdf": {
+    "hash": "b465ca2a6b2b97b71802d8ebd6b57ec685ddee0f83d333c7bf582d3b7ce434e6",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250711nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250711nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250630nariwai.pdf": {
+    "hash": "e77c1d2a04a3667e1f0a36c886466821575fcd64b32f2e3b80668d62034979e1",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250630nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250630nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250625nariwai.pdf": {
+    "hash": "82b252f7db842e3ef9b22d8935e4d230c351d1557b6d56f459027d4a3d3df73e",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250625nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250625nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250620nariwai.pdf": {
+    "hash": "d7f3c1787110b77842cfd08585c1aa1e72e71f43d3799b56cf572ea66df8dfe2",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250620nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250620nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250618kino_fukugo.pdf": {
+    "hash": "91341423413855a7db14029451447e2cdb00b6b98fb3e1486abb58d488b1e843",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250618kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2025_250618kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250613nariwai.pdf": {
+    "hash": "81257b9fed8c28545ab36fcf1c51ddeaadad682e02ca319cec4d0493b9e398b7",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250613nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250613nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250513nariwai.pdf": {
+    "hash": "5e5d8f8cd0567e9665a6c495912150c2ec5bb0b0ee80f2c6d38eeae6bb989b0b",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250513nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250513nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250422nariwai.pdf": {
+    "hash": "7d3089e5186a9eb424bf37a1eaf46fce087df5bc321f7c0663b49dfcadc5379a",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250422nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250422nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250417kino_fukugo.pdf": {
+    "hash": "218f50532baad78955059f16f703733b1fd92c7d818fb49023fb58598db9b2fe",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250417kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2025_250417kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250325nariwai.pdf": {
+    "hash": "00478d93ab15047fe5ad6acfc54485740c59d2c851e93e2649463748ebc360cb",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250325nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250325nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250312kino_fukugo.pdf": {
+    "hash": "071a22cb8660d190812e24d94814e1bad0a4abb16f8d3d990c3d7d7e27f86b98",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250312kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2025_250312kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250217kino_fukugo.pdf": {
+    "hash": "9e5a521ea361ff13046df4936f5f93d1781a786d3af040544fe7bc01093a7d99",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2025/250217kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2025_250217kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250127nariwai.pdf": {
+    "hash": "cf7f916dfea10f528a2ddfffdf41087ce18e135289755bafd1c393bfdcbfb986",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250127nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250127nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250120nariwai.pdf": {
+    "hash": "bc0d11f5f418299d6413dc3bd81749eff8a9dfdbea3159025f005eae07a56afb",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250120nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250120nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250114nariwai.pdf": {
+    "hash": "37fdb10f0f5d376c0c605242387f587f7b00e0303fceddbb37bd2b15b8486750",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2025/250114nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2025_250114nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241226nariwai.pdf": {
+    "hash": "0acbedac8ed39f4fb0e55bb1726d67f91f1a5946a151a101be746aa7582d3eec",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241226nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241226nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241220nariwai.pdf": {
+    "hash": "bb0c0084c9894c0172cb8f5bd3bd838572e1f1526a8193ee41019e0fc0d1682a",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241220nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241220nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241218nariwai.pdf": {
+    "hash": "e76192d10c280f10f202c626d8f8de621a61f6124455f4ce98dedf24857ada0e",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241218nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241218nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241216nariwai.pdf": {
+    "hash": "2430f19fb4c8f2d2a180ff1a46515426c315124fb5543fedfc7be9e2d6b59200",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241216nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241216nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241127nariwai.pdf": {
+    "hash": "7af49b498fe429499abe2e07dffe163474337061bedc2b155a17260a14def078",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241127nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241127nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/241115kino_fukugo.pdf": {
+    "hash": "7b55e47b2b24474ff8aff4fb91ca8dea58096ffa355b61b8715903bf3ffae8df",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/241115kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_241115kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241112nariwai.pdf": {
+    "hash": "88e98a13d3597eac6876de1bb38fe501de6104bb424522e44f4169fbfcd9b631",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241112nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241112nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/2024/241105_kikan.pdf": {
+    "hash": "8ec13d6302dd9b79a99ea75d5369c6eb53fcce6d162f0efe9570bd514e0119c7",
+    "title": "https://www.chusho.meti.go.jp/kinyu/2024/241105_kikan.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_2024_241105_kikan.pdf"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/2024/240524_kikan.pdf": {
+    "hash": "1746d4f7172505a03a2246690674297788a828654f06e50d8af2bb0b1f202f5b",
+    "title": "https://www.chusho.meti.go.jp/kinyu/2024/240524_kikan.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_2024_240524_kikan.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/saisei/2024/240329kaitei.html": {
+    "hash": "4cd3bfdd1cebf14bc42ba9b7caec7633929b0a92a5e47f52526ace1f0d9fce2b",
+    "title": "「中小企業活性化協議会実施基本要領」等を改定等します | 中小企業庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_saisei_2024_240329kaitei.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241025nariwai_ishikawa.pdf": {
+    "hash": "0de0195ce79baef4397275dca90f7b792bc5a7d602abc7cd0397b222264d1cd3",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241025nariwai_ishikawa.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241025nariwai_ishikawa.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241025nariwai_toyama.pdf": {
+    "hash": "0e04735006be31b5de5a684752c7f52fcd61e57196aa40bfb7cc1ba58b4f0129",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241025nariwai_toyama.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241025nariwai_toyama.pdf"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/sinyouhosyou/dl/karikae_youken.pdf": {
+    "hash": "7398cbfee208c8fe1d29dbe96df0e73e4d0250eea0b2b120b9b99ed780d4407f",
+    "title": "https://www.chusho.meti.go.jp/kinyu/sinyouhosyou/dl/karikae_youken.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_sinyouhosyou_dl_karikae_youken.pdf"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/sinyouhosyou/dl/karikae_gaiyo.pdf": {
+    "hash": "5570bd5400a757e8220fa4f04778aab2bb3bca4b07f8894bac48c3fc4c935cc0",
+    "title": "https://www.chusho.meti.go.jp/kinyu/sinyouhosyou/dl/karikae_gaiyo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_sinyouhosyou_dl_karikae_gaiyo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/sinyouhosyou/dl/keikaku_sample.pdf": {
+    "hash": "36b44baa617538fb543451ee79fbf04dcb03af871618f80027e50e272c3d905a",
+    "title": "https://www.chusho.meti.go.jp/kinyu/sinyouhosyou/dl/keikaku_sample.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_sinyouhosyou_dl_keikaku_sample.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/241011kino_fukugo.pdf": {
+    "hash": "3cdbcd6bd5d9b2a5c68e7fcde991b9cac29f6814f33cf53c539b6cc15b20d683",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/241011kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_241011kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241004nariwai.pdf": {
+    "hash": "cf026d62eccbe4597802ec18b540b930f512a6464f2a8f527c1bdd7288e97a07",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/241004nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_241004nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240925kino_fukugo.pdf": {
+    "hash": "fb7c8204f448210aca674c94631dbf82424267f1fe547823c26d4d9f33c1adf9",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240925kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240925kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240910nariwai.pdf": {
+    "hash": "9b2915f997963cc4a974475c2cffa81e1a8fa917acf0b6a2a64a36e3a6934e94",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240910nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240910nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240904nariwai.pdf": {
+    "hash": "b9ad6621ae33a1eb58a2dccd8c31964313bd57c7c2a6fa0e0e5f58a5985ce8df",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240904nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240904nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240903kino_fukugo.pdf": {
+    "hash": "f960223b86ea31f69d81693ba56165aa80d2ad1bde21c2458a269a4d5774a20a",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240903kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240903kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240829nariwai.pdf": {
+    "hash": "d44773e335a6378065458a9affc9c2133869c080a039a509201bf23da06c7149",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240829nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240829nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240823nariwai.pdf": {
+    "hash": "53b007c9250379e1b0d638895cfb256aba2b40d206cabbfaa7e3391d67fcb06d",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240823nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240823nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240731nariwai_niigata.pdf": {
+    "hash": "9442af360e6b960178a72877c2d69f42a3fde2f8d841820cd6e58ebaf66f41da",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240731nariwai_niigata.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240731nariwai_niigata.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240729nariwai_toyama.pdf": {
+    "hash": "625884c5b7c658eb68983a386181f3c3d9eaf87d31e2a934a20e72668402fb7a",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240729nariwai_toyama.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240729nariwai_toyama.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240723kino_fukugo.pdf": {
+    "hash": "d5c3dfd200c93b5d3f53eacb636eea0e8c9e19903bc2c32c8f648e500a85df19",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240723kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240723kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240628nariwai_ishikawa.pdf": {
+    "hash": "cbe72ac61be05d93bcda60835704d1c563ea327031bec945cfea2be677593d7e",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240628nariwai_ishikawa.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240628nariwai_ishikawa.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240628nariwai_fukui.pdf": {
+    "hash": "b98ec43210bbdb6246997e095c17923e5fa8aec7b22d7b0326dd476d9cd3864c",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240628nariwai_fukui.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240628nariwai_fukui.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240624nariwai.pdf": {
+    "hash": "ff86ac6324527f74bfd3baf2234c8be7ec6625225a348d9362b37172e355c9a5",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240624nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240624nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240621kino_fukugo.pdf": {
+    "hash": "6bdd35864d2cdbba0fde59b4719e3103186583bd9050e8ea6d02ec6c46e675f7",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240621kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240621kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240617nariwai.pdf": {
+    "hash": "e4410b89acc0257975f86ec0527c431c64c32dd2b6ad54150b2d139a89fbd317",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240617nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240617nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240617kino_fukugo.pdf": {
+    "hash": "3b8c2db89a68a5f19e9c54d73eab4d474f744d29117bf376e70e7ca0ffff25cc",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240617kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240617kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/download/4gou_gaiyou.pdf": {
+    "hash": "d99f4e986a77373f20e25b23b073f238d70b345d1e2eb38b17b91b5c0158d936",
+    "title": "https://www.chusho.meti.go.jp/kinyu/download/4gou_gaiyou.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_download_4gou_gaiyou.pdf"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/download/4gou_r7_1208saigai.pdf": {
+    "hash": "fcd6d94b49fa32c54e799b25a335d48c0c7bee187484e6e99f073910228126c3",
+    "title": "https://www.chusho.meti.go.jp/kinyu/download/4gou_r7_1208saigai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_download_4gou_r7_1208saigai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/download/4gou_r7_1008saigai.pdf": {
+    "hash": "37abe74ecd7333c1f0315b3b46dd67f0aa49161c130ec851c72a1ed7b3619070",
+    "title": "https://www.chusho.meti.go.jp/kinyu/download/4gou_r7_1008saigai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_download_4gou_r7_1008saigai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/download/4gou_r7_0905saigai.pdf": {
+    "hash": "0aa3b0450406e3bb8f97a6bcfba4349728b9f5a2cc1b318280c89da8bfd4a3bb",
+    "title": "https://www.chusho.meti.go.jp/kinyu/download/4gou_r7_0905saigai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_download_4gou_r7_0905saigai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/download/4gou_r6_noto_jishin.pdf": {
+    "hash": "01af339daa538a6c966e2dbfb8d92ea044812839477e4822f307c08e455f9cd2",
+    "title": "https://www.chusho.meti.go.jp/kinyu/download/4gou_r6_noto_jishin.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_download_4gou_r6_noto_jishin.pdf"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/download/4gou_r8_0422saigai.pdf": {
+    "hash": "388ca82aaebef89f7f27f1861af33c04f895e241d8fbc9e7d011a2b691a4a743",
+    "title": "https://www.chusho.meti.go.jp/kinyu/download/4gou_r8_0422saigai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_download_4gou_r8_0422saigai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240607kino_fukugo.pdf": {
+    "hash": "97a6d0bf5ea8b3efc173de904f2c4200143e63b54fa4659648f8c816869bf196",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240607kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240607kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240515kino_fukugo.pdf": {
+    "hash": "0f952e955ea8a503eae9bd9de0be4b91c03c5653c4bf8acbf719974923ad8e17",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240515kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240515kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240510nariwai_ishikawa.pdf": {
+    "hash": "dfa8155beb75a03a587659f308c27b6bbdb419396db58c7d2e723f8805568a27",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240510nariwai_ishikawa.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240510nariwai_ishikawa.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240510nariwai_fukui.pdf": {
+    "hash": "e5dfd52f2c31b2abb4a5bcbab30112aa37c181d14f24c382076166951a298c58",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240510nariwai_fukui.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240510nariwai_fukui.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240426nariwai.pdf": {
+    "hash": "8e12d7cfc05dda1c8557a4886733c00c4340162ce9cd800b2d79329f605b8810",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240426nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240426nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240327nariwai.pdf": {
+    "hash": "94e3808085af984e41f8a6fd8ccf7471ae8e40def0fd2ea4fb5630a422d48761",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240327nariwai.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240327nariwai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240327kino_fukugo.pdf": {
+    "hash": "3ccaa8e872e93fa8bb71386c914d56e35e539e8fe4bc8be7f4320bb4f8003638",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240327kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240327kino_fukugo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240228kino_fukugo.pdf": {
+    "hash": "6e87a9951b890f6ee94013bdfb61e63f3950252265a003334cc5a928ba15d7d8",
+    "title": "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240228kino_fukugo.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240228kino_fukugo.pdf"
+  },
+  "https://chikapa.smrj.go.jp/saigaishien/": {
+    "hash": "355f6148c3997b52a3213a7169e367f342c685d4ff2beece8474ff65d7afe54d",
+    "title": "地域活性化パートナー制度　チカパー｜中小機構｜中小機構",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/chikapa.smrj.go.jp/saigaishien.md"
+  },
+  "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/ishikawa.pdf": {
+    "hash": "aa4f11b2c561f73a2c40fc6ee741874b37b4a230e688b47930bb08c9738446b4",
+    "title": "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/ishikawa.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/saigai_r6_noto_jishin_dl_ishikawa.pdf"
+  },
+  "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/niigata_toyama_fukui.pdf": {
+    "hash": "fbc3e66b950a75ec63f43d1bb1d9943b74cd1125296eb13f32891093b848aee4",
+    "title": "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/dl/niigata_toyama_fukui.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.chusho.meti.go.jp/saigai_r6_noto_jishin_dl_niigata_toyama_fukui.pdf"
+  },
+  "https://www.mhlw.go.jp/houdou_kouhou/index.html": {
+    "hash": "4439f0ac2221c63f9ba95f740f2926656ae507c11e8c0f740938b55cbc1ac3ed",
+    "title": "報道・広報｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/houdou_kouhou_index.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/index.html": {
+    "hash": "2912083fbffaa863d0368b4115aec6052d0ab29ba47384189de439c65730b033",
+    "title": "報道発表資料 ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_houdou_index.html.md"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/houdou_list_202401.html": {
+    "hash": "a9d9768e31c42d49b3ad1ba815b2b41f5629c5455674547e7d3e118a2592aa0f",
+    "title": "報道発表資料　2024年1月 ｜厚生労働省",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/stf_houdou_houdou_list_202401.html.md"
+  },
+  "https://www.mhlw.go.jp/content/11700000/001195027.pdf": {
+    "hash": "b9fe43cdc337f28f8a5adf5ca5f51dddfcd7444d0d6ac30dae0ae32de96d7012",
+    "title": "https://www.mhlw.go.jp/content/11700000/001195027.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_11700000_001195027.pdf"
+  },
+  "https://www.mhlw.go.jp/content/11700000/001195029.pdf": {
+    "hash": "1280f7ace983d9f2e1b8d8b0603252b5dcd705a5a770293f8a58184ca64bfa4a",
+    "title": "https://www.mhlw.go.jp/content/11700000/001195029.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.mhlw.go.jp/content_11700000_001195029.pdf"
+  },
+  "https://www.bousai.go.jp/pdf/240101_kyuujo2.pdf": {
+    "hash": "1f9661a64d0f8db8528e11bccb084c45ee312f44b7e8df1c0c32484213c8b5ec",
+    "title": "https://www.bousai.go.jp/pdf/240101_kyuujo2.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.bousai.go.jp/pdf_240101_kyuujo2.pdf"
+  },
+  "https://www.jpo.go.jp/index.html": {
+    "hash": "e0bfb8a003f898a4511901f59226b1d11a21e2a95df24a0c02aba6c689528e91",
+    "title": "ホーム | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/index.html.md"
+  },
+  "https://www.jpo.go.jp/e/index.html": {
+    "hash": "44c5ac86a4dd1b1ab822c76ed95a03948301d0fca214cdbb046260accc2c5491",
+    "title": "Japan Patent Office",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/e_index.html.md"
+  },
+  "https://www.jpo.go.jp/faq/tousyo/index.html": {
+    "hash": "57cc8f2b0fa5aa959fce9c6d9aa30369fd6735193117f3e3974f003ee9fcd186",
+    "title": "投書箱（ご意見・ご要望） | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/faq_tousyo_index.html.md"
+  },
+  "https://www.jpo.go.jp/toppage/tsukaikata/index.html": {
+    "hash": "21048a7f4925a36b54f0cc84d0af0ffa6ce5b09cec9d938b585196b91354ef9e",
+    "title": "ホームページの使い方 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/toppage_tsukaikata_index.html.md"
+  },
+  "https://www.jpo.go.jp/introduction/access/index.html": {
+    "hash": "635bd87274b94a6fed5d48aa01bc07b829b8c7c83edbead369d67132b031e66d",
+    "title": "特許庁へのアクセス・入館案内 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/introduction_access_index.html.md"
+  },
+  "https://www.jpo.go.jp/toppage/dictionary/index.html": {
+    "hash": "0c754600f65c2313e771e3dacefe839a3620e7d8469fe96dd7bcff50291b2216",
+    "title": "用語解説 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/toppage_dictionary_index.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/wipo_kyuusaisochi.html": {
+    "hash": "9c9e8475514604034502b3e6139c18c567275ce1708fdbaff25c3f94ea33732c",
+    "title": "世界知的所有権機関（WIPO）：PCT、マドリッド及びハーグ制度における救済措置等 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_wipo_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/taiwan_kyuusaisochi.html": {
+    "hash": "879e393373933b1e756bef8d59afb88317dd134f7a22f60732b5abe311405ed5",
+    "title": "台湾智慧財産局（台湾）の救済措置等に関する情報について | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_taiwan_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/ip_australia_kyuusaisochi.html": {
+    "hash": "ec2343cfe802c69082ad411b1621fc29fbb6f7c7012d1375601816c47bca0a46",
+    "title": "オーストラリア知的財産庁（オーストラリア）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_ip_australia_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/uk_ipo_kyuusaisochi.html": {
+    "hash": "c3202ce36e4cbc7d7860e8fcff6f36b04f32f75c38fc6569c4779bc48ec742cb",
+    "title": "英国知的財産庁（英国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_uk_ipo_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/italy_kyuusaisochi.html": {
+    "hash": "898b2264b932ad62292cb2654704a5838dfce7d08bf6caa3b1c1b39a03c5a6d6",
+    "title": "イタリア特許商標庁（イタリア共和国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_italy_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/sweden_kyuusaisochi.html": {
+    "hash": "8bbde7b22138029abb7be6d934c7f9c791a5439230615d4eb52db261b0ec49ee",
+    "title": "スウェーデン特許登録庁（スウェーデン王国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_sweden_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/portugal_kyuusaisochi.html": {
+    "hash": "3e7ede7c46921915446a059f49597903188f43f621360bceaa5ae5e5ee96e69d",
+    "title": "ポルトガル産業財産庁（ポルトガル共和国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_portugal_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/eu_kyuusaisochi.html": {
+    "hash": "f33a303c766735e4c7d03e79a71650dcff603a8025dfae1d7ac7f091bb1e59b0",
+    "title": "欧州連合知的財産庁（欧州）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_eu_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/canada_kyuusaisochi.html": {
+    "hash": "1cb1e991edb52a0b698f58b66e8654f9e28e22b7454e7fdefedb1d5d57016aa8",
+    "title": "カナダ特許庁（カナダ）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_canada_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/turkey_kyuusaisochi.html": {
+    "hash": "fff04403f9a23948e1d1e5d7819b2ac31266813751f6b77bd59c3d0b9abe5179",
+    "title": "トルコ特許商標庁（トルコ共和国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_turkey_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/korea_kyuusaisochi.html": {
+    "hash": "d57a6fae7268a9bf06f748f3d854944c1780d6f95107c888f55c40fc02a283b1",
+    "title": "韓国特許庁（大韓民国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_korea_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/epo_kyuusaisochi.html": {
+    "hash": "2ae2fe38b0d8af2dbbe94ea12a6d7cbf5782d472fc78da999206f49129a3e2b2",
+    "title": "欧州特許庁（欧州）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_epo_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/poland_kyuusaisochi.html": {
+    "hash": "cb5536103a5dd4a6864ee826d3c1d99369b4074645a4e0223460b00b3189f1a7",
+    "title": "ポーランド特許庁（ポーランド共和国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_poland_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/france_kyuusaisochi.html": {
+    "hash": "987a0097afc597d5621d9cf8dae4481c8645024ded173e7fe6407f69980ed00a",
+    "title": "フランス産業財産庁（フランス共和国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_france_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/spain_kyuusaisochi.html": {
+    "hash": "48625724283b9073d1c0cf01d3e72a4fb70c836e4b8b06a8c7ef4e831d30a7c7",
+    "title": "スペイン特許商標庁（スペイン王国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_spain_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/germany_kyuusaisochi.html": {
+    "hash": "cc6c64cbb00daed8638230219b577eecaa60727fa99d5f0ecde21f56af15a88d",
+    "title": "ドイツ特許商標庁（ドイツ連邦共和国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_germany_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/uruguay_kyuusaisochi.html": {
+    "hash": "46137f3812a6c77a8b61ad4aa241b4cc9cc41bb3da5d06706ed7311ca37c1eba",
+    "title": "ウルグアイ産業財産庁（ウルグアイ東方共和国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_uruguay_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/vietnam_kyuusaisochi.html": {
+    "hash": "1a1af8ca0098ff53d1a1a1de66d9c97e9bfd86b63ec40c0276af3dd158f60a56",
+    "title": "ベトナム国家知的財産庁（ベトナム社会主義共和国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_vietnam_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/china_kyuusaisochi.html": {
+    "hash": "3778b5aed276ef59886ea244c6ee6a1c6c1b774d9c824429a57c3f5f3f6189b7",
+    "title": "中国国家知識産権局（中華人民共和国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_china_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/uspto_kyuusaisochi.html": {
+    "hash": "f73525d75a5ce43f2a9be83db63a4da8eb2d8a95ec1e16349ef17eb317a234ce",
+    "title": "米国特許商標庁（アメリカ合衆国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_uspto_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/peru_kyuusaisochi.html": {
+    "hash": "6f4b961cbeb6ef00558a153a753d5b1cba464b1fc1218ad00905bf7785736d72",
+    "title": "ペルー公正競争・知的財産保護庁（ペルー共和国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_peru_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/colombia_kyuusaisochi.html": {
+    "hash": "6a8f33482dabbdd58d7438039c0bf09bc7d5b178e8a42903e9d4280947451901",
+    "title": "コロンビア商工監督局（コロンビア共和国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_colombia_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/mexico_kyuusaisochi.html": {
+    "hash": "94f72f68da77cd7aa1cee721bbb112828b4756a909cfc1a6ccca29057addc034",
+    "title": "メキシコ産業財産庁（メキシコ合衆国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_mexico_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/hong_kong_kyuusaisochi.html": {
+    "hash": "3c99bfb1977856d0d37075e67f8cdc59f53d6f6fd68f52ec6ca644125ea28714",
+    "title": "香港知識産権局（香港）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_hong_kong_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/brazil_kyuusaisochi.html": {
+    "hash": "de3dbbe3eaccb6227a74a2cf74c70e41ca6356f5ef8cc35e6c35cfcab865b405",
+    "title": "ブラジル産業財産庁（ブラジル連邦共和国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_brazil_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/indonesia_kyuusaisochi.html": {
+    "hash": "e35871b4feb1f61d9cab5f4ddac07fbe68fa3b4ad69bc8fb9127a32c2292adcf",
+    "title": "インドネシア知的財産総局（インドネシア共和国）の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_indonesia_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/notohantojishin_sochi/sonota_kyuusaisochi.html": {
+    "hash": "bf8dca902f353a553e579cb19f17b2720972577e266e9625972bf44928af9ef1",
+    "title": "その他各国・地域知財庁及び国際機関の救済措置等に関する情報 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_sonota_kyuusaisochi.html.md"
+  },
+  "https://www.jpo.go.jp/system/laws/gaikoku/mokuji.html": {
+    "hash": "4e0215818e583d33ad51a26a2f17fe55c847db2863f02f4c0fac5959f7e90b19",
+    "title": "諸外国・地域・機関の制度概要および法令条約等 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/system_laws_gaikoku_mokuji.html.md"
+  },
+  "https://www.jpo.go.jp/e/news/koho/saigai/notopeninsula/request.html": {
+    "hash": "23924283bc0b824a231461a092ee1c650df8f87dc568fabe1021972329038761",
+    "title": "Request for assistance for those affected by the 2024 Noto Peninsula Earthquake | Japan Patent Office",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/e_news_koho_saigai_notopeninsula_request.html.md"
+  },
+  "https://www.jpo.go.jp/news/kokusai/wipo/plt_20160210.html": {
+    "hash": "660bfcf7dd16138d0611eba608eb2360ea3f2f2303c2a8277449e545d2069d76",
+    "title": "特許法条約（PLT）の概要 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_kokusai_wipo_plt_20160210.html.md"
+  },
+  "https://www.jpo.go.jp/news/kokusai/wipo/stlt_20160210.html": {
+    "hash": "cac655589da015c1779795700267facb4c6c77d873e22f51ab62388dacbed314",
+    "title": "商標法に関するシンガポール条約（STLT）の概要 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_kokusai_wipo_stlt_20160210.html.md"
+  },
+  "https://www.jpo.go.jp/toppage/links/index.html": {
+    "hash": "1b4ce9bb29b2518a2ff92d0fadb5710a099a022e6d17b1054ff1363d02e180c1",
+    "title": "知的財産権関連リンク | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/toppage_links_index.html.md"
+  },
+  "https://www.jpo.go.jp/toppage/sitemap/index.html": {
+    "hash": "a0de85ac14ae6057ba18ea5810a5177f8a72c8defb5926334abb122afd2d78d9",
+    "title": "サイトマップ | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/toppage_sitemap_index.html.md"
+  },
+  "https://www.jpo.go.jp/toppage/privacy/privacy_list.html": {
+    "hash": "12d1983a693709b6ac10e0ed5c4b08ff0628fc1ac3a3f59d04cb61a9648765ed",
+    "title": "プライバシーポリシー | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/toppage_privacy_privacy_list.html.md"
+  },
+  "https://www.jpo.go.jp/toppage/about/index.html": {
+    "hash": "8a6b0141da8d0ab299acadf16226629357ba39dec12d56a33b25e72aced80bec",
+    "title": "このサイトについて | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/toppage_about_index.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/20240112_encho_tetsuduki.html": {
+    "hash": "7399736a9a37e84020eba9021c8a5620a0754b2c0e43f1845d0afe1661dc8686",
+    "title": "特定非常災害特別措置法第3条第3項に基づき期間の満了日を延長する手続について | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_20240112_encho_tetsuduki.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/document/20240112_encho/01.pdf": {
+    "hash": "016b7491fdef0f6cd680b6fa1dabe97a946369f057e346cf1880c76067aa8fd0",
+    "title": "https://www.jpo.go.jp/news/koho/saigai/document/20240112_encho/01.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_document_20240112_encho_01.pdf"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/document/20240112_encho/02.pdf": {
+    "hash": "9156a93104581265b7fc557ec1cd448e8ae20adb0309b432217285b6572fab89",
+    "title": "https://www.jpo.go.jp/news/koho/saigai/document/20240112_encho/02.pdf",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_document_20240112_encho_02.pdf"
+  },
+  "https://www.jpo.go.jp/system/patent/shinsa/soki/souki_kaisi/index.html": {
+    "hash": "0b85f17f40264239ef4e3af53843c06483e3de5d06555de736020989e27d8cdf",
+    "title": "震災復興支援早期審査・早期審理について | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/system_patent_shinsa_soki_souki_kaisi_index.html.md"
+  },
+  "https://www.jpo.go.jp/system/patent/shinsa/soki/souki_kaisi/souki_tokutei.html": {
+    "hash": "65a896800b66060a6d68bae20b16b1ec95e5507db4d6e5d5407db43d66dc065e",
+    "title": "特定被災地域一覧 | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/system_patent_shinsa_soki_souki_kaisi_souki_tokutei.html.md"
+  },
+  "https://www.jpo.go.jp/faq/yokuaru/patent/super_souki_qa.html": {
+    "hash": "05b1fcd50b0f016bd0754341c46eb313530aa7498fc4a523aec648e1cf953aaf",
+    "title": "スーパー早期審査についてのQ&A | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/faq_yokuaru_patent_super_souki_qa.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/saigai-tetsuduki-20240628.html": {
+    "hash": "41ae12c3cc93c0e6252bd20bc09f56b07b9400b91b381d3a219a917a102c0f2e",
+    "title": "令和6年能登半島地震により影響を受けた手続期間の延長措置終了について | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_saigai-tetsuduki-20240628.html.md"
+  },
+  "https://www.jpo.go.jp/news/koho/saigai/2024_noto/soudan-madoguchi.html": {
+    "hash": "67905444f2469842b7b1b8eed2ee96b3466761fa45ba68254d5ed9afe9231dfb",
+    "title": "令和6年能登半島地震に関する手続相談窓口の開設について | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/news_koho_saigai_2024_noto_soudan-madoguchi.html.md"
+  },
+  "http://www.pcinfo.jpo.go.jp/site/4_news/3_appl/03_06.html": {
+    "hash": "02b2fe8cb57af2ee40f40a1dcac7289ab8dad1852ec64359edbcc5b486641cd4",
+    "title": "電子出願ソフトサポートサイト（緊急避難手続について（PCT国際出願を除く））",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pcinfo.jpo.go.jp/site_4_news_3_appl_03_06.html.md"
+  },
+  "https://www.jpo.go.jp/system/patent/pct/tetuzuki/yusenken_kaifuku.html": {
+    "hash": "efb8906d311a508dc24f15944c9a8d20db5c909480eaf8133510e00787eda133",
+    "title": "令和5年4月1日以降に優先期間を徒過した国際出願の優先権の回復（「故意ではない」基準）について | 経済産業省 特許庁",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.jpo.go.jp/system_patent_pct_tetuzuki_yusenken_kaifuku.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/index.html": {
+    "hash": "c27472ce9b8a75a2bf740f5c9f30ae102e29cf24f28b2f8c0ddb1801d91ef703",
+    "title": "石川県ホームページ",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinkyu/kanri.html": {
+    "hash": "309628a0ca891bf1208513d9b3389015ba1be083d109e9f5834cb102efcc7d36",
+    "title": "緊急情報 | 石川県",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinkyu_kanri.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html": {
+    "hash": "175b24956a735b96815e2a8f8f1144bd93644ba9ab835e0e0bab7a23f309b203",
+    "title": "防災・安全・安心 | 石川県",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_anzen_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kurashi/index.html": {
+    "hash": "b52b9fa1b4a342c98f2500cbab8a907e0b6d12c803b4bc63d779e5370ed547af",
+    "title": "くらし・環境 | 石川県",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html": {
+    "hash": "533f0c52242bf6648bd7c8c1e471264aeab3ca38cc18c240ecca891c8314fd66",
+    "title": "教育・子育て | 石川県",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kyoikukosodate_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html": {
+    "hash": "7d8b0d528166f5e2f320dedd1c65c5c8ceef25b3188057f9a22e6cf3a8414697",
+    "title": "医療・福祉 | 石川県",
+    "fetched_at": "2026-06-20",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/iryo_fukushi_index.html.md"
+  }
+}
