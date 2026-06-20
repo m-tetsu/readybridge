@@ -374,4 +374,6 @@ section { padding: 54px 0; }
   .nav a:not(.cta) { display: none; }
   .search-row { flex-direction: column; }
   .search-row button { width: 100%; justify-content: center; }
+  /* スマホ：結果を浮かせず下に押し出す（後続セクションへの重なり防止） */
+  .search-results { position: static; margin-top: 10px; max-height: none; }
 }
