@@ -12,10 +12,10 @@ const trust = [
   { h: '中小企業の目線で、やさしく整理', p: '専門用語をかみくだき、次にとるべき一手を具体的にお伝えします。' },
 ];
 
-// 柱ごとのアイコン（主＝柱を表す／副＝重ねるアクセント）。
-const pillarIcons: Record<PillarKey, { main: string; sub: string }> = {
-  prepare: { main: 'shield', sub: 'clipboard' },
-  recover: { main: 'wrench', sub: 'banknote' },
+// 柱ごとのアイコン。
+const pillarIcons: Record<PillarKey, string> = {
+  prepare: 'shield',
+  recover: 'wrench',
 };
 ---
 <Base title="ReadyBridge｜事業継続を、平時から有事まで" description="中小企業の事業継続（BCP）を、平時の備えから有事の対応・再建までつなぐ情報サイト。被災時に確認すべき公的支援（給与・資金繰り・施設復旧・税）を出典付きで調べられます。">
@@ -53,10 +53,7 @@ const pillarIcons: Record<PillarKey, { main: string; sub: string }> = {
           const cats = categoriesByPillar(key);
           return (
             <a class={`pillar-card ${key}`} href={p.href}>
-              <span class="pc-iconwrap">
-                <span class="pc-icon-main"><Icon name={pillarIcons[key].main} size={36} /></span>
-                <span class="pc-icon-sub"><Icon name={pillarIcons[key].sub} size={18} /></span>
-              </span>
+              <span class="pc-icon"><Icon name={pillarIcons[key]} size={34} /></span>
               <span class="pc-tag">{p.tagline}</span>
               <h3>{p.label}</h3>
               <p class="pc-desc">{p.desc}</p>

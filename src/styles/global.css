@@ -207,24 +207,13 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.
 }
 .pillar-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--line-strong); }
 
-/* 重ねアイコン（主＋副を少しずらして重ねる） */
-.pillar-card .pc-iconwrap { position: relative; width: 72px; height: 72px; margin-bottom: 18px; }
-.pillar-card .pc-icon-main {
-  position: absolute; inset: 0; display: grid; place-items: center;
-  width: 72px; height: 72px; border-radius: 50%;
-  transition: transform .2s;
+/* 円形アイコンバッジ（prep-card と同じ） */
+.pillar-card .pc-icon {
+  display: grid; place-items: center; width: 72px; height: 72px;
+  border-radius: 50%; margin-bottom: 18px;
 }
-.pillar-card .pc-icon-sub {
-  position: absolute; right: -7px; bottom: -5px; display: grid; place-items: center;
-  width: 34px; height: 34px; border-radius: 50%; border: 3px solid var(--surface);
-  transition: transform .2s;
-}
-.pillar-card:hover .pc-icon-main { transform: rotate(-4deg) scale(1.04); }
-.pillar-card:hover .pc-icon-sub { transform: translate(2px, 2px) scale(1.08); }
-.pillar-card.prepare .pc-icon-main { background: var(--teal-soft); color: var(--teal); }
-.pillar-card.prepare .pc-icon-sub { background: var(--terra-soft); color: var(--terra-dark); }
-.pillar-card.recover .pc-icon-main { background: var(--terra-soft); color: var(--terra); }
-.pillar-card.recover .pc-icon-sub { background: var(--teal-soft); color: var(--teal-dark); }
+.pillar-card.prepare .pc-icon { background: var(--teal-soft); color: var(--teal); }
+.pillar-card.recover .pc-icon { background: var(--terra-soft); color: var(--terra); }
 
 .pillar-card .pc-tag { display: inline-block; font-size: 0.78rem; font-weight: 700; padding: 3px 11px; border-radius: 999px; margin: 0 0 8px; }
 .pillar-card.prepare .pc-tag { background: var(--teal-soft); color: var(--teal-dark); }
