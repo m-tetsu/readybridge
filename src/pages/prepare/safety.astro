@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Pager from '../../components/Pager.astro';
 import Icon from '../../components/Icon.astro';
 ---
 <Base title="安全を確保する｜ReadyBridge">
@@ -78,6 +79,8 @@ import Icon from '../../components/Icon.astro';
             <li>そもそも自社にどんなリスクがあるかは<a href="/prepare/hazard">地域のハザードを知る</a>で把握する。</li>
           </ul>
         </div>
+
+        <Pager current="safety" />
 
         <div class="sources">
           <h2>参考リンク</h2>

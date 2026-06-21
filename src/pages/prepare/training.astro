@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Pager from '../../components/Pager.astro';
 import Icon from '../../components/Icon.astro';
 ---
 <Base title="訓練をする｜ReadyBridge">
@@ -109,6 +110,8 @@ import Icon from '../../components/Icon.astro';
             <li>BCP発動シミュレーションの前に、まず計画を<a href="/prepare/bcp">対策を計画する</a>で策定する。</li>
           </ul>
         </div>
+
+        <Pager current="training" />
 
         <div class="sources">
           <h2>出典・参照先</h2>

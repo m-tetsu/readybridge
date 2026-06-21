@@ -1,0 +1,85 @@
+---
+// 平時の備え 詳細ページ間のページャ（前 / ホーム / 次）。
+// 並び順はトップ（/prepare）のカードと一致させる。
+const PREP_ORDER = [
+  { key: 'hazard', href: '/prepare/hazard', label: '地域のハザードを知る' },
+  { key: 'safety', href: '/prepare/safety', label: '安全を確保する' },
+  { key: 'damage', href: '/prepare/damage', label: '被害を減らす' },
+  { key: 'life', href: '/prepare/life', label: '生活を守る' },
+  { key: 'bcp', href: '/prepare/bcp', label: '対策を計画する' },
+  { key: 'training', href: '/prepare/training', label: '訓練をする' },
+  { key: 'fund', href: '/prepare/fund', label: '資金・保険を備える' },
+  { key: 'links', href: '/prepare/links', label: '更に知りたい人へ' },
+];
+interface Props { current: string; }
+const { current } = Astro.props;
+const i = PREP_ORDER.findIndex((p) => p.key === current);
+const prev = i > 0 ? PREP_ORDER[i - 1] : null;
+const next = i >= 0 && i < PREP_ORDER.length - 1 ? PREP_ORDER[i + 1] : null;
+---
+<nav class="pager" aria-label="ページ送り">
+  {prev ? (
+    <a class="pager-link prev" href={prev.href}>
+      <span class="pager-dir">← 前のページ</span>
+      <span class="pager-title">{prev.label}</span>
+    </a>
+  ) : <span class="pager-link empty" aria-hidden="true"></span>}
+
+  <a class="pager-home" href="/prepare">ホーム</a>
+
+  {next ? (
+    <a class="pager-link next" href={next.href}>
+      <span class="pager-dir">次のページ →</span>
+      <span class="pager-title">{next.label}</span>
+    </a>
+  ) : <span class="pager-link empty" aria-hidden="true"></span>}
+</nav>
+
+<style>
+  .pager {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: stretch;
+    gap: 12px;
+    margin: 32px 0;
+  }
+  .pager-link {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    padding: 12px 16px;
+    text-decoration: none;
+    color: var(--ink);
+    background: var(--surface);
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  }
+  .pager-link.next { text-align: right; align-items: flex-end; }
+  .pager-link.prev { text-align: left; align-items: flex-start; }
+  .pager-link:hover { border-color: var(--teal); box-shadow: var(--shadow-sm); transform: translateY(-2px); }
+  .pager-link.empty { border: none; background: transparent; box-shadow: none; transform: none; }
+  .pager-dir { font-size: 0.76rem; color: var(--teal-dark); font-weight: 700; }
+  .pager-title { font-size: 0.92rem; font-weight: 700; }
+  .pager-home {
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+    padding: 12px 22px;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    text-decoration: none;
+    color: var(--teal-dark);
+    font-weight: 700;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .pager-home:hover { background: var(--teal-soft); border-color: var(--teal); }
+
+  @media (max-width: 600px) {
+    .pager { grid-template-columns: 1fr 1fr; }
+    .pager-home { grid-column: 1 / -1; order: 3; justify-content: center; }
+    .pager-link.empty { display: none; }
+  }
+</style>

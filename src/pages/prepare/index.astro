@@ -22,16 +22,16 @@ const steps = [
     href: '/prepare/damage',
   },
   {
-    icon: 'document',
-    title: '対策を計画する',
-    desc: '事業継続計画の策定、優先業務の洗い出し、復旧目標の設定。事業継続力強化計画の認定で補助金加点や融資優遇も。',
-    href: '/prepare/bcp',
-  },
-  {
     icon: 'box',
     title: '生活を守る',
     desc: '従業員用の水・食料・衛生用品の備蓄、データのバックアップ、代替調達先の確保。',
     href: '/prepare/life',
+  },
+  {
+    icon: 'document',
+    title: '対策を計画する',
+    desc: '事業継続計画の策定、優先業務の洗い出し、復旧目標の設定。事業継続力強化計画の認定で補助金加点や融資優遇も。',
+    href: '/prepare/bcp',
   },
   {
     icon: 'users',
@@ -66,8 +66,9 @@ const steps = [
     <div class="container">
       <div class="section-head"><span class="kicker">ACTIONS</span><h2>いまできる備え</h2><p>それぞれのテーマごとに、具体的な対策と公的支援をまとめています。</p></div>
       <div class="prep-grid">
-        {steps.map((s) => (
+        {steps.map((s, i) => (
           <a class="prep-card" href={s.href}>
+            <span class="prep-num">{String(i + 1).padStart(2, '0')}</span>
             <span class="prep-icon"><Icon name={s.icon} size={30} /></span>
             <h3>{s.title}</h3>
             <p>{s.desc}</p>
@@ -78,71 +79,3 @@ const steps = [
     </div>
   </section>
 </Base>
-
-<style>
-  .prep-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 18px;
-  }
-  .prep-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    padding: 30px 22px 26px;
-    text-decoration: none;
-    color: var(--ink);
-    transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
-  }
-  .prep-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow);
-    border-color: var(--line-strong);
-  }
-  .prep-icon {
-    display: grid;
-    place-items: center;
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    background: var(--teal-soft);
-    color: var(--teal);
-    margin-bottom: 16px;
-  }
-  .prep-card h3 {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 1.15rem;
-    margin: 0 0 8px;
-  }
-  .prep-card p {
-    font-size: 0.9rem;
-    color: var(--muted);
-    margin: 0 0 20px;
-    flex: 1;
-  }
-  .prep-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    background: transparent;
-    color: var(--teal-dark);
-    font-weight: 600;
-    font-size: 0.82rem;
-    padding: 7px 18px;
-    border: 1px solid var(--line-strong);
-    border-radius: 999px;
-    transition: color 0.15s, border-color 0.15s, background 0.15s;
-  }
-  .prep-btn .arr { transition: transform 0.2s; }
-  .prep-card:hover .prep-btn {
-    color: var(--teal);
-    border-color: var(--teal);
-    background: var(--teal-soft);
-  }
-  .prep-card:hover .prep-btn .arr { transform: translateX(3px); }
-</style>

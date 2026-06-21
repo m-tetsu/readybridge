@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Pager from '../../components/Pager.astro';
 import Icon from '../../components/Icon.astro';
 ---
 <Base title="対策を計画する｜ReadyBridge">
@@ -147,6 +148,8 @@ import Icon from '../../components/Icon.astro';
             <li>資金面の備えは<a href="/prepare/fund">資金・保険を備える</a>で確認する。</li>
           </ul>
         </div>
+
+        <Pager current="bcp" />
 
         <div class="sources">
           <h2>出典・参照先</h2>

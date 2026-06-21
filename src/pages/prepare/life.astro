@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Pager from '../../components/Pager.astro';
 import Icon from '../../components/Icon.astro';
 ---
 <Base title="生活を守る｜ReadyBridge">
@@ -68,6 +69,8 @@ import Icon from '../../components/Icon.astro';
             <li>備蓄の費用も含めた資金面の備えは<a href="/prepare/fund">資金・保険を備える</a>で確認する。</li>
           </ul>
         </div>
+
+        <Pager current="life" />
 
         <div class="sources">
           <h2>出典・参照先</h2>

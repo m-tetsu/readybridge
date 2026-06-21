@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Pager from '../../components/Pager.astro';
 import Icon from '../../components/Icon.astro';
 ---
 <Base title="更に知りたい人へ｜ReadyBridge">
@@ -103,6 +104,8 @@ import Icon from '../../components/Icon.astro';
             </div>
           </div>
         </div>
+
+        <Pager current="links" />
 
         <p class="disclaimer">
           リンク先の情報は各機関が管理しています。URLの変更や内容の更新がある場合があります。

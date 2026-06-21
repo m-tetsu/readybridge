@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Pager from '../../components/Pager.astro';
 import Icon from '../../components/Icon.astro';
 ---
 <Base title="地域のハザードを知る｜ReadyBridge">
@@ -95,6 +96,8 @@ import Icon from '../../components/Icon.astro';
             <li>その結果を、<a href="/prepare/bcp">BCP策定</a>や<a href="/prepare/damage">被害を減らす対策</a>に反映する。</li>
           </ul>
         </div>
+
+        <Pager current="hazard" />
 
         <div class="sources">
           <h2>ハザードマップ・リンク集</h2>

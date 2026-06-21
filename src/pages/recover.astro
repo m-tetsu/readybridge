@@ -51,14 +51,13 @@ const phases = [
   <section style="padding-top:8px">
     <div class="container">
       <div class="section-head"><span class="kicker">CATEGORY</span><h2>お困りごとのカテゴリ</h2></div>
-      <div class="trouble-grid">
+      <div class="prep-grid">
         {byCategory.map((c) => (
-          <a class="trouble" href={`#${c.key}`}>
-            <span class="ic"><Icon name={c.meta.icon} size={28} /></span>
-            <span class="cat">{c.meta.label}</span>
-            <p class="ttl">{c.meta.trouble}</p>
-            <p class="d">{c.meta.desc}</p>
-            <span class="go">関連する支援を見る →</span>
+          <a class="prep-card" href={`#${c.key}`}>
+            <span class="prep-icon"><Icon name={c.meta.icon} size={30} /></span>
+            <h3>{c.meta.label}</h3>
+            <p>{c.meta.desc}</p>
+            <span class="prep-btn">関連する支援を見る<span class="arr">→</span></span>
           </a>
         ))}
       </div>
