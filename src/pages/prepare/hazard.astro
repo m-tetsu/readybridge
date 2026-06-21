@@ -8,14 +8,14 @@ import Icon from '../../components/Icon.astro';
     <div class="container" style="max-width:780px">
       <article class="article reveal">
         <p class="breadcrumb"><a href="/prepare"><Icon name="shield" size={16} />平時の備え</a> ／ <a href="/prepare"><Icon name="map-pin" size={16} />地域のハザードを知る</a></p>
-        <h1>自社のリスクを知ることが、備えの第一歩。</h1>
+        <h1>自リスクを知ることが、備えの第一歩。</h1>
         <p class="meta">最終更新：2026年6月</p>
 
         <div class="prose">
           <p>「備えよう」と言われても、自社にどんなリスクがあるかわからなければ、何から手をつけるべきかも決められません。</p>
-          <p>同じ市内でも、地形や建物の構造によって想定される被害は大きく異なります。まずは自社の所在地にどんなハザード（自然災害のリスク）があるかを確認しましょう。</p>
+          <p>同じ地域でも、地形や建物の構造などによって想定される被害は異なります。まずは自社の所在地にどんなハザード（自然災害のリスク）があるかを確認しましょう。</p>
 
-          <h2>確認すべきハザード</h2>
+          <h2>確認すべきハザードの例</h2>
           <table>
             <thead><tr><th>種類</th><th>確認すること</th></tr></thead>
             <tbody>
@@ -31,20 +31,20 @@ import Icon from '../../components/Icon.astro';
 
           <h3>Step 1：地震の揺れを知る</h3>
           <ul>
-            <li><strong>J-SHIS</strong>（地震ハザードステーション）で、自社所在地の「今後30年以内に震度○以上の揺れに見舞われる確率」を確認する。</li>
             <li><strong>自治体の被害想定</strong>を確認する。「○○市 地震被害想定」で検索すると、想定される震度分布図や建物被害率が公開されていることが多い。</li>
-            <li><strong>地震10秒診断</strong>で、自社の住所を入れると想定震度・ライフライン停止日数の目安が即座にわかる。</li>
+            <li><a href="https://www.j-shis.bosai.go.jp/" target="_blank" rel="noopener"><strong>J-SHIS</strong>（地震ハザードステーション）</a>で、自社所在地の「今後30年以内に震度○以上の揺れに見舞われる確率」を確認する。</li>
+            <li><a href="https://nied-weblabo.bosai.go.jp/10sec-sim/" target="_blank" rel="noopener"><strong>地震10秒診断</strong></a>で、自社の住所を入れると想定震度・ライフライン停止日数の目安が即座にわかる。</li>
           </ul>
 
           <h3>Step 2：水害リスクを知る</h3>
           <ul>
-            <li><strong>ハザードマップポータルサイト</strong>の「重ねるハザードマップ」で自社住所を検索し、洪水・土砂・津波・高潮のリスクをまとめて確認する。</li>
-            <li><strong>「わがまちハザードマップ」</strong>から自治体ごとの詳細な浸水想定を見る。内水氾濫のマップがある場合は併せて確認する。</li>
+            <li><a href="https://disaportal.gsi.go.jp/" target="_blank" rel="noopener"><strong>「重ねるハザードマップ」</strong></a>で自社住所を検索し、洪水・土砂・津波・高潮のリスクをまとめて確認する。</li>
+            <li><a href="https://disaportal.gsi.go.jp/" target="_blank" rel="noopener"><strong>「わがまちハザードマップ」</strong><aa>から自治体ごとの詳細な浸水想定を見る。内水氾濫のマップがある場合は併せて確認する。</li>
             <li>拠点が複数ある場合は、それぞれの所在地で確認する。</li>
           </ul>
 
           <h2>その震度・浸水深で、何が起きるか</h2>
-          <p>ハザードマップで自社の想定震度や浸水深がわかったら、次はその数値で<strong>実際にどんな被害が起きるか</strong>を把握しましょう。</p>
+          <p>ハザードマップで自社の想定震度や浸水深がわかったら、次はその数値で<strong>実際にどんな被害が起きるか</strong>を想像しましょう。</p>
 
           <h3>震度別：建物・設備への影響</h3>
           <table>
@@ -100,30 +100,14 @@ import Icon from '../../components/Icon.astro';
         <Pager current="hazard" />
 
         <div class="sources">
-          <h2>ハザードマップ・リンク集</h2>
+          <h2>出典・参照先</h2>
           <ul>
             <li><a href="https://disaportal.gsi.go.jp/" target="_blank" rel="noopener">ハザードマップポータルサイト（国土交通省）</a><br><span class="link-desc">全国の洪水・土砂・津波・高潮のハザードマップを一括検索。「重ねるハザードマップ」で複数リスクを地図上に重ねて表示できる。</span></li>
-            <li><a href="https://disaportal.gsi.go.jp/hazardmapportal/hazardmap/maps/index.html" target="_blank" rel="noopener">わがまちハザードマップ（国土交通省）</a><br><span class="link-desc">自治体ごとのハザードマップへのリンク集。より詳細な浸水想定を確認できる。</span></li>
             <li><a href="https://www.j-shis.bosai.go.jp/" target="_blank" rel="noopener">J-SHIS 地震ハザードステーション（防災科学技術研究所）</a><br><span class="link-desc">地点ごとの地震発生確率・想定震度・揺れやすさを地図で確認できる。</span></li>
             <li><a href="https://nied-weblabo.bosai.go.jp/10sec-sim/" target="_blank" rel="noopener">地震10秒診断（防災科学技術研究所）</a><br><span class="link-desc">住所を入力するだけで、想定震度とライフライン停止日数の目安が即座にわかる。</span></li>
           </ul>
         </div>
 
-        <div class="sources" style="background: var(--surface); border: 1px solid var(--line);">
-          <h2>出典・参照先</h2>
-          <ul>
-            <li><a href="https://www.data.jma.go.jp/eqev/data/en/tsunami/kaisetsu.html" target="_blank" rel="noopener">気象庁「震度階級関連解説表」</a></li>
-            <li><a href="https://www.bousai.go.jp/jishin/nankai/taisaku_wg/pdf/20130318_higai.pdf" target="_blank" rel="noopener">内閣府「南海トラフ巨大地震の被害想定」</a></li>
-            <li><a href="https://www.bousai.go.jp/jishin/syuto/taisaku_wg/" target="_blank" rel="noopener">内閣府「首都直下地震の被害想定」</a></li>
-            <li><a href="https://www.mlit.go.jp/river/basic_info/jigyo_keikaku/saigai/tisiki/hazardmap/" target="_blank" rel="noopener">国土交通省「水害ハザードマップマニュアル」</a></li>
-            <li><a href="https://www.chusho.meti.go.jp/pamflet/hakusyo/" target="_blank" rel="noopener">中小企業庁「中小企業白書」</a></li>
-          </ul>
-        </div>
-
-        <p class="disclaimer">
-          本ページの被害想定・停止期間は過去の大規模災害に基づく目安です。実際の被害は地形・建物構造・時間帯・季節により大きく異なります。
-          必ず自治体の最新情報とあわせてご確認ください。
-        </p>
       </article>
     </div>
   </section>
