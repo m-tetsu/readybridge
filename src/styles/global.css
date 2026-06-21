@@ -276,7 +276,7 @@ section { padding: 54px 0; }
   transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
 }
 .prep-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--line-strong); }
-.prep-num { position: absolute; top: 14px; left: 18px; font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--terra-soft); line-height: 1; }
+.prep-num { position: absolute; top: 14px; left: 18px; font-family: var(--font-display); font-size: 2.6rem; font-weight: 700; color: var(--terra-soft); line-height: 1; }
 .prep-icon { display: grid; place-items: center; width: 64px; height: 64px; border-radius: 50%; background: var(--teal-soft); color: var(--teal); margin-bottom: 16px; }
 .prep-card h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; margin: 0 0 8px; }
 .prep-card p { font-size: 0.9rem; color: var(--muted); margin: 0 0 20px; flex: 1; }
