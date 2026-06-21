@@ -196,33 +196,55 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.
 .hero-head { margin-bottom: 4px; }
 .hero-head h1 { margin-bottom: 0; }
 
-/* 2大選択カード（平時／有事） */
+/* 2大選択カード（平時／有事）— prep-card と同じデザイン言語に統一 */
 .pillars { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .pillar-card {
-  position: relative; display: block; text-decoration: none; color: var(--ink);
+  position: relative; display: flex; flex-direction: column; align-items: center; text-align: center;
+  text-decoration: none; color: var(--ink);
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
-  padding: 28px 26px 24px; overflow: hidden;
-  transition: transform .2s, box-shadow .2s, border-color .2s;
+  padding: 34px 28px 28px;
+  transition: transform .15s, box-shadow .15s, border-color .15s;
 }
-.pillar-card::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 6px; }
-.pillar-card.prepare::before { background: var(--teal); }
-.pillar-card.recover::before { background: var(--terra); }
 .pillar-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--line-strong); }
-.pillar-card .pc-icon { display: inline-flex; line-height: 1; }
-.pillar-card .pc-icon svg { width: 40px; height: 40px; }
-.pillar-card.prepare .pc-icon { color: var(--teal); }
-.pillar-card.recover .pc-icon { color: var(--terra); }
-.pillar-card .pc-tag { display: inline-block; font-size: 0.78rem; font-weight: 700; padding: 3px 11px; border-radius: 999px; margin: 14px 0 2px; }
+
+/* 重ねアイコン（主＋副を少しずらして重ねる） */
+.pillar-card .pc-iconwrap { position: relative; width: 72px; height: 72px; margin-bottom: 18px; }
+.pillar-card .pc-icon-main {
+  position: absolute; inset: 0; display: grid; place-items: center;
+  width: 72px; height: 72px; border-radius: 50%;
+  transition: transform .2s;
+}
+.pillar-card .pc-icon-sub {
+  position: absolute; right: -7px; bottom: -5px; display: grid; place-items: center;
+  width: 34px; height: 34px; border-radius: 50%; border: 3px solid var(--surface);
+  transition: transform .2s;
+}
+.pillar-card:hover .pc-icon-main { transform: rotate(-4deg) scale(1.04); }
+.pillar-card:hover .pc-icon-sub { transform: translate(2px, 2px) scale(1.08); }
+.pillar-card.prepare .pc-icon-main { background: var(--teal-soft); color: var(--teal); }
+.pillar-card.prepare .pc-icon-sub { background: var(--terra-soft); color: var(--terra-dark); }
+.pillar-card.recover .pc-icon-main { background: var(--terra-soft); color: var(--terra); }
+.pillar-card.recover .pc-icon-sub { background: var(--teal-soft); color: var(--teal-dark); }
+
+.pillar-card .pc-tag { display: inline-block; font-size: 0.78rem; font-weight: 700; padding: 3px 11px; border-radius: 999px; margin: 0 0 8px; }
 .pillar-card.prepare .pc-tag { background: var(--teal-soft); color: var(--teal-dark); }
 .pillar-card.recover .pc-tag { background: var(--terra-soft); color: var(--terra-dark); }
-.pillar-card h3 { font-size: 1.4rem; margin: 8px 0 6px; }
-.pillar-card .pc-desc { color: var(--ink-soft); font-size: 0.95rem; margin: 0 0 14px; }
-.pillar-card .pc-cats { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 16px; }
+.pillar-card h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.4rem; margin: 4px 0 8px; }
+.pillar-card .pc-desc { color: var(--muted); font-size: 0.92rem; margin: 0 0 16px; }
+.pillar-card .pc-cats { display: flex; flex-wrap: wrap; justify-content: center; gap: 7px; margin-bottom: 22px; }
 .pillar-card .pc-cats span { font-size: 0.8rem; color: var(--muted); background: var(--paper-2); border: 1px solid var(--line); padding: 4px 10px; border-radius: 999px; }
-.pillar-card .pc-go { font-weight: 700; display: inline-flex; align-items: center; gap: 7px; }
+.pillar-card .pc-go {
+  margin-top: auto; display: inline-flex; align-items: center; gap: 5px;
+  font-weight: 600; font-size: 0.85rem; padding: 8px 20px;
+  border: 1px solid var(--line-strong); border-radius: 999px;
+  transition: color .15s, border-color .15s, background .15s;
+}
+.pillar-card .pc-go .arr { transition: transform .2s; }
 .pillar-card.prepare .pc-go { color: var(--teal-dark); }
 .pillar-card.recover .pc-go { color: var(--terra-dark); }
-.pillar-card:hover .pc-go { gap: 11px; }
+.pillar-card.prepare:hover .pc-go { color: var(--teal); border-color: var(--teal); background: var(--teal-soft); }
+.pillar-card.recover:hover .pc-go { color: var(--terra); border-color: var(--terra); background: var(--terra-soft); }
+.pillar-card:hover .pc-go .arr { transform: translateX(3px); }
 
 /* ---------- Section scaffolding ---------- */
 section { padding: 54px 0; }

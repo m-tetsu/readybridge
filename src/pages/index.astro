@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import SearchBox from '../components/SearchBox.astro';
+import Icon from '../components/Icon.astro';
 import { PILLARS, categoriesByPillar, CATEGORIES, type PillarKey } from '../categories';
 
 const pillarKeys = Object.keys(PILLARS) as PillarKey[];
@@ -11,11 +12,10 @@ const trust = [
   { h: '中小企業の目線で、やさしく整理', p: '専門用語をかみくだき、次にとるべき一手を具体的にお伝えします。' },
 ];
 
-const pillarIcons: Record<string, string> = {
-  prepare:
-    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5.5c0 4.2-2.9 7.6-7 8.9-4.1-1.3-7-4.7-7-8.9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>',
-  recover:
-    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M15.2 6.6a3.8 3.8 0 0 0-5 4.9L4.5 17.2a1.6 1.6 0 0 0 2.3 2.3l5.7-5.7a3.8 3.8 0 0 0 4.9-5l-2.4 2.4-2-2 2.2-2.6z"/></svg>',
+// 柱ごとのアイコン（主＝柱を表す／副＝重ねるアクセント）。
+const pillarIcons: Record<PillarKey, { main: string; sub: string }> = {
+  prepare: { main: 'shield', sub: 'clipboard' },
+  recover: { main: 'wrench', sub: 'banknote' },
 };
 ---
 <Base title="ReadyBridge｜事業継続を、平時から有事まで" description="中小企業の事業継続（BCP）を、平時の備えから有事の対応・再建までつなぐ情報サイト。被災時に確認すべき公的支援（給与・資金繰り・施設復旧・税）を出典付きで調べられます。">
@@ -53,14 +53,17 @@ const pillarIcons: Record<string, string> = {
           const cats = categoriesByPillar(key);
           return (
             <a class={`pillar-card ${key}`} href={p.href}>
-              <span class="pc-icon" set:html={pillarIcons[key]} />
+              <span class="pc-iconwrap">
+                <span class="pc-icon-main"><Icon name={pillarIcons[key].main} size={36} /></span>
+                <span class="pc-icon-sub"><Icon name={pillarIcons[key].sub} size={18} /></span>
+              </span>
               <span class="pc-tag">{p.tagline}</span>
               <h3>{p.label}</h3>
               <p class="pc-desc">{p.desc}</p>
               <div class="pc-cats">
                 {cats.map((c) => <span>{CATEGORIES[c].label}</span>)}
               </div>
-              <span class="pc-go">{p.label}を見る →</span>
+              <span class="pc-go">{p.label}を見る<span class="arr">→</span></span>
             </a>
           );
         })}
