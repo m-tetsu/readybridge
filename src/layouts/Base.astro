@@ -6,11 +6,14 @@ interface Props {
   description?: string;
   /** OG/Twitter 画像（サイトルートからの絶対パス）。既定はSNS共有用OG画像。 */
   image?: string;
+  /** 構造化データ（JSON-LD）。オブジェクトを渡すと <script type="application/ld+json"> を出力する。 */
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 const {
   title,
   description = '災害で被災した企業が、まず確認すべき公的支援（給与・資金繰り・施設復旧・税）をすぐに調べられる情報サイト。',
   image = '/og.png',
+  jsonLd,
 } = Astro.props;
 
 // canonical / og:url / og:image は絶対URL化する（Astro.site = 本番URL）。
@@ -40,6 +43,10 @@ const ogImage = new URL(image, Astro.site).href;
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
+
+    {jsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    )}
 
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230f6e63'/><text x='16' y='22' font-size='15' font-family='Georgia,serif' font-weight='700' fill='white' text-anchor='middle'>SN</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

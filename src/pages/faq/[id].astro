@@ -16,8 +16,21 @@ const pillar = PILLARS[pillarOf(entry.data.category as CategoryKey)];
 const updated = entry.data.updated
   ? entry.data.updated.toLocaleDateString('ja-JP')
   : null;
+
+// FAQ リッチリザルト用の構造化データ（質問＝見出し／回答＝要約）。
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: entry.data.question,
+      acceptedAnswer: { '@type': 'Answer', text: entry.data.summary },
+    },
+  ],
+};
 ---
-<Base title={`${entry.data.question}｜ReadyBridge`} description={entry.data.summary}>
+<Base title={`${entry.data.question}｜ReadyBridge`} description={entry.data.summary} jsonLd={jsonLd}>
   <section style="padding-top:36px">
     <div class="container" style="max-width:780px">
       <article class="article reveal">
