@@ -17,6 +17,12 @@ const pillarIcons: Record<PillarKey, string> = {
   prepare: 'shield',
   recover: 'wrench',
 };
+
+// トップ「Start here」での見出し（アクション指向の表現）。
+const pillarHeadings: Record<PillarKey, string> = {
+  prepare: '今から備える',
+  recover: '支援策を探す',
+};
 ---
 <Base title="ReadyBridge｜事業継続を、平時から有事まで" description="中小企業の事業継続（BCP）を、平時の備えから有事の対応・再建までつなぐ情報サイト。被災時に確認すべき公的支援（給与・資金繰り・施設復旧・税）を出典付きで調べられます。">
   <!-- HERO -->
@@ -53,9 +59,11 @@ const pillarIcons: Record<PillarKey, string> = {
           const cats = categoriesByPillar(key);
           return (
             <a class={`pillar-card ${key}`} href={p.href}>
-              <span class="pc-icon"><Icon name={pillarIcons[key]} size={34} /></span>
+              <div class="pc-head">
+                <span class="pc-icon"><Icon name={pillarIcons[key]} size={38} /></span>
+                <h3>{pillarHeadings[key]}</h3>
+              </div>
               <span class="pc-tag">{p.tagline}</span>
-              <h3>{p.label}</h3>
               <p class="pc-desc">{p.desc}</p>
               <div class="pc-cats">
                 {cats.map((c) => <span>{CATEGORIES[c].label}</span>)}
