@@ -46,6 +46,10 @@ import Icon from '../../components/Icon.astro';
             <li><strong>通信手段の多重化</strong>——固定電話・携帯・IP電話など、異なる回線を持つ。</li>
           </ul>
 
+          <figure class="illust">
+            <img src="/images/damage-buckup.webp" alt="データバックアップの基本：3-2-1ルール（3つのコピー・2種類の媒体・1つは遠隔地）、クラウドバックアップの活用、復元テストの定期実施。" width="1440" height="961" loading="lazy" />
+          </figure>
+
           <h2>地震への対策</h2>
           <p>「安全を確保する」で扱った人の安全（家具固定・避難経路）に加え、ここでは<strong>事業資産を守り、早く再開するための対策</strong>を整理します。</p>
           <ul>
@@ -61,6 +65,10 @@ import Icon from '../../components/Icon.astro';
               <li><a href="https://www.bousai.go.jp/kyoiku/kigyou/keizoku/" target="_blank" rel="noopener">内閣府「事業継続ガイドライン」</a>——地震対策の考え方と実践例</li>
             </ul>
           </div>
+
+          <figure class="illust">
+            <img src="/images/damage-earthquake.webp" alt="地震への対策：建物の耐震診断・補強、生産設備の固定・免震、在庫の分散保管、配管・ダクトの耐震支持。" width="1440" height="961" loading="lazy" />
+          </figure>
 
           <h2>水害への対策</h2>
           <p>浸水の深さと速度によって被害規模が変わります。ハザードマップで自社の想定浸水深を確認し、その深さに応じた対策を取ります。</p>
@@ -78,6 +86,10 @@ import Icon from '../../components/Icon.astro';
               <li><a href="https://www.mlit.go.jp/river/basic_info/jigyo_keikaku/saigai/tisiki/hazardmap/" target="_blank" rel="noopener">国土交通省「水害ハザードマップマニュアル」</a>——浸水深ごとの被害と対策の考え方</li>
             </ul>
           </div>
+
+          <figure class="illust">
+            <img src="/images/damage-flood.webp" alt="水害への対策：止水板・防水壁の設置、電気設備のかさ上げ、重要物品の上層階保管、排水ポンプの設置、土のう・水のうの備蓄。" width="1440" height="961" loading="lazy" />
+          </figure>
 
           <h2>サイバー攻撃への対策</h2>
           <p>自然災害だけでなく、サイバー攻撃も事業を止める大きなリスクです。ランサムウェアによる被害は中小企業でも増加しています。</p>
@@ -165,5 +177,14 @@ import Icon from '../../components/Icon.astro';
   }
   .ref-links a {
     color: var(--teal-dark);
+  }
+  .illust {
+    margin: 24px 0;
+    text-align: center;
+  }
+  .illust img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius);
   }
 </style>
