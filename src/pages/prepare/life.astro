@@ -44,6 +44,10 @@ import Icon from '../../components/Icon.astro';
             <p>賞味期限のある備蓄品は「買い足しながら消費する」ローリングストック方式が便利です。年1回の入替えではなく、普段使いの延長で管理することで、期限切れを防ぎ、味に慣れておくこともできます。</p>
           </div>
 
+          <figure class="illust">
+            <img src="/images/life-goods.webp" alt="事業所の備蓄品一覧：飲料水9L・食料9食分・簡易トイレ15回分・毛布・懐中電灯（従業員1人あたり3日分）、救急セット・衛生用品・工具類・ラジオ・現金。" width="1440" height="961" loading="lazy" />
+          </figure>
+
           <h2>帰宅困難者への対応</h2>
           <p>首都直下地震では最大約800万人の帰宅困難者が発生すると想定されています。大規模災害時は「むやみに移動しない」が原則です。</p>
 
@@ -61,6 +65,10 @@ import Icon from '../../components/Icon.astro';
             <li><strong>帰宅経路を事前に歩いてみる</strong>――10km以上の場合は無理せず一時滞在施設を利用する前提で計画。</li>
             <li><strong>携帯充電器・現金・地図を常に持つ</strong>――スマホの電池切れに備え、紙の地図も有効。</li>
           </ul>
+
+          <figure class="illust">
+            <img src="/images/life-kitaku.webp" alt="帰宅困難者への対策：従業員を事業所に留める判断基準、滞在スペースの確保、来客の滞在想定、帰宅ルールの事前決定、徒歩帰宅の個人備え。" width="1440" height="961" loading="lazy" />
+          </figure>
 
           <h2>次のステップ</h2>
           <ul>
@@ -137,6 +145,15 @@ import Icon from '../../components/Icon.astro';
     font-size: 1.08rem;
     color: var(--ink);
     margin: 24px 0 10px;
+  }
+  .illust {
+    margin: 24px 0;
+    text-align: center;
+  }
+  .illust img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius);
   }
   @media (max-width: 600px) {
     table { font-size: 0.82rem; }
