@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "0f5c041b7be6d6ddd2802e925feb8ae90b49e3d3df15b9247ebba69a7f5a4c2b"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 申告・納期限の延長
 

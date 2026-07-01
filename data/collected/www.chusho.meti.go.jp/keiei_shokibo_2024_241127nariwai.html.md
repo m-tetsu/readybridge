@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "d1a45145efdcd3410cb76409fe222f2b592b872a29e813baa631d6b8d7734472"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました
 ～福井県の5者を交付決定～

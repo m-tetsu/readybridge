@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "5225429afe99e421b0c4cdab4130a196a2a2b53c483ccd7bc8990c67debf6f9b"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 令和6年能登半島地震にかかる小規模企業共済制度および中小企業倒産防止共済制度の特例措置を講じました 
 

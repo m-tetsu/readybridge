@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "a885a50b6aa7ddbaed6b4e8b3cb55440601393a21aa6adeee63f45b8d284aaae"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました
 ～新潟県の10者を交付決定～

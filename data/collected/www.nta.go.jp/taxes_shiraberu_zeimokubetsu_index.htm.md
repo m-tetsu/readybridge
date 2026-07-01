@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "c7962cc2adfcd09efc03c4a44224d2372ba01e5f8c45faaa7eaefa1baf1cafb6"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 調べたい内容を、「税目別」・「掲載コンテンツ別」にご案内します。
 一般的な税の取扱いを調べる場合

@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "8fb1267e81deab4e33130efdcd32c9917b887d95e47401729a4b37917ce702a1"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 国税庁
 

@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "21beccfcf0c0c36c493128f8f95fb9358df5d0dcb361137b1932690c2d6c87c4"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 令和6年能登半島地震「中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）」の交付決定を行いました
 ～石川県の20者を交付決定～

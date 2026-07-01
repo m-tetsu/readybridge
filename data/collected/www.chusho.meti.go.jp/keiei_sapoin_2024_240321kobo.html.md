@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "67cc2f85de6e68f754f85650a067b967e3d10fb8de49f332af83224e35d3b8ba"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 令和6年能登半島地震で被害を受けた中小企業・小規模事業者を対象に「ものづくり・商業・サービス生産性向上促進補助金」(18次締切)の公募期間を延長します
 

@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "469b947e7a54f04d3c1c79411ac895a5513ff43e0363c4d97b2f3dcaf0f1103a"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 「小規模事業者持続化補助金＜災害支援枠＞」の公募要領を公開しました
 

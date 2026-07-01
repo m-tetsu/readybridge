@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "1462222e5ae2c8be90aae712bc70e53b99e25b8163146f6c29802b59d45781ab"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 令和7年度補正「地域商業機能複合化推進事業（被災商店街等再建支援事業）」の概要について
 

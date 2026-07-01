@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "268586ad0c721595d225523ec120c7c097cdd3109b3cb27356f905755962a864"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 「商店街にぎわい創出事業」の2次公募／2次締切の補助事業者を採択しました
 

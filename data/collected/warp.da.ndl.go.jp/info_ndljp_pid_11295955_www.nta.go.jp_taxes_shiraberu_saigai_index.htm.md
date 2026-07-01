@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "c18b0cbb6d4a60e6a6d35898e4dfdb5f1fcbb690032f902f30bca094f8e7bd35"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 国立国会図書館インターネット資料収集保存事業（WARP）でのクッキーの使用
 

@@ -6,8 +6,8 @@ pillar: "recover"
 category: "tax"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "cd0335b9461546becd33dfd62891550a92b4a94904148638fa1cd72125f5f7b3"
-fetched_at: "2026-06-20"
+content_hash: "00ad8657ba0d7e9b0b6b145a9d48b87c2d73114cae2eb834761641af1f7b576b"
+fetched_at: "2026-07-01"
 ---
 もくじ
 はじめに
@@ -152,6 +152,7 @@ Zei君の税金クイズ
 Zei君の税金クイズ 
 財務省キッズコーナー(財務省ホームページ)
 財務省主税局×うんこ税金 ドリル(財務省ホームページ)
+税金クイズ2026【JFA×国税庁共同制作】（YouTube「国税庁動画チャンネル」）
 
 租税教育用動画
 関係民間団体の租税教育用動画

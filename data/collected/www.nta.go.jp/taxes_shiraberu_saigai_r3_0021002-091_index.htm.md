@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "f7f1755c8cd47d2ad6749d92003e8be394a00e7f4841307183b49f315f7dc20f"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 この度の福島県沖を震源とする地震により被害を受けられた酒類業者の皆様には、心からお見舞い申し上げます。
  今回の地震により被害を受けた場合には、次のような措置がありますので、ご確認ください。

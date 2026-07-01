@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "44c5ac86a4dd1b1ab822c76ed95a03948301d0fca214cdbb046260accc2c5491"
-fetched_at: "2026-06-20"
+content_hash: "6b3b6646151aad3647db7786857098a3c8d10ac380cf5a60b2a7f113e4507fe0"
+fetched_at: "2026-07-01"
 ---
 JAPAN PATENT OFFICE
 
@@ -226,19 +226,19 @@ More
 More
 
 Pickup News
+JPO attended CIPITC's 29th Anniversary Symposium and JETRO Bangkok IP Department's 30th Anniversary Event, and held a meeting with Thai DIP.
+
+Pickup News
+The JPO held bilateral meetings with the Intellectual Property Office of Vietnam (IPVN) and the Agency for Domestic Market Surveillance and Development of Vietnam (DMS)
+
+Pickup News
+IP5 Trial and Appeal Boards High-Level Meeting Held
+
+Pickup News
 The JPO exchanges views with the IPO
 
 Pickup News
 The JPO holds bilateral meetings in conjunction with the 19th IP5 Heads of Office Meeting
-
-Pickup News
-Heads of Patent Offices in Japan, Europe, Korea, China, and the U.S. Discuss the Future Utilization of AI Technology - Outcome of the 19th IP5 Heads of Office Meeting -
-
-Pickup News
-The Patent Prosecution Highway (PPH) 20th Anniversary Forum Held
-
-Pickup News
-JPO Participates in Five Trademark Offices (TM5) Mid-Term Meeting
 
 PR & Social Media
 

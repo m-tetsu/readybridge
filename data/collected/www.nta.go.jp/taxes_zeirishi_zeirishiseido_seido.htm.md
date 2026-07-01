@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "bac1e1d8961338599489235a86af3dbc1f0afd0b7e54d328e4ca0c894118f886"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 税理士制度 詳細はこちら
 

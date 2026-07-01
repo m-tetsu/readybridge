@@ -7,7 +7,7 @@ category: "wage"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "a49973cbb63ee41fb6b3869c516d60d26d79b76478c038e389612b8c40a375d9"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 全国の相談・手続き窓口
 

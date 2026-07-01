@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "c12535b15f217c98e30795dfea5aa522ae27e420f355b8334f2e93640c5f517b"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 概要
 災害その他やむを得ない理由により、申告、申請、請求、届出その他書類の提出、納付又は徴収に関する期限までにこれらの行為ができない場合に、申告、納付等の期限延長の指定を受けるための手続です。

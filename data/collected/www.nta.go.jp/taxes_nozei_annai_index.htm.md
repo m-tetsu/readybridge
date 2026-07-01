@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "2b5cd1d6cb552874de7a95140f73b04938c05cab339fb19b53aa8bf26eb622f2"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 ● 「納税に関する総合案内」においては、主に以下の１～７に該当する方を対象として、国税庁ホームページ上にある納税に関する情報にスムーズにアクセスしていただけるよう、ご案内しています。
 

@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "b07154027b523db55b39048c72096aee48c1a144002c97a0968ae657d66ef8ff"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 国税に関するご質問がありましたら、国税庁ホームページ「チャットボット」、「タックスアンサー」のほか、e-Taxホームページ「ヘルプデスクFAQ上位70」をご利用ください。
 国税庁ホームページ等で調べる（チャットボット、タックスアンサー、ヘルプデスクFAQ上位70）

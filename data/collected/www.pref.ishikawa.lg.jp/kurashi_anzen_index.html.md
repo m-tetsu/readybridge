@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "175b24956a735b96815e2a8f8f1144bd93644ba9ab835e0e0bab7a23f309b203"
-fetched_at: "2026-06-20"
+content_hash: "0ce06ae20e899ae90dcf6e4d0987cf6c21bd1287a9d9b2aa28f75ab0c29cac11"
+fetched_at: "2026-07-01"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
-6月18日
-石川県防災・減災推進条例（仮称）について
+7月1日
+石川県の国民保護
 
-6月18日
-協議会・審議会等
-
-6月18日
-石川県消費生活審議会委員名簿
-
-6月18日
+6月30日
 石川県消費生活支援センター
 
-6月18日
-出前講座（講師派遣）
+6月30日
+消費生活相談状況
+
+6月30日
+イベント情報
+
+6月30日
+災害用備蓄物資の公表について
 
 新着情報一覧
 新着情報RSS

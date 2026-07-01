@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "0c785242be2fc145405bd6a519de46befaafe37df41499ca6c342d28148aee8e"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 税理士関係法令等
 

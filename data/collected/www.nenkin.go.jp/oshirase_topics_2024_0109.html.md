@@ -7,7 +7,7 @@ category: "wage"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "bc0ab9caa8673204fd5393bbc2baa088c169068991933cb533bb679e483ba181"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 令和6年能登半島地震により被害を受けられた皆さまへ
 

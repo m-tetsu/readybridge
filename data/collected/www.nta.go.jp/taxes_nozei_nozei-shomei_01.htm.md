@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "1b322b648909b4bb0828c6d7bf01cd7725b94313c2ab3436996142105be1efd9"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 ［目次］
 

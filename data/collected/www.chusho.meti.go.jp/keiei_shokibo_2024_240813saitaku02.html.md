@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "f9d9020c92978f33e8b290e025348987077bbd31ae4ccc6af3b5e4d5e08a5c2c"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 「被災地向け共同・協業販路開拓支援補助金」の補助事業者が採択されました
 

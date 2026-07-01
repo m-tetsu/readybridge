@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "2ae2fe38b0d8af2dbbe94ea12a6d7cbf5782d472fc78da999206f49129a3e2b2"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 特許庁
 

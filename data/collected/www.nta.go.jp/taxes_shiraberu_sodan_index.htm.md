@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "420badbaf6d34c0baa7aab6773524ab50ac2e5b142dbb9bb7a532b12701bacdf"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 国税に関するご相談について（チャットボット・タックスアンサー・電話相談）
 税についての上手な調べ方

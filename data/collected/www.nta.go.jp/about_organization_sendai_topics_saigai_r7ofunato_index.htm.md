@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "46130b86f89d21773afd9caa731871b0adbdd95d251fe0d7d2a48cf6ff9973eb"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 大船渡市の林野火災により被害を受けられた皆様方に、心からお見舞い申し上げます。
  大船渡市の林野火災により被害を受けた場合には、以下のような申告・納税等に係る手続等がありますので、状況が落ち着きましたら、まずは最寄りの税務署へご相談ください。

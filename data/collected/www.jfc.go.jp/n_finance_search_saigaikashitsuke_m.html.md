@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "c26197a7df9d6db207c9e931d1f31b34127adfa789ab2c9f3a699b7f758a3605"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 ホーム
 事業資金

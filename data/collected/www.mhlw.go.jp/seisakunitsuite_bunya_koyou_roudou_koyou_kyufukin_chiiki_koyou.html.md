@@ -7,7 +7,7 @@ category: "wage"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "69382ac23eeb3f4feeb40ad63b810ef58325ecacbfc21819da4aea6e75801bc5"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 ひと、くらし、みらいのために
 

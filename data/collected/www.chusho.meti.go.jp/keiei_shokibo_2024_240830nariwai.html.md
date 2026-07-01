@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "12bffe9ad5c65834b813735f9119788812a4e80d34407ea6d19aecf475ee5279"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 なりわい再建支援補助金の活用事例を公開しました
 

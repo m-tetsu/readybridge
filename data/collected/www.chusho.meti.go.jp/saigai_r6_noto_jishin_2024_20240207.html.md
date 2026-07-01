@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "edab5461ce2754d3c639290bc0a2423a32b6a62320bd5717bfbb3bdb752f1a33"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 中小企業基盤整備機構とクラウドファンディング企業3社が連携し、令和6年能登半島地震の被災事業者が行う資金調達（クラウドファンディング）を支援する企画を実施いたします
 

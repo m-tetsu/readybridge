@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "93aaf89411306a341fb37c01788cce46eee997f842eba77da6287ba4fb0ff7e1"
-fetched_at: "2026-06-20"
+content_hash: "fa7bdbceacc719d4759696610d0b6a870d25ffd7e780d1df065e50682a511bb4"
+fetched_at: "2026-07-01"
 ---
 小
 
@@ -233,6 +233,10 @@ TOP
 主な被災地
 
 追加
+令和8年6月24日からの大雨に伴う災害
+
+鹿児島県、福岡県
+
 令和8年岩手県大槌町の林野火災による災害
 
 岩手県

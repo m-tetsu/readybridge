@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "a0de85ac14ae6057ba18ea5810a5177f8a72c8defb5926334abb122afd2d78d9"
-fetched_at: "2026-06-20"
+content_hash: "484d23cc11901c097a93b024aff2fe59c16ae54a5ec08bc49248801883ce8ef4"
+fetched_at: "2026-07-01"
 ---
 特許庁
 
@@ -149,6 +149,7 @@ English
 統計資料
 刊行物・報告書
 審議会・研究会
+データポータル
 
 特許庁について
 
