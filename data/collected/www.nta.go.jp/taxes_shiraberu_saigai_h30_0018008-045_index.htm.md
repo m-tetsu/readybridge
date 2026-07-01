@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "da357479243ed7d59f2433ba70fd06e1c82243a2ff190c3d7e712cd266fd1939"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 災害により被害を受けられた方には、次のような税制上の措置（手続）があります。
 （注）令和7年8月1日現在の法令等に基づいて作成しています。

@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "355f6148c3997b52a3213a7169e367f342c685d4ff2beece8474ff65d7afe54d"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 トップ
 本支援事業について

@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "949b91acc0b43d96cda592111df0df3ec23ce625554087d02f132eea45bc7137"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 国税における番号制度に関する情報など
 平成27年10月からマイナンバーの通知、平成28年1月からマイナンバーの利用が開始されています。

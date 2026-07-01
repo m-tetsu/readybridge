@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "08c1576f01925094027d045033b5c00335ce4d5b80b66b76ab3cb6aeede74584"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 申告などの期限の延長・納税の猶予
 申告や納付などの期限を延長したり、納税を一定期間猶予する制度があります。

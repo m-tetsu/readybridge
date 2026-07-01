@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "0c28e12d51972594f8286f135fa825c6c2c78e8026c9077cd9ef5f487c23fbab"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 「小規模事業者持続化補助金＜災害支援枠＞」の申請受付を開始しました
 

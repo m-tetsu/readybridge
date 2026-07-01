@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "fe03172f73ac60d7c645e72d636f576c8e4122797dc63c7cc8dd40c632cb70c9"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 民間ゼロゼロ融資等の返済負担軽減のための保証制度(コロナ借換保証)を開始します。
 

@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "4d42ea759852d9079e1f09df3c0d7865a8e4350c0a7aa37120a3aa897a929b8a"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 メニューを飛ばして本文へ
 

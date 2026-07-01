@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "b29942c54def61bc71cdf2aa524582da9c7bebbb96cd48f96c7ccb38f83ba4e9"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 タックスアンサーでは、よくある税の質問に対する一般的な回答を調べることができます。
 

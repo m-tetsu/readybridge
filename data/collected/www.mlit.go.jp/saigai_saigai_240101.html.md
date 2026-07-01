@@ -7,7 +7,7 @@ category: "wage"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "d53938dd7e775b0aff221629f620d60128d62114c2fb30fe3f2888b55dad0655"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 令和６年能登半島地震における被害と対応について
 

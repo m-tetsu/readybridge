@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "f5974c8469c5a8ef37f8e8ad078cb87336282fd8aa3271081ff481ca3ce738f1"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 確定申告
 

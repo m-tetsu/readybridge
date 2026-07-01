@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "42b273ca26acb387681ddb1c62ec8ab9bc34569d965e2ead63e953af836d4e6e"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 日本政策金融公庫は事業に取り組む方々を支援する政策金融機関です。
 国民生活事業では、小規模事業者の皆さまへの小口融資を主に取り扱っており、1先あたりの平均融資残高は約800万円です。

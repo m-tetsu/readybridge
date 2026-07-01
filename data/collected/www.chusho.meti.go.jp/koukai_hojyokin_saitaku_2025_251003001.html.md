@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "327a88589981a39055c32e516dcaca58ffb40ff5370b1a39da941e6df183b14d"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 「小規模事業者持続化補助金＜一般型・災害支援枠＞」について、第7次公募の採択事業者を決定しました
 

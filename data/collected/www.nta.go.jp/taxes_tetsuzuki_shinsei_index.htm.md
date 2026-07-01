@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "7ead4ec1f0a9d4bed096b4d37887bd71a411e2d076bd872dd45b68fa822f7ac9"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 各種申請の方法や手続のほか、申告書、申請書などの様式について調べる場合の入口をご案内します。
 確定申告等情報

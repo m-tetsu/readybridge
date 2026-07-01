@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "de45d644fef36fc47c451ffb840471fb0e8c47cc689f580bf26109ce6a58ae37"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 郵便番号・住所から税務署を調べる
 

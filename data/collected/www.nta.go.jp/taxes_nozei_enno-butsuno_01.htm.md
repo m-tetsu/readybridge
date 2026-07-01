@@ -6,8 +6,8 @@ pillar: "recover"
 category: "tax"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "b4a9cf016bf4c0525de072a74e11db615ef17771d0a5aeb4e5dd6c9e42afd9cc"
-fetched_at: "2026-06-20"
+content_hash: "a980bad0a3df4e5790180bcb9d7b79d60d5b9a5d72ab9a0af8d94a23c72afb50"
+fetched_at: "2026-07-01"
 ---
 令和8年4月
 国税庁
@@ -84,8 +84,8 @@ fetched_at: "2026-06-20"
 (注) 非上場株式等についての相続税・贈与税の納税猶予に係る担保提供に関する情報を掲載しています。
 7 相続税の物納申請・処理等の状況
 
-相続税の物納処理状況等（平成17年度から令和6年度）
-相続税の延納処理状況等（平成17年度から令和6年度）
+相続税の物納処理状況等（平成27年度から令和７年度）
+相続税の延納処理状況等（平成27年度から令和７年度）
 
 税の情報・手続・用紙
 

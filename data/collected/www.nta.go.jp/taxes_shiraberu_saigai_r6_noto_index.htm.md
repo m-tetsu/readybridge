@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "031ce9dcb0a43686c60c4676dfdc52b6ad0a21f34a06e56b9425c3d56f5cf673"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 国税庁
  この度の令和６年能登半島地震により被害を受けられた皆様に、心からお見舞い申し上げます。

@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "9d9fee61db8d836aa781917c7044c70a67be4f8a6b0a91631fbcdeb5347219f5"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 融資をご希望のお客さまへ
 日本政策金融公庫は事業に取り組む方々を支援する政策金融機関です。国民生活事業、中小企業事業、農林水産事業の3事業がそれぞれ連携し、幅広いサービスを提供しています。

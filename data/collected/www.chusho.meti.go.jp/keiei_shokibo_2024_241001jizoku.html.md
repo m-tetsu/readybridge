@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "29bb405cdecdfb89bfea62cfd52e93a272fe9808c57e97a642f3c67df9e41099"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 「小規模事業者持続化補助金＜災害支援枠＞（第4回）」の補助事業者が採択されました
 

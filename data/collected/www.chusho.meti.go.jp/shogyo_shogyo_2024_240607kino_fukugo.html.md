@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "ea0ab45ac564128ac8e4b68f53277cd480933c3c2cef12924a90ecc1ed46fc2d"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 「商店街災害復旧事業」の1次募集の補助事業者を交付決定しました
 

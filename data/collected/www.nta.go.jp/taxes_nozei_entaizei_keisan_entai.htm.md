@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "352e67b0a29681bda6b98c48e94d71c32eff0eedad379114dc2f7acdb10ca4ce"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 延滞税の計算方法
 納付が定められた期限に遅れますと、法定納期限（注1）の翌日から完納する日までの延滞税を併せて納付する必要があります。

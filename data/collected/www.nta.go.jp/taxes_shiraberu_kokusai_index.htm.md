@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "44628586f522aeed70d260978f09835f32e5765703bcc26ed7eb753f572d3b31"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 国際戦略トータルプラン詳細はこちら
 BEPSプロジェクト詳細はこちら

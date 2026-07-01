@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "02b2fe8cb57af2ee40f40a1dcac7289ab8dad1852ec64359edbcc5b486641cd4"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 特許庁サーバの稼働状況
 料金納付関連業務の稼働状況

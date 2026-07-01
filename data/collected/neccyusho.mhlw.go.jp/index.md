@@ -7,7 +7,7 @@ category: "wage"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "f3b02302ac61054262e6cde92b57a543ba6409df3e91abb584b0cfc2ba5c2103"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 新着情報
 

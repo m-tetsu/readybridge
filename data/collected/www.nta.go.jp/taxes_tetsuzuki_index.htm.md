@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "e48f3e4242d6bd0f0d400ae0c0a64e161f8edbbac0345bd7034b8ffe542e3ec0"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 申告・申請・届出等、用紙（手続の案内・様式）
 

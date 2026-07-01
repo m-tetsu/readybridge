@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "pdf"
 content_hash: "439f4ac69c9a867112b523b627f99c0f2761a7a4a8f5265b6f0cace9cdede362"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 1
 中小企業者等向け支援策

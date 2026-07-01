@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "4bcc7701cdffc7f04c7aba250ec6b8ada073a6865b57009c7d97c11aa5a4d754"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 石川県
 

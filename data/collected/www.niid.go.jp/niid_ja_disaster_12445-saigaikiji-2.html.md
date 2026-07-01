@@ -7,7 +7,7 @@ category: "wage"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "3615d89fa4805540fd7345f0f7b8daeaab405df73329ff290f702017614b6d29"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 令和6年能登半島地震（2024年1月）
 LINEで送る

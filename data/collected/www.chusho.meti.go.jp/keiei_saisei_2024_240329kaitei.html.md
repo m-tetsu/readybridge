@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "4cd3bfdd1cebf14bc42ba9b7caec7633929b0a92a5e47f52526ace1f0d9fce2b"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 「中小企業活性化協議会実施基本要領」等を改定等します
 

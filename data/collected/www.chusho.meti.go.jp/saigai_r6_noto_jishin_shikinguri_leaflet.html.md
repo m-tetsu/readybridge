@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "da191383c6eb88c8b2a6407876af834bdcf7cb8fe56c0bb5e09f9c7f8bd78905"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 「被災者の生活と生業支援のためのパッケージ」を踏まえた各種資金繰り支援について、リーフレットにまとめました
 

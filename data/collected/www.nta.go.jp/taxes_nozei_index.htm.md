@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "776b71b8665a7a64ec749eba1d5118f5f8ed563d4c813c62a206b9d55aff29fd"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 納付書の事前送付に関するお知らせ
 令和６年５月以降に送付する分から、納付書の事前の送付を取りやめることとしております。詳しくはこちら。

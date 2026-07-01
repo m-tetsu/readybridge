@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "ca08ad158a012f01ac3bf1a98cfa96b42bcc6c3240c928be41ec806d7b10366f"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 災害により被害を受けられた皆様方に、心からお見舞い申し上げます。 このページは、災害に関する申告・納付等に係る手続や個別の災害関連情報を掲載しております。 ご覧になりたい項目をクリックすると、該当の箇所に移動します。
 

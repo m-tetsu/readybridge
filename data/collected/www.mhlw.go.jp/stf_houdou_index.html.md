@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "2912083fbffaa863d0368b4115aec6052d0ab29ba47384189de439c65730b033"
-fetched_at: "2026-06-20"
+content_hash: "995803a3f74b005ba7cca1a2e276bef2f795d2810328a33e76310906db042dff"
+fetched_at: "2026-07-01"
 ---
 ホーム
 >
@@ -31,6 +31,7 @@ fetched_at: "2026-06-20"
 4月
 5月
 6月
+7月
 
 2025年
 

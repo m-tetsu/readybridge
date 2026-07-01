@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "c93e79ba36e43f70cbf7b53ea704cb78044f66c8d7aa55fe248b3ae3141e587a"
-fetched_at: "2026-06-20"
+content_hash: "deb1d43f0047a96cf2550eb336cc417bd72d65e4babdf7773f01f953182808f7"
+fetched_at: "2026-07-01"
 ---
 小
 
@@ -290,6 +290,7 @@ TOP
 3.返済猶予等のお取り扱い地域（災害発生日より近い日付順に掲載）
 取扱期間は、災害を受けた日（災害救助法適用日）から1年以内となります。
 
+令和8年6月24日からの大雨に伴う災害
 令和8年岩手県大槌町の林野火災による災害
 令和8年1月21日からの大雪による被害
 令和7年青森県東方沖を震源とする地震に伴う被害

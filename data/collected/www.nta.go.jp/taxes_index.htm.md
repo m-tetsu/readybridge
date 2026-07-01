@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "a679e2c90e5f4847861b800d7a2fdd8ec2cc94af395a631535288e1b82260e6e"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 税について調べる
 

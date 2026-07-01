@@ -6,8 +6,8 @@ pillar: "recover"
 category: "tax"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "5448869c3345e543b474df30f4295551e3ed0d5b24b89cf9e4d171bfdddf6020"
-fetched_at: "2026-06-20"
+content_hash: "e7b7cef61458f2f0cddb3e2c3efdd7fccfc56256ccf6f35a0ce1f09b115200e2"
+fetched_at: "2026-07-01"
 ---
 税理士試験の概要
 詳細はこちら
@@ -28,6 +28,8 @@ fetched_at: "2026-06-20"
 
 令和８年度（第76回）税理士試験
 
+令和8年度（第76回）税理士試験申込者数（PDF/53KB）
+令和8年度（第76回）税理士試験試験会場一覧
 令和８年度（第76回）税理士試験公告
 
 大学院設置基準改正に伴う修士の学位取得による税理士試験科目免除の取扱いについて

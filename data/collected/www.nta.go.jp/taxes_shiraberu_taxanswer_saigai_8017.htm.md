@@ -7,7 +7,7 @@ category: "tax"
 disaster_scope: "general"
 content_type: "html"
 content_hash: "f02fd401ec29c33b4b4d3b566bbba8df100a1aa04978e00932c27d538922a6ef"
-fetched_at: "2026-06-20"
+fetched_at: "2026-07-01"
 ---
 [令和7年4月1日現在法令等]
 概要
