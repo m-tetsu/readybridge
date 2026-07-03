@@ -178,6 +178,10 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 - [~] **AI 相談（RAG）第3フェーズ**：設計・実装・インフラ・Secrets登録・upsert実行まで完了（2026-06-20）。残るは実データでの `/api/chat` 動作確認（上記「AI相談（RAG）」節参照）
 - [ ] **meti.go.jp HTML "empty" 問題**（プロキシは通るが本文抽出で<40文字。優先度低）
 
+- [~] **2026-07 GSC「インデックス未登録」対応**：Search Consoleから2種のカバレッジ通知。
+  - 「代替ページ（適切なcanonicalタグあり）」3件（`http://www.ready-bridge.com/` 等）→ `public/_redirects` を追加し http/非www/旧workers.devドメインを `https://www.ready-bridge.com` へ301リダイレクトするよう修正（2026-07-03）。**要確認**：Workers Static Assetsで `_redirects` が実際に効いているか、次回デプロイ後に `curl -I http://www.ready-bridge.com/` などで検証すること。効かない場合はCloudflareダッシュボードの「Always Use HTTPS」設定 or Redirect Rule で対応。
+  - 「検出 - インデックス未登録」22件 → 独自ドメイン移行（2026-06-20）から日が浅く、コード側の問題ではない可能性が高い。GSCの「URL検査」から主要ページ（/prepare, /recover, /chat 等）のインデックス登録をリクエストする運用対応を推奨。数週間の様子見でも解消し得る。
+
 ## やり取りの好み（松下さんの指示スタイル）
 
 - 短く端的。不明点は推測せず一言確認。
