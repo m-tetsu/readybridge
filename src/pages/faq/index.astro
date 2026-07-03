@@ -6,6 +6,11 @@ import { CATEGORIES, PILLARS, categoriesByPillar, type CategoryKey, type PillarK
 
 const faqs = await getCollection('faq');
 const pillarKeys = Object.keys(PILLARS) as PillarKey[];
+
+// 記事が未作成のカテゴリでも、解説済みの固定ページがあればそちらへ案内する。
+const emptyFallback: Partial<Record<CategoryKey, { href: string; label: string }>> = {
+  org: { href: '/prepare/training', label: '解説ページ「訓練をする」を見る' },
+};
 const grouped = pillarKeys.map((pk) => ({
   pillar: PILLARS[pk],
   cats: categoriesByPillar(pk).map((key) => ({
@@ -15,7 +20,7 @@ const grouped = pillarKeys.map((pk) => ({
   })),
 }));
 ---
-<Base title="記事一覧｜ReadyBridge">
+<Base title="記事一覧｜ReadyBridge" description="ReadyBridge の全記事一覧。平時の備え（BCP・資金・設備・備蓄）と有事の対応・再建（休業手当・資金繰り・施設復旧・税）を、カテゴリごとにまとめています。">
   <section class="hero" style="padding-bottom:18px">
     <div class="container hero-center">
       <span class="eyebrow reveal"><span class="dot"></span>記事一覧</span>
@@ -32,7 +37,13 @@ const grouped = pillarKeys.map((pk) => ({
             <div class="catblock" id={c.key}>
               <div class="ch"><span class="ic"><Icon name={c.meta.icon} size={20} /></span><h3>{c.meta.label}</h3></div>
               {c.items.length === 0 ? (
-                <p class="cdesc">準備中です。</p>
+                emptyFallback[c.key] ? (
+                  <ul class="faq-list">
+                    <li><a href={emptyFallback[c.key]!.href}><span>{emptyFallback[c.key]!.label}</span><span class="arr">→</span></a></li>
+                  </ul>
+                ) : (
+                  <p class="cdesc">準備中です。</p>
+                )
               ) : (
                 <ul class="faq-list">
                   {c.items.map((f) => (

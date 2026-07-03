@@ -22,7 +22,7 @@
   2. 状況カード（平時／有事から辿る）
   3. AI相談（個別質問・最新の支援を出典付きで／`/chat` で稼働中・試験運用）
 - 出典・最終更新日を明示。専門用語をかみくだき、次の一手を具体的に書く。
-- 「AIっぽい」汎用デザインを避け、明朝体の見出し＋温かい紙色×ティール×テラコッタ。
+- 「AIっぽい」汎用デザインを避け、太いゴシック見出し＋温かい紙色×ティール×テラコッタ。
 
 ## 決定事項（変えない方針）
 
@@ -32,8 +32,9 @@
 - アイブロウ：「事業継続（BCP）を、平時から有事まで」
 - ヒーロー画像：`public/hero.webp`（左＝平時／右＝有事を矢印でつなぐアイソメ図）。差し替えは同名ファイルで上書き
 - 「平時の備え」「有事の対応・再建」の分離（柱）
-- フォント：見出し Shippori Mincho、本文 Zen Kaku Gothic New、ワードマーク Quicksand
-- 配色（CSS変数）：`--teal #0f6e63` / `--terra #d2693f` / `--paper #ffffff`（白背景に変更済み） ほか `src/styles/global.css`
+- フォント：見出し・本文とも Zen Kaku Gothic New（2026-06 にゴシック統一。当初の Shippori Mincho 案は廃止）、ワードマーク Quicksand
+- 配色（CSS変数）：`--teal #0f6e63` / `--terra #d2693f` / `--paper #f5f1e8`（温かい紙色。一時白背景にしたが紙色に回復済み） ほか `src/styles/global.css`
+- favicon：橋ロゴのSVG（Base.astro にインライン data URI。旧「SN」は2026-07に修正）
 - 見出しや小見出しの説明文は **デスクトップで改行しない**（`white-space: nowrap` ＋ 〜820px / 〜1040pxで自動復帰）
 - アイコン：絵文字→単色SVG（`src/components/Icon.astro`、`stroke="currentColor"`）
 
@@ -75,8 +76,10 @@ src/
     ├─ faq/[id].astro       # 記事詳細
     ├─ search-index.json.ts # 検索インデックス（ビルド時生成）
     ├─ chat.astro           # AI 相談（/api/chat 稼働中・試験運用）
-    └─ sources.astro        # 参照する公的ソース一覧
+    └─ about.astro          # このサイトについて（目的・編集方針・免責）
 ```
+
+※ 旧記載の `sources.astro`（公的ソース一覧）は未実装。必要なら別途作成。
 
 ## デプロイ
 
@@ -162,6 +165,8 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 ---
 
 ## 開いている論点・次の候補
+
+- [~] **2026-07 サイト見直し**：修正案と反映状況は `docs/site-review-2026-07.md`。favicon修正／モバイルメニュー／`/about` 新設／safety画像のWebP化／AI相談の例質問チップ等を `claude/ready-bridge-review-eufy7t` ブランチで実施（レビュー待ち）。未対応：出典URLの具体化（B4）・記事追加（B5）・hero1.webp の扱い（D2）。
 
 - [x] ~~**試作ページの正式化**~~（ネストURL `/prepare/*` で本番化済み）
 - [x] ~~**独自ドメイン**~~ 完了（2026-06-20・`www.ready-bridge.com`／Cloudflare Registrar）。Worker にカスタムドメイン割当済・公開確認済。apex→www リダイレクト設定。`Astro.site` も更新済

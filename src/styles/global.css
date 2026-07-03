@@ -1,5 +1,5 @@
 /* =========================================================
-   被災企業支援ナビ — Design System
+   ReadyBridge — Design System
    方向性：明るく信頼できる公共サービス × 大胆な見出し・探す導線
    配色：温かい紙色背景 / ディープティール（安心・信頼） / テラコッタ（人間味・行動喚起）
    書体：Zen Kaku Gothic New（見出し・本文・UI統一）
@@ -91,10 +91,18 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.
 .logo-word { font-family: "Quicksand", var(--font-body); font-weight: 700; font-size: 1.26rem; letter-spacing: 0.005em; color: var(--ink); line-height: 1; }
 .logo-word b { font-weight: 700; color: var(--teal-dark); }
 .nav { display: flex; gap: 4px; align-items: center; }
+.nav-links { display: flex; gap: 4px; align-items: center; }
 .nav a { color: var(--ink-soft); text-decoration: none; font-size: 0.92rem; padding: 8px 13px; border-radius: 999px; transition: background .18s, color .18s; }
 .nav a:hover { background: var(--teal-soft); color: var(--teal-dark); }
-.nav a.cta { background: var(--teal); color: #fff; font-weight: 700; }
+.nav a.cta { background: var(--teal); color: #fff; font-weight: 700; white-space: nowrap; }
 .nav a.cta:hover { background: var(--teal-dark); }
+/* 「このサイトについて」はデスクトップではフッタのみ。モバイルメニューには出す */
+.nav-links .nav-about { display: none; }
+.menu-btn {
+  display: none; border: 1px solid var(--line-strong); background: var(--surface);
+  color: var(--ink-soft); border-radius: 10px; padding: 7px 9px; cursor: pointer; line-height: 0;
+}
+.menu-btn:hover { color: var(--teal-dark); border-color: var(--teal); }
 
 /* ---------- Buttons ---------- */
 .btn {
@@ -412,7 +420,19 @@ section { padding: 54px 0; }
   .section-head p { white-space: normal; }
   .trouble-grid, .cards, .pillars { grid-template-columns: 1fr; }
   .timeline, .trust-grid { grid-template-columns: 1fr; }
-  .nav a:not(.cta) { display: none; }
+  /* モバイル：リンク群はハンバーガーメニューに格納（AI相談CTAは常時表示） */
+  .menu-btn { display: inline-flex; }
+  .nav-links {
+    display: none;
+    position: absolute; left: 0; right: 0; top: 68px;
+    flex-direction: column; align-items: stretch; gap: 0;
+    background: var(--surface); border-bottom: 1px solid var(--line);
+    box-shadow: var(--shadow-sm); padding: 8px 16px 12px;
+  }
+  .site-header.menu-open .nav-links { display: flex; }
+  .nav-links a { padding: 13px 10px; border-radius: 10px; font-size: 1rem; border-bottom: 1px solid var(--line); }
+  .nav-links a:last-child { border-bottom: none; }
+  .nav-links .nav-about { display: block; }
   .search-row { flex-direction: column; }
   .search-row button { width: 100%; justify-content: center; }
   /* スマホ：結果を浮かせず下に押し出す（後続セクションへの重なり防止） */

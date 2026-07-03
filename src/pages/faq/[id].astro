@@ -11,6 +11,13 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
+
+// 同カテゴリの他記事（回遊導線）。
+const related = (await getCollection('faq'))
+  .filter((f) => f.data.category === entry.data.category && f.id !== entry.id)
+  .sort((a, b) => a.data.order - b.data.order)
+  .slice(0, 4);
+
 const cat = CATEGORIES[entry.data.category as CategoryKey];
 const pillar = PILLARS[pillarOf(entry.data.category as CategoryKey)];
 const updated = entry.data.updated
@@ -57,6 +64,18 @@ const jsonLd = {
           実際の適用可否は必ず各窓口・公式情報でご確認ください。
         </p>
       </article>
+
+      {related.length > 0 && (
+        <div class="catblock" style="margin-top:28px">
+          <div class="ch"><h3 style="font-size:1.1rem">あわせて読む（{cat.label}）</h3></div>
+          <ul class="faq-list">
+            {related.map((f) => (
+              <li><a href={`/faq/${f.id}`}><span>{f.data.question}</span><span class="arr">→</span></a></li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <p class="after-link"><a href="/chat">自社の状況に合わせてAIに相談する<span>→</span></a></p>
     </div>
   </section>

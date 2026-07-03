@@ -12,6 +12,14 @@ import Base from '../layouts/Base.astro';
 
   <section style="padding-top:6px">
     <div class="container" style="max-width:820px">
+      <!-- 例質問（タップで入力欄へ） -->
+      <div class="example-chips" role="group" aria-label="質問の例">
+        <span class="ex-label">質問の例：</span>
+        <button type="button" class="ex-chip">浸水で工場が使えません。まず何をすべきですか？</button>
+        <button type="button" class="ex-chip">休業中の従業員の給与はどうすればいいですか？</button>
+        <button type="button" class="ex-chip">BCPを作りたい。何から始めればいいですか？</button>
+      </div>
+
       <!-- 質問入力フォーム -->
       <form class="chat-form" id="chat-form" autocomplete="off">
         <div class="ask-row">
@@ -36,6 +44,15 @@ import Base from '../layouts/Base.astro';
 </Base>
 
 <style>
+  .example-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 2px 14px; }
+  .ex-label { font-size: .82rem; font-weight: 700; color: var(--ink-soft); }
+  .ex-chip {
+    font: inherit; font-size: .85rem; color: var(--teal-dark); cursor: pointer;
+    background: var(--teal-soft); border: 1px solid transparent; border-radius: 999px; padding: 7px 14px;
+    transition: border-color .15s, background .15s;
+  }
+  .ex-chip:hover { border-color: var(--teal); background: var(--surface); }
+
   .chat-form { background: var(--surface, #fff); border: 1px solid var(--line, #e6e1d6); border-radius: 14px; padding: 18px; box-shadow: var(--shadow, 0 6px 20px rgba(0,0,0,.05)); }
   .ask-row { display: flex; gap: 10px; align-items: stretch; }
   .ask-row textarea {
@@ -56,6 +73,9 @@ import Base from '../layouts/Base.astro';
   .msg-meta { font-size: .78rem; color: var(--ink-soft, #5b574e); margin: 0 0 6px; }
   .msg-body { line-height: 1.7; }
   .msg-pending .msg-body { color: var(--ink-soft, #5b574e); }
+  .msg-pending .msg-body::after { content: '…'; display: inline-block; animation: dots 1.2s steps(4, end) infinite; }
+  @keyframes dots { 0% { clip-path: inset(0 100% 0 0); } 100% { clip-path: inset(0 0 0 0); } }
+  .btn[disabled] { opacity: .55; pointer-events: none; }
 
   /* 免責③：災害特設の但し書き */
   .disaster-note { margin-top: 10px; font-size: .82rem; color: var(--terra-dark); background: var(--terra-soft); border-radius: 8px; padding: 8px 10px; }
@@ -96,6 +116,16 @@ import Base from '../layouts/Base.astro';
 
   const form = document.getElementById('chat-form') as HTMLFormElement;
   const log = document.getElementById('chat-log') as HTMLElement;
+  const questionInput = form.querySelector('#f-question') as HTMLTextAreaElement;
+  const submitBtn = form.querySelector('.ask-go') as HTMLButtonElement;
+
+  // 例質問チップ：タップで入力欄に転記（送信はユーザーの操作に委ねる）。
+  document.querySelectorAll<HTMLButtonElement>('.ex-chip').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      questionInput.value = chip.textContent?.trim() ?? '';
+      questionInput.focus();
+    });
+  });
 
   function esc(s: string): string {
     return s.replace(/[&<>"']/g, (c) =>
@@ -152,8 +182,9 @@ import Base from '../layouts/Base.astro';
     if (!question) return;
 
     addUser(question);
-    (form.querySelector('#f-question') as HTMLTextAreaElement).value = '';
-    const pending = addAi('回答を準備しています…', true);
+    questionInput.value = '';
+    submitBtn.disabled = true; // 多重送信防止
+    const pending = addAi('回答を考えています', true);
 
     try {
       const res = await fetch('/api/chat', {
@@ -170,7 +201,9 @@ import Base from '../layouts/Base.astro';
       pending.classList.remove('msg-pending');
       (pending.querySelector('.msg-body') as HTMLElement).innerHTML =
         'うまく回答を取得できませんでした。少し時間をおいて、もう一度お試しください。' +
-        'お急ぎの場合は <a href="/faq">FAQ一覧</a> もご活用ください。';
+        'お急ぎの場合は <a href="/faq">記事一覧</a> もご活用ください。';
+    } finally {
+      submitBtn.disabled = false;
     }
   });
 </script>

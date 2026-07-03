@@ -46,7 +46,7 @@ const { placeholder = 'キーワードで探す（例：BCP、備蓄、休業手
       .filter((it) => norm(it.question + ' ' + it.summary + ' ' + it.categoryLabel).includes(nq))
       .slice(0, 8);
     if (hits.length === 0) {
-      panel.innerHTML = '<p class="search-empty">該当する記事が見つかりませんでした。AI相談もご利用ください。</p>';
+      panel.innerHTML = '<p class="search-empty">該当する記事が見つかりませんでした。<a href="/chat">AIに相談する→</a>もご利用ください。</p>';
     } else {
       panel.innerHTML = hits
         .map(
@@ -64,7 +64,11 @@ const { placeholder = 'キーワードで探す（例：BCP、備蓄、休業手
     const input = box.querySelector('.search-input') as HTMLInputElement;
     const go = box.querySelector('.search-go') as HTMLButtonElement;
     const run = async () => render(box, await load(), input.value);
-    input.addEventListener('input', run);
+    // 日本語IMEの変換中は検索せず、確定してから実行する（候補のチラつき防止）。
+    let composing = false;
+    input.addEventListener('compositionstart', () => { composing = true; });
+    input.addEventListener('compositionend', () => { composing = false; run(); });
+    input.addEventListener('input', () => { if (!composing) run(); });
     input.addEventListener('focus', () => { if (input.value) run(); });
     go.addEventListener('click', run);
     input.addEventListener('keydown', (e) => { if (e.key === 'Enter') run(); });
