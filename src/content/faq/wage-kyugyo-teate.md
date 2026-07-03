@@ -5,11 +5,11 @@ order: 1
 featured: true
 summary: 原則は平均賃金の6割以上の休業手当が必要ですが、災害による直接被害で事業継続が不可能な「不可抗力」と認められる場合は支払い義務が生じないことがあります。雇用調整助成金の活用も検討します。
 sources:
-  - label: 厚生労働省（労働基準・休業手当）
-    url: https://www.mhlw.go.jp/
+  - label: 厚生労働省「自然災害が発生した場合の支援や制度について（労働基準関係）」
+    url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00177.html
   - label: 厚生労働省 雇用調整助成金
     url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/pageL07.html
-updated: 2026-05-28
+updated: 2026-07-03
 ---
 
 ## 基本の考え方

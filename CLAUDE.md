@@ -166,7 +166,10 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 
 ## 開いている論点・次の候補
 
-- [~] **2026-07 サイト見直し**：修正案と反映状況は `docs/site-review-2026-07.md`。favicon修正／モバイルメニュー／`/about` 新設／safety画像のWebP化／AI相談の例質問チップ等を `claude/ready-bridge-review-eufy7t` ブランチで実施（レビュー待ち）。未対応：出典URLの具体化（B4）・記事追加（B5）・hero1.webp の扱い（D2）。
+- [x] **2026-07 サイト見直し**：main にマージ済み。詳細は `docs/site-review-2026-07.md`。favicon修正／モバイルメニュー／`/about` 新設／safety画像のWebP化／AI相談の例質問チップ／休業手当記事の出典差し替え／hero1.webp削除など。
+  - [ ] `/about` に問い合わせ先メールを追記（松下さんがメアド取得後）
+  - [ ] 記事追加（B5）：平時側を厚めに。data/collected 500件を活用
+  - [ ] 他記事の省庁トップ直リンクの出典を具体ページに差し替え（B4 残り7本：finance-saimu-yuyo・tax-yuyo-genmen・tax-shaho-yuyo・prepare-data・prepare-fund・facility-risai-shomei・prepare-stock・finance-shikinguri）
 
 - [x] ~~**試作ページの正式化**~~（ネストURL `/prepare/*` で本番化済み）
 - [x] ~~**独自ドメイン**~~ 完了（2026-06-20・`www.ready-bridge.com`／Cloudflare Registrar）。Worker にカスタムドメイン割当済・公開確認済。apex→www リダイレクト設定。`Astro.site` も更新済
