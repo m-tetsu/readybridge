@@ -48,6 +48,10 @@ import Icon from '../../components/Icon.astro';
             </tbody>
           </table>
 
+          <figure class="illust">
+            <img src="/images/training-hinan.webp" alt="避難訓練の流れ：アナウンス・指示で避難を開始し、避難経路を移動して集合場所に集まり、点呼で人数を確認する。" width="1535" height="1024" loading="lazy" />
+          </figure>
+
           <h2>Step 1：避難訓練</h2>
           <p>最も基本的で、すぐ始められる訓練です。消防法で義務づけられている事業所も多く、これだけは必ず実施しましょう。</p>
           <h3>やり方</h3>
@@ -61,6 +65,10 @@ import Icon from '../../components/Icon.astro';
             <p class="point-title">形だけの避難訓練にしないために</p>
             <p>「予告なし」「夜間想定」「エレベーター停止想定」「一部の経路が使えない想定」など、毎回少し条件を変えると、本番に近い判断力が身につきます。</p>
           </div>
+
+          <figure class="illust">
+            <img src="/images/training-anpi.webp" alt="安否確認訓練の3つの方法：安否確認システムでの回答、LINEでの安否報告、メールでの回答フォーム送信。" width="1693" height="929" loading="lazy" />
+          </figure>
 
           <h2>Step 2：安否確認訓練</h2>
           <p>災害直後に「全員無事か」を素早く把握するための訓練です。</p>
@@ -182,6 +190,15 @@ import Icon from '../../components/Icon.astro';
     font-size: 1.08rem;
     color: var(--ink);
     margin: 24px 0 10px;
+  }
+  .illust {
+    margin: 24px 0;
+    text-align: center;
+  }
+  .illust img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius);
   }
   @media (max-width: 600px) {
     table { font-size: 0.82rem; }
