@@ -1,7 +1,4 @@
 # www.ready-bridge.com を正規ホストとする。
-# http/非www/旧ドメインへのアクセスをすべて https://www.ready-bridge.com へ301リダイレクトし、
-# Google Search Console の「代替ページ（適切な canonical タグあり）」を解消する。
-http://www.ready-bridge.com/*            https://www.ready-bridge.com/:splat  301
-http://ready-bridge.com/*                https://www.ready-bridge.com/:splat  301
-https://ready-bridge.com/*               https://www.ready-bridge.com/:splat  301
-https://readybridge.tetsu315.workers.dev/*  https://www.ready-bridge.com/:splat  301
+# ドメインをまたぐ301リダイレクト（http/非www/旧workers.devドメイン → https://www.ready-bridge.com）は
+# Cloudflare Workers Static Assets の _redirects では絶対URLソースが使えないため設定不可（デプロイエラーになる）。
+# Cloudflareダッシュボードの Rules → Redirect Rules（ゾーンレベル）で別途設定すること。
