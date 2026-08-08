@@ -20,6 +20,16 @@
   },
   "seeds": [
     {
+      "id": "chusho-saigai-hub",
+      "source_name": "中小企業庁",
+      "url": "https://www.chusho.meti.go.jp/saigai.html",
+      "pillar": "recover",
+      "category": "finance",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 2
+    },
+    {
       "id": "chusho-r6-noto",
       "source_name": "中小企業庁",
       "url": "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/index.html",
