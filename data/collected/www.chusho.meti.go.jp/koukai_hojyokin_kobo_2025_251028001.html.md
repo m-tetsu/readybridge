@@ -7,7 +7,7 @@ category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
 content_hash: "93dbc4615275f63ded4557ef2d89ac2699b71656e93ac7f38673b7ddda47d49e"
-fetched_at: "2026-06-20"
+fetched_at: "2026-09-12"
 ---
 「小規模事業者持続化補助金＜一般型・災害支援枠＞（9次）」の公募要領を公開しました
 

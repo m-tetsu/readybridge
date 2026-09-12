@@ -6,8 +6,8 @@ pillar: "recover"
 category: "tax"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "1c13ef284171737d0c23a6fcd3482fc0f9cf93244ded7ce2bfe00a964cfdd41c"
-fetched_at: "2026-06-20"
+content_hash: "29c09ad52532e52280bf7e372b40bcfdd046df5b3d09de735237e058296fd70f"
+fetched_at: "2026-09-12"
 ---
 トピックス
 
@@ -28,6 +28,7 @@ fetched_at: "2026-06-20"
 
 全国市販酒類調査
 清酒の製造状況等
+基金基準等に基づく公表
 
 免許・酒税法・組合法関係
 
@@ -72,6 +73,7 @@ fetched_at: "2026-06-20"
 
 概算要求の概要
 
+令和９年度予算概算要求（PDF/1,520KB）
 令和８年度予算概算要求（PDF/1,344KB）
 令和７年度予算概算要求（PDF/759KB）
 令和６年度予算概算要求（PDF/160KB）

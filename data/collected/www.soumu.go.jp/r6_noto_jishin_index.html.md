@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "96e372acb381feb3899efc13f8fdccfbe7648b98f210789e89e4156cca3af53b"
-fetched_at: "2026-06-20"
+content_hash: "2dc12b10419ab803abd18d6c6c59720ba4ba421a04f16fa1a366c5d537cee2a8"
+fetched_at: "2026-09-12"
 ---
 メインナビゲーションへジャンプ
 メインコンテンツへジャンプ
@@ -117,6 +117,8 @@ https://www.meti.go.jp/2024_noto/index.html
 
 新着情報
 
+2026年7月9日
+令和6年能登半島地震等による被災地方公共団体における職員採用情報
 2026年6月10日
 令和6年能登半島地震等による被災地方公共団体における職員採用情報
 2026年5月25日
