@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "f3b02302ac61054262e6cde92b57a543ba6409df3e91abb584b0cfc2ba5c2103"
-fetched_at: "2026-06-20"
+content_hash: "721d28dd56a6f9c3676565379b9f87c3a8497ff10f6b7b127cb415ffba0ab218"
+fetched_at: "2026-09-12"
 ---
 新着情報
 
@@ -50,6 +50,9 @@ fetched_at: "2026-06-20"
 2024.5.31
 
 令和5年「職場における熱中症による死傷災害の発生状況」（確定値）をアップしました。
+
+「熱中症対応カード」（携帯用）
+印刷用 PDF のダウンロードはこちらをクリック
 
 職場で起こる熱中症について
 職場で起こる熱中症について、症状や分類、どのような状況で発生しやすいか、具体的な事例などを交えてご紹介します。

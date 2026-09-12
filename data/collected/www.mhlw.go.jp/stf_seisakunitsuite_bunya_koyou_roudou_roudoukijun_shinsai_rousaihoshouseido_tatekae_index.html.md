@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "09ab612663c941331b23171291f90265b2c38bd7446af7b0c430e989b10ac7e8"
-fetched_at: "2026-06-20"
+content_hash: "a18715535925fdad59fd51148418f6fa56c32b1a8a8a11389150db1db42ad691"
+fetched_at: "2026-09-12"
 ---
 ホーム
 >
@@ -68,5 +68,6 @@ fetched_at: "2026-06-20"
 未払賃金の立替払事業（令和４年度）の実施状況について
 未払賃金の立替払事業（令和５年度）の実施状況について
 未払賃金の立替払事業（令和６年度）の実施状況について
+未払賃金の立替払事業（令和７年度）の実施状況について
 
 PDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。
