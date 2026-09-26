@@ -6,8 +6,8 @@ pillar: "recover"
 category: "tax"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "0f5c041b7be6d6ddd2802e925feb8ae90b49e3d3df15b9247ebba69a7f5a4c2b"
-fetched_at: "2026-06-20"
+content_hash: "3e7f71eaf2fcc3d5fa0c29f9a1b629a9f17808c7703204a16a893843c8c080d3"
+fetched_at: "2026-09-26"
 ---
 申告・納期限の延長
 
@@ -39,8 +39,9 @@ fetched_at: "2026-06-20"
 
 消費税の届出に関する特例
 
-6630 やむを得ない事情により課税事業者選択届出書等の提出が間に合わなかった場合
+6630 やむを得ない事情により課税事業者選択届出書の提出が間に合わなかった場合
 6632 災害等により簡易課税制度の適用を受ける(受けることをやめる)必要が生じた場合
+6633 やむを得ない事情により簡易課税制度選択届出書の提出が間に合わなかった場合
 
 税の情報・手続・用紙
 
