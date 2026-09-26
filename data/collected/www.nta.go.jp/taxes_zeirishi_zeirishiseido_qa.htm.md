@@ -6,8 +6,8 @@ pillar: "recover"
 category: "tax"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "0c785242be2fc145405bd6a519de46befaafe37df41499ca6c342d28148aee8e"
-fetched_at: "2026-06-20"
+content_hash: "b2417bc31aeb18579d2557b9f01b5f450c2de5b36410014569c2267b897d2805"
+fetched_at: "2026-09-26"
 ---
 税理士関係法令等
 
@@ -42,8 +42,8 @@ H2-4 審査事項等を記載した書面の添付
 国税を一時に納付できない方のために猶予制度があります（PDF／1,907KB）
 納付指導・相談チェック表（PDF／129KB） （WORD／43KB）
 
-予納制度を利用した納税のご案内（PDF／226KB） 
-国税の予納申出書（PDF／163KB） （WORD／80KB）
+予納制度を利用した納税のご案内（PDF／455KB）
+国税の予納申出書（PDF／325KB） （EXCEL／54KB）
 e-Taxへの接続障害に伴い、申告データの送信ができなかった税理士の皆様へ（PDF／685KB）（参考）期限延長申請書別紙（xlsx／13KB） 
 国税の納付にはダイレクト納付がおすすめ！（計画的に納付できる制度も！それは予納ダイレクト）（PDF／1,817KB）
 

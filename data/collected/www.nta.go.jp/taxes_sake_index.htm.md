@@ -6,8 +6,8 @@ pillar: "recover"
 category: "tax"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "1c13ef284171737d0c23a6fcd3482fc0f9cf93244ded7ce2bfe00a964cfdd41c"
-fetched_at: "2026-06-20"
+content_hash: "97d0ad8fbb08bdebb4a8eafcf963f34d6317847c12a1300c30ef20d23258dbf7"
+fetched_at: "2026-09-26"
 ---
 トピックス
 
@@ -28,6 +28,7 @@ fetched_at: "2026-06-20"
 
 全国市販酒類調査
 清酒の製造状況等
+基金基準等に基づく公表
 
 免許・酒税法・組合法関係
 
@@ -72,6 +73,7 @@ fetched_at: "2026-06-20"
 
 概算要求の概要
 
+令和９年度予算概算要求（PDF/1,520KB）
 令和８年度予算概算要求（PDF/1,344KB）
 令和７年度予算概算要求（PDF/759KB）
 令和６年度予算概算要求（PDF/160KB）
@@ -87,6 +89,7 @@ fetched_at: "2026-06-20"
 20歳未満の者の飲酒防止／適正飲酒の推進
 租税特別措置法第87条関係
 酒類の販売数量報告等（e-Tax）
+米穀に関する酒類製造者の義務
 
 環境法令における酒類業者の義務
 酒類業実態調査（様式）
