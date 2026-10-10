@@ -16,7 +16,7 @@ crawl.mjs  ── スコープ付き再帰クロール（.go.jp / .lg.jp、深�
         ▼
 data/collected/**.md（frontmatter付き本文） ＋ manifest.json ＋ last-run.json
         │
-        ▼（GitHub Actions: 差分があれば PR 起票 → 人がレビュー → マージ）
+        ▼（GitHub Actions: 新規・更新があれば main に自動コミット → Vectorize へ upsert）
         ▼
 upsert.mjs ── チャンク分割 → Workers AI 埋め込み → Vectorize へ upsert
 ```

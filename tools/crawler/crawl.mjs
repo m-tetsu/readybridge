@@ -198,15 +198,18 @@ async function main() {
     };
 
     const prev = manifest[url];
+    const outPath = path.join(outDir, slugFor(url));
     if (!prev) result.new.push(url);
     else if (prev.hash !== hash) result.changed.push(url);
-    else { result.unchanged.push(url); }
+    else result.unchanged.push(url);
 
-    // 本文を保存（新規・更新・不変いずれも最新を書き出す）。
-    const outPath = path.join(outDir, slugFor(url));
-    await mkdir(path.dirname(outPath), { recursive: true });
-    await writeFile(outPath, frontmatter(meta) + extracted.text + '\n', 'utf8');
-    manifest[url] = { hash, title: meta.title, fetched_at: meta.fetched_at, file: path.relative(ROOT, outPath) };
+    // 本文を保存するのは新規・更新時（またはファイルが無いとき）だけ。
+    // 不変ページまで書き直すと fetched_at だけの差分が毎日全件に出て、自動取り込みのたびに全件コミットになるため。
+    if (!prev || prev.hash !== hash || !existsSync(outPath)) {
+      await mkdir(path.dirname(outPath), { recursive: true });
+      await writeFile(outPath, frontmatter(meta) + extracted.text + '\n', 'utf8');
+      manifest[url] = { hash, title: meta.title, fetched_at: meta.fetched_at, file: path.relative(ROOT, outPath) };
+    }
 
     // リンク展開（HTMLのみ・深さ上限内）。
     const maxDepth = seed.maxDepth ?? cfg.maxDepth;
