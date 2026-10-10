@@ -26,3 +26,6 @@ yarn-error.log*
 .idea/
 .DS_Store
 Thumbs.db
+
+# AI相談ログの書き出し（質問本文を含むためコミットしない）
+chat-logs-*.csv

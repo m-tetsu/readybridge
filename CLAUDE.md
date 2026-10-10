@@ -143,7 +143,7 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 - `/api/chat`（`src/pages/api/chat.ts`）：質問→bge-m3埋め込み→Vectorize検索→Haiku生成→出典付き回答
 - フロント `src/pages/chat.astro`：入力フォーム＋出典カード＋免責3点セット
 - **本番導線に組み込み済み（2026-06-20）**：ヘッダCTA・フッタ・トップのCTAから `/chat` へ。「準備中」表記は撤去（試験運用ラベルは残置）。エラー時は再試行案内にフォールバック。
-- **利用状況の記録（2026-10）**：`/api/chat` が Analytics Engine（dataset `readybridge_chat`／binding `CHAT_LOG`）に1件ずつ記録。質問本文は保存せず、結果・文字数・出典数・処理時間・トークン数のみ。集計は `npm run chat:stats`（要 Account Analytics:Read 権限）。詳細 `docs/chat-analytics.md`
+- **相談ログ（2026-10）**：`/api/chat` が D1（`readybridge-chat`／binding `CHAT_DB`／table `chat_logs`）に無期限で記録。質問・回答の本文も保存（メール・電話番号は伏せ字、IP等は保存しない）。`/chat` 注記と `/about`「AI相談の記録について」に明記。集計・CSV書き出しは `npm run chat:stats`（要 D1:Read 権限）。詳細 `docs/chat-logs.md`。当初の Analytics Engine 案は保存期間約3か月のため廃止
 - `tools/crawler/upsert.mjs`：チャンク→埋め込み→Vectorize upsert（`.md`＋`.pdf`名の両方対象に修正済／embedは50件バッチ）
 
 ### インフラ（確認済み 2026-06-20）

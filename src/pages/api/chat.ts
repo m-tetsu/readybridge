@@ -42,42 +42,95 @@ interface RuntimeEnv {
   ANTHROPIC_API_KEY?: string;
   AI?: { run: (model: string, input: unknown) => Promise<any> };
   VECTORIZE?: { query: (vector: number[], opts: unknown) => Promise<any> };
-  CHAT_LOG?: {
-    writeDataPoint: (p: { indexes?: string[]; blobs?: string[]; doubles?: number[] }) => void;
-  };
+  CHAT_DB?: D1Like;
 }
 
-// 利用状況の記録（Workers Analytics Engine / dataset: readybridge_chat）。
-// 質問の本文は保存しない（「送信内容は回答の生成にのみ使われます」の表記どおり）。
-// 列の対応（SQL で参照する名前）：
-//   index1 / blob1 = outcome（ok / 各エラーコード）
-//   blob2 = model, blob3 = disaster_scope
-//   double1 = 質問の文字数, double2 = 出典数, double3 = 処理時間(ms)
-//   double4 = 入力トークン, double5 = 出力トークン
+// D1 の必要最小限の型（@cloudflare/workers-types を足さずに済ませる）
+interface D1Stmt {
+  bind: (...values: unknown[]) => D1Stmt;
+}
+interface D1Like {
+  prepare: (sql: string) => D1Stmt;
+  batch: (stmts: D1Stmt[]) => Promise<unknown>;
+}
+
+// 相談ログ（D1 / database: readybridge-chat / table: chat_logs）。
+// サイト改善の統計分析のため、質問と回答の本文も保存する（/chat・/about に明記）。
+// メールアドレス・電話番号らしき文字列は保存前に伏せ字にする。IP 等の送信者情報は保存しない。
+// テーブルは初回書き込み時に自動作成する（手作業のマイグレーション不要）。
+const CREATE_TABLE_SQL = `CREATE TABLE IF NOT EXISTS chat_logs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  created_at TEXT NOT NULL,
+  outcome TEXT NOT NULL,
+  question TEXT,
+  answer TEXT,
+  sources TEXT,
+  disaster_scope TEXT,
+  model TEXT,
+  question_len INTEGER,
+  source_count INTEGER,
+  latency_ms INTEGER,
+  input_tokens INTEGER,
+  output_tokens INTEGER
+)`;
+
 interface LogFields {
-  questionLen?: number;
-  sourceCount?: number;
+  question?: string;
+  answer?: string;
+  sources?: SourceRef[];
+  disasterScope?: string;
   inputTokens?: number;
   outputTokens?: number;
-  disasterScope?: string;
 }
 
-function record(env: RuntimeEnv, startedAt: number, outcome: string, f: LogFields = {}): void {
-  try {
-    env.CHAT_LOG?.writeDataPoint({
-      indexes: [outcome],
-      blobs: [outcome, MODEL, f.disasterScope ?? ''],
-      doubles: [
-        f.questionLen ?? 0,
-        f.sourceCount ?? 0,
-        Date.now() - startedAt,
-        f.inputTokens ?? 0,
-        f.outputTokens ?? 0,
-      ],
-    });
-  } catch {
-    // 記録の失敗で回答を止めない
-  }
+const EMAIL_RE = /[\w.+-]+@[\w-]+(?:\.[\w-]+)+/g;
+// 0 または +81 で始まる 10〜11 桁の番号（ハイフン・空白区切りも可）
+const PHONE_RE = /(?<!\d)(?:\+81[-\s]?|0)\d{1,4}[-\s]?\d{1,4}[-\s]?\d{3,4}(?!\d)/g;
+
+function maskPersonal(text: string): string {
+  return text.replace(EMAIL_RE, '[メール]').replace(PHONE_RE, (m) => {
+    const digits = m.replace(/\D/g, '').replace(/^81/, '0');
+    return digits.length === 10 || digits.length === 11 ? '[電話]' : m;
+  });
+}
+
+function makeLogger(env: RuntimeEnv, locals: unknown, startedAt: number) {
+  const waitUntil: ((p: Promise<unknown>) => void) | undefined = (locals as any).runtime?.ctx?.waitUntil?.bind(
+    (locals as any).runtime.ctx,
+  );
+  return (outcome: string, f: LogFields = {}): void => {
+    const db = env.CHAT_DB;
+    if (!db) return;
+    const task = db
+      .batch([
+        db.prepare(CREATE_TABLE_SQL),
+        db
+          .prepare(
+            `INSERT INTO chat_logs (created_at, outcome, question, answer, sources, disaster_scope, model,
+               question_len, source_count, latency_ms, input_tokens, output_tokens)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+          )
+          .bind(
+            new Date().toISOString(),
+            outcome,
+            f.question ? maskPersonal(f.question) : null,
+            f.answer ? maskPersonal(f.answer) : null,
+            f.sources?.length ? JSON.stringify(f.sources.map((x) => ({ title: x.title, url: x.url }))) : null,
+            f.disasterScope ?? null,
+            MODEL,
+            f.question?.length ?? 0,
+            f.sources?.length ?? 0,
+            Date.now() - startedAt,
+            f.inputTokens ?? null,
+            f.outputTokens ?? null,
+          ),
+      ])
+      .catch(() => {
+        // 記録の失敗で回答を止めない
+      });
+    // レスポンスを待たせない。waitUntil が無い環境では投げっぱなし（catch 済み）
+    waitUntil?.(task);
+  };
 }
 
 function json(data: unknown, status = 200): Response {
@@ -93,7 +146,7 @@ function today(): string {
 
 export const POST: APIRoute = async ({ request, locals }) => {
   const env = ((locals as any).runtime?.env ?? {}) as RuntimeEnv;
-  const startedAt = Date.now();
+  const log = makeLogger(env, locals, Date.now());
 
   // 1. 入力の取り出し・バリデーション
   let question = '';
@@ -101,19 +154,18 @@ export const POST: APIRoute = async ({ request, locals }) => {
     const body = (await request.json()) as { question?: unknown };
     question = String(body?.question ?? '').trim();
   } catch {
-    record(env, startedAt, 'invalid_json');
+    log('invalid_json');
     return json({ error: 'invalid_json' }, 400);
   }
   if (!question) {
-    record(env, startedAt, 'empty_question');
+    log('empty_question');
     return json({ error: 'empty_question' }, 400);
   }
   if (question.length > MAX_QUESTION_LEN) question = question.slice(0, MAX_QUESTION_LEN);
-  const questionLen = question.length;
 
   // バインディング未設定（未デプロイ環境）では UI のフォールバックに委ねる
   if (!env.ANTHROPIC_API_KEY || !env.AI || !env.VECTORIZE) {
-    record(env, startedAt, 'not_configured', { questionLen });
+    log('not_configured', { question });
     return json({ error: 'not_configured' }, 503);
   }
 
@@ -122,7 +174,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
     const emb = await env.AI.run(EMBED_MODEL, { text: [question] });
     const vector: number[] = emb?.data?.[0];
     if (!vector) {
-      record(env, startedAt, 'embedding_failed', { questionLen });
+      log('embedding_failed', { question });
       return json({ error: 'embedding_failed' }, 502);
     }
 
@@ -178,9 +230,9 @@ export const POST: APIRoute = async ({ request, locals }) => {
       }),
     });
 
-    const logFields: LogFields = { questionLen, sourceCount: sources.length, disasterScope };
+    const logFields: LogFields = { question, sources, disasterScope };
     if (!aiRes.ok) {
-      record(env, startedAt, 'generation_failed', logFields);
+      log('generation_failed', logFields);
       return json({ error: 'generation_failed', status: aiRes.status }, 502);
     }
     const aiData = (await aiRes.json()) as {
@@ -196,11 +248,11 @@ export const POST: APIRoute = async ({ request, locals }) => {
       .trim();
 
     if (!answer) {
-      record(env, startedAt, 'empty_answer', logFields);
+      log('empty_answer', logFields);
       return json({ error: 'empty_answer' }, 502);
     }
 
-    record(env, startedAt, 'ok', logFields);
+    log('ok', { ...logFields, answer });
 
     return json({
       answer,
@@ -209,7 +261,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
       disaster_scope: disasterScope,
     });
   } catch (err) {
-    record(env, startedAt, 'internal_error', { questionLen });
+    log('internal_error', { question });
     return json({ error: 'internal_error' }, 500);
   }
 };
