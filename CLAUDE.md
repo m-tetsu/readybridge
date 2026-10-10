@@ -134,6 +134,7 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 - GitHub Actions cron でクロール → `data/collected/` に保存 → 差分PR
 - Cloudflare Edge proxy（`/api/gov-proxy`）で Akamai 遮断ホストも取得可能
 - `proxyHosts`: chusho/meti/jpo + 地方経産局8局
+- 2026-10-11：水害（国交省 自衛水防・経産省 電気設備の浸水対策・気象庁・内閣府 保険共済・損保協会 等）と平時BCP（中小企業庁 事業継続力強化計画・BCP指針）のシードを追加。`maxPagesPerRun` を 800 に引き上げ（500 で毎回上限到達していたため）。`.sonpo.or.jp` を許可ドメインに追加
 - 直近の収集結果：500ページ（maxPagesPerRun=500）。**main に取り込み済み**（`data/collected/`、md 297＋pdf名 204＝計500件）
 
 ---
