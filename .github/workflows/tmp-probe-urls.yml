@@ -1,0 +1,62 @@
+name: TMP probe URLs (delete before merge)
+on:
+  push:
+    branches: [claude/determined-cray-fqa590]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe
+        run: |
+          PROXY="https://readybridge.tetsu315.workers.dev/api/gov-proxy?url="
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 ReadyBridgeBot/0.1"
+          probe() {
+            u="$1"; f="$u"
+            case "$u" in *meti.go.jp*) f="${PROXY}$(python3 -c 'import sys,urllib.parse;print(urllib.parse.quote(sys.argv[1],safe=""))' "$u")";; esac
+            code=$(curl -sL -A "$UA" -m 40 -o /tmp/p.html -w '%{http_code} %{url_effective}' "$f")
+            title=$(python3 - <<'PY'
+          import re
+          b=open('/tmp/p.html','rb').read()
+          for enc in ('utf-8','shift_jis','euc-jp'):
+              try: t=b.decode(enc); break
+              except: t=b.decode('utf-8','ignore')
+          m=re.search(r'<title[^>]*>(.*?)</title>',t,re.S|re.I)
+          print((m.group(1).strip() if m else '-')[:90].replace('\n',' '))
+          PY
+          )
+            echo "### $code | $title | $u"
+            if [ "$2" = "links" ]; then
+              python3 - "$u" <<'PY'
+          import re,sys,urllib.parse
+          b=open('/tmp/p.html','rb').read()
+          for enc in ('utf-8','shift_jis','euc-jp'):
+              try: t=b.decode(enc); break
+              except: t=b.decode('utf-8','ignore')
+          seen=set()
+          for m in re.finditer(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>',t,re.S|re.I):
+              txt=re.sub(r'<[^>]+>','',m.group(2)).strip().replace('\n',' ')
+              if re.search(r'浸水|水害|大雨|豪雨|水災|洪水|氾濫|台風|停電|感電|漏電|消毒|衛生|保険|共済|片付|廃棄|BCP|事業継続|強化計画',txt):
+                  h=urllib.parse.urljoin(sys.argv[1],m.group(1))
+                  if h not in seen:
+                      seen.add(h); print('   -', txt[:60], '->', h)
+          PY
+            fi
+          }
+          probe https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/ links
+          probe https://www.mlit.go.jp/river/basic_info/jigyo_keikaku/saigai/tisiki/hazardmap/ links
+          probe https://www.mlit.go.jp/river/bousai/ links
+          probe https://www.jma.go.jp/jma/kishou/know/bosai/warning.html
+          probe https://www.jma.go.jp/jma/kishou/know/bosai/riskmap.html
+          probe https://www.bousai.go.jp/ links
+          probe https://www.bousai.go.jp/taisaku/hisaisyagyousei/index.html links
+          probe https://www.bousai.go.jp/kyoiku/hokenkyousai/index.html links
+          probe https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00177.html links
+          probe https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/saigai/index.html links
+          probe https://www.meti.go.jp/policy/safety_security/industrial_safety/ links
+          probe https://www.meti.go.jp/policy/safety_security/industrial_safety/sangyo/electric/index.html links
+          probe https://www.nite.go.jp/jiko/chuikanki/index.html links
+          probe https://www.env.go.jp/recycle/waste/disaster/ links
+          probe https://www.sonpo.or.jp/ links
+          probe https://www.gov-online.go.jp/ links
+          probe https://www.chusho.meti.go.jp/keiei/antei/bousai/keizokuryoku.html links
+          probe https://www.chusho.meti.go.jp/bcp/ links
