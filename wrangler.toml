@@ -26,4 +26,4 @@ binding = "AI"
 [[d1_databases]]
 binding = "CHAT_DB"
 database_name = "readybridge-chat"
-database_id = "REPLACE_WITH_DATABASE_ID"
+database_id = "9a5268d3-1ed8-4ced-8821-6e0fbcba9f27"
