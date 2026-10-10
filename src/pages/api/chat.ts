@@ -42,6 +42,95 @@ interface RuntimeEnv {
   ANTHROPIC_API_KEY?: string;
   AI?: { run: (model: string, input: unknown) => Promise<any> };
   VECTORIZE?: { query: (vector: number[], opts: unknown) => Promise<any> };
+  CHAT_DB?: D1Like;
+}
+
+// D1 の必要最小限の型（@cloudflare/workers-types を足さずに済ませる）
+interface D1Stmt {
+  bind: (...values: unknown[]) => D1Stmt;
+}
+interface D1Like {
+  prepare: (sql: string) => D1Stmt;
+  batch: (stmts: D1Stmt[]) => Promise<unknown>;
+}
+
+// 相談ログ（D1 / database: readybridge-chat / table: chat_logs）。
+// サイト改善の統計分析のため、質問と回答の本文も保存する（/chat・/about に明記）。
+// メールアドレス・電話番号らしき文字列は保存前に伏せ字にする。IP 等の送信者情報は保存しない。
+// テーブルは初回書き込み時に自動作成する（手作業のマイグレーション不要）。
+const CREATE_TABLE_SQL = `CREATE TABLE IF NOT EXISTS chat_logs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  created_at TEXT NOT NULL,
+  outcome TEXT NOT NULL,
+  question TEXT,
+  answer TEXT,
+  sources TEXT,
+  disaster_scope TEXT,
+  model TEXT,
+  question_len INTEGER,
+  source_count INTEGER,
+  latency_ms INTEGER,
+  input_tokens INTEGER,
+  output_tokens INTEGER
+)`;
+
+interface LogFields {
+  question?: string;
+  answer?: string;
+  sources?: SourceRef[];
+  disasterScope?: string;
+  inputTokens?: number;
+  outputTokens?: number;
+}
+
+const EMAIL_RE = /[\w.+-]+@[\w-]+(?:\.[\w-]+)+/g;
+// 0 または +81 で始まる 10〜11 桁の番号（ハイフン・空白区切りも可）
+const PHONE_RE = /(?<!\d)(?:\+81[-\s]?|0)\d{1,4}[-\s]?\d{1,4}[-\s]?\d{3,4}(?!\d)/g;
+
+function maskPersonal(text: string): string {
+  return text.replace(EMAIL_RE, '[メール]').replace(PHONE_RE, (m) => {
+    const digits = m.replace(/\D/g, '').replace(/^81/, '0');
+    return digits.length === 10 || digits.length === 11 ? '[電話]' : m;
+  });
+}
+
+function makeLogger(env: RuntimeEnv, locals: unknown, startedAt: number) {
+  const waitUntil: ((p: Promise<unknown>) => void) | undefined = (locals as any).runtime?.ctx?.waitUntil?.bind(
+    (locals as any).runtime.ctx,
+  );
+  return (outcome: string, f: LogFields = {}): void => {
+    const db = env.CHAT_DB;
+    if (!db) return;
+    const task = db
+      .batch([
+        db.prepare(CREATE_TABLE_SQL),
+        db
+          .prepare(
+            `INSERT INTO chat_logs (created_at, outcome, question, answer, sources, disaster_scope, model,
+               question_len, source_count, latency_ms, input_tokens, output_tokens)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+          )
+          .bind(
+            new Date().toISOString(),
+            outcome,
+            f.question ? maskPersonal(f.question) : null,
+            f.answer ? maskPersonal(f.answer) : null,
+            f.sources?.length ? JSON.stringify(f.sources.map((x) => ({ title: x.title, url: x.url }))) : null,
+            f.disasterScope ?? null,
+            MODEL,
+            f.question?.length ?? 0,
+            f.sources?.length ?? 0,
+            Date.now() - startedAt,
+            f.inputTokens ?? null,
+            f.outputTokens ?? null,
+          ),
+      ])
+      .catch(() => {
+        // 記録の失敗で回答を止めない
+      });
+    // レスポンスを待たせない。waitUntil が無い環境では投げっぱなし（catch 済み）
+    waitUntil?.(task);
+  };
 }
 
 function json(data: unknown, status = 200): Response {
@@ -57,6 +146,7 @@ function today(): string {
 
 export const POST: APIRoute = async ({ request, locals }) => {
   const env = ((locals as any).runtime?.env ?? {}) as RuntimeEnv;
+  const log = makeLogger(env, locals, Date.now());
 
   // 1. 入力の取り出し・バリデーション
   let question = '';
@@ -64,13 +154,18 @@ export const POST: APIRoute = async ({ request, locals }) => {
     const body = (await request.json()) as { question?: unknown };
     question = String(body?.question ?? '').trim();
   } catch {
+    log('invalid_json');
     return json({ error: 'invalid_json' }, 400);
   }
-  if (!question) return json({ error: 'empty_question' }, 400);
+  if (!question) {
+    log('empty_question');
+    return json({ error: 'empty_question' }, 400);
+  }
   if (question.length > MAX_QUESTION_LEN) question = question.slice(0, MAX_QUESTION_LEN);
 
   // バインディング未設定（未デプロイ環境）では UI のフォールバックに委ねる
   if (!env.ANTHROPIC_API_KEY || !env.AI || !env.VECTORIZE) {
+    log('not_configured', { question });
     return json({ error: 'not_configured' }, 503);
   }
 
@@ -78,7 +173,10 @@ export const POST: APIRoute = async ({ request, locals }) => {
     // 2. 質問を埋め込み（Workers AI）
     const emb = await env.AI.run(EMBED_MODEL, { text: [question] });
     const vector: number[] = emb?.data?.[0];
-    if (!vector) return json({ error: 'embedding_failed' }, 502);
+    if (!vector) {
+      log('embedding_failed', { question });
+      return json({ error: 'embedding_failed' }, 502);
+    }
 
     // 3. Vectorize で近傍検索
     const result = await env.VECTORIZE.query(vector, {
@@ -132,15 +230,29 @@ export const POST: APIRoute = async ({ request, locals }) => {
       }),
     });
 
-    if (!aiRes.ok) return json({ error: 'generation_failed', status: aiRes.status }, 502);
-    const aiData = (await aiRes.json()) as { content?: Array<{ type: string; text?: string }> };
+    const logFields: LogFields = { question, sources, disasterScope };
+    if (!aiRes.ok) {
+      log('generation_failed', logFields);
+      return json({ error: 'generation_failed', status: aiRes.status }, 502);
+    }
+    const aiData = (await aiRes.json()) as {
+      content?: Array<{ type: string; text?: string }>;
+      usage?: { input_tokens?: number; output_tokens?: number };
+    };
+    logFields.inputTokens = aiData.usage?.input_tokens;
+    logFields.outputTokens = aiData.usage?.output_tokens;
     const answer = (aiData.content ?? [])
       .filter((b) => b.type === 'text')
       .map((b) => b.text ?? '')
       .join('')
       .trim();
 
-    if (!answer) return json({ error: 'empty_answer' }, 502);
+    if (!answer) {
+      log('empty_answer', logFields);
+      return json({ error: 'empty_answer' }, 502);
+    }
+
+    log('ok', { ...logFields, answer });
 
     return json({
       answer,
@@ -149,6 +261,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
       disaster_scope: disasterScope,
     });
   } catch (err) {
+    log('internal_error', { question });
     return json({ error: 'internal_error' }, 500);
   }
 };
