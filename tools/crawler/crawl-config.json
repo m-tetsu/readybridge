@@ -1,8 +1,8 @@
 {
   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 ReadyBridgeBot/0.1 (+https://readybridge.tetsu315.workers.dev)",
-  "allowedDomainSuffixes": [".go.jp", ".lg.jp"],
+  "allowedDomainSuffixes": [".go.jp", ".lg.jp", ".sonpo.or.jp"],
   "maxDepth": 2,
-  "maxPagesPerRun": 500,
+  "maxPagesPerRun": 800,
   "requestDelayMs": 1500,
   "requestTimeoutMs": 40000,
   "outDir": "data/collected",
@@ -16,7 +16,13 @@
     "www.mhlw.go.jp": "厚生労働省",
     "www.nta.go.jp": "国税庁",
     "www.jfc.go.jp": "日本政策金融公庫",
-    "www.smrj.go.jp": "中小機構"
+    "www.smrj.go.jp": "中小機構",
+    "www.mlit.go.jp": "国土交通省",
+    "www.jma.go.jp": "気象庁",
+    "www.env.go.jp": "環境省",
+    "policies.env.go.jp": "環境省",
+    "www.gov-online.go.jp": "政府広報オンライン",
+    "www.sonpo.or.jp": "日本損害保険協会"
   },
   "seeds": [
     {
@@ -75,6 +81,186 @@
       "url": "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
       "pillar": "recover",
       "category": "tax",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 1
+    },
+    {
+      "id": "mlit-jieisuibou",
+      "source_name": "国土交通省",
+      "url": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/",
+      "pillar": "prepare",
+      "category": "facility-prep",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 1
+    },
+    {
+      "id": "mlit-jieisuibou-jigyosho",
+      "source_name": "国土交通省",
+      "url": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/bousai-gensai-suibou03.html",
+      "pillar": "prepare",
+      "category": "facility-prep",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 1
+    },
+    {
+      "id": "meti-denki-shinsui",
+      "source_name": "経済産業省",
+      "url": "https://www.meti.go.jp/policy/safety_security/industrial_safety/sangyo/electric/detail/shinsuitaisaku.html",
+      "pillar": "prepare",
+      "category": "facility-prep",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 1
+    },
+    {
+      "id": "bousai-fusuigai",
+      "source_name": "内閣府(防災)",
+      "url": "https://www.bousai.go.jp/fusuigai/index.html",
+      "pillar": "prepare",
+      "category": "bcp",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 1
+    },
+    {
+      "id": "jma-warning",
+      "source_name": "気象庁",
+      "url": "https://www.jma.go.jp/jma/kishou/know/bosai/warning.html",
+      "pillar": "prepare",
+      "category": "bcp",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 0
+    },
+    {
+      "id": "jma-kikikuru",
+      "source_name": "気象庁",
+      "url": "https://www.jma.go.jp/jma/kishou/know/bosai/riskmap.html",
+      "pillar": "prepare",
+      "category": "bcp",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 0
+    },
+    {
+      "id": "govonline-suibou",
+      "source_name": "政府広報オンライン",
+      "url": "https://www.gov-online.go.jp/article/202511/entry-10171.html",
+      "pillar": "prepare",
+      "category": "facility-prep",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 0
+    },
+    {
+      "id": "bousai-hoken-suigai",
+      "source_name": "内閣府(防災)",
+      "url": "https://www.bousai.go.jp/kyoiku/hokenkyousai/suigai.html",
+      "pillar": "prepare",
+      "category": "fund-prep",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 0
+    },
+    {
+      "id": "bousai-hoken-kanyu",
+      "source_name": "内閣府(防災)",
+      "url": "https://www.bousai.go.jp/kyoiku/hokenkyousai/kanyu.html",
+      "pillar": "prepare",
+      "category": "fund-prep",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 0
+    },
+    {
+      "id": "sonpo-suisai",
+      "source_name": "日本損害保険協会",
+      "url": "https://www.sonpo.or.jp/report/publish/bousai/suisai.html",
+      "pillar": "prepare",
+      "category": "fund-prep",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 0
+    },
+    {
+      "id": "sonpo-shizen",
+      "source_name": "日本損害保険協会",
+      "url": "https://www.sonpo.or.jp/insurance/shizen/index.html",
+      "pillar": "prepare",
+      "category": "fund-prep",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 0
+    },
+    {
+      "id": "meti-solar-suibotsu",
+      "source_name": "経済産業省",
+      "url": "https://www.meti.go.jp/policy/safety_security/industrial_safety/oshirase/2026/09/260925_00001.html",
+      "pillar": "recover",
+      "category": "facility",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 0
+    },
+    {
+      "id": "meti-solar-shinsui-2021",
+      "source_name": "経済産業省",
+      "url": "https://www.meti.go.jp/policy/safety_security/industrial_safety/oshirase/2021/07/20210705.html",
+      "pillar": "recover",
+      "category": "facility",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 0
+    },
+    {
+      "id": "sonpo-higai-notice",
+      "source_name": "日本損害保険協会",
+      "url": "https://www.sonpo.or.jp/news/notice/2026/2609_001.html",
+      "pillar": "recover",
+      "category": "finance",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 0
+    },
+    {
+      "id": "mhlw-r2-gouu",
+      "source_name": "厚生労働省",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00157.html",
+      "pillar": "recover",
+      "category": "wage",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 1
+    },
+    {
+      "id": "env-saigai-haikibutsu",
+      "source_name": "環境省",
+      "url": "https://policies.env.go.jp/recycle/disaster_waste/",
+      "pillar": "recover",
+      "category": "facility",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 0
+    },
+    {
+      "id": "chusho-keizokuryoku",
+      "source_name": "中小企業庁",
+      "url": "https://www.chusho.meti.go.jp/keiei/antei/bousai/keizokuryoku.html",
+      "pillar": "prepare",
+      "category": "bcp",
+      "disaster_scope": "general",
+      "pathPrefix": "",
+      "maxDepth": 1
+    },
+    {
+      "id": "chusho-bcp-shishin",
+      "source_name": "中小企業庁",
+      "url": "https://www.chusho.meti.go.jp/bcp/",
+      "pillar": "prepare",
+      "category": "bcp",
       "disaster_scope": "general",
       "pathPrefix": "",
       "maxDepth": 1
