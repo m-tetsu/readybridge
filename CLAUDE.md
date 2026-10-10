@@ -141,7 +141,7 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 
 設計は `docs/rag-plan.md`（論点①〜⑥確定済み）。実装も一通り完了：
 - `/api/chat`（`src/pages/api/chat.ts`）：質問→bge-m3埋め込み→Vectorize検索→Haiku生成→出典付き回答
-- フロント `src/pages/chat.astro`：入力フォーム＋出典カード＋免責3点セット。AI回答は自前の簡易 Markdown 整形（`renderMarkdown`：見出し・太字・箇条書き・番号リスト・区切り線・https リンク。先に全体をエスケープ、表は非対応）で表示
+- フロント `src/pages/chat.astro`：入力フォーム＋出典カード＋免責3点セット。AI回答は自前の簡易 Markdown 整形（`renderMarkdown`：見出し・太字・箇条書き・番号リスト・表・区切り線・https リンク。先に全体をエスケープ）で表示
 - **本番導線に組み込み済み（2026-06-20）**：ヘッダCTA・フッタ・トップのCTAから `/chat` へ。「準備中」表記は撤去（試験運用ラベルは残置）。エラー時は再試行案内にフォールバック。
 - **相談ログ（2026-10）**：`/api/chat` が D1（`readybridge-chat`／binding `CHAT_DB`／table `chat_logs`）に無期限で記録。質問・回答の本文も保存（メール・電話番号は伏せ字、IP等は保存しない）。`/chat` 注記と `/about`「AI相談の記録について」に明記。集計・CSV書き出しは `npm run chat:stats`（要 D1:Read 権限）。詳細 `docs/chat-logs.md`。当初の Analytics Engine 案は保存期間約3か月のため廃止
 - `tools/crawler/upsert.mjs`：チャンク→埋め込み→Vectorize upsert（`.md`＋`.pdf`名の両方対象に修正済／embedは50件バッチ）
