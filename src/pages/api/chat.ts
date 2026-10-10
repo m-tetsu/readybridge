@@ -42,6 +42,42 @@ interface RuntimeEnv {
   ANTHROPIC_API_KEY?: string;
   AI?: { run: (model: string, input: unknown) => Promise<any> };
   VECTORIZE?: { query: (vector: number[], opts: unknown) => Promise<any> };
+  CHAT_LOG?: {
+    writeDataPoint: (p: { indexes?: string[]; blobs?: string[]; doubles?: number[] }) => void;
+  };
+}
+
+// 利用状況の記録（Workers Analytics Engine / dataset: readybridge_chat）。
+// 質問の本文は保存しない（「送信内容は回答の生成にのみ使われます」の表記どおり）。
+// 列の対応（SQL で参照する名前）：
+//   index1 / blob1 = outcome（ok / 各エラーコード）
+//   blob2 = model, blob3 = disaster_scope
+//   double1 = 質問の文字数, double2 = 出典数, double3 = 処理時間(ms)
+//   double4 = 入力トークン, double5 = 出力トークン
+interface LogFields {
+  questionLen?: number;
+  sourceCount?: number;
+  inputTokens?: number;
+  outputTokens?: number;
+  disasterScope?: string;
+}
+
+function record(env: RuntimeEnv, startedAt: number, outcome: string, f: LogFields = {}): void {
+  try {
+    env.CHAT_LOG?.writeDataPoint({
+      indexes: [outcome],
+      blobs: [outcome, MODEL, f.disasterScope ?? ''],
+      doubles: [
+        f.questionLen ?? 0,
+        f.sourceCount ?? 0,
+        Date.now() - startedAt,
+        f.inputTokens ?? 0,
+        f.outputTokens ?? 0,
+      ],
+    });
+  } catch {
+    // 記録の失敗で回答を止めない
+  }
 }
 
 function json(data: unknown, status = 200): Response {
@@ -57,6 +93,7 @@ function today(): string {
 
 export const POST: APIRoute = async ({ request, locals }) => {
   const env = ((locals as any).runtime?.env ?? {}) as RuntimeEnv;
+  const startedAt = Date.now();
 
   // 1. 入力の取り出し・バリデーション
   let question = '';
@@ -64,13 +101,19 @@ export const POST: APIRoute = async ({ request, locals }) => {
     const body = (await request.json()) as { question?: unknown };
     question = String(body?.question ?? '').trim();
   } catch {
+    record(env, startedAt, 'invalid_json');
     return json({ error: 'invalid_json' }, 400);
   }
-  if (!question) return json({ error: 'empty_question' }, 400);
+  if (!question) {
+    record(env, startedAt, 'empty_question');
+    return json({ error: 'empty_question' }, 400);
+  }
   if (question.length > MAX_QUESTION_LEN) question = question.slice(0, MAX_QUESTION_LEN);
+  const questionLen = question.length;
 
   // バインディング未設定（未デプロイ環境）では UI のフォールバックに委ねる
   if (!env.ANTHROPIC_API_KEY || !env.AI || !env.VECTORIZE) {
+    record(env, startedAt, 'not_configured', { questionLen });
     return json({ error: 'not_configured' }, 503);
   }
 
@@ -78,7 +121,10 @@ export const POST: APIRoute = async ({ request, locals }) => {
     // 2. 質問を埋め込み（Workers AI）
     const emb = await env.AI.run(EMBED_MODEL, { text: [question] });
     const vector: number[] = emb?.data?.[0];
-    if (!vector) return json({ error: 'embedding_failed' }, 502);
+    if (!vector) {
+      record(env, startedAt, 'embedding_failed', { questionLen });
+      return json({ error: 'embedding_failed' }, 502);
+    }
 
     // 3. Vectorize で近傍検索
     const result = await env.VECTORIZE.query(vector, {
@@ -132,15 +178,29 @@ export const POST: APIRoute = async ({ request, locals }) => {
       }),
     });
 
-    if (!aiRes.ok) return json({ error: 'generation_failed', status: aiRes.status }, 502);
-    const aiData = (await aiRes.json()) as { content?: Array<{ type: string; text?: string }> };
+    const logFields: LogFields = { questionLen, sourceCount: sources.length, disasterScope };
+    if (!aiRes.ok) {
+      record(env, startedAt, 'generation_failed', logFields);
+      return json({ error: 'generation_failed', status: aiRes.status }, 502);
+    }
+    const aiData = (await aiRes.json()) as {
+      content?: Array<{ type: string; text?: string }>;
+      usage?: { input_tokens?: number; output_tokens?: number };
+    };
+    logFields.inputTokens = aiData.usage?.input_tokens;
+    logFields.outputTokens = aiData.usage?.output_tokens;
     const answer = (aiData.content ?? [])
       .filter((b) => b.type === 'text')
       .map((b) => b.text ?? '')
       .join('')
       .trim();
 
-    if (!answer) return json({ error: 'empty_answer' }, 502);
+    if (!answer) {
+      record(env, startedAt, 'empty_answer', logFields);
+      return json({ error: 'empty_answer' }, 502);
+    }
+
+    record(env, startedAt, 'ok', logFields);
 
     return json({
       answer,
@@ -149,6 +209,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
       disaster_scope: disasterScope,
     });
   } catch (err) {
+    record(env, startedAt, 'internal_error', { questionLen });
     return json({ error: 'internal_error' }, 500);
   }
 };

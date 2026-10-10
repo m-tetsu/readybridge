@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "check": "astro check",
     "crawl": "node tools/crawler/crawl.mjs",
-    "rag:upsert": "node tools/crawler/upsert.mjs"
+    "rag:upsert": "node tools/crawler/upsert.mjs",
+    "chat:stats": "node tools/chat-stats.mjs"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.13",

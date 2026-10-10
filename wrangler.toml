@@ -20,3 +20,9 @@ binding = "AI"
 # ANTHROPIC_API_KEY は Secret（暗号化）として登録済みのため、ここには書かない。
 #   npx wrangler secret put ANTHROPIC_API_KEY --name readybridge
 # もしくはダッシュボードの Encrypted Secrets で登録する。
+
+# AI相談の利用状況（件数・結果・処理時間・トークン数）。質問本文は保存しない。
+# 集計方法は docs/chat-analytics.md を参照。
+[[analytics_engine_datasets]]
+binding = "CHAT_LOG"
+dataset = "readybridge_chat"
