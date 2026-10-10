@@ -151,9 +151,13 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 - Workers AI `[ai]` バインディング・`ANTHROPIC_API_KEY` Secret（Worker）登録済み
 
 ### 反映フロー（自動化）
-1. `collect.yml`（cron）→ クロール → `auto/rag-collected-update` ブランチ宛にPR起票（→ main にマージで反映。**人のレビューを挟む設計**＝論点③）
-2. main の `data/collected/**` 更新を検知 → `upsert.yml` が自動で `npm run rag:upsert` → Vectorize 反映
+1. `collect.yml`（毎日 06:00 JST）→ クロール → 新規・更新があれば **main に直接コミット**（2026-10 に人のレビューを廃止＝論点③の当初案から変更。松下さんの判断）
+   - 取得が100件未満の回はサイト障害とみなして取り込みを見送る（警告のみ）
+   - 不変ページはファイルを書き換えない（fetched_at だけの全件差分を出さない）
+2. 同じ `collect.yml` から `upsert.yml` を呼び出し → `npm run rag:upsert` → Vectorize 反映（GITHUB_TOKEN のプッシュでは push トリガーが動かないため直接呼ぶ）
+   - 手でデータを変えて main に入れたときは `upsert.yml` の push トリガーで動く
    - `upsert.yml` は Secrets 未登録時はスキップして成功扱い（失敗メール抑止）。登録済みなら本実行。
+   - 旧 PR 方式の `auto/rag-collected-update` ブランチ・PR #17 は 2026-10-10 にマージ済みで役目終了
 
 ### 残タスク
 - [x] ~~**GitHub Secrets 登録**~~（完了 2026-06-20）：`CLOUDFLARE_ACCOUNT_ID` / `CLOUDFLARE_API_TOKEN` 登録済み。手動実行（workflow_dispatch）で upsert 成功を確認。
