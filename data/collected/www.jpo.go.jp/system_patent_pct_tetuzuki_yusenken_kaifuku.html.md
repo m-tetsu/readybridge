@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "efb8906d311a508dc24f15944c9a8d20db5c909480eaf8133510e00787eda133"
-fetched_at: "2026-06-20"
+content_hash: "92598cc55e69c9121f79d7c277a6992e1191aa3050b023ba1126aee78ca7505a"
+fetched_at: "2026-10-11"
 ---
 特許庁
 
@@ -110,7 +110,6 @@ PCT Reservations, Declarations, Notifications and Incompatibilities（外部サ�
 
 審査業務部出願課国際出願室受理官庁
 電話：03-3581-1101 内線2643
-FAX：03-3501-0659
 
 このページの先頭へ
 

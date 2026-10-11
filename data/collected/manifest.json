@@ -864,9 +864,9 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/saigai_202401jishin-mokutekibetsu.html.md"
   },
   "https://www.pref.fukui.lg.jp/index.html": {
-    "hash": "e8e26011bf2bfcb8965333d164c0fab808dece7ffe39ba554ee664a108dcee48",
+    "hash": "6c179b6ac677b136147c690064cf3e8146e12f454e487edfd2fabb477319a4b2",
     "title": "ホーム | 福井県ホームページ",
-    "fetched_at": "2026-10-10",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.pref.fukui.lg.jp/index.html.md"
   },
   "https://www.pref.niigata.lg.jp/sec/kikitaisaku/240101jishin.html": {
@@ -2628,9 +2628,9 @@
     "file": "data/collected/www.mhlw.go.jp/houdou_kouhou_index.html.md"
   },
   "https://www.mhlw.go.jp/stf/houdou/index.html": {
-    "hash": "2912083fbffaa863d0368b4115aec6052d0ab29ba47384189de439c65730b033",
+    "hash": "0a2e7471d5557277410a3fd0eafc1830053ddc411690a58fe55c1419d2d90168",
     "title": "報道発表資料 ｜厚生労働省",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.mhlw.go.jp/stf_houdou_index.html.md"
   },
   "https://www.mhlw.go.jp/stf/houdou/houdou_list_202401.html": {
@@ -2658,21 +2658,21 @@
     "file": "data/collected/www.bousai.go.jp/pdf_240101_kyuujo2.pdf"
   },
   "https://www.jpo.go.jp/index.html": {
-    "hash": "e0bfb8a003f898a4511901f59226b1d11a21e2a95df24a0c02aba6c689528e91",
+    "hash": "fe003117c00e28f377e172dcacfb6888aaa3985bf656597d56fb8bb59eac28a6",
     "title": "ホーム | 経済産業省 特許庁",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.jpo.go.jp/index.html.md"
   },
   "https://www.jpo.go.jp/e/index.html": {
-    "hash": "44c5ac86a4dd1b1ab822c76ed95a03948301d0fca214cdbb046260accc2c5491",
+    "hash": "7fc0a584309d18eafed5fe05017006f54e4aac69db1f905a5dd54ab643d4f9d4",
     "title": "Japan Patent Office",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.jpo.go.jp/e_index.html.md"
   },
   "https://www.jpo.go.jp/faq/tousyo/index.html": {
-    "hash": "57cc8f2b0fa5aa959fce9c6d9aa30369fd6735193117f3e3974f003ee9fcd186",
+    "hash": "245692be496aa2c7789a2cdbbe3c753054ce3b15c37525c9f7e0078acfc9f8b9",
     "title": "投書箱（ご意見・ご要望） | 経済産業省 特許庁",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.jpo.go.jp/faq_tousyo_index.html.md"
   },
   "https://www.jpo.go.jp/toppage/tsukaikata/index.html": {
@@ -2856,9 +2856,9 @@
     "file": "data/collected/www.jpo.go.jp/news_koho_saigai_notohantojishin_sochi_sonota_kyuusaisochi.html.md"
   },
   "https://www.jpo.go.jp/system/laws/gaikoku/mokuji.html": {
-    "hash": "4e0215818e583d33ad51a26a2f17fe55c847db2863f02f4c0fac5959f7e90b19",
+    "hash": "5dec8f37353f6f4438df28980af0af3b911573df5209e0c1b5ff1161e6b78177",
     "title": "諸外国・地域・機関の制度概要および法令条約等 | 経済産業省 特許庁",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.jpo.go.jp/system_laws_gaikoku_mokuji.html.md"
   },
   "https://www.jpo.go.jp/e/news/koho/saigai/notopeninsula/request.html": {
@@ -2886,9 +2886,9 @@
     "file": "data/collected/www.jpo.go.jp/toppage_links_index.html.md"
   },
   "https://www.jpo.go.jp/toppage/sitemap/index.html": {
-    "hash": "a0de85ac14ae6057ba18ea5810a5177f8a72c8defb5926334abb122afd2d78d9",
+    "hash": "484d23cc11901c097a93b024aff2fe59c16ae54a5ec08bc49248801883ce8ef4",
     "title": "サイトマップ | 経済産業省 特許庁",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.jpo.go.jp/toppage_sitemap_index.html.md"
   },
   "https://www.jpo.go.jp/toppage/privacy/privacy_list.html": {
@@ -2928,15 +2928,15 @@
     "file": "data/collected/www.jpo.go.jp/system_patent_shinsa_soki_souki_kaisi_index.html.md"
   },
   "https://www.jpo.go.jp/system/patent/shinsa/soki/souki_kaisi/souki_tokutei.html": {
-    "hash": "65a896800b66060a6d68bae20b16b1ec95e5507db4d6e5d5407db43d66dc065e",
+    "hash": "4b306af70d6531436e412bf916e51bb98808336d9ec2057494ef1d1896cb4df3",
     "title": "特定被災地域一覧 | 経済産業省 特許庁",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.jpo.go.jp/system_patent_shinsa_soki_souki_kaisi_souki_tokutei.html.md"
   },
   "https://www.jpo.go.jp/faq/yokuaru/patent/super_souki_qa.html": {
-    "hash": "05b1fcd50b0f016bd0754341c46eb313530aa7498fc4a523aec648e1cf953aaf",
+    "hash": "75d570001c3989831668971413782538f61199857e3f69738b17868fcbb19e36",
     "title": "スーパー早期審査についてのQ&A | 経済産業省 特許庁",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.jpo.go.jp/faq_yokuaru_patent_super_souki_qa.html.md"
   },
   "https://www.jpo.go.jp/news/koho/saigai/saigai-tetsuduki-20240628.html": {
@@ -2958,15 +2958,15 @@
     "file": "data/collected/www.pcinfo.jpo.go.jp/site_4_news_3_appl_03_06.html.md"
   },
   "https://www.jpo.go.jp/system/patent/pct/tetuzuki/yusenken_kaifuku.html": {
-    "hash": "efb8906d311a508dc24f15944c9a8d20db5c909480eaf8133510e00787eda133",
+    "hash": "92598cc55e69c9121f79d7c277a6992e1191aa3050b023ba1126aee78ca7505a",
     "title": "令和5年4月1日以降に優先期間を徒過した国際出願の優先権の回復（「故意ではない」基準）について | 経済産業省 特許庁",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.jpo.go.jp/system_patent_pct_tetuzuki_yusenken_kaifuku.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/index.html": {
-    "hash": "c27472ce9b8a75a2bf740f5c9f30ae102e29cf24f28b2f8c0ddb1801d91ef703",
+    "hash": "1d6807fe7b997c9eda4b97e4a3b83c77b4784481172046b08dd654c8920974e1",
     "title": "石川県ホームページ",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.pref.ishikawa.lg.jp/index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinkyu/kanri.html": {
@@ -2976,27 +2976,27 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinkyu_kanri.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html": {
-    "hash": "175b24956a735b96815e2a8f8f1144bd93644ba9ab835e0e0bab7a23f309b203",
+    "hash": "774f34d52ffc1b88e398a69588c88c53783dc18afe8178109e50fb30308b1db1",
     "title": "防災・安全・安心 | 石川県",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_anzen_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kurashi/index.html": {
-    "hash": "b52b9fa1b4a342c98f2500cbab8a907e0b6d12c803b4bc63d779e5370ed547af",
+    "hash": "a3a24ac88f06832a4e8a61f7bff3871a7921328492b2c0f89cab8e37de54959e",
     "title": "くらし・環境 | 石川県",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html": {
-    "hash": "533f0c52242bf6648bd7c8c1e471264aeab3ca38cc18c240ecca891c8314fd66",
+    "hash": "3c7190f23d381498955b6dc3f0e1810bd210eeed4cdb978480e35c7e53a04369",
     "title": "教育・子育て | 石川県",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kyoikukosodate_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html": {
-    "hash": "7d8b0d528166f5e2f320dedd1c65c5c8ceef25b3188057f9a22e6cf3a8414697",
+    "hash": "e11e8f63bea2644c5a3735b98697556c937432e521634023c4dece020919db69",
     "title": "医療・福祉 | 石川県",
-    "fetched_at": "2026-06-20",
+    "fetched_at": "2026-10-11",
     "file": "data/collected/www.pref.ishikawa.lg.jp/iryo_fukushi_index.html.md"
   },
   "https://www.chusho.meti.go.jp/saigai.html": {
@@ -3466,5 +3466,1385 @@
     "title": "https://www.chusho.meti.go.jp/kinyu/download/4gou_r8_0904saigai.pdf",
     "fetched_at": "2026-10-10",
     "file": "data/collected/www.chusho.meti.go.jp/kinyu_download_4gou_r8_0904saigai.pdf"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/": {
+    "hash": "021ab0aabb7bfaecba72b9a3ec91d8eadb6971c50dcf2ab65ad8834ca6cbec98",
+    "title": "自衛水防（企業防災）について - 国土交通省",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou.md"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/bousai-gensai-suibou03.html": {
+    "hash": "35bd71a608fb89e604433fa243b373784448b7093c70a3b631e0c948653c044e",
+    "title": "自衛水防（企業防災）について（工場・事業所等の浸水対策） - 国土交通省",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_bousai-gensai-suibou03.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/index.html": {
+    "hash": "f13ff16b5cea61cf1ce4784aa091a033ad11c4df03e6a2156c5cd25a970be442",
+    "title": "風水害対策 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_index.html.md"
+  },
+  "https://www.jma.go.jp/jma/kishou/know/bosai/warning.html": {
+    "hash": "c200045e23d3db4ec46ebdd9851804b0a44261ae13c766a8276878583208f221",
+    "title": "気象警報・注意報 | 気象庁",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.jma.go.jp/jma_kishou_know_bosai_warning.html.md"
+  },
+  "https://www.jma.go.jp/jma/kishou/know/bosai/riskmap.html": {
+    "hash": "26d777c622fb28935359d998d0590b5d88d5801225d8002bea5e9e9ccb4c18e9",
+    "title": "キキクル | 気象庁",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.jma.go.jp/jma_kishou_know_bosai_riskmap.html.md"
+  },
+  "https://www.gov-online.go.jp/article/202511/entry-10171.html": {
+    "hash": "b94ccb27db08dc5b98f003a3526db9844fa6e570dd5b9441bea60f8832bfae5f",
+    "title": "水害から暮らしを守る水防活動。日頃からの備えで被害を防ぐ | 政府広報オンライン",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.gov-online.go.jp/article_202511_entry-10171.html.md"
+  },
+  "https://www.bousai.go.jp/kyoiku/hokenkyousai/suigai.html": {
+    "hash": "dc4f222f0b356f33a51d4c668e76011895a66fa03dbfe4130c5272648010784e",
+    "title": "水害被害（風水害・土砂災害） : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.bousai.go.jp/kyoiku_hokenkyousai_suigai.html.md"
+  },
+  "https://www.bousai.go.jp/kyoiku/hokenkyousai/kanyu.html": {
+    "hash": "68df1acb57b55d00238df1f774ccec0790bc8a0f8055aeeeb1fbfc0394fd3acf",
+    "title": "いざというときに備えて保険・共済に加入しよう : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.bousai.go.jp/kyoiku_hokenkyousai_kanyu.html.md"
+  },
+  "https://www.sonpo.or.jp/insurance/shizen/index.html": {
+    "hash": "4e4d22196b3c6b194441721bb136660b06f89c3079ba35b68c8c3acc75699857",
+    "title": "風水雪災等による損害を補償する損害保険  ｜日本損害保険協会",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.sonpo.or.jp/insurance_shizen_index.html.md"
+  },
+  "https://www.meti.go.jp/policy/safety_security/industrial_safety/oshirase/2026/09/260925_00001.html": {
+    "hash": "67187ef6d641b8304458d8783c2f517b17d3cd0068b15e9bfa9b28689dd6b619",
+    "title": "水没した太陽電池発電設備による感電やショートによる火災の防止についてのお願い（周知）（METI/経済産業省）",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.meti.go.jp/policy_safety_security_industrial_safety_oshirase_2026_09_260925_00001.html.md"
+  },
+  "https://www.meti.go.jp/policy/safety_security/industrial_safety/oshirase/2021/07/20210705.html": {
+    "hash": "8cd57671a16d9b1f84a4ce5fcd3f5fcede04bd5e9439e1f89e5b78258971b6df",
+    "title": "破損・浸水した太陽電池発電設備による感電事故防止について（注意喚起）（METI/経済産業省）",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.meti.go.jp/policy_safety_security_industrial_safety_oshirase_2021_07_20210705.html.md"
+  },
+  "https://www.sonpo.or.jp/news/notice/2026/2609_001.html": {
+    "hash": "865c334959ca0dac19ca26aea24e15d9f21f3a1fe60db9e13d2d685693ac6a4c",
+    "title": "令和8年台風第24号及び前線による大雨に伴う災害により被害を受けられた皆様へ｜日本損害保険協会",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.sonpo.or.jp/news_notice_2026_2609_001.html.md"
+  },
+  "https://policies.env.go.jp/recycle/disaster_waste/": {
+    "hash": "a2bae6f2e1b887e7b7d53ee1966e0fdca1ea5aa827ea0c58757b4a1034f6a47e",
+    "title": "環境省_災害廃棄物対策情報サイト",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/policies.env.go.jp/recycle_disaster_waste.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/keizokuryoku.html": {
+    "hash": "2f201540fbd52cf6f08c99915d612b019253a6768b9224a6d2f8458a47ddac37",
+    "title": "事業継続力強化計画 | 中小企業庁",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_keizokuryoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/bcp/": {
+    "hash": "faf45f9bafde7f76c9c83e718335a7dd9ecd3596a8a03b70972eb664f94de936",
+    "title": "中小企業BCP策定運用指針",
+    "fetched_at": "2026-10-10",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp.md"
+  },
+  "https://www.mlit.go.jp/mizukokudo/index.html": {
+    "hash": "e134aa2654d7d0edc09a73d0c21a87554785536f0f8fc31a84480a191242da09",
+    "title": "水管理・国土保全 - 国土交通省",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/mizukokudo_index.html.md"
+  },
+  "https://www.mlit.go.jp/river/kasen/index.html": {
+    "hash": "19a1aeefa3399b458087a63006f6f63bf6934ec4fe6b1778add67c5e3726b85c",
+    "title": "河川 - 国土交通省水管理・国土保全局",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_kasen_index.html.md"
+  },
+  "https://www.mlit.go.jp/river/dam/index.html": {
+    "hash": "adf5b9af6a0325f22f3c7909fa7114e554ddb5005dfefe37a31cf79805bddcdd",
+    "title": "ダム - 国土交通省水管理・国土保全局",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_dam_index.html.md"
+  },
+  "https://www.mlit.go.jp/mizukokudo/sabo/index.html": {
+    "hash": "e5a569adf921ae0cb8370c0399e28d6ecfd5e1701843d93e1ecd33e606003784",
+    "title": "砂防 - 国土交通省",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/mizukokudo_sabo_index.html.md"
+  },
+  "https://www.mlit.go.jp/river/kaigan/index.html": {
+    "hash": "6676c60e52afe5ed2efb8131681e3246648620ab6e690a7d0d366af2e59d3bc4",
+    "title": "海岸 - 国土交通省水管理・国土保全局",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_kaigan_index.html.md"
+  },
+  "https://www.mlit.go.jp/mizukokudo/mizsei/index.html": {
+    "hash": "6cf285b119965794b8499268b504d8c214b149d03c7c96df545894541c53378d",
+    "title": "水資源 - 国土交通省",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/mizukokudo_mizsei_index.html.md"
+  },
+  "https://www.mlit.go.jp/river/bousai/index.html": {
+    "hash": "4a4c01eecf8482c99b903f19f380de0e704d9b99bf93cf928910fa003a53ad4e",
+    "title": "主な施策：防災 - 国土交通省水管理・国土保全局",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_index.html.md"
+  },
+  "https://www.mlit.go.jp/river/kankyo/index.html": {
+    "hash": "0e9a8a7a09f3ccadfebcb8c0e3a7a07abfbef25a2b04b873f6cefa37b63e0f67",
+    "title": "環境 - 国土交通省水管理・国土保全局",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_kankyo_index.html.md"
+  },
+  "https://www.mlit.go.jp/river/riyou/index.html": {
+    "hash": "57bfe3b30f061bf6e20d296d446cb549568eed0a9b56e6edd77dbf43c6bab1cf",
+    "title": "主な施策：利用 - 国土交通省水管理・国土保全局",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_riyou_index.html.md"
+  },
+  "https://www.mlit.go.jp/river/kokusai/index.html": {
+    "hash": "74842eea74fe8aa246e0f8e23c1c4eb2b6a21468a492ba866b4966a734538122",
+    "title": "国際 - 国土交通省水管理・国土保全局",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_kokusai_index.html.md"
+  },
+  "https://www.mlit.go.jp/river/gijutsu/index.html": {
+    "hash": "85323c98a8c8d719acb00cd8c1d07f7d8618e7fb809a8734b5a01083782574b9",
+    "title": "情報・技術 - 国土交通省水管理・国土保全局",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_gijutsu_index.html.md"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/bousai-gensai-suibou01.html": {
+    "hash": "8c3cb98513e7b466ec3a931bd5e1091e46a23275ee768f538affbab2851a82ac",
+    "title": "自衛水防（企業防災）について（地下空間の浸水対策） - 国土交通省",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_bousai-gensai-suibou01.html.md"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/bousai-gensai-suibou02.html": {
+    "hash": "f9727cfa0ce66ee0d90802fdec97c6a59fc0d46d30b3ff64507e8fa3a881358d",
+    "title": "自衛水防（企業防災）について（要配慮者利用施設の浸水対策） - 国土交通省",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_bousai-gensai-suibou02.html.md"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/bousai-gensai-suibou-shien.html": {
+    "hash": "747d34bac0571914b68f7f487871feb7bb1a98835d8d7b0d7eae626b3a62259a",
+    "title": "自衛水防（企業防災）について（全国の相談窓口） - 国土交通省",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_bousai-gensai-suibou-shien.html.md"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/02_ref_202406.pdf": {
+    "hash": "30f6dd8682223f1636c40a4b6e9a029a2ed064bad17f7edcb7378b9993ae588b",
+    "title": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/02_ref_202406.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_pdf_02_ref_202406.pdf"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/03_ref_heijouji_201709.pdf": {
+    "hash": "d99427de82495388b46a5a1f5c661282714b8d8ee3d73fefd49198a6f2162578",
+    "title": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/03_ref_heijouji_201709.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_pdf_03_ref_heijouji_201709.pdf"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/04_ref_kouzuiji_201709.pdf": {
+    "hash": "137ab9de23d819818f382557d21d7e8c4aad5bfc35de26502bb4ff1a2f69509d",
+    "title": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/04_ref_kouzuiji_201709.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_pdf_04_ref_kouzuiji_201709.pdf"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/05_ref_hanranji_201709.pdf": {
+    "hash": "4557ac6b0ec584edc27c9fa71dd44068932c9b8c6f2e5a4f8d8d37e4563459d2",
+    "title": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/05_ref_hanranji_201709.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_pdf_05_ref_hanranji_201709.pdf"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/06_renraku_202406.pdf": {
+    "hash": "2ca3e1d070eecdf6cb3ed33ba53eee484802732596c53aef2ea6a1d6621762bf",
+    "title": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/06_renraku_202406.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_pdf_06_renraku_202406.pdf"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/tisiki/syozaiti/": {
+    "hash": "0d5d5d9cb41f814ded88aab5ebec89b9ceb972c13ff512131e6ac73c394bbff6",
+    "title": "洪水浸水想定区域図・洪水ハザードマップ",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_tisiki_syozaiti.md"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/30.pdf": {
+    "hash": "c3726ce79c4ab446b25583c2ab751222bb274f62587eedf291352590b3586a25",
+    "title": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/30.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_pdf_30.pdf"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/31.pdf": {
+    "hash": "2fbf75c16890392356da710023f0a7872cb48fc1a8ef3fd4fb00c771c0b0b3b6",
+    "title": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/31.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_pdf_31.pdf"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/32.pdf": {
+    "hash": "3179ab0eacb4eb0f32db45d7651a136234237da172c945f36ddd27d2618c1132",
+    "title": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/32.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_pdf_32.pdf"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/33.pdf": {
+    "hash": "4cb1f7f6d79418622609e12f81f451861a23eb76223092b66597a3923b13d052",
+    "title": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/33.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_pdf_33.pdf"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/34.pdf": {
+    "hash": "251b9fdf7736452084a4d025cee9dc2b8f23e8e33ad3156f3960c2ff9ba409a5",
+    "title": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/34.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_pdf_34.pdf"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/index.html": {
+    "hash": "021ab0aabb7bfaecba72b9a3ec91d8eadb6971c50dcf2ab65ad8834ca6cbec98",
+    "title": "自衛水防（企業防災）について - 国土交通省",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_index.html.md"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/10_ref_kigyou.pdf": {
+    "hash": "503b1f28a80a8128270a8f9656634ca325eee763485edce49ff70e7960d9a656",
+    "title": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/10_ref_kigyou.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_pdf_10_ref_kigyou.pdf"
+  },
+  "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/hinankakuho_tebiki_suibou_daikibokojo202605.pdf": {
+    "hash": "56b4a7cda28644f778a992bd57bca68ab0881e2df64353cc64cd926a98e24909",
+    "title": "https://www.mlit.go.jp/river/bousai/main/saigai/jouhou/jieisuibou/pdf/hinankakuho_tebiki_suibou_daikibokojo202605.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_pdf_hinankakuho_tebiki_suibou_daikibokojo202605.pdf"
+  },
+  "https://www.mlit.go.jp/river/bousai/shinsuihigai/index.html": {
+    "hash": "7b7f70f3b10af44cb086d384ebcc41a19f839107f1c71734358d0a6d4b9592f4",
+    "title": "浸水被害防止に向けた取組事例集～社会経済被害の最小化の実現に向けて～ - 国土交通省水管理・国土保全局",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mlit.go.jp/river_bousai_shinsuihigai_index.html.md"
+  },
+  "https://www.ktr.mlit.go.jp/arage/arage00227.html": {
+    "hash": "547a76c3479ac59a5e725841498d013f5e4ff1f497e9c66ccdf2b91e28cabbe2",
+    "title": "災害情報普及支援室 | 荒川下流河川事務所 | 国土交通省　関東地方整備局",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.ktr.mlit.go.jp/arage_arage00227.html.md"
+  },
+  "https://www.qsr.mlit.go.jp/takeo/tiikibousai/kigyou/bcp.html": {
+    "hash": "24477eef8cf95114c484f7df8120c9e2752d1b6efd8d0681e854f15fdda17250",
+    "title": "水害版事業継続計画(BCP)作成支援　国土交通省　九州地方整備局　武雄河川事務所",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.qsr.mlit.go.jp/takeo_tiikibousai_kigyou_bcp.html.md"
+  },
+  "https://www.cas.go.jp/jp/seisaku/kokudo_kyoujinka/minkan_torikumi/index.html": {
+    "hash": "2c51af8795c1fd071c1d3c860e5d279a0dfcd669017df2786cce24f84c69a870",
+    "title": "民間の取組事例集｜内閣官房ホームページ",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.cas.go.jp/jp_seisaku_kokudo_kyoujinka_minkan_torikumi_index.html.md"
+  },
+  "https://www.bousai.go.jp/kyoiku/kigyou/": {
+    "hash": "bb2e60368b114add594adb98590e0352cd01f35c29f31af8e46840cb0dc6b788",
+    "title": "企業防災のページ(内閣府防災担当) : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/kyoiku_kigyou.md"
+  },
+  "https://disaportal.gsi.go.jp/": {
+    "hash": "e7b26103e86eb969a98f2f4c31e32660eef11190857d078d35871f120c82221b",
+    "title": "ハザードマップポータルサイト",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/disaportal.gsi.go.jp/index.md"
+  },
+  "https://www.river.go.jp/": {
+    "hash": "077835c1f53e0da51674bd18bc903459b5bb50052a0aab6cd3a1f8ea6cf61cab",
+    "title": "川の防災情報 - 国土交通省",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.river.go.jp/index.md"
+  },
+  "https://www.bousai.go.jp/index.html": {
+    "hash": "cf7284e4c924657e3bd9417c6910ddbee7f888eececbf0c2fa39fa2cc621f71c",
+    "title": "防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/index.html.md"
+  },
+  "https://www.bousai.go.jp/oyakudachi/info_general.html": {
+    "hash": "3b16e7ad54385577766f534d9acb40c0dc4400dbb9f1085573d7da6acc51effc",
+    "title": "お役立ち情報（一般向け） | 防災情報",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/oyakudachi_info_general.html.md"
+  },
+  "https://www.bousai.go.jp/oyakudachi/info_kigyou.html": {
+    "hash": "0ed41669d9c76298b532038d3ea053d6168347fe2149a12015f7131157b793ca",
+    "title": "お役立ち情報（企業・団体向け） : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/oyakudachi_info_kigyou.html.md"
+  },
+  "https://www.bousai.go.jp/oyakudachi/info_jichitai.html": {
+    "hash": "2278d4e0bd3c29e348ef41b10d9875a15e7d536ababa516d353cdb1dbd831e22",
+    "title": "お役立ち情報（地方自治体向け） : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/oyakudachi_info_jichitai.html.md"
+  },
+  "https://www.cao.go.jp/search/notice-search.html": {
+    "hash": "95e88343c985c66f5ace851965350d0b42dc2dba2c3f7ac7eb8ddc32f54c420f",
+    "title": "検索の使い方 - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.cao.go.jp/search_notice-search.html.md"
+  },
+  "https://www.cao.go.jp/": {
+    "hash": "d0c328cde3e5ca97080144ea6a4d932a4ce539f285eb2347b7bc90c42cd6a766",
+    "title": "内閣府ホームページ",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.cao.go.jp/index.md"
+  },
+  "https://www.cao.go.jp/seisaku/seisaku.html": {
+    "hash": "aa5ae5ad39ddee6b88fc4087756ff0a4afec1e72c4fe0a6c6fe200ffc6fbb540",
+    "title": "内閣府の政策 - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.cao.go.jp/seisaku_seisaku.html.md"
+  },
+  "https://www.bousai.go.jp/taisaku/index.html": {
+    "hash": "917d0be38902da197df2668d0234a795b09104c2dbc160dfbfef952ae24383fa",
+    "title": "防災対策制度 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/taisaku_index.html.md"
+  },
+  "https://www.bousai.go.jp/oukyu/hinankankoku/index.html": {
+    "hash": "e7a9601010e4c0cf50af864720ed3ee68d4a9e9ea0dd5dd7bf88329eec64ca2c",
+    "title": "避難情報の判断・伝達 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/oukyu_hinankankoku_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/suigai_kouikihinan/index.html": {
+    "hash": "2c004d571e8c14be7da875b362544a1b8c2c9bbac1d838acc9d0bd13aa1a3f95",
+    "title": "水害からの広域避難に関する基本的な考え方 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_suigai_kouikihinan_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/suigaiworking/kouikihinan.html": {
+    "hash": "d15307e8dede6e820fb8833bb564e98a33de252028d0e5cb07e8e2b41339190f",
+    "title": "首都圏における広域的な避難対策の具体化に向けた検討会 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_suigaiworking_kouikihinan.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/r8chiba_ooame_working/index.html": {
+    "hash": "0f2966da3bf558c8cd0edd9012a645eed56b1342766989b72983f146d6c23765",
+    "title": "令和８年８月千葉豪雨等を踏まえた内水氾濫対策検討会 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_r8chiba_ooame_working_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/r3hinanworking/index.html": {
+    "hash": "0278f1eaf8749205d8ca0eae1597b0ba446afaf7ce0f72a8707b870a3455f2cf",
+    "title": "令和３年７月からの一連の豪雨災害を踏まえた避難に関する検討会 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_r3hinanworking_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/koreisubtyphoonworking/index.html": {
+    "hash": "79ce3b4a03b7831ed0d45986c9d2b11e1e030be777a113575ade894074eeac57",
+    "title": "令和元年台風第19号等を踏まえた高齢者等の避難に関するサブワーキンググループ : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_koreisubtyphoonworking_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/subtyphoonworking/index.html": {
+    "hash": "024a792c121203fe3eac2fd8e96f06ac9b2cdfeb148ec24d8f4d5c7fbd51eef3",
+    "title": "令和元年台風第19号等を踏まえた避難情報及び広域避難等に関するサブワーキンググループ : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_subtyphoonworking_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/typhoonworking/index.html": {
+    "hash": "7a1d85e3ed5ee67b8b794535e90a7fc4d58ddd23117c1f9aa3a46d0a5c49fbd4",
+    "title": "中央防災会議 防災対策実行会議「令和元年台風第19号等による災害からの避難に関するワーキンググループ」 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_typhoonworking_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/suigai_dosyaworking/index.html": {
+    "hash": "8c874bc9be29859b29e5ae7432dedf9f50790d9e7af911dc0b5b3ebb7f9adee7",
+    "title": "中央防災会議 防災対策実行会議「平成３０年７月豪雨による水害・土砂災害からの避難に関するワーキンググループ」 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_suigai_dosyaworking_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/suigaiworking/suigaiworking.html": {
+    "hash": "d4cefcaf6b56badb999d2221976288a1734ac485ef499e5c262e33f02a9da2d9",
+    "title": "首都圏における大規模水害広域避難検討会 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_suigaiworking_suigaiworking.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/kozuiworking/index.html": {
+    "hash": "0e0bcc1661ad8bc9017c083d85cb8fa2c961dddbbc756af5bd4fc694f23d452f",
+    "title": "洪水・高潮氾濫からの大規模・広域避難検討ワーキンググループ : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_kozuiworking_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/suigaiworking/index.html": {
+    "hash": "ffec6b3ff55a0655fa22194386c740a46da17cccfb94cb4db18410c1694f3344",
+    "title": "水害時の避難・応急対策検討ワーキンググループ : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_suigaiworking_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/dosyaworking/index.html": {
+    "hash": "d260b085892c93037522a1aad3bb0cf586298520a93a6b3de041c4dd35af66cb",
+    "title": "総合的な土砂災害対策検討ワーキンググループ : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_dosyaworking_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/syutoken_suigai/h25/index.html": {
+    "hash": "df25a1b27beac7535e67f48cccc217ef748381d010f3e064c3cd7dd9e9f8bd49",
+    "title": "首都圏大規模水害対策協議会 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_syutoken_suigai_h25_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/gaiyou.pdf": {
+    "hash": "3a8ba6471553078b7a447f17c9d5459ecafdebfd34e557799135c0ec2b1a8701",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/gaiyou.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_gaiyou.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/honbun.pdf": {
+    "hash": "cb956c4950106a43b69fd957b043d6bb6ac55d5b59fd60c8bf199fbf95ac2212",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/honbun.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_honbun.pdf"
+  },
+  "https://www.bousai.go.jp/kaigirep/chuobou/senmon/daikibosuigai/index.html": {
+    "hash": "c15a9eaa1aba1a60e3bb1d5f208ff4d15797f9f70b4736f3186bfc599af088f1",
+    "title": "大規模水害対策に関する専門調査会 | 防災情報",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/kaigirep_chuobou_senmon_daikibosuigai_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/higaisoutei_gaiyou.pdf": {
+    "hash": "337fef3d1a27be8a746afc566dd79f4ef9d576374bd204c7f3e0efbb327230c6",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/higaisoutei_gaiyou.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_higaisoutei_gaiyou.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/080325kisya.html": {
+    "hash": "da43c6fba3787c57746200113544eaaa3e297f9c324eddf829386b186e4994e3",
+    "title": "利根川の洪水氾濫時の死者数・孤立者数等の公表について : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_080325kisya.html.md"
+  },
+  "https://www.bousai.go.jp/kaigirep/chuobou/senmon/daikibosuigai/pdf/080908_kisya.pdf": {
+    "hash": "34f0c7a96fd2a2a25d41b3ef243abff5d3844f14fe9782d421af679d5de3d8fb",
+    "title": "https://www.bousai.go.jp/kaigirep/chuobou/senmon/daikibosuigai/pdf/080908_kisya.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/kaigirep_chuobou_senmon_daikibosuigai_pdf_080908_kisya.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/090123_kisya.pdf": {
+    "hash": "d37dd425b8b7448f1063a8f6fc3036eedbff0e79bcf812526b40301673dbdca4",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/090123_kisya.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_090123_kisya.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080908_sanko_shiryo_2.pdf": {
+    "hash": "a325f755baeb86af75fe5f899552e573ee3290c6c4baa741f02f0ba91dc3051a",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080908_sanko_shiryo_2.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080908_sanko_shiryo_2.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_1.pdf": {
+    "hash": "24b4ebe0d8f82a98f5d6222584790c14455c8d60c15654bcb70eb2338508ec4a",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_1.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080325sankou_1.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_2_1.pdf": {
+    "hash": "7e92dde17374330f5d5dfc17c71522b82240d7a2511204f0326c6eb5724302c5",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_2_1.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080325sankou_2_1.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_2_2.pdf": {
+    "hash": "a219f1232988f87dfeb00e54dec1ee252d17710bad3dbd144cd4a035e39eb8e5",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_2_2.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080325sankou_2_2.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_2_3.pdf": {
+    "hash": "64f85135df5bd329920712105f16739df191dd7dd5e90ca22a81433b0cca3f1e",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_2_3.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080325sankou_2_3.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_2_4.pdf": {
+    "hash": "743a1424757696d13cd0d31c054815d99d906029b50659fa6145bb6ab0735f7e",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_2_4.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080325sankou_2_4.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080325shiryo_2.pdf": {
+    "hash": "854c46c69b7eb3af79ebd5561530fcff880c115a43e497c8c04b380e4c0b3113",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080325shiryo_2.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080325shiryo_2.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080908_shiryo_4.pdf": {
+    "hash": "e4bb3067a77d85cdc6ea5a22266bc32f9cb499135a7bdb635363061306f6521f",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080908_shiryo_4.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080908_shiryo_4.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_3.pdf": {
+    "hash": "0683ff4008a11d3266f9f490994164cb00b7f20944d3a63653abd98315449746",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_3.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080325sankou_3.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_4.pdf": {
+    "hash": "b8a8dd252b342f003cf04b31fc0ac705caf74f3163d78720674800e271bc085c",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_4.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080325sankou_4.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_5.pdf": {
+    "hash": "8e699bc75025b1c4d46c9677e7023638b929fbe2af5879d4e0aa71dd9b78e569",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080325sankou_5.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080325sankou_5.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080908_shiryo_1.pdf": {
+    "hash": "558aec90230215b5b9b87aff70082c6886a9d70dac6a780b289e7fe245908b8d",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080908_shiryo_1.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080908_shiryo_1.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080908_haifu_shiryo_1.pdf": {
+    "hash": "0bb44d3ae687925c09ca36abac5b28d7b91b569fa298922c65f3ef4a5aaac20d",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080908_haifu_shiryo_1.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080908_haifu_shiryo_1.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/080908_shiryo_2.pdf": {
+    "hash": "8c7877f7210ea7372ae6bb1fbe3c4509dc1a3ebe2d5fff98955b1ea6edd9c6d7",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/080908_shiryo_2.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_080908_shiryo_2.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/kijou2_1.pdf": {
+    "hash": "917179bbfbfe3d386569bd80febe30c9c946a9098f946bcf0bcf71b99a9326a3",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/kijou2_1.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_kijou2_1.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/kijou2_2.pdf": {
+    "hash": "56934b69143b9dbe4604496c502cda4c5a0f42266e497285301162338c6ef0f4",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/kijou2_2.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_kijou2_2.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/090123_shiryo_1.pdf": {
+    "hash": "94030f1e14a675aa4cb3816d3702b770c81dcf48f70b6ea98f273540ffb2a035",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/090123_shiryo_1.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_090123_shiryo_1.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/090123_shiryo_4.pdf": {
+    "hash": "6e8e53bbc933c0415918f8fcd7173af92aa30e67d8511b2796e719e68ac9b666",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/090123_shiryo_4.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_090123_shiryo_4.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/090123_kijo1.pdf": {
+    "hash": "055c35e75c71c1f62ad6b7e5d6967e6885abc6df55846990ea99aaf1297a3899",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/090123_kijo1.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_090123_kijo1.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/090123_kijo2.pdf": {
+    "hash": "564afadeb814d4a9b97bad3df4edd4e38dab57fcad050d2bb7579d16da8eb6ad",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/090123_kijo2.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_090123_kijo2.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/090123_kijo3.pdf": {
+    "hash": "ea433be49330f67929d5537b7cec29452b16193ff2738d572c0c160bd55631bc",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/090123_kijo3.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_090123_kijo3.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/090123_shiryo_5.pdf": {
+    "hash": "e65e557c4dea3962ac95aae3420be991f4a0e5f4e037f28f9d0c593b7df71a52",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/090123_shiryo_5.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_090123_shiryo_5.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/090123_shiryo_6.pdf": {
+    "hash": "1525d93385757ed3a7e391835171548013017c3943611552d95bda172287637e",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/090123_shiryo_6.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_090123_shiryo_6.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/090123_shiryo_7.pdf": {
+    "hash": "6e0b2adae6e7a207c9eac0480c60848dc1304748f59187730eb62bf1755d6bbd",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/090123_shiryo_7.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_090123_shiryo_7.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/090123_shiryo_8.pdf": {
+    "hash": "c7673f5d176134b5ac3191739917ca05c873a5692197029968af02d032c4c946",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/090123_shiryo_8.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_090123_shiryo_8.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/toukyouwan_higaisoutei.pdf": {
+    "hash": "d7e393380a19234ad0274b8fb92d98565f0200488fe1e772093154ad94682c53",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/toukyouwan_higaisoutei.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_toukyouwan_higaisoutei.pdf"
+  },
+  "http://www.kantei.go.jp/jp/headline/bousai/tatsumaki.html": {
+    "hash": "c5f831593dc4bd1073a40919b41e14d37697d72b797d590cfe25dc22db94f597",
+    "title": "竜巻では、どのような災害が起こるのか | 首相官邸",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.kantei.go.jp/jp_headline_bousai_tatsumaki.html.md"
+  },
+  "http://www.jma.go.jp/jma/menu/tatsumaki-portal.html": {
+    "hash": "765449d5e50327706ff292c75a3634ca2b4128535e0998512e8b8ef18962bb91",
+    "title": "竜巻ポータルサイト | 気象庁",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.jma.go.jp/jma_menu_tatsumaki-portal.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/tatsumakikyokucho/h25.html": {
+    "hash": "d9df4853d84134aa628eb8f04dfc40880368acd84a4f8bf143a612c0898c2ebb",
+    "title": "竜巻等突風対策局長級会議(平成25年) : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_tatsumakikyokucho_h25.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/tatsumakikyokucho/index.html": {
+    "hash": "40085788ebddb82486565debf42916ad1d5ff769a9c13fcd3d7911569fff6ef9",
+    "title": "竜巻等突風対策局長級会議(平成24年) : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_tatsumakikyokucho_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/tatsumaki/index.html": {
+    "hash": "6e851f6fdebee84d6e36bfb6e970cea0c977208dd923765a8862a6d3c095964c",
+    "title": "竜巻等突風対策検討会 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_tatsumaki_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/takashio.pdf": {
+    "hash": "7148032e8cc62f9339060646481df6b547e422dfe2a5ff0cbcbdd8e90d92ccc4",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/takashio.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_takashio.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/pdf/tatsumaki3.pdf": {
+    "hash": "5267994725b0346a0f214cfbccb7edc2883b034c32be210286bff3746311364c",
+    "title": "https://www.bousai.go.jp/fusuigai/pdf/tatsumaki3.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_tatsumaki3.pdf"
+  },
+  "https://www.bousai.go.jp/kyoiku/pdf/h30_tebikisho.pdf": {
+    "hash": "e72f6d2478843a05bd05e3f35916cdf085198f75f42fffe70fddf7ac04e8fb51",
+    "title": "https://www.bousai.go.jp/kyoiku/pdf/h30_tebikisho.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/kyoiku_pdf_h30_tebikisho.pdf"
+  },
+  "https://www.bousai.go.jp/kyoiku/pdf/h30_tebikisho_english.pdf": {
+    "hash": "6d7f7292928e095f17b17008eb623dbc54b500702c55cb687c6d2fc89acae2b7",
+    "title": "https://www.bousai.go.jp/kyoiku/pdf/h30_tebikisho_english.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/kyoiku_pdf_h30_tebikisho_english.pdf"
+  },
+  "https://www.bousai.go.jp/fusuigai/poster.html": {
+    "hash": "35b1721c2c363bc35b69b5d230cda7d527d0a78f08f72895b76042d5b103bb3c",
+    "title": "風水害対策 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_poster.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/sonota/index.html": {
+    "hash": "3a650c5956d4509a189dd1c2835da64c37144d912beff1052f1989b2dbefdf95",
+    "title": "地域コミュニティの力を活用した風水害対策の活動事例 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_sonota_index.html.md"
+  },
+  "https://www.bousai.go.jp/fusuigai/sonota/tiikibousai/hinankunren.html": {
+    "hash": "624e1c65e4cdcaa24b178f0b69b220fd42572e65398c662cb05255f022d80dff",
+    "title": "地域防災協力 : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/fusuigai_sonota_tiikibousai_hinankunren.html.md"
+  },
+  "https://www.bousai.go.jp/webaccessibility.html": {
+    "hash": "6efc26f7acc5b5b3e82683c3646132019825f5f903768641290e8bb14a2af91b",
+    "title": "アクセシビリティ : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/webaccessibility.html.md"
+  },
+  "https://www.bousai.go.jp/sitemap.html": {
+    "hash": "ff0a1220381bd0d8e968c8b8dff3e56655b332e4f12f67c9f088427036b41838",
+    "title": "サイトマップ : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/sitemap.html.md"
+  },
+  "https://www.bousai.go.jp/notice.html": {
+    "hash": "0dcf7942ad4929a8c67ebe57fc114ccad346a3ca432a60649ed63339a42476f8",
+    "title": "このホームページについて : 防災情報のページ - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.bousai.go.jp/notice.html.md"
+  },
+  "https://www.cao.go.jp/notice/privacy.html": {
+    "hash": "1a44cafc7d38eb5c6507383c5fb7eec07c0a20c6eec2ef2decdc75b5f6fe15f5",
+    "title": "内閣府ホームページ個人情報保護方針 - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.cao.go.jp/notice_privacy.html.md"
+  },
+  "https://www.cao.go.jp/about/address.html": {
+    "hash": "af35c5bf403c3a2a690b6da3169a5a5e880734d6fbf35aa5c530024f88d68ead",
+    "title": "所在地情報 - 内閣府",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.cao.go.jp/about_address.html.md"
+  },
+  "https://www.mhlw.go.jp/content/000647944.pdf": {
+    "hash": "0e1046ed54caa70ca2c8a583a9fbb00e5d80537143b1289264a7b83352303bb5",
+    "title": "https://www.mhlw.go.jp/content/000647944.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mhlw.go.jp/content_000647944.pdf"
+  },
+  "https://www.mhlw.go.jp/kouseiroudoushou/shozaiannai/roudoukyoku/": {
+    "hash": "45b301769e1af6f8c7676adb3d6445657d12e53157fd81d6304842cfa382ab63",
+    "title": "都道府県労働局(労働基準監督署、公共職業安定所)所在地一覧｜厚生労働省",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.mhlw.go.jp/kouseiroudoushou_shozaiannai_roudoukyoku.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_gaiyo.pdf": {
+    "hash": "592590ede600c74a74352239d8151b4e1330780cbff0aaea278028c73290b033",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_gaiyo.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_tebiki_gaiyo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_tandoku.pdf": {
+    "hash": "758251c1fd273b306794e616c66a034af26468d3215b034f988c6aae436afa1f",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_tandoku.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_tebiki_tandoku.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_renkei.pdf": {
+    "hash": "56c0bdf2d131b2e208ece0714d745b74f720e41b466b68e085819de6cd4bc70b",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_renkei.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_tebiki_renkei.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_qa.pdf": {
+    "hash": "a0af88dc7f529887b040ca23cd41368ddc43fdc9be0408eb6ee22a755350e522",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_qa.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_tebiki_qa.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_nintei_jigyousha.pdf": {
+    "hash": "f1c79b90796012e262f7921a3fa61509bcdb89f34170719cbe8b0e6b11bab548",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_nintei_jigyousha.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_tebiki_nintei_jigyousha.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/shinsa_syuusei.pdf": {
+    "hash": "3f2fdc9552479732d4cc2580d9fef1032e1024d7849933a9d655afa3a86f0d57",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/shinsa_syuusei.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_shinsa_syuusei.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/shishin.pdf": {
+    "hash": "5686a0aac522f318d0414912351235c19e64470d18e0b7e5065c425c99762b5b",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/shishin.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_shishin.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/houshin.pdf": {
+    "hash": "4edc510206597ed54c7936f34e38790c42e1c154bdee403892cbd10eb7db0c42",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/houshin.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_houshin.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/application.html": {
+    "hash": "9ff9ae0493aa0e19ae9187d47cfb1994c86d49d9620f4e1b8ee54b68f2477710",
+    "title": "事業継続力強化計画の申請方法等について | 中小企業庁",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_application.html.md"
+  },
+  "https://kyoujinnka-handson.smrj.go.jp/": {
+    "hash": "2f31e962a3dd119d59892bd50234a0a1ebfbc35160e4b6eb6e12e41a759ca020",
+    "title": "「事業継続力強化計画（ジギョケイ）」策定・申請支援事業をご活用ください！｜中小企業基盤整備機構",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/kyoujinnka-handson.smrj.go.jp/index.md"
+  },
+  "https://www.hkd.meti.go.jp/hokic/20260123/index.htm": {
+    "hash": "82b5cb1aecdfd6a7e266904617d1a3cc0e0f13a0a7f4715be0a4ffb2b12662f1",
+    "title": "BCP訓練を簡単に自社で企画・実施できる！中小企業向け「訓練企画シート」を作成しました｜経済産業省北海道経済産業局",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.hkd.meti.go.jp/hokic_20260123_index.htm.md"
+  },
+  "https://kyoujinnka.smrj.go.jp/review/workshopr6/": {
+    "hash": "b850f0dcd0b0ca258169a12c06f9c073f4ab7c1f2aa6ce3f4e9bc8c2da5237e7",
+    "title": "ジギョケイ Business Survival WORKSHOP｜ジギョケイ実行・見直し｜中小企業基盤整備機構",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/kyoujinnka.smrj.go.jp/review_workshopr6.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/bousaizeisei_gaiyo.pdf": {
+    "hash": "16a15271a48689925161a925cdd72cc01cb664c17ac0fbf47fa97029b1257e2d",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/bousaizeisei_gaiyo.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_bousaizeisei_gaiyo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/bousaizeisei_yoryo.pdf": {
+    "hash": "737b6f4405a2a943e88e8d2de4ea7dcb8fc25905eacbfc65a2b7ee60441d2ea0",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/bousaizeisei_yoryo.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_bousaizeisei_yoryo.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/bousaizeisei_yoryo_taishou.pdf": {
+    "hash": "15dc64185bf2e983589f217fbab01be7d4194729d43163174de4ace1f55a4a64",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/bousaizeisei_yoryo_taishou.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_bousaizeisei_yoryo_taishou.pdf"
+  },
+  "https://kyoujinnka.smrj.go.jp/": {
+    "hash": "4e16686e0e1f142ff409c93c8ecca1db78e54774c195e1d540e2040ee51c8559",
+    "title": "BCPはじめの一歩 事業継続力強化計画をつくろう｜中小企業基盤整備機構",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/kyoujinnka.smrj.go.jp/index.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/nintei_ichiran_chiiki.pdf": {
+    "hash": "9e66bc57d67f7609e095edc8f9b71aefb65752b2d20c5c801e09c57cfc74fc68",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/nintei_ichiran_chiiki.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_nintei_ichiran_chiiki.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/list.html": {
+    "hash": "31574548d6feb5fdee4a13d3bc56d367be4f60d1f7472c739174e94e700e3c20",
+    "title": "「事業継続力強化計画」認定事業者一覧 | 中小企業庁",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_list.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/logo/nintei_logo_kiyaku.pdf": {
+    "hash": "a19a7252085a45b2fd4bec9434fb3a275f20f9af7e6822011fe0ffc95a663556",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/logo/nintei_logo_kiyaku.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_logo_nintei_logo_kiyaku.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/logo/nintei_logo_manual.pdf": {
+    "hash": "e7551997e35081cc73ed746e5962b482ff602a8a5d154fb74dcb68608f87743c",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/logo/nintei_logo_manual.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_logo_nintei_logo_manual.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/dantai_ichiran.html": {
+    "hash": "25fc657cd053922af2c089b00926091d49466c45ec0a194198bcdadb98e1ef55",
+    "title": "リスクファイナンスの強化に向けて連携している団体一覧 | 中小企業庁",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_dantai_ichiran.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/dantai_ichiran2.html": {
+    "hash": "14b4563cd87f1302a7eed7c25b6514606408d867e015f7762f2ea2f3b37413cf",
+    "title": "事業継続力強化に向けて連携している団体一覧 | 中小企業庁",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_dantai_ichiran2.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/pamflet/keizokuryoku_pamphlet.pdf": {
+    "hash": "002d7c0a34b946c74f86e6c28537a99a7bcd8a2117ec04860bd11d964b156966",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/pamflet/keizokuryoku_pamphlet.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_pamflet_keizokuryoku_pamphlet.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/pamflet/hoken.pdf": {
+    "hash": "6646fb56a6c268fbbb35db7b5c82a0884aaa9cf373453b7625dadbd16f3f8bd0",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/pamflet/hoken.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_pamflet_hoken.pdf"
+  },
+  "https://www.caicm.go.jp/business/keizokuryoku.html": {
+    "hash": "0c0f0bbc3781fced93c1f6746dbd03465f8441803c2fbd2bab383f477460a39f",
+    "title": "事業継続力強化計画の参考資料（中小事業者向け） | 内閣感染症危機管理統括庁ホームページ",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.caicm.go.jp/business_keizokuryoku.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/2024/240115.html": {
+    "hash": "56f5fe92bc7162632c7796848fa5c38e5f6f1463d0ec3a344de20ac90069d891",
+    "title": "中小企業庁：連携事業継続力強化計画の電子申請システムによる受付を開始します",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_2024_240115.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/bousai/2022/220627.html": {
+    "hash": "a5222f1a32f2e585f66a453a09158f24fc50f8df7652d8ab900cf7436cf24747",
+    "title": "中小企業庁：事業継続力強化計画の2回目以降の申請に実施報告書の添付が必要になりました",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_2022_220627.html.md"
+  },
+  "https://www.chusho.meti.go.jp/": {
+    "hash": "a72c6da2f1302f34ed10f308da7ff96a3cc44333c83e71158ba526f7a5ee1817",
+    "title": "経済産業省 中小企業庁",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/index.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/index.html": {
+    "hash": "b7f45193e8f4b0b23b27b8da51bb2626ca591a05a5034c4bdb33d0270fb5c627",
+    "title": "政策一覧ページの構成変更のお知らせ| 中小企業庁",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_index.html.md"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/index.html": {
+    "hash": "7c574e0b4fc90b85dd32adeed2fcba2c39acd3e2cd1a5843ad3d5a8800bdc0a2",
+    "title": "経営安定支援 | 中小企業庁",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_index.html.md"
+  },
+  "https://www.chusho.meti.go.jp/bcp/contents/level_a/bcpgl_01_3.html": {
+    "hash": "4799b12196d21129f635b9cb6bdbf347c139ef41ae57c96935346d94bcba3cab",
+    "title": "https://www.chusho.meti.go.jp/bcp/contents/level_a/bcpgl_01_3.html",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_contents_level_a_bcpgl_01_3.html.md"
+  },
+  "https://www.chusho.meti.go.jp/bcp/download/level_d/bcpent_01.pdf": {
+    "hash": "9320956380108b6ddf7fd5e7116fada7190738ace7c1c023ad09a76d2dfe3501",
+    "title": "https://www.chusho.meti.go.jp/bcp/download/level_d/bcpent_01.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_download_level_d_bcpent_01.pdf"
+  },
+  "https://www.chusho.meti.go.jp/bcp/contents/level_a/bcpgl_01.html": {
+    "hash": "eb7899b0c481d9e624c8b3186a9bf06e90fb517152191d2f490f52341843b516",
+    "title": "1. はじめに",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_contents_level_a_bcpgl_01.html.md"
+  },
+  "https://www.chusho.meti.go.jp/bcp/contents/level_b/bcpgl_01.html": {
+    "hash": "77c08a6cfa6b156a7f865e4f0807a68335f48298d4aca0b8ac83cc5276b2e839",
+    "title": "1. はじめに",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_contents_level_b_bcpgl_01.html.md"
+  },
+  "https://www.chusho.meti.go.jp/bcp/contents/level_c/bcpgl_03c.html": {
+    "hash": "ca07ec5ee88d8a1bb1a0fe304c2d6a1ea733685cb50ff06265ea6ed832cdb549",
+    "title": "3. 平常時におけるBCPの策定と運用（上級コース）",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_contents_level_c_bcpgl_03c.html.md"
+  },
+  "https://www.chusho.meti.go.jp/bcp/contents/bcpgl_download.html": {
+    "hash": "e61470cd34d66f06c501cfcaf05e024685984dd95d69c680bdf50d381a5ee173",
+    "title": "ダウンロード",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_contents_bcpgl_download.html.md"
+  },
+  "https://www.chusho.meti.go.jp/bcp/contents/bcpgl_case.html": {
+    "hash": "10c8156b7c23753bd30c262ce5057e10dfdb9493ba43522f5dfa3aa21ac53565",
+    "title": "中小企業庁：BCP策定企業の紹介",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_contents_bcpgl_case.html.md"
+  },
+  "https://www.chusho.meti.go.jp/bcp/contents/bcpgl_09_p.html": {
+    "hash": "7574a6e3bb550cf8c0db60cf13738e9d4c99e703da5b647c139ea38b81e57636",
+    "title": "【 章単位の索引 】",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_contents_bcpgl_09_p.html.md"
+  },
+  "https://www.chusho.meti.go.jp/bcp/contents/bcpgl_contact.html": {
+    "hash": "f428ee50769586824004e2304bc488e8200581143b6f2459be8f87afec259dd7",
+    "title": "問合せ",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_contents_bcpgl_contact.html.md"
+  },
+  "https://www.chusho.meti.go.jp/bcp/contents/level_a/bcpgl_00.html": {
+    "hash": "61577f78d5efa9ef617548edd903ee0c4977f691bd0d9193f765864558ac12c0",
+    "title": "BCP指針の公開にあたって",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_contents_level_a_bcpgl_00.html.md"
+  },
+  "https://www.chusho.meti.go.jp/bcp/contents/bcpgl_help.html": {
+    "hash": "db8d500d817d92fcd62d1ed224945cea8c3d9bf4808534fb66e78f87cf349a10",
+    "title": "利用方法",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_contents_bcpgl_help.html.md"
+  },
+  "https://www.chusho.meti.go.jp/bcp/2018/180420BCPshiryo1.pdf": {
+    "hash": "13cacd6f0c7b895560da9555f67189037361fe64942d6ced6906df37a5b69d2b",
+    "title": "https://www.chusho.meti.go.jp/bcp/2018/180420BCPshiryo1.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_2018_180420BCPshiryo1.pdf"
+  },
+  "https://www.chusho.meti.go.jp/bcp/2018/180420BCPshiryo2.pdf": {
+    "hash": "11d7c9a751354f29e59f338062833fad3fa6988c904c501bd0a5b64148605776",
+    "title": "https://www.chusho.meti.go.jp/bcp/2018/180420BCPshiryo2.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_2018_180420BCPshiryo2.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/2015/150414group.pdf": {
+    "hash": "22312462d5243ce89a5a17c78dcc1b56287079b0ae2fe0cd19313ab0bb3714e9",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/2015/150414group.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_2015_150414group.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/2014/141015BCPQA.pdf": {
+    "hash": "2a35f3e5e15e46a9b064ef0f2de46ed8b7cd704e789f08f01577a0ea76fbb359",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/2014/141015BCPQA.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_2014_141015BCPQA.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/download/BCPSaigaiJirei.pdf": {
+    "hash": "fbe36ab36432f9e5c9b9f88aeb08628c3b0f661f419de358d108bca4a44e7099",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/download/BCPSaigaiJirei.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_download_BCPSaigaiJirei.pdf"
+  },
+  "https://www.chusho.meti.go.jp/bcp/guidebook/download/bcphint_all.pdf": {
+    "hash": "ce3d7137acb07f1afe4a50810907a36688d917fbf2fb4e69364567fe78a9c60f",
+    "title": "https://www.chusho.meti.go.jp/bcp/guidebook/download/bcphint_all.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_guidebook_download_bcphint_all.pdf"
+  },
+  "https://www.chusho.meti.go.jp/bcp/2012/download/24fyBCP.pdf": {
+    "hash": "9ae1e40aa477d2dce2bf06ad53c514b30515beeacba3ff76b36acd7e6d2e6b10",
+    "title": "https://www.chusho.meti.go.jp/bcp/2012/download/24fyBCP.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/bcp_2012_download_24fyBCP.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/antei/download/bcp_guide.pdf": {
+    "hash": "9e55dcee7f493ff027bddf6fe5d600c3bf8af3a0e384ab4d671be26651410760",
+    "title": "https://www.chusho.meti.go.jp/keiei/antei/download/bcp_guide.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_download_bcp_guide.pdf"
+  },
+  "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240411nariwai.pdf": {
+    "hash": "226476fd961ff87b5807cac0ca680122a6fdaf8f39fbf036851dde51567b047f",
+    "title": "https://www.chusho.meti.go.jp/keiei/shokibo/2024/240411nariwai.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240411nariwai.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kanko_koryu/index.html": {
+    "hash": "e57a94251dc852a8547c8c296595b819e9ad1a0021baae1d8e94ca1cac918b17",
+    "title": "観光・文化・スポーツ | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kanko_koryu_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/shigoto/index.html": {
+    "hash": "04346ff08ab3d6f3672b80ca72210c9db87ba8105868133be9a827eb2baf4524",
+    "title": "しごと・産業 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/shigoto_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kensei/index.html": {
+    "hash": "fe9631f5ca78a4e8c4df0467d13b50ddb7fc6646a5143a5c5c5f79c71b2f31e6",
+    "title": "県政情報・統計 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kensei_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/about_site/tsukaikata/index.html": {
+    "hash": "4cb1562a6525d3d59e81bf67a63c3142a849d5a8f99d4c14683b8ef1b8bfd132",
+    "title": "このサイトの使い方 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/about_site_tsukaikata_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/shinsei/index.html": {
+    "hash": "9ece70f809d90857685912757d8f7d8c60b9e3f5d925dc2c7438d594d48c5a35",
+    "title": "申請・届出・様式・手続き | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/shinsei_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kensei/soshiki/kenshokuin/index.html": {
+    "hash": "882faaddda9cb7b90910d7c80e194cb93630e085846655e794a7f313b3fae38e",
+    "title": "県職員・警察官等採用 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kensei_soshiki_kenshokuin_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/sodammadoguchi/index.html": {
+    "hash": "50e0cac6e7080fe1b5db9962d64a9a0a50b53c0fdddb3ea7ba1ed2cb3edc8776",
+    "title": "相談窓口 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/sodammadoguchi_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kurashi/seikatsu/kenzei/index.html": {
+    "hash": "b95498525a2410441007eaa32e673a321e78e90a6de60e748a37a6dc3b0b8490",
+    "title": "県税 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_seikatsu_kenzei_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/shisetsu/index.html": {
+    "hash": "669cb5c45ccf1d5c7f3fedaec8935b9f6dc07f8a4e4cf25fd4ccf3447259bfdb",
+    "title": "施設案内 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/shisetsu_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/shinchaku/index.html": {
+    "hash": "4ea4bb699cbef18887d365a7b487715fac2573e8a4187f62dca96d9725674da5",
+    "title": "新着情報 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/shinchaku_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/cgi-bin/event_cal_multi/calendar.cgi": {
+    "hash": "15befa836432139a5bd9ce57ba3864b647271fdcf9c7e97d1f4845f951f51c52",
+    "title": "イベント情報 | 石川県ホームページ",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/cgi-bin_event_cal_multi_calendar.cgi.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kensei/soshiki/soshiki/renrakusaki/index.html": {
+    "hash": "7afc846e44007d7bcdfc80e38ed07b10e9f49c822a5e400b78096c9c4ebdbde4",
+    "title": "連絡先一覧 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kensei_soshiki_soshiki_renrakusaki_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/jigyosha.html": {
+    "hash": "874bfab11b395f14191976c352d1dfa7da3234d5aae7c35dd5e88c9d4cb02604",
+    "title": "事業者向け情報 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/jigyosha.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_jisseki.html": {
+    "hash": "2f2cef41b0edc2f68263e9e7da9f11d766d2114313956bba5fedf8916058234d",
+    "title": "なりわい再建支援補助金の実績報告について | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_nariwai_jisseki.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_extension.html": {
+    "hash": "725e240b35f08b1f8d9cfb3177606c9491eb8a27498765b7c159fa7403a2166b",
+    "title": "なりわい支援補助金の事業完了期間の延長 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_nariwai_extension.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/r6notocenter.html": {
+    "hash": "0b726744ab5c12630ff658d306e24ce0548a77a22347a1ef86a7ec6f5d836d6e",
+    "title": "【能登在住の事業者の方へ】能登事業者支援センターの開設について | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_r6notocenter.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/r6kanazawa_siencenter.html": {
+    "hash": "1fc392cfaf79f72eb4cde0c392b7b59c8dba58ac2aafe5cf21be7eeb8d5a3ab4",
+    "title": "金沢事業者支援センター | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_r6kanazawa_siencenter.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/nariwai_leaflet_250401.pdf": {
+    "hash": "f6c3492b14a2fc76fc3ec8e7bbf3ef0df2b7f31cee2fb9645e5110407901fe3c",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/nariwai_leaflet_250401.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_nariwai_leaflet_250401.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/r8_schedule_0401.pdf": {
+    "hash": "8bccf65430eb233d7511fa815e51a91cfb351ef6fd39989b53e96c73dcf5feaa",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/r8_schedule_0401.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_r8_schedule_0401.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/jizentyakushu.pdf": {
+    "hash": "ba1b2ca697459596a08501ad59a459bc4bc03820fa07161beb966ef730cfe8c8",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/jizentyakushu.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_jizentyakushu.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/nariwai_concept.pdf": {
+    "hash": "644dde8728744c496cc5de04fc12bb7a583643948750c5ce169956dfc95ae568",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/nariwai_concept.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_nariwai_concept.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/nariwai_attention.pdf": {
+    "hash": "a6b6569853a963929729039b68bd7bae0f7cf4d05d2913c98eee2ac121f2ab32",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/nariwai_attention.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_nariwai_attention.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/zaisanshobun_attention.pdf": {
+    "hash": "6dcc136e0801ca424b815ae90bf4a6f5d0d5613052555a76c8d18c629c1f14ce",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/zaisanshobun_attention.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_zaisanshobun_attention.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/nariwai_teishutsu_review.pdf": {
+    "hash": "cfb9db4f0ae08f19911a427bb41ee787a29d342c71ba135c9bebee2bc151874a",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/nariwai_teishutsu_review.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_nariwai_teishutsu_review.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_overview.pdf": {
+    "hash": "5dd19d6ad39b6d6525813681cf7f81f31f10612b27e5dc6456e09c5e314099c2",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_overview.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_0_nariwai_overview.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_flow.pdf": {
+    "hash": "ef12dccc9a62be20c323bced1663a07b52b73638dc0e930fc376b4002d0d00da",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_flow.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_0_nariwai_flow.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/00_zaisanshobun_attention_0409.pdf": {
+    "hash": "cfa802ccbcbe226165940d866d9cfc0a9dcf2ee38b2fea5fc997fd574ddca7d7",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/00_zaisanshobun_attention_0409.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_00_zaisanshobun_attention_0409.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_tebiki.pdf": {
+    "hash": "cc59c0462b2c9f253747a3d6d2caab6870a3b99e1b7353f0877e601143dc3eb7",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_tebiki.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_0_nariwai_tebiki.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_overview_teigaku.pdf": {
+    "hash": "93710958f7acb6b313037dd3d826f822efdad593162580addc0b931b404cd0e9",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_overview_teigaku.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_0_nariwai_overview_teigaku.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_teigaku_guide.pdf": {
+    "hash": "e650de0d75f36d68aa4faf7057c8081be3d3ccaaa47b126caeef23187758e35e",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_teigaku_guide.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_0_nariwai_teigaku_guide.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/00_shinsei_manual.pdf": {
+    "hash": "8581b10a33b889504ee0f0497a1ead9f6d69aac37fb739eee52d5b219ba71175",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/00_shinsei_manual.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_00_shinsei_manual.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/999_flow_checklist.pdf": {
+    "hash": "b869723042f548807ad6432c661b390dbce30bc0f858d1b124eb902ced910539",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/999_flow_checklist.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_999_flow_checklist.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/999_kohuyoukou.pdf": {
+    "hash": "7d9918047a5160476a373cb8baa95c45d800f020cedb7001a90dec798e01ec73",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/999_kohuyoukou.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_999_kohuyoukou.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/999_kohuyoukou_hikaku.pdf": {
+    "hash": "e7c19561660ee958d7fcb9f4bae109ea7793c957664c3ac5e08dff2e99f170e8",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/999_kohuyoukou_hikaku.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_999_kohuyoukou_hikaku.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/999_kohuyoukou_format.pdf": {
+    "hash": "199e803c3a93b5c53c83b058f0c4b1e189a36d3b1e43d68c87800ef6b69939d8",
+    "title": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/999_kohuyoukou_format.pdf",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_documents_999_kohuyoukou_format.pdf"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/hisai_attention.html": {
+    "hash": "3fd13b3ce68843c70da0076d9341158cfcc91fb1accf5ad6ae9a69e962a26584",
+    "title": "令和6年（2024年）能登半島地震等に係る事業者支援施策について | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_hisai_attention.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_rishihokyu.html": {
+    "hash": "9f495e7e4d3fced4855100554e324ed9a6e7137ac5f7d979416e53b44fde0400",
+    "title": "石川県なりわい再建資金利子補給補助金 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_nariwai_rishihokyu.html.md"
+  },
+  "https://www.city.suzu.lg.jp/soshiki/7/16267.html": {
+    "hash": "ab4f36c8743ac096035142ce1a50fcb32d2533659e58cc808ac31f79fe36b2b7",
+    "title": "【令和8年1月1日から変更】なりわい再建支援補助金（市から上乗せ支援） - 珠洲市ホームページ",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.city.suzu.lg.jp/soshiki_7_16267.html.md"
+  },
+  "https://www.town.anamizu.lg.jp/site/r6notohantojishin/100691.html": {
+    "hash": "2f57de232421536a0007e9ece4effcabea31a9c980395d489f9fc744bd2c6107",
+    "title": "地震で被災された事業者のみなさまへ｜令和6年能登半島地震｜穴水町（観光交流課）",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.town.anamizu.lg.jp/site_r6notohantojishin_100691.html.md"
+  },
+  "https://www.town.noto.lg.jp/kakuka/1009/gyomu/9/2/1284.html": {
+    "hash": "e0372a9483875203ff24c9fbd10b4902fd4a0adc08a74766c8a119851b5f256d",
+    "title": "令和8年度 事業者の皆様へ「町が行う上乗せ補助金」制度のご案内／能登町ホームページ",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.town.noto.lg.jp/kakuka_1009_gyomu_9_2_1284.html.md"
+  },
+  "https://www.city.nanao.lg.jp/sangyou-s/nariwaisaisei.html": {
+    "hash": "6623149226b8e9d2fe392794481052e738d987f1a175978be1278324d873c7c8",
+    "title": "七尾市なりわい再生支援補助金／七尾市",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.city.nanao.lg.jp/sangyou-s_nariwaisaisei.html.md"
+  },
+  "https://www.town.shika.lg.jp/page/2131.html": {
+    "hash": "393134061c29e0f0bbe665a5b0782b3ad42bf536b0e9f385cecac6a9c4aaebb3",
+    "title": "【令和6年能登半島地震】志賀町なりわい再建支援補助金 - 志賀町ホームページ（商工観光課）",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.town.shika.lg.jp/page_2131.html.md"
+  },
+  "https://www.city.hakui.lg.jp/soshiki/sangyoukensetsubu/syoukoukankouka/6notoearthquakeforbusiness/14942.html": {
+    "hash": "626043b0a330fcbdf642a298ac80d15846e0d9bdb467795a72a5a4a535453f11",
+    "title": "令和6年能登半島地震に係る事業者支援について／羽咋市公式ホームページ",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.city.hakui.lg.jp/soshiki_sangyoukensetsubu_syoukoukankouka_6notoearthquakeforbusiness_14942.html.md"
+  },
+  "https://www.town.tsubata.lg.jp/division/sangyou/W064H0000172.html": {
+    "hash": "fcd5622bf55abcae7fc2f0d6c35b8022b9c719e593fe9ee9bb2491c6eb3af5ee",
+    "title": "【事業者向け】津幡町小規模事業者等持続化補助金 - 津幡町ホームページ（商工観光課）",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.town.tsubata.lg.jp/division_sangyou_W064H0000172.html.md"
+  },
+  "https://www.town.uchinada.lg.jp/site/earthquake/20539.html": {
+    "hash": "cb6216cdf80ae6a7efcd4f621e06834d4e293c1d2680b7b3c871e97d39c39c07",
+    "title": "内灘町なりわい再建支援等補助金について - 内灘町公式ホームページ",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.town.uchinada.lg.jp/site_earthquake_20539.html.md"
+  },
+  "https://www.city.komatsu.lg.jp/soshiki/1018/oshirase/16432.html": {
+    "hash": "0f3655cd62c14dd8e6f28c6fa94583a2466791eafd18937bcabb7a185483a87f",
+    "title": "小松市なりわい再建支援補助金について／小松市ホームページ",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.city.komatsu.lg.jp/soshiki_1018_oshirase_16432.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/index.html": {
+    "hash": "a0a8c5c54234d0a13072d057fca81ec3253cf9397e5bb2e777151c77540dca51",
+    "title": "商工労働部経営支援課 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_index.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/jishin/kigyou.html": {
+    "hash": "375dc321273eb8a3b2c4c4b6aec79dff4666ec3056e0918d53843b8713019a3f",
+    "title": "起業促進補助金 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_jishin_kigyou.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/r8ooamehojyo.html": {
+    "hash": "0758d8ec9f1de667628138c0844151750fe594d00ba548b496f2c74446b156da",
+    "title": "R8.8大雨被災事業者再建支援補助金 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_r8ooamehojyo.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/baseup.html": {
+    "hash": "17a5616b95a10f09c0bcd342dd73fdc637569da19b24c3ac178310d34f1a3f8c",
+    "title": "賃上げ事業者支援センター | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_baseup.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/jishin/eigyousaikai.html": {
+    "hash": "dd35c07ac04d7df6229afb7e3d607bcfbf843161005864b444492788cded27e6",
+    "title": "営業再開支援補助金 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_jishin_eigyousaikai.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/hisai_shotengai.html": {
+    "hash": "b2bdbb486c7cd7ad71442e6f80d24c43cd9ffb2b7ef8b022653aab9e59a28ab9",
+    "title": "商店街にぎわい創出事業補助金 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_hisai_shotengai.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/20260828_soudan.html": {
+    "hash": "d73a504924d1595a73569a1c8db6d4f46f337a52fd095e3b7a007c755f4e6ed9",
+    "title": "令和8年8月27日からの大雨に伴う災害に関する特別相談窓口の設置 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_20260828_soudan.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/jishin/challenge.html": {
+    "hash": "ab26652a6e51bc217721d7dd686c0ee65606fd5f91cb63bf1972c4faedb4b635",
+    "title": "チャレンジ支援補助金 | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_jishin_challenge.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/syoukei.html": {
+    "hash": "f6f84f91c60ee9aba28dbd6d1ac6b6998923761b833e2b5ae9929144e291f633",
+    "title": "事業承継に関する支援・相談窓口について | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_syoukei.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/chuutou_seminar.html": {
+    "hash": "04bdba61344f8714e8c7fc83ddf92cd2eb977be2b58bc6e7b5aafaebd42806f7",
+    "title": "中東情勢セミナー | 石川県",
+    "fetched_at": "2026-10-11",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_chuutou_seminar.html.md"
   }
 }

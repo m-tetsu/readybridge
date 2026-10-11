@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "44c5ac86a4dd1b1ab822c76ed95a03948301d0fca214cdbb046260accc2c5491"
-fetched_at: "2026-06-20"
+content_hash: "7fc0a584309d18eafed5fe05017006f54e4aac69db1f905a5dd54ab643d4f9d4"
+fetched_at: "2026-10-11"
 ---
 JAPAN PATENT OFFICE
 
@@ -226,19 +226,19 @@ More
 More
 
 Pickup News
-The JPO exchanges views with the IPO
+The JPO Participated in the 2026 IPO Annual Meeting
 
 Pickup News
-The JPO holds bilateral meetings in conjunction with the 19th IP5 Heads of Office Meeting
+The JPO held a bilateral meeting with the Intellectual Property Office of Vietnam (IPVN)
 
 Pickup News
-Heads of Patent Offices in Japan, Europe, Korea, China, and the U.S. Discuss the Future Utilization of AI Technology - Outcome of the 19th IP5 Heads of Office Meeting -
+JPO Provided Face-to-Face Examination Practice Training Program for the Department of Intellectual Property, Ministry of Industry and Commerce of Laos
 
 Pickup News
-The Patent Prosecution Highway (PPH) 20th Anniversary Forum Held
+The JPO Exchanged Views with Officials from Thai Government Agencies Involved in Intellectual Property Enforcement
 
 Pickup News
-JPO Participates in Five Trademark Offices (TM5) Mid-Term Meeting
+JPO Participated in the LESI Global IP Forum
 
 PR & Social Media
 
