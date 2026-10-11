@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import SearchBox from '../components/SearchBox.astro';
 import Icon from '../components/Icon.astro';
+import LatestArticles from '../components/LatestArticles.astro';
 import { PILLARS, categoriesByPillar, CATEGORIES, type PillarKey } from '../categories';
 
 const pillarKeys = Object.keys(PILLARS) as PillarKey[];
@@ -73,6 +74,19 @@ const pillarHeadings: Record<PillarKey, string> = {
           );
         })}
       </div>
+    </div>
+  </section>
+
+  <!-- 新着記事 -->
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">NEW</span>
+        <h2>新着記事</h2>
+        <p>最近追加・更新した記事です。災害ごとに変わる支援の情報も、順次追加しています。</p>
+      </div>
+      <LatestArticles limit={6} />
+      <p class="more-link"><a href="/faq">すべての記事を見る →</a></p>
     </div>
   </section>
 

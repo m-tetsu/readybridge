@@ -106,7 +106,8 @@ npm run preview
 2. frontmatter に `question / category / order / summary / sources / updated` を記入
    - `category` は `src/categories.ts` の `CATEGORIES` キーから（`bcp`/`fund-prep`/`facility-prep`/`org`/`stock`/`wage`/`finance`/`facility`/`tax`）
    - `pillar` は category から自動導出（明示不要）
-   - `featured: true` でトップの目立つ位置にも掲載
+   - `featured: true` は**現在どこにも使われていない**（2026-10 時点。トップの新着は更新日順で自動表示）
+   - 記事は追加するだけで、トップ・`/recover` の「新着」（`src/components/LatestArticles.astro`・`updated` の新しい順）、`/prepare`・`/recover` のカテゴリ別一覧、`/faq` に自動で載る
 3. `git push` → 自動反映
 
 新カテゴリを足す場合は `src/categories.ts` の `CATEGORIES` と `src/content.config.ts` の `categories` enum 両方に追加。

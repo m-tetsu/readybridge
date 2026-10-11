@@ -1,0 +1,35 @@
+---
+// 新着記事の一覧（最終更新日の新しい順）。トップ・/recover で使う。
+import { getCollection } from 'astro:content';
+import { PILLARS, pillarOf, type CategoryKey, type PillarKey } from '../categories';
+
+interface Props {
+  pillar?: PillarKey; // 指定時はその柱の記事だけ
+  limit?: number;
+}
+const { pillar, limit = 6 } = Astro.props;
+
+const items = (await getCollection('faq'))
+  .filter((f) => !pillar || pillarOf(f.data.category as CategoryKey) === pillar)
+  .sort((a, b) => (b.data.updated?.getTime() ?? 0) - (a.data.updated?.getTime() ?? 0))
+  .slice(0, limit);
+---
+<ul class="faq-list latest-list">
+  {items.map((f) => {
+    const pk = pillarOf(f.data.category as CategoryKey);
+    return (
+      <li>
+        <a href={`/faq/${f.id}`}>
+          <span class="ll-body">
+            <span class="ll-meta">
+              <span class={`ll-pillar ${pk}`}>{PILLARS[pk].short}</span>
+              {f.data.updated && <span class="ll-date">{f.data.updated.toLocaleDateString('ja-JP')} 更新</span>}
+            </span>
+            <span>{f.data.question}</span>
+          </span>
+          <span class="arr">→</span>
+        </a>
+      </li>
+    );
+  })}
+</ul>
