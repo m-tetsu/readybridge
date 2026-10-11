@@ -325,6 +325,8 @@ section { padding: 54px 0; }
 .phase ul { margin: 0; padding: 0; list-style: none; }
 .phase li { font-size: 0.92rem; color: var(--ink-soft); padding-left: 22px; position: relative; margin-bottom: 9px; }
 .phase li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--teal); font-weight: 700; }
+.phase li a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 3px; }
+.phase li a:hover { color: var(--teal-dark); text-decoration-color: currentColor; }
 
 /* ---------- 信頼バンド ---------- */
 .trust { background: var(--teal-dark); color: #eef5f2; border-radius: 24px; padding: 40px clamp(20px, 4vw, 48px); position: relative; overflow: hidden; }
@@ -358,6 +360,15 @@ section { padding: 54px 0; }
 .faq-list li { border-bottom: 1px solid var(--line); }
 .faq-list a { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 15px 6px; text-decoration: none; color: var(--ink); transition: color .15s, padding .15s; }
 .faq-list a:hover { color: var(--teal-dark); padding-left: 12px; }
+/* 新着記事（LatestArticles）：柱ラベルと更新日を質問の上に小さく出す */
+.latest-list .ll-body { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.latest-list .ll-meta { display: flex; align-items: center; gap: 10px; font-size: .76rem; color: var(--muted); }
+.latest-list .ll-pillar { font-weight: 700; padding: 1px 9px; border-radius: 999px; }
+.latest-list .ll-pillar.prepare { color: var(--teal-dark); background: var(--teal-soft); }
+.latest-list .ll-pillar.recover { color: var(--terra-dark); background: var(--terra-soft); }
+.more-link { margin: 14px 0 0; text-align: right; }
+.more-link a { color: var(--teal-dark); font-weight: 700; text-decoration: none; }
+.more-link a:hover { text-decoration: underline; }
 .faq-list a .arr { color: var(--terra); }
 
 /* ---------- 記事（FAQ詳細・汎用ページ） ---------- */

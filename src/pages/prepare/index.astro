@@ -1,6 +1,19 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIES, categoriesByPillar, type CategoryKey } from '../../categories';
+
+// 平時の柱の記事を、カテゴリごとに並べる（記事のないカテゴリは出さない）。
+const prepCats = categoriesByPillar('prepare');
+const prepFaqs = (await getCollection('faq')).filter((f) => prepCats.includes(f.data.category as CategoryKey));
+const articleGroups = prepCats
+  .map((key) => ({
+    key,
+    meta: CATEGORIES[key],
+    items: prepFaqs.filter((f) => f.data.category === key).sort((a, b) => a.data.order - b.data.order),
+  }))
+  .filter((g) => g.items.length > 0);
 
 const steps = [
   {
@@ -76,6 +89,23 @@ const steps = [
           </a>
         ))}
       </div>
+    </div>
+  </section>
+
+  <section style="padding-top:8px">
+    <div class="container">
+      <div class="section-head"><span class="kicker">ARTICLES</span><h2>平時の備えの記事</h2><p>よくある疑問に、出典つきで答えています。</p></div>
+      {articleGroups.map((c) => (
+        <div class="catblock" id={c.key}>
+          <div class="ch"><span class="ic"><Icon name={c.meta.icon} size={22} /></span><h3>{c.meta.label}</h3></div>
+          <ul class="faq-list">
+            {c.items.map((f) => (
+              <li><a href={`/faq/${f.id}`}><span>{f.data.question}</span><span class="arr">→</span></a></li>
+            ))}
+          </ul>
+        </div>
+      ))}
+      <p class="more-link"><a href="/faq">すべての記事を見る →</a></p>
     </div>
   </section>
 </Base>
