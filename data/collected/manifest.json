@@ -864,9 +864,9 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/saigai_202401jishin-mokutekibetsu.html.md"
   },
   "https://www.pref.fukui.lg.jp/index.html": {
-    "hash": "6c179b6ac677b136147c690064cf3e8146e12f454e487edfd2fabb477319a4b2",
+    "hash": "81fc31e79b0d72ec721591192f0de4ef3f7009c26c88a070dd66dd04da352595",
     "title": "ホーム | 福井県ホームページ",
-    "fetched_at": "2026-10-11",
+    "fetched_at": "2026-10-12",
     "file": "data/collected/www.pref.fukui.lg.jp/index.html.md"
   },
   "https://www.pref.niigata.lg.jp/sec/kikitaisaku/240101jishin.html": {
@@ -4846,5 +4846,11 @@
     "title": "中東情勢セミナー | 石川県",
     "fetched_at": "2026-10-11",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_chuutou_seminar.html.md"
+  },
+  "https://www.pref.ishikawa.lg.jp/tenjikan/keieishien/soudan_madoguchi_zentoshin.html": {
+    "hash": "5211768b5f0774d5332154e538ae2fca9e0d981ca8f79a44ce7708b35286fbf3",
+    "title": "全東信の破産手続き開始に伴う特別相談窓口の設置について | 石川県",
+    "fetched_at": "2026-10-12",
+    "file": "data/collected/www.pref.ishikawa.lg.jp/tenjikan_keieishien_soudan_madoguchi_zentoshin.html.md"
   }
 }
