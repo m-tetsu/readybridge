@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "6623149226b8e9d2fe392794481052e738d987f1a175978be1278324d873c7c8"
-fetched_at: "2026-10-11"
+content_hash: "3780b3f19b26a609c98a3287e16785454a734ed54f27c0aef5b4ff55bcdfd3ff"
+fetched_at: "2026-10-13"
 ---
 本文へスキップします。
 
@@ -134,7 +134,6 @@ PDF形式のファイルをご覧いただく場合には、Adobe Acrobat Reader
 七尾市創業支援事業補助金
 台湾「裕毛屋」への出展事業者募集！
 ななおおみやげコンテスト2026開催！
-一本杉通り仮設商店街の入居者募集
 DX推進状況調査を実施します
 DX啓発セミナー兼プログラム説明会を開催します
 セーフティネット保証5号の認定申請

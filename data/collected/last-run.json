@@ -1,17 +1,26 @@
 {
   "summary": {
-    "ran_at": "2026-10-12T01:00:09.682Z",
+    "ran_at": "2026-10-13T03:07:58.055Z",
     "pages_fetched": 800,
-    "new": 1,
-    "changed": 1,
-    "unchanged": 798,
-    "skipped": 109
+    "new": 0,
+    "changed": 12,
+    "unchanged": 788,
+    "skipped": 108
   },
-  "new": [
-    "https://www.pref.ishikawa.lg.jp/tenjikan/keieishien/soudan_madoguchi_zentoshin.html"
-  ],
+  "new": [],
   "changed": [
-    "https://www.pref.fukui.lg.jp/index.html"
+    "https://www.pref.fukui.lg.jp/index.html",
+    "https://www.mhlw.go.jp/index.html",
+    "https://www.cao.go.jp/",
+    "https://www.pref.ishikawa.lg.jp/index.html",
+    "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html",
+    "https://www.pref.ishikawa.lg.jp/kurashi/index.html",
+    "https://www.pref.ishikawa.lg.jp/kanko_koryu/index.html",
+    "https://www.pref.ishikawa.lg.jp/shigoto/index.html",
+    "https://www.pref.ishikawa.lg.jp/kensei/index.html",
+    "https://www.pref.ishikawa.lg.jp/shinchaku/index.html",
+    "https://www.city.nanao.lg.jp/sangyou-s/nariwaisaisei.html",
+    "https://www.pref.ishikawa.lg.jp/kinyuu/index.html"
   ],
   "unchanged": [
     "https://www.chusho.meti.go.jp/saigai.html",
@@ -194,7 +203,6 @@
     "https://www.jfc.go.jp/n/rate/index.html",
     "https://www.jfc.go.jp/n/finance/search/keitoku.html",
     "https://www.jfc.go.jp/n/finance/search/sogyo_tokurei_m.html",
-    "https://www.mhlw.go.jp/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/index.html",
@@ -210,6 +218,7 @@
     "https://www.mhlw.go.jp/content/001731036.pdf",
     "https://neccyusho.mhlw.go.jp/",
     "https://www.mhlw.go.jp/content/001508489.pdf",
+    "https://www.johas.go.jp/tabid/595/Default.aspx",
     "https://www.mhlw.go.jp/content/001731037.pdf",
     "https://www.mhlw.go.jp/content/001733934.pdf",
     "https://www.mhlw.go.jp/content/001549842.pdf",
@@ -415,7 +424,6 @@
     "https://www.bousai.go.jp/oyakudachi/info_kigyou.html",
     "https://www.bousai.go.jp/oyakudachi/info_jichitai.html",
     "https://www.cao.go.jp/search/notice-search.html",
-    "https://www.cao.go.jp/",
     "https://www.cao.go.jp/seisaku/seisaku.html",
     "https://www.bousai.go.jp/taisaku/index.html",
     "https://www.bousai.go.jp/oukyu/hinankankoku/index.html",
@@ -750,22 +758,15 @@
     "https://www.jpo.go.jp/news/koho/saigai/2024_noto/soudan-madoguchi.html",
     "http://www.pcinfo.jpo.go.jp/site/4_news/3_appl/03_06.html",
     "https://www.jpo.go.jp/system/patent/pct/tetuzuki/yusenken_kaifuku.html",
-    "https://www.pref.ishikawa.lg.jp/index.html",
     "https://www.pref.ishikawa.lg.jp/kinkyu/kanri.html",
-    "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html",
-    "https://www.pref.ishikawa.lg.jp/kurashi/index.html",
     "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html",
     "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html",
-    "https://www.pref.ishikawa.lg.jp/kanko_koryu/index.html",
-    "https://www.pref.ishikawa.lg.jp/shigoto/index.html",
-    "https://www.pref.ishikawa.lg.jp/kensei/index.html",
     "https://www.pref.ishikawa.lg.jp/about_site/tsukaikata/index.html",
     "https://www.pref.ishikawa.lg.jp/shinsei/index.html",
     "https://www.pref.ishikawa.lg.jp/kensei/soshiki/kenshokuin/index.html",
     "https://www.pref.ishikawa.lg.jp/sodammadoguchi/index.html",
     "https://www.pref.ishikawa.lg.jp/kurashi/seikatsu/kenzei/index.html",
     "https://www.pref.ishikawa.lg.jp/shisetsu/index.html",
-    "https://www.pref.ishikawa.lg.jp/shinchaku/index.html",
     "https://www.pref.ishikawa.lg.jp/cgi-bin/event_cal_multi/calendar.cgi",
     "https://www.pref.ishikawa.lg.jp/kensei/soshiki/soshiki/renrakusaki/index.html",
     "https://www.pref.ishikawa.lg.jp/jigyosha.html",
@@ -796,13 +797,11 @@
     "https://www.city.suzu.lg.jp/soshiki/7/16267.html",
     "https://www.town.anamizu.lg.jp/site/r6notohantojishin/100691.html",
     "https://www.town.noto.lg.jp/kakuka/1009/gyomu/9/2/1284.html",
-    "https://www.city.nanao.lg.jp/sangyou-s/nariwaisaisei.html",
     "https://www.town.shika.lg.jp/page/2131.html",
     "https://www.city.hakui.lg.jp/soshiki/sangyoukensetsubu/syoukoukankouka/6notoearthquakeforbusiness/14942.html",
     "https://www.town.tsubata.lg.jp/division/sangyou/W064H0000172.html",
     "https://www.town.uchinada.lg.jp/site/earthquake/20539.html",
     "https://www.city.komatsu.lg.jp/soshiki/1018/oshirase/16432.html",
-    "https://www.pref.ishikawa.lg.jp/kinyuu/index.html",
     "https://www.pref.ishikawa.lg.jp/kinyuu/jishin/kigyou.html",
     "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/r8ooamehojyo.html",
     "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/baseup.html",
@@ -903,12 +902,8 @@
       "empty"
     ],
     [
-      "https://www.johas.go.jp/tabid/595/Default.aspx",
-      "TypeError: fetch failed"
-    ],
-    [
       "https://www.johas.go.jp/Portals/0/sodan_freedaiyaru_0104.pdf",
-      "TypeError: fetch failed"
+      "status 404"
     ],
     [
       "https://www.mhlw.go.jp/shinsai_jouhou/dl/120731-1.pdf",

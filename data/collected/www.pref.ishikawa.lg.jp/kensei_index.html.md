@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "fe9631f5ca78a4e8c4df0467d13b50ddb7fc6646a5143a5c5c5f79c71b2f31e6"
-fetched_at: "2026-10-11"
+content_hash: "a59d1d074015cd99cde861766afd662455245e2cb161635d8c79aa4e919c738e"
+fetched_at: "2026-10-13"
 ---
 石川県
 
@@ -85,6 +85,12 @@ C
 
 新着情報
 
+10月13日
+令和8年10月
+
+10月13日
+第13949号（令和8年10月13日）
+
 10月10日
 意見募集（パブリックコメント）
 
@@ -93,12 +99,6 @@ C
 
 10月9日
 県民ふれあい公社の記者発表資料（令和8年度）
-
-10月9日
-スポーツ振興課の記者発表資料（令和8年度）
-
-10月9日
-生活安全課の記者発表資料（令和8年度）
 
 新着情報一覧
 新着情報RSS

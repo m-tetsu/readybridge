@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "e57a94251dc852a8547c8c296595b819e9ad1a0021baae1d8e94ca1cac918b17"
-fetched_at: "2026-10-11"
+content_hash: "cbeb6e0f7932c60f2a014219cd954400e6c50f8b7d7967b51242354b3d649321"
+fetched_at: "2026-10-13"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+10月13日
+いしかわアーバンスポーツパークスin輪島
+
 10月9日
 いしかわ観光特使について
 
@@ -96,9 +99,6 @@ C
 
 10月7日
 国際情勢講演会
-
-10月7日
-石川県スポーツリーダーバンクについて
 
 新着情報一覧
 新着情報RSS
