@@ -175,9 +175,16 @@ async function main() {
     await sleep(cfg.requestDelayMs); // 礼儀：リクエスト間隔
     if (!fetched || fetched.skip) { result.skipped.push([url, fetched?.skip || 'fetch']); continue; }
 
+    // 壊れた PDF などで抽出に失敗しても、そのページだけ飛ばして巡回を続ける
+    // （以前は例外でクロール全体が止まり、その日の取り込みがすべて失われていた）。
     let extracted;
-    if (fetched.type === 'pdf') extracted = await extractPdf(fetched.buffer);
-    else extracted = extractHtml(fetched.html, url);
+    try {
+      if (fetched.type === 'pdf') extracted = await extractPdf(fetched.buffer);
+      else extracted = extractHtml(fetched.html, url);
+    } catch (e) {
+      result.skipped.push([url, `extract: ${(e?.name || 'error')} ${(e?.message || '').slice(0, 60)}`]);
+      continue;
+    }
 
     if (!extracted.text || extracted.text.length < 40) { result.skipped.push([url, 'empty']); continue; }
 
