@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "15befa836432139a5bd9ce57ba3864b647271fdcf9c7e97d1f4845f951f51c52"
-fetched_at: "2026-10-11"
+content_hash: "4adfd0f5cc38b9525a7b245d8b59e108e42b866e5d75d138302fea353bf9d567"
+fetched_at: "2026-10-15"
 ---
 石川県
 
@@ -243,7 +243,7 @@ C
 
 石川県立美術館｜特別展「蓮田修吾郎 －世界を拓く窓」
 
- 
+いしかわ防災フェア2026
 
  
 
@@ -251,7 +251,7 @@ C
 
  
 
- 
+運輸事業の合同企業説明会
 
  
 

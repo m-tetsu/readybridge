@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "3c7190f23d381498955b6dc3f0e1810bd210eeed4cdb978480e35c7e53a04369"
-fetched_at: "2026-10-11"
+content_hash: "5fd6547a754ec255ef88f7b721b65b510ea6072f54d504ffd671b6676c7c85fc"
+fetched_at: "2026-10-15"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
-10月10日
-入学者募集
+10月15日
+社会的養護
 
-10月9日
-いしかわ師範塾
+10月15日
+「石川県のこども家庭福祉のお仕事」Instagram
 
-10月9日
-テレビ・ラジオ番組のご案内
+10月15日
+映画上映＆現場職員トークイベント
 
-10月9日
-石川県民大学校
+10月15日
+イベント
 
-10月9日
-県民大学校大学院
+10月14日
+石川県基礎学力調査、全国学力・学習状況調査
 
 新着情報一覧
 新着情報RSS

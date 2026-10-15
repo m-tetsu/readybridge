@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "917d0be38902da197df2668d0234a795b09104c2dbc160dfbfef952ae24383fa"
-fetched_at: "2026-10-11"
+content_hash: "b06d47b45e7f45002e6235e25441a202a7fa1f423a0390b9610433b2522be584"
+fetched_at: "2026-10-15"
 ---
 お役立ち情報
 一般向け
@@ -137,6 +137,10 @@ ISUT（災害時情報集約支援チーム）
 防災分野のデータプラットフォーム整備にむけた調査検討業務ワーキンググループ
 「防災分野における個人情報の取扱いに関する指針」について
 防災分野における個人情報の取扱いに関する検討会
+
+災害応急対策必要物資に関すること
+
+地方公共団体の備蓄状況（PDF形式：748KB）
 
 内閣府防災担当が所掌する交付金
 

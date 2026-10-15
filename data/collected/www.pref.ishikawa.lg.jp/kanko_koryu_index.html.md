@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "cbeb6e0f7932c60f2a014219cd954400e6c50f8b7d7967b51242354b3d649321"
-fetched_at: "2026-10-13"
+content_hash: "f5ddb07ec282018b698c8271bf9772c6cf8debe850159fcff1be560384883dd5"
+fetched_at: "2026-10-15"
 ---
 石川県
 
@@ -85,6 +85,12 @@ C
 
 新着情報
 
+10月15日
+令和8年度「いしかわ文化の日」・「いしかわ文化推進期間」について
+
+10月15日
+千里浜なぎさドライブウェイ交通規制情報
+
 10月13日
 いしかわアーバンスポーツパークスin輪島
 
@@ -93,12 +99,6 @@ C
 
 10月9日
 いしかわ観光特使の募集について
-
-10月8日
-パラアスリート支援事業補助金について
-
-10月7日
-国際情勢講演会
 
 新着情報一覧
 新着情報RSS
