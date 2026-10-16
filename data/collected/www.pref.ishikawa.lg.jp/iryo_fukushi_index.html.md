@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "0bdd5dca7f4e6982e4365de7f34286c96abc0bc1bc6a93c81ad95565c390c072"
-fetched_at: "2026-10-15"
+content_hash: "87d4918409f5e1ef47bc2a6e252e674050fb8dab5eb5cf0702014a0bbbd77fa2"
+fetched_at: "2026-10-16"
 ---
 石川県
 
@@ -86,19 +86,19 @@ C
 新着情報
 
 10月15日
+石川県未経験者等が介護の担い手となるまでの一体的支援事業について
+
+10月15日
 スクールライフ
 
 10月15日
 障害者優先調達推進法について
 
+10月15日
+奥能登地域医療対策室
+
 10月14日
 急性呼吸器感染症（ARI）の発生状況
-
-10月14日
-インフルエンザ様疾患及び新型コロナウイルス感染症による集団感染事例
-
-10月14日
-石川県感染症情報センター
 
 新着情報一覧
 新着情報RSS

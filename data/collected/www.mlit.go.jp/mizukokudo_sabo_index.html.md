@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "facility-prep"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "e5a569adf921ae0cb8370c0399e28d6ecfd5e1701843d93e1ecd33e606003784"
-fetched_at: "2026-10-11"
+content_hash: "26694a6a3fb2dcddf391c76064a47df2605e03a141780bd4069c383a4eacabd5"
+fetched_at: "2026-10-15"
 ---
 水管理・国土保全トップ水資源部下水道部砂防部
 
@@ -32,6 +32,8 @@ fetched_at: "2026-10-11"
 過去のトピックス一覧
 
 報道発表資料
+
+国際防災学会｢インタープリベント2026北海道大会｣が開催されます～国際学会に世界17か国・地域の防災関係者が集まります～（令和８年１０月１５日）
 
 国土を取り巻く環境の変化も踏まえた土砂災害対策のあり方をとりまとめます。～今後の土砂災害対策のあり方検討会（第３回）を開催～（令和８年１０月１日）
 

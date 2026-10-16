@@ -864,7 +864,7 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/saigai_202401jishin-mokutekibetsu.html.md"
   },
   "https://www.pref.fukui.lg.jp/index.html": {
-    "hash": "66987c61e66a7d6a6952b951b5e1def8355f3dff8ce0a3aa301a2b5ebfd38c59",
+    "hash": "8f64a9d8f74bb5e155314d75e09c04d88860d49a5ed03e6a8859b000380ad455",
     "title": "ホーム | 福井県ホームページ",
     "fetched_at": "2026-10-15",
     "file": "data/collected/www.pref.fukui.lg.jp/index.html.md"
@@ -906,7 +906,7 @@
     "file": "data/collected/www.jfc.go.jp/n_finance_search_sogyo_tokurei_m.html.md"
   },
   "https://www.mhlw.go.jp/index.html": {
-    "hash": "93f444e3cd3e40074e078e7b011b8991fe0b702e1ad10957d845739fb37ba81e",
+    "hash": "59f5d86a743527c0b5d912ab2a74165836017ef02e3e40d53b96d9717f7b4a96",
     "title": "ホーム｜厚生労働省",
     "fetched_at": "2026-10-15",
     "file": "data/collected/www.mhlw.go.jp/index.html.md"
@@ -1950,9 +1950,9 @@
     "file": "data/collected/www.nta.go.jp/taxes_sake_index.htm.md"
   },
   "https://www.nta.go.jp/taxes/kids/index.htm": {
-    "hash": "00ad8657ba0d7e9b0b6b145a9d48b87c2d73114cae2eb834761641af1f7b576b",
+    "hash": "f99caa04c978d70c53e72ba26bba3902899e9e46f21ed2d4a1d1f6bfd0d1761c",
     "title": "税の学習コーナー｜国税庁",
-    "fetched_at": "2026-10-10",
+    "fetched_at": "2026-10-15",
     "file": "data/collected/www.nta.go.jp/taxes_kids_index.htm.md"
   },
   "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260616001.pdf": {
@@ -2982,21 +2982,21 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_anzen_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kurashi/index.html": {
-    "hash": "534b445734866a5e56949e38e9b10e1931f072f7a5a582a8f1163bb30b59b3d9",
+    "hash": "4e6e563db550bd8d84ed8337f7055fd100cb86cdf6168a44611467ac9432313d",
     "title": "くらし・環境 | 石川県",
-    "fetched_at": "2026-10-15",
+    "fetched_at": "2026-10-16",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html": {
-    "hash": "5fd6547a754ec255ef88f7b721b65b510ea6072f54d504ffd671b6676c7c85fc",
+    "hash": "eecfaa471589c5e78001b273c949c16c4d9908c09d4afb7de3e7a2f89080e205",
     "title": "教育・子育て | 石川県",
-    "fetched_at": "2026-10-15",
+    "fetched_at": "2026-10-16",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kyoikukosodate_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html": {
-    "hash": "0bdd5dca7f4e6982e4365de7f34286c96abc0bc1bc6a93c81ad95565c390c072",
+    "hash": "87d4918409f5e1ef47bc2a6e252e674050fb8dab5eb5cf0702014a0bbbd77fa2",
     "title": "医療・福祉 | 石川県",
-    "fetched_at": "2026-10-15",
+    "fetched_at": "2026-10-16",
     "file": "data/collected/www.pref.ishikawa.lg.jp/iryo_fukushi_index.html.md"
   },
   "https://www.chusho.meti.go.jp/saigai.html": {
@@ -3306,9 +3306,9 @@
     "file": "data/collected/www.chusho.meti.go.jp/earthquake2011_download_110829NDC.pdf"
   },
   "http://www.okinawakouko.go.jp/": {
-    "hash": "41afb24140db80c92d54dc9509316e78b9e49c3156a9a01a1ea9c70fb57e0be0",
+    "hash": "4881999b3632053dc70664b0b8247bda0876d82a9357fccaf6c2556b665d48f7",
     "title": "沖縄振興開発金融公庫",
-    "fetched_at": "2026-10-15",
+    "fetched_at": "2026-10-16",
     "file": "data/collected/www.okinawakouko.go.jp/index.md"
   },
   "https://www.chusho.meti.go.jp/pamflet/g_book/h28/index.html": {
@@ -3558,7 +3558,7 @@
     "file": "data/collected/www.chusho.meti.go.jp/bcp.md"
   },
   "https://www.mlit.go.jp/mizukokudo/index.html": {
-    "hash": "a1fa39fbf4826a5e0ef185f267a0b0c754098dc07d16a8aa22e173f61d7e4fd7",
+    "hash": "39e57a27e913d20beabe10069625cb76dc2a1cc98538487937e5ac687a8e1aa9",
     "title": "水管理・国土保全 - 国土交通省",
     "fetched_at": "2026-10-15",
     "file": "data/collected/www.mlit.go.jp/mizukokudo_index.html.md"
@@ -3576,9 +3576,9 @@
     "file": "data/collected/www.mlit.go.jp/river_dam_index.html.md"
   },
   "https://www.mlit.go.jp/mizukokudo/sabo/index.html": {
-    "hash": "e5a569adf921ae0cb8370c0399e28d6ecfd5e1701843d93e1ecd33e606003784",
+    "hash": "26694a6a3fb2dcddf391c76064a47df2605e03a141780bd4069c383a4eacabd5",
     "title": "砂防 - 国土交通省",
-    "fetched_at": "2026-10-11",
+    "fetched_at": "2026-10-15",
     "file": "data/collected/www.mlit.go.jp/mizukokudo_sabo_index.html.md"
   },
   "https://www.mlit.go.jp/river/kaigan/index.html": {
@@ -3798,7 +3798,7 @@
     "file": "data/collected/www.cao.go.jp/search_notice-search.html.md"
   },
   "https://www.cao.go.jp/": {
-    "hash": "dff33792df166b69188f8b1c1aac17d00dbf531fdbe3f37fd53b58589333dfae",
+    "hash": "61ce9d83c5096e26f958fac2c7c1ec43262049a6dcace5416577be31d0adf5b2",
     "title": "内閣府ホームページ",
     "fetched_at": "2026-10-15",
     "file": "data/collected/www.cao.go.jp/index.md"
@@ -4512,21 +4512,21 @@
     "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240411nariwai.pdf"
   },
   "https://www.pref.ishikawa.lg.jp/kanko_koryu/index.html": {
-    "hash": "f5ddb07ec282018b698c8271bf9772c6cf8debe850159fcff1be560384883dd5",
+    "hash": "97a2ed7527b62ac261e0bb78b8c50573034585a6cbc4d1e4996e0bf05bc5a91f",
     "title": "観光・文化・スポーツ | 石川県",
-    "fetched_at": "2026-10-15",
+    "fetched_at": "2026-10-16",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kanko_koryu_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/shigoto/index.html": {
-    "hash": "d9f7f0d2951f0f5afc412c988e1d627c4e7b7f8abc52b2afc4f2c1a582141e77",
+    "hash": "1b151b017e41b784ef8e2b30f74c0555fde448fd23b4162060325f6d927266ef",
     "title": "しごと・産業 | 石川県",
-    "fetched_at": "2026-10-15",
+    "fetched_at": "2026-10-16",
     "file": "data/collected/www.pref.ishikawa.lg.jp/shigoto_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kensei/index.html": {
-    "hash": "6577cd8017aa469c70dfc186cbeedc438528747f4f8bb564221d4929f3343e1c",
+    "hash": "3a2091b8baea0dfc506b8e388b8c9f8c169c6e0462dba780ab55a63066caeb6d",
     "title": "県政情報・統計 | 石川県",
-    "fetched_at": "2026-10-15",
+    "fetched_at": "2026-10-16",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kensei_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/about_site/tsukaikata/index.html": {
@@ -4788,9 +4788,9 @@
     "file": "data/collected/www.city.komatsu.lg.jp/soshiki_1018_oshirase_16432.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/index.html": {
-    "hash": "8c3ae21c3e952ea2c516fb688fedc6fbddbb317ea7ddf32285b4713895226dac",
+    "hash": "0c6810fe87ae2e32d895c333023591ad4942b67dc2c581293599a59aa7438f80",
     "title": "商工労働部経営支援課 | 石川県",
-    "fetched_at": "2026-10-15",
+    "fetched_at": "2026-10-16",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/jishin/kigyou.html": {

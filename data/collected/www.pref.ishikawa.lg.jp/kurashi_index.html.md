@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "534b445734866a5e56949e38e9b10e1931f072f7a5a582a8f1163bb30b59b3d9"
-fetched_at: "2026-10-15"
+content_hash: "4e6e563db550bd8d84ed8337f7055fd100cb86cdf6168a44611467ac9432313d"
+fetched_at: "2026-10-16"
 ---
 石川県
 
@@ -86,6 +86,9 @@ C
 新着情報
 
 10月15日
+令和8年度 住まいの省エネ促進事業費補助金
+
+10月15日
 いしかわ環境フェア
 
 10月15日
@@ -96,9 +99,6 @@ C
 
 10月14日
 いしかわ環境情報サイトリニューアル等業務委託に係るプロポーザル募集について
-
-10月14日
-製菓衛生師試験情報について
 
 新着情報一覧
 新着情報RSS

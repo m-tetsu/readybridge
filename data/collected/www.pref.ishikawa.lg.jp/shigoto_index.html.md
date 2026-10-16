@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "d9f7f0d2951f0f5afc412c988e1d627c4e7b7f8abc52b2afc4f2c1a582141e77"
-fetched_at: "2026-10-15"
+content_hash: "1b151b017e41b784ef8e2b30f74c0555fde448fd23b4162060325f6d927266ef"
+fetched_at: "2026-10-16"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
+10月16日
+活動日程
+
+10月15日
+入校選考過去問題・例題
+
+10月15日
+これまでの検査結果
+
 10月15日
 石川県立能登産業技術専門校
 
 10月15日
 UIターン就職希望者向けの就業支援（交通費・宿泊費）について
-
-10月15日
-運輸事業の合同企業説明会
-
-10月15日
-石川県電気・ガス価格高騰緊急対策支援金 
-
-10月15日
-初心者向け刈払機講習会スケジュール
 
 新着情報一覧
 新着情報RSS

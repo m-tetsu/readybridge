@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "5fd6547a754ec255ef88f7b721b65b510ea6072f54d504ffd671b6676c7c85fc"
-fetched_at: "2026-10-15"
+content_hash: "eecfaa471589c5e78001b273c949c16c4d9908c09d4afb7de3e7a2f89080e205"
+fetched_at: "2026-10-16"
 ---
 石川県
 
@@ -86,6 +86,12 @@ C
 新着情報
 
 10月15日
+ふるさとふれあい能登校講座
+
+10月15日
+石川県民大学校 能登校
+
+10月15日
 社会的養護
 
 10月15日
@@ -93,12 +99,6 @@ C
 
 10月15日
 映画上映＆現場職員トークイベント
-
-10月15日
-イベント
-
-10月14日
-石川県基礎学力調査、全国学力・学習状況調査
 
 新着情報一覧
 新着情報RSS

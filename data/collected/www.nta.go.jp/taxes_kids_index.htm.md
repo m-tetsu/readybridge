@@ -6,8 +6,8 @@ pillar: "recover"
 category: "tax"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "00ad8657ba0d7e9b0b6b145a9d48b87c2d73114cae2eb834761641af1f7b576b"
-fetched_at: "2026-10-10"
+content_hash: "f99caa04c978d70c53e72ba26bba3902899e9e46f21ed2d4a1d1f6bfd0d1761c"
+fetched_at: "2026-10-15"
 ---
 もくじ
 はじめに
@@ -157,6 +157,7 @@ Zei君の税金クイズ
 租税教育用動画
 関係民間団体の租税教育用動画
 「秘密結社 鷹の爪」と財務省のコラボ動画「税とわたしと鷹の爪」（財務省ホームページ）
+「秘密結社 鷹の爪」と財務省のコラボ動画【第2弾】「税とあなたと鷹の爪」（財務省ホームページ）
 
 租税教育の事例集
 小学生用教材及び講師用マニュアル

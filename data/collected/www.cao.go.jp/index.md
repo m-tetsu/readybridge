@@ -6,7 +6,7 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "dff33792df166b69188f8b1c1aac17d00dbf531fdbe3f37fd53b58589333dfae"
+content_hash: "61ce9d83c5096e26f958fac2c7c1ec43262049a6dcace5416577be31d0adf5b2"
 fetched_at: "2026-10-15"
 ---
 お知らせ
@@ -33,6 +33,9 @@ fetched_at: "2026-10-15"
 写真で見る大臣の動き
 大臣・副大臣・大臣政務官ページへ
 
+細野大臣
+令和8年台風第25号等に係る現場視察に関する報告
+
 古川大臣
 ジャック・クラーク アンソロピック共同創業者の大臣表敬訪問
 
@@ -44,9 +47,6 @@ fetched_at: "2026-10-15"
 
 葉梨大臣
 北海道アイヌ協会幹部との面会
-
-細野大臣
-令和6年能登半島地震・豪雨からの復旧・復興に係る現地視察
 
 小野田大臣
 外国人による土地取得等のルールの在り方検討会（第5回）
