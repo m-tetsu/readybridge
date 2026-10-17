@@ -6,12 +6,16 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "36c6972eb7b586c27a279d3a5fa1883be568ca9da992c7a08ff2c1886db02107"
-fetched_at: "2026-10-10"
+content_hash: "005beeab02a41e60e7fe837b6a681377c2238f576a4bad8939177d22022dbf80"
+fetched_at: "2026-10-16"
 ---
 > 
 
 お知らせ
+
+2026.10.16
+
+「令和８年度両立支援コーディネーター基礎研修」第3回研修申込を開始しました
 
 2026.10.09
 
@@ -88,10 +92,6 @@ fetched_at: "2026-10-10"
 2026.06.22
 
 「令和７年度産業保健活動総合支援事業アウトカム調査報告書」を掲載しました。
-
-2026.06.17
-
-「事務職員採用に関する公式Instagram開設のお知らせ！」を掲載しました。
 
 1234…34 
 

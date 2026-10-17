@@ -6,8 +6,8 @@ pillar: "recover"
 category: "tax"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "0bab1f58df7e6976c5cd06b96bd8e9c9ac24b3390162093141e9cb2f313744b3"
-fetched_at: "2026-10-10"
+content_hash: "883041179785980237c234643e3259944118ded413d1caabe60c27078fd462fe"
+fetched_at: "2026-10-16"
 ---
 税理士試験の概要
 詳細はこちら
@@ -28,6 +28,7 @@ fetched_at: "2026-10-10"
 
 令和８年度（第76回）税理士試験
 
+令和８年度（第76回）税理士試験（熊本県）の実施延期に伴う受験手数料の返還について（PDF/224KB）
 令和８年度（第76回）税理士試験（熊本県）の再試験実施に係る留意事項について(PDF/231KB) 
 令和８年度（第76回）税理士試験において適正な試験時間が確保されなかった事案について(PDF/96KB) 
 
