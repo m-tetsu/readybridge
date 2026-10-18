@@ -1,6 +1,6 @@
 {
   "summary": {
-    "ran_at": "2026-10-17T23:35:17.087Z",
+    "ran_at": "2026-10-18T23:32:28.689Z",
     "pages_fetched": 800,
     "new": 0,
     "changed": 1,
@@ -9,7 +9,7 @@
   },
   "new": [],
   "changed": [
-    "https://www.pref.fukui.lg.jp/index.html"
+    "https://www.pref.ishikawa.lg.jp/shigoto/index.html"
   ],
   "unchanged": [
     "https://www.chusho.meti.go.jp/saigai.html",
@@ -188,6 +188,7 @@
     "https://www.meti.go.jp/main/yosan/yosan_fy2023/pdf/yobihi_noto.pdf",
     "https://www.meti.go.jp/main/yosan/yosan_fy2023/pdf/pr_noto.pdf",
     "https://www.pref.ishikawa.lg.jp/saigai/202401jishin-mokutekibetsu.html",
+    "https://www.pref.fukui.lg.jp/index.html",
     "https://www.pref.niigata.lg.jp/sec/kikitaisaku/240101jishin.html",
     "https://www.jfc.go.jp/n/finance/search/index.html",
     "https://www.jfc.go.jp/n/finance/search/index_k.html",
@@ -759,7 +760,6 @@
     "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html",
     "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html",
     "https://www.pref.ishikawa.lg.jp/kanko_koryu/index.html",
-    "https://www.pref.ishikawa.lg.jp/shigoto/index.html",
     "https://www.pref.ishikawa.lg.jp/kensei/index.html",
     "https://www.pref.ishikawa.lg.jp/about_site/tsukaikata/index.html",
     "https://www.pref.ishikawa.lg.jp/shinsei/index.html",

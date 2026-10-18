@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "1b151b017e41b784ef8e2b30f74c0555fde448fd23b4162060325f6d927266ef"
-fetched_at: "2026-10-16"
+content_hash: "1387d710fbc1286cdbe7faec864ee4f29cbd9d783b0f2b2f36c51b88e02bf2ca"
+fetched_at: "2026-10-18"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
+10月19日
+内職情報のご案内
+
+10月19日
+要経験の内職情報
+
+10月19日
+経験不要の内職情報
+
 10月16日
 活動日程
 
 10月15日
 入校選考過去問題・例題
-
-10月15日
-これまでの検査結果
-
-10月15日
-石川県立能登産業技術専門校
-
-10月15日
-UIターン就職希望者向けの就業支援（交通費・宿泊費）について
 
 新着情報一覧
 新着情報RSS
