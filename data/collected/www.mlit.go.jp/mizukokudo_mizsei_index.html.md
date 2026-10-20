@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "facility-prep"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "6cf285b119965794b8499268b504d8c214b149d03c7c96df545894541c53378d"
-fetched_at: "2026-10-11"
+content_hash: "0688bc7a0d54fc61d2137bf0dba429bdaed73684c2d1c406460baf40f7cc9fa1"
+fetched_at: "2026-10-20"
 ---
 水管理・国土保全局トップ水資源トップ水資源部についてENGLISH
 
@@ -25,7 +25,7 @@ fetched_at: "2026-10-11"
 
 「第３回 災害時における地下水等活用推進に向けた有識者会議」を開催しました（2025年2月4日開催）（内閣官房）NEW!
 
-『令和８年度第２回水源地域未来会議』を開催します！（2026年10月5日･6日 静岡県川根本町）NEW!
+『令和８年度第２回水源地域未来会議』を開催しました。（2026年10月5日･6日 静岡県川根本町）NEW!
 
 過去のトピックス一覧
 

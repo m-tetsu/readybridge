@@ -6,11 +6,13 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "9801e046ee6fef3e9ee79920afd7c1827adcba651b253978152230d8550e8ebe"
-fetched_at: "2026-10-15"
+content_hash: "92835ab552f38f463509c0651008e6cc5c2c5871cdbfcd0628c4350ea758e896"
+fetched_at: "2026-10-20"
 ---
 令和8年熊本地震に伴う災害関連情報（過去のお知らせ情報）
 
+2026年9月19日
+「小規模事業者持続化補助金＜一般型 災害支援枠（令和8年熊本地震）＞（2次）」の公募要領を公開しました
 2026年10月15日
 「中小企業者等向け支援策ガイドブック」の第4版を公開しました
 2026年10月9日

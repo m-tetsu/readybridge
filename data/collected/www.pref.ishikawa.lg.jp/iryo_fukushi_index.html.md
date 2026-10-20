@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "610f6cab83a78d3e5c68f3ff164fa2dc5dca8478d4b9741178f61cdd1d18d4c6"
-fetched_at: "2026-10-16"
+content_hash: "df4df579351ead0c3c95356d02a645b546c7f3ca1a3c017f698b7ddba3356ec1"
+fetched_at: "2026-10-20"
 ---
 石川県
 
@@ -85,6 +85,12 @@ C
 
 新着情報
 
+10月19日
+肝炎ウイルス検査の医療機関委託について
+
+10月19日
+風しん抗体検査事業
+
 10月16日
 医薬品販売制度・登録販売者試験情報について
 
@@ -93,12 +99,6 @@ C
 
 10月16日
 健康づくりの指標（令和6年度版）
-
-10月15日
-石川県未経験者等が介護の担い手となるまでの一体的支援事業について
-
-10月15日
-スクールライフ
 
 新着情報一覧
 新着情報RSS

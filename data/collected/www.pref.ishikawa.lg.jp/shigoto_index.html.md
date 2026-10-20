@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "1387d710fbc1286cdbe7faec864ee4f29cbd9d783b0f2b2f36c51b88e02bf2ca"
-fetched_at: "2026-10-18"
+content_hash: "40521692d85249ef8a7ea0ca098387f0f39a79ffd6f501c84b323cf6f1887b0c"
+fetched_at: "2026-10-20"
 ---
 石川県
 
@@ -86,19 +86,19 @@ C
 新着情報
 
 10月19日
+過労死等の防止対策について
+
+10月19日
+障害者雇用にかかる県支援策
+
+10月19日
+研究成果情報
+
+10月19日
 内職情報のご案内
 
 10月19日
 要経験の内職情報
-
-10月19日
-経験不要の内職情報
-
-10月16日
-活動日程
-
-10月15日
-入校選考過去問題・例題
 
 新着情報一覧
 新着情報RSS

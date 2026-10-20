@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "bcad1f49fb24500d02e523066a924a0f126209208460446a75ed547ca53acae9"
-fetched_at: "2026-10-16"
+content_hash: "8742441ea22f7cc37073ce9dfd46da3f0397c074b07c0f1cbb113bc699d2fb96"
+fetched_at: "2026-10-20"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+10月19日
+いしかわ防災フェア2026
+
 10月16日
 被災された方を対象とした専門家による無料相談会
 
@@ -96,9 +99,6 @@ C
 
 10月16日
 令和8年（2026年）8月大雨に係る災害義援金の受付について
-
-10月16日
-被害者支援県民フォーラム2026参加者募集します。
 
 新着情報一覧
 新着情報RSS

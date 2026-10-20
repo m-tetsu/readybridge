@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "b2f659cef1230300c0782c854eaf2ca767f801103ccc781c33baf647c565a4ce"
-fetched_at: "2026-10-16"
+content_hash: "ba5defb4eb30e9ef9dbd0a5fe302846c956f2a0589f3ee24ebd838687b0a324a"
+fetched_at: "2026-10-20"
 ---
 お知らせ
 
@@ -36,6 +36,9 @@ fetched_at: "2026-10-16"
 大臣・副大臣・大臣政務官ページへ
 
 小野田大臣
+経済安全保障法制に関する有識者会議（第18回）
+
+小野田大臣
 日本商工会議所による「経済安全保障政策に関する意見」の手交
 
 細野大臣
@@ -43,9 +46,6 @@ fetched_at: "2026-10-16"
 
 古川大臣
 ジャック・クラーク アンソロピック共同創業者の大臣表敬訪問
-
-古川大臣
-第13回日英科学技術協力合同委員会への出席
 
 城内大臣
 経済財政諮問会議 ※首相官邸ホームページへのリンク

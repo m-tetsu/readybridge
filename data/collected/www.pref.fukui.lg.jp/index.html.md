@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "b30fb732ccc9a54d49bb732bd988c8c9c2196e280261fd9a95499973018c49e0"
-fetched_at: "2026-10-17"
+content_hash: "72c1540573e30f87cc1a9b4e8064dc83ab61b5963f5d53b870a42cb17f683af2"
+fetched_at: "2026-10-20"
 ---
 注目キーワード
 
@@ -112,6 +112,10 @@ RSS
 県政情報
 
 「知りたいこと」を選択してください。
+2026年10月20日
+
+2027年国際園芸博覧会展示設計作成および出展ブース施工業務に係るプロポーザルの実施について
+
 2026年10月14日
 
 大型データセンター誘致可能性調査業務（フェーズ１）に係る公募型プロポーザルの実施について
