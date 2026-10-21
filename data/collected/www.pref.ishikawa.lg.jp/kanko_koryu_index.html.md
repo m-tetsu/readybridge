@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "20dbb05ee2f5a063dd39488085d4f80a10f01650bdfd01e30f6ad00d6ce9ba5f"
-fetched_at: "2026-10-20"
+content_hash: "3a7c1e9c1df435a7af27994a663565a6f252aa7baf5e55b9a075bfe0a4bc8f09"
+fetched_at: "2026-10-21"
 ---
 石川県
 
@@ -85,10 +85,10 @@ C
 
 新着情報
 
-10月19日
+10月20日
 千里浜なぎさドライブウェイ交通規制情報
 
-10月19日
+10月20日
 旅行サービス手配業について
 
 10月16日

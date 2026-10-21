@@ -1,13 +1,13 @@
 ---
 url: "https://www.mlit.go.jp/saigai/saigai_240101.html"
-source_name: "厚生労働省"
+source_name: "国土交通省"
 title: "災害・防災情報：令和６年能登半島地震における被害と対応について - 国土交通省"
 pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "08763364a5f2c3c003ec4f3d46cd354e9188a6a7d39172173061c99df0dc8d31"
-fetched_at: "2026-10-10"
+content_hash: "7321bf97909046b8db5a307d42102a425f60c348c16e55d7a0bd5bfad3ffa32c"
+fetched_at: "2026-10-20"
 ---
 令和６年能登半島地震における被害と対応について
 
@@ -38,6 +38,7 @@ fetched_at: "2026-10-10"
 
  
 
+令和６年能登半島地震からの復旧・復興状況と今後の見通し（令和８年９月末時点） （PDF形式）
 令和６年能登半島地震からの復旧・復興状況と今後の見通し（令和８年６月末時点） （PDF形式）
 「令和６年能登半島地震から２年」の復旧・復興状況と今後の見通し（令和７年度末時点） （PDF形式）
 「令和６年能登半島地震から２年」の復旧・復興状況と今後の見通し（令和７年末時点） （PDF形式）

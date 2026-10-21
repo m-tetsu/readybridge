@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "aa5ae5ad39ddee6b88fc4087756ff0a4afec1e72c4fe0a6c6fe200ffc6fbb540"
-fetched_at: "2026-10-11"
+content_hash: "da8c976b69545972825cf9b7bdb273266178dd6d851da348421f0a692c208327"
+fetched_at: "2026-10-20"
 ---
 内閣府の政策
 
@@ -60,8 +60,6 @@ fetched_at: "2026-10-11"
 健康・医療
 
 宇宙
-
-日本学術会議
 
 野口英世アフリカ賞
 
