@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "pdf"
-content_hash: "592590ede600c74a74352239d8151b4e1330780cbff0aaea278028c73290b033"
-fetched_at: "2026-10-11"
+content_hash: "4ae6b39442ea90bcc8b7daaafded16343b950762c5544613ea2e1804f3e93568"
+fetched_at: "2026-10-22"
 ---
 - 中 小 企 業 等 経 営 強 化 法 -
 事 業 継 続 力 強 化 計 画
@@ -149,8 +149,8 @@ https://www.chusho.meti.go.jp/keiei/antei/bousai/application.html
 連携型新規申請操作マニュアル：https://www.keizokuryoku.go.jp/mypage/resource/manualRenkei
 連携型の電子申請様式：https://www.chusho.meti.go.jp/keiei/antei/bousai/application.html#renkei
 ※システムのログインには、GビズIDアカウント（プライムもしくはメンバー）が必要となります。
-※GビズIDアカウントの取得には、最低でも2週間程度必要ですので、計画的な取得をお願いしま
-す。
+※GビズIDアカウントの取得にあたり、書類申請の場合は審査期間が最大1ヵ月となっております
+ので、計画的な取得をお願いします。（オンライン申請の場合は最短即日）
 ※連携型の申請については、電子申請様式に記入し、添付書類としてシステムへのアップロードが
 必要です。
 ＜新規申請＞（単独型・連携型共通）

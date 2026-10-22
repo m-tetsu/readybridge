@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "f702a91d05ef9488f843e1219a6915a2c1c77de681010d1e6e62f22690fc5cba"
-fetched_at: "2026-10-21"
+content_hash: "685be6fda51aff64b197e4512b0af671f3c9912e4e1811df7692440786091230"
+fetched_at: "2026-10-22"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+10月21日
+マナビィフェア in 本多の森 2026
+
 10月20日
 奥能登未来創造センター（仮称）（設計・施工）整備工事にかかる公募型プロポーザルの実施について
 
@@ -96,9 +99,6 @@ C
 
 10月20日
 基本研修
-
-10月20日
-教育委員会記者発表資料 令和8年度10月分
 
 新着情報一覧
 新着情報RSS

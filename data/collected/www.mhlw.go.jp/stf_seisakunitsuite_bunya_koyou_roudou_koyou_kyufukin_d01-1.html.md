@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "d3c9c8affda5b25020cc14591c78237cfafa406364aad3aa47067f8148c0f86e"
-fetched_at: "2026-10-10"
+content_hash: "dbe4687808efc4901602c64698a691af3668802606b28266dfd54becd24850b0"
+fetched_at: "2026-10-22"
 ---
 ホーム
 >
@@ -83,6 +83,10 @@ New （事業主の皆様へ）令和８年８月３日以降に支給申請を�
 対象となる場合には、管轄の労働局より追加提出に関するご案内をいたしますので、内容をご確認の上、ご対応をお願いいたします。
 
 疎明書（様式第28号） ［45KB］
+
+New
+日本政策金融公庫（中小企業事業）による特別貸付制度をご案内します［68KB］
+（掲載日：令和８年10月21日）
 
 New
 令和８年熊本地震への対応について［60KB］

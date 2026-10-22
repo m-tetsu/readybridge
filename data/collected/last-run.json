@@ -1,39 +1,43 @@
 {
   "summary": {
-    "ran_at": "2026-10-21T00:18:41.525Z",
+    "ran_at": "2026-10-22T00:33:56.300Z",
     "pages_fetched": 800,
     "new": 0,
-    "changed": 20,
-    "unchanged": 780,
-    "skipped": 108
+    "changed": 25,
+    "unchanged": 775,
+    "skipped": 109
   },
   "new": [],
   "changed": [
-    "https://www.pref.ishikawa.lg.jp/saigai/202401jishin-mokutekibetsu.html",
     "https://www.pref.fukui.lg.jp/index.html",
     "https://www.mhlw.go.jp/index.html",
-    "https://www.otit.go.jp/",
-    "https://www.mlit.go.jp/saigai/saigai_240101.html",
-    "https://www.nta.go.jp/taxes/zeirishi/index.htm",
-    "https://www.cao.go.jp/",
-    "https://www.cao.go.jp/seisaku/seisaku.html",
-    "https://www.cao.go.jp/about/address.html",
-    "https://kyoujinnka.smrj.go.jp/",
+    "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html",
+    "https://www.mlit.go.jp/mizukokudo/index.html",
+    "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_gaiyo.pdf",
+    "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_tandoku.pdf",
+    "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_renkei.pdf",
+    "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/nintei_ichiran_chiiki.pdf",
+    "https://www.chusho.meti.go.jp/keiei/antei/bousai/list.html",
+    "http://www.okinawakouko.go.jp/",
     "https://www.pref.ishikawa.lg.jp/index.html",
-    "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html",
     "https://www.pref.ishikawa.lg.jp/kurashi/index.html",
     "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html",
     "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html",
     "https://www.pref.ishikawa.lg.jp/kanko_koryu/index.html",
     "https://www.pref.ishikawa.lg.jp/shigoto/index.html",
     "https://www.pref.ishikawa.lg.jp/kensei/index.html",
+    "https://www.pref.ishikawa.lg.jp/kensei/soshiki/kenshokuin/index.html",
     "https://www.pref.ishikawa.lg.jp/shinchaku/index.html",
-    "https://www.pref.ishikawa.lg.jp/kinyuu/index.html"
+    "https://www.pref.ishikawa.lg.jp/kinyuu/index.html",
+    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/hisai_shotengai.html",
+    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/20260828_soudan.html",
+    "https://www.pref.ishikawa.lg.jp/kinyuu/jishin/challenge.html",
+    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/syoukei.html",
+    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/chuutou_seminar.html"
   ],
   "unchanged": [
     "https://www.chusho.meti.go.jp/saigai.html",
     "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/index.html",
-    "https://www.jfc.go.jp/n/finance/search/saigaikashitsuke_m.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00177.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00442.html",
     "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
@@ -206,12 +210,8 @@
     "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/kino_fukugo/qa.pdf",
     "https://www.meti.go.jp/main/yosan/yosan_fy2023/pdf/yobihi_noto.pdf",
     "https://www.meti.go.jp/main/yosan/yosan_fy2023/pdf/pr_noto.pdf",
+    "https://www.pref.ishikawa.lg.jp/saigai/202401jishin-mokutekibetsu.html",
     "https://www.pref.niigata.lg.jp/sec/kikitaisaku/240101jishin.html",
-    "https://www.jfc.go.jp/n/finance/search/index.html",
-    "https://www.jfc.go.jp/n/finance/search/index_k.html",
-    "https://www.jfc.go.jp/n/rate/index.html",
-    "https://www.jfc.go.jp/n/finance/search/keitoku.html",
-    "https://www.jfc.go.jp/n/finance/search/sogyo_tokurei_m.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/index.html",
@@ -303,8 +303,8 @@
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/hoken/hokenryou/index.html",
     "https://www.mhlw.go.jp/content/001186953.pdf",
     "https://www.mhlw.go.jp/content/001264285.pdf",
+    "https://www.otit.go.jp/",
     "https://www.mhlw.go.jp/content/001196814.pdf",
-    "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html",
     "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/chiiki_koyou.html",
     "https://www.mhlw.go.jp/content/001389626.pdf",
     "https://www.mhlw.go.jp/content/001195024.pdf",
@@ -343,6 +343,7 @@
     "https://www.bousai.go.jp/updates/r60101notojishin/index.html",
     "https://www.soumu.go.jp/r6_noto_jishin/index.html",
     "https://www.jma.go.jp/jma/menu/20240101_noto_jishin.html",
+    "https://www.mlit.go.jp/saigai/saigai_240101.html",
     "https://www.nta.go.jp/about/organization/access/map.htm",
     "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/kosei/annai/2834.htm",
     "https://www.nta.go.jp/publication/pamph/koho/kurashi/html/04_4.htm",
@@ -383,6 +384,7 @@
     "https://www.nta.go.jp/taxes/nozei/nozei-shomei/01.htm",
     "https://www.nta.go.jp/taxes/nozei/enno-butsuno/01.htm",
     "https://www.nta.go.jp/taxes/nozei/entaizei/keisan/entai.htm",
+    "https://www.nta.go.jp/taxes/zeirishi/index.htm",
     "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/seido.htm",
     "https://www.nta.go.jp/taxes/zeirishi/zeirishishiken/zeirishi.htm",
     "https://www.nta.go.jp/taxes/zeirishi/chokai/chokai.htm",
@@ -390,7 +392,6 @@
     "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/qa.htm",
     "https://www.nta.go.jp/taxes/sake/index.htm",
     "https://www.nta.go.jp/taxes/kids/index.htm",
-    "https://www.mlit.go.jp/mizukokudo/index.html",
     "https://www.mlit.go.jp/river/kasen/index.html",
     "https://www.mlit.go.jp/river/dam/index.html",
     "https://www.mlit.go.jp/mizukokudo/sabo/index.html",
@@ -430,6 +431,8 @@
     "https://www.bousai.go.jp/oyakudachi/info_kigyou.html",
     "https://www.bousai.go.jp/oyakudachi/info_jichitai.html",
     "https://www.cao.go.jp/search/notice-search.html",
+    "https://www.cao.go.jp/",
+    "https://www.cao.go.jp/seisaku/seisaku.html",
     "https://www.bousai.go.jp/taisaku/index.html",
     "https://www.bousai.go.jp/oukyu/hinankankoku/index.html",
     "https://www.bousai.go.jp/fusuigai/suigai_kouikihinan/index.html",
@@ -494,11 +497,9 @@
     "https://www.bousai.go.jp/sitemap.html",
     "https://www.bousai.go.jp/notice.html",
     "https://www.cao.go.jp/notice/privacy.html",
+    "https://www.cao.go.jp/about/address.html",
     "https://www.mhlw.go.jp/content/000647944.pdf",
     "https://www.mhlw.go.jp/kouseiroudoushou/shozaiannai/roudoukyoku/",
-    "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_gaiyo.pdf",
-    "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_tandoku.pdf",
-    "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_renkei.pdf",
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_qa.pdf",
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_nintei_jigyousha.pdf",
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/shinsa_syuusei.pdf",
@@ -511,8 +512,7 @@
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/bousaizeisei_gaiyo.pdf",
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/bousaizeisei_yoryo.pdf",
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/bousaizeisei_yoryo_taishou.pdf",
-    "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/nintei_ichiran_chiiki.pdf",
-    "https://www.chusho.meti.go.jp/keiei/antei/bousai/list.html",
+    "https://kyoujinnka.smrj.go.jp/",
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/logo/nintei_logo_kiyaku.pdf",
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/logo/nintei_logo_manual.pdf",
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/dantai_ichiran.html",
@@ -569,7 +569,6 @@
     "https://www.chusho.meti.go.jp/keiei/shokibo/2022/221117nariwai.html",
     "https://www.chusho.meti.go.jp/keiei/shokibo/2022/221006nariwai.html",
     "https://www.chusho.meti.go.jp/earthquake2011/download/110829NDC.pdf",
-    "http://www.okinawakouko.go.jp/",
     "https://www.chusho.meti.go.jp/pamflet/g_book/h28/index.html",
     "https://www.chusho.meti.go.jp/keiei/antei/download/110531Bcp-Reserch.pdf",
     "https://www.chusho.meti.go.jp/earthquake2011/download/0302jirei-0.pdf",
@@ -763,9 +762,9 @@
     "http://www.pcinfo.jpo.go.jp/site/4_news/3_appl/03_06.html",
     "https://www.jpo.go.jp/system/patent/pct/tetuzuki/yusenken_kaifuku.html",
     "https://www.pref.ishikawa.lg.jp/kinkyu/kanri.html",
+    "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html",
     "https://www.pref.ishikawa.lg.jp/about_site/tsukaikata/index.html",
     "https://www.pref.ishikawa.lg.jp/shinsei/index.html",
-    "https://www.pref.ishikawa.lg.jp/kensei/soshiki/kenshokuin/index.html",
     "https://www.pref.ishikawa.lg.jp/sodammadoguchi/index.html",
     "https://www.pref.ishikawa.lg.jp/kurashi/seikatsu/kenzei/index.html",
     "https://www.pref.ishikawa.lg.jp/shisetsu/index.html",
@@ -810,9 +809,14 @@
     "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/denki-gas-shien_entry.html",
     "https://www.pref.ishikawa.lg.jp/kinyuu/jishin/kigyou.html",
     "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/r8ooamehojyo.html",
-    "https://www.pref.ishikawa.lg.jp/kinyuu/jishin/eigyousaikai.html"
+    "https://www.pref.ishikawa.lg.jp/kinyuu/jishin/eigyousaikai.html",
+    "https://www.pref.ishikawa.lg.jp/tenjikan/keieishien/soudan_madoguchi_zentoshin.html"
   ],
   "skipped": [
+    [
+      "https://www.jfc.go.jp/n/finance/search/saigaikashitsuke_m.html",
+      "status 503"
+    ],
     [
       "https://www.meti.go.jp/policy/safety_security/industrial_safety/sangyo/electric/detail/shinsuitaisaku.html",
       "empty"
@@ -898,10 +902,6 @@
       "status 404"
     ],
     [
-      "https://www.jfc.go.jp/",
-      "empty"
-    ],
-    [
       "https://www.johas.go.jp/Portals/0/sodan_freedaiyaru_0104.pdf",
       "status 404"
     ],
@@ -951,7 +951,7 @@
     ],
     [
       "https://warp.da.ndl.go.jp/info:ndljp/pid/11295955/www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
-      "empty"
+      "status 403"
     ],
     [
       "https://www.mlit.go.jp/mizukokudo/sewerage/index.html",
@@ -1043,6 +1043,10 @@
     ],
     [
       "https://www.meti.go.jp/press/2026/10/20261009001.html",
+      "empty"
+    ],
+    [
+      "https://www.jfc.go.jp/",
       "empty"
     ],
     [

@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "3a7c1e9c1df435a7af27994a663565a6f252aa7baf5e55b9a075bfe0a4bc8f09"
-fetched_at: "2026-10-21"
+content_hash: "de7fa0043cc86da9cb2cf98ad0a2ab6ba29ab151e64bef4eecfad67dc11acb7f"
+fetched_at: "2026-10-22"
 ---
 石川県
 
@@ -85,8 +85,11 @@ C
 
 新着情報
 
-10月20日
+10月21日
 千里浜なぎさドライブウェイ交通規制情報
+
+10月21日
+博物館登録の手続き等について
 
 10月20日
 旅行サービス手配業について
@@ -96,9 +99,6 @@ C
 
 10月16日
 「石川県サイクリストに優しい宿」を募集します！
-
-10月16日
-石川県サイクルツーリズム受入環境整備費補助金について
 
 新着情報一覧
 新着情報RSS

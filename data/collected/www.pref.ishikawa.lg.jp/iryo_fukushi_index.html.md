@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "decbc77dc89ff978a84131dbcce3c6b56e5ea5ce879227c2b90a01183cfabdce"
-fetched_at: "2026-10-21"
+content_hash: "42b7e4afbc5a8ce90d82256cb2b4860773aad80dc35e6c8ff1a91c40f36394ac"
+fetched_at: "2026-10-22"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
-10月20日
-テストページ
+10月22日
+令和8年度の研修
 
-10月20日
-地方自治法施行令第167条の2第1項第3号による随意契約について
+10月21日
+急性呼吸器感染症（ARI）の発生状況
 
-10月20日
-石川県南加賀保健福祉センター
+10月21日
+インフルエンザ様疾患及び新型コロナウイルス感染症による集団感染事例
 
-10月20日
-看護関連情報
+10月21日
+石川県感染症情報センター
 
-10月20日
-HIV感染防止のための予防薬配置
+10月21日
+患者情報
 
 新着情報一覧
 新着情報RSS
