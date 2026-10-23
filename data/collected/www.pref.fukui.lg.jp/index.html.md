@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "6977a9b411b0005e5aeac70604bd7e651845e73c9b38f4b87abc8a3ada86c13f"
-fetched_at: "2026-10-22"
+content_hash: "065db8d50b2aa0012231edc19bb67ff3a06e7207197e5dec5cf38f0079d4639d"
+fetched_at: "2026-10-23"
 ---
 注目キーワード
 
@@ -113,6 +113,14 @@ RSS
 県政情報
 
 「知りたいこと」を選択してください。
+2026年10月22日
+
+緊急メンテナンスのお知らせ（ＰＨＰの脆弱性対応）
+
+2026年10月22日
+
+鉄道３社見学バスツアー（第２回）の開催について
+
 2026年10月21日
 
 ふるさと納税ポータルサイト「ふるさとチョイス」における、不正アクセスよる寄付者情報の外部流出について

@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "de7fa0043cc86da9cb2cf98ad0a2ab6ba29ab151e64bef4eecfad67dc11acb7f"
-fetched_at: "2026-10-22"
+content_hash: "d3d149159863210961b15717a5eb2607db8d5587b5a1430a8779a3c7397f1259"
+fetched_at: "2026-10-23"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+10月22日
+いしかわ県民文化振興基金    公募助成事業(文化活動支援事業等)について
+
 10月21日
 千里浜なぎさドライブウェイ交通規制情報
 
@@ -96,9 +99,6 @@ C
 
 10月16日
 いしかわっ子能登駅伝交流大会陸上教室
-
-10月16日
-「石川県サイクリストに優しい宿」を募集します！
 
 新着情報一覧
 新着情報RSS
