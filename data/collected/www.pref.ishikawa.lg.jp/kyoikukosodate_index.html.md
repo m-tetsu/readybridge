@@ -6,7 +6,7 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "5163607c362933190a89a3bd969ea4af3b6375354db86c8a76aeda124ec1df53"
+content_hash: "d57e95be27e7459ee22492fb39f1a528abecfa9339e06e17280e4fba41ab4384"
 fetched_at: "2026-10-24"
 ---
 石川県
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+10月24日
+教育委員会記者発表資料 令和8年度10月分
+
 10月23日
 教育委員会生涯学習課
 
@@ -96,9 +99,6 @@ C
 
 10月23日
 マナビィフェア in 本多の森 2026
-
-10月22日
-石川県公立大学法人評価委員会
 
 新着情報一覧
 新着情報RSS

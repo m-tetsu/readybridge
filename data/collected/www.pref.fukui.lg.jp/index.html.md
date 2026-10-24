@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "5cdfb95107db72febd1e1061492178fb9a4c93e7d0bdeee066fbde0591d3cf5d"
-fetched_at: "2026-10-23"
+content_hash: "35544861640c9cff21cc4817b0e71cc0061484ad2344adb71b6be12df5f1709d"
+fetched_at: "2026-10-24"
 ---
 注目キーワード
 
@@ -113,6 +113,10 @@ RSS
 県政情報
 
 「知りたいこと」を選択してください。
+2026年10月25日
+
+福井県広報誌「県政広報 福のたより」令和8年11月号
+
 2026年10月22日
 
 緊急メンテナンスのお知らせ（ＰＨＰの脆弱性対応）
