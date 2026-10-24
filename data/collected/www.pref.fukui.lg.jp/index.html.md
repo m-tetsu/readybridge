@@ -6,7 +6,7 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "065db8d50b2aa0012231edc19bb67ff3a06e7207197e5dec5cf38f0079d4639d"
+content_hash: "5cdfb95107db72febd1e1061492178fb9a4c93e7d0bdeee066fbde0591d3cf5d"
 fetched_at: "2026-10-23"
 ---
 注目キーワード
@@ -129,9 +129,9 @@ RSS
 
 2027年国際園芸博覧会展示設計作成および出展ブース施工業務に係るプロポーザルの実施について
 
-2026年10月16日
+2026年10月19日
 
-令和９年度福井県立特別支援学校の幼稚部および高等部の入学者選考に関するお知らせ
+「ふくい畜産カレッジ」公式サイト
 
 新着情報一覧を見る
 

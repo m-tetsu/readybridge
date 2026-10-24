@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "e7a9601010e4c0cf50af864720ed3ee68d4a9e9ea0dd5dd7bf88329eec64ca2c"
-fetched_at: "2026-10-11"
+content_hash: "9f8c602368875a1a402427ffd5b19c1002f4e5bb01025d2d580ef78758c80292"
+fetched_at: "2026-10-24"
 ---
 お役立ち情報
 一般向け
@@ -60,6 +60,7 @@ fetched_at: "2026-10-11"
 
 関連する通知等
 
+防災メールの配信停止を踏まえた災害情報の伝達について（依頼）（令和８年10月15日）（内閣府） (PDF形式：190KB)
 津波に係る適切な避難情報の発令について（令和８年７月21日）（内閣府） (PDF形式：408KB)
 令和５年梅雨前線による大雨を踏まえた避難情報の発令について（令和５年９月15日）（内閣府） (PDF形式：175KB)
 令和３年７月から８月の豪雨を踏まえた土砂災害に係る避難情報について（令和３年９月６日）（内閣府） (PDF形式：139KB)

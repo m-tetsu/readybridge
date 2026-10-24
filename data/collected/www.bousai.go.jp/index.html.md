@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "453c43e2cd1d00cbc3245bea9cae25b8236fd16ccc795ae33efa0518c40df6e0"
-fetched_at: "2026-10-20"
+content_hash: "072f3a8871c317c92bb83e4a73fff7c4fffa394dc56609b5b1b9e00618fe354d"
+fetched_at: "2026-10-24"
 ---
 お役立ち情報
 一般向け
@@ -22,6 +22,9 @@ fetched_at: "2026-10-20"
 
 ● 記者発表・公表資料
 これまでの「記者発表・公表資料」一覧
+
+令和8年10月23日公表
+令和８年８月千葉豪雨から台風第２５号までの一連の災害に係る被災者生活再建支援法の適用について（千葉県）（PDF形式：121KB）
 
 令和8年10月15日公表
 令和８年台風第25号等に係る現場視察に関する報告（PDF形式：475KB）

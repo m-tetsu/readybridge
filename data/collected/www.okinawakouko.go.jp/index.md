@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "10efc02b3fc180d03a2df240f3ec05ed988602955f081cf35d0951981899b937"
-fetched_at: "2026-10-22"
+content_hash: "2ccb16df9ef34dcb30f47351854ad5135b5586e3cf882661411577a4a7d5faaf"
+fetched_at: "2026-10-24"
 ---
 特別相談窓口
 
@@ -171,10 +171,6 @@ RSS
 
 セミナー・相談会
 店舗別セミナー・相談会一覧
-
-開催期間 2026年10月22日
-
-沖縄公庫八重山支店×よろず支援拠点の「経営・金融相談会」の開催
 
 開催期間 2026年11月04日 ～ 2026年11月10日
 

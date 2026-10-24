@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "558802cd162f9eccead6f8a4a74f0d402bbf0f92cdbb9301c99288edc1bb5af2"
-fetched_at: "2026-10-23"
+content_hash: "07af9fe488230882773e891fb703ac96d092c4d67c186e9c433068a4392fe8ee"
+fetched_at: "2026-10-24"
 ---
 石川県
 
@@ -88,17 +88,17 @@ C
 10月23日
 伐採木の無償提供について
 
-10月22日
+10月23日
+内職情報のご案内
+
+10月23日
+要経験の内職情報
+
+10月23日
+経験不要の内職情報
+
+10月23日
 活動日程
-
-10月22日
-令和8年度冬季獣医系大学進学セミナーの実施について
-
-10月22日
-これまでの検査結果
-
-10月22日
-入校選考過去問題・例題
 
 新着情報一覧
 新着情報RSS

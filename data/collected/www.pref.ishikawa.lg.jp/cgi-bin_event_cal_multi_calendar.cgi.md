@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "4adfd0f5cc38b9525a7b245d8b59e108e42b866e5d75d138302fea353bf9d567"
-fetched_at: "2026-10-15"
+content_hash: "f2a0caf1d2354304ed57947979c2cf26e18fb636ec9af729e80a73745017c723"
+fetched_at: "2026-10-24"
 ---
 石川県
 
@@ -249,7 +249,7 @@ C
 
  
 
- 
+いしかわ歴史講座「縄文人の装い」
 
 運輸事業の合同企業説明会
 
