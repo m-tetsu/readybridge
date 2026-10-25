@@ -906,9 +906,9 @@
     "file": "data/collected/www.jfc.go.jp/n_finance_search_sogyo_tokurei_m.html.md"
   },
   "https://www.mhlw.go.jp/index.html": {
-    "hash": "5f00ba5752202a7b3f92e436cb5c261da86457677f9c824a1b51fe3afc1a654d",
+    "hash": "257aa28f805fa5d4e5ca883a2a06a0e5aef05381ae588e327938fb9e781fde92",
     "title": "ホーム｜厚生労働省",
-    "fetched_at": "2026-10-23",
+    "fetched_at": "2026-10-25",
     "file": "data/collected/www.mhlw.go.jp/index.html.md"
   },
   "https://www.mhlw.go.jp/stf/seisakunitsuite/index.html": {
@@ -2982,9 +2982,9 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_anzen_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kurashi/index.html": {
-    "hash": "76ccbdafe1b08dc15f8edb4a3fe794a5ed3d549d5bf7f29042d90c9b65b3db42",
+    "hash": "be9bef90989ae2f23e308ba29425b16725089628039663275e5a0ff479a22c92",
     "title": "くらし・環境 | 石川県",
-    "fetched_at": "2026-10-24",
+    "fetched_at": "2026-10-25",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html": {

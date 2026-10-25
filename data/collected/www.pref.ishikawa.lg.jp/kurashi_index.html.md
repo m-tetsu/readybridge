@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "76ccbdafe1b08dc15f8edb4a3fe794a5ed3d549d5bf7f29042d90c9b65b3db42"
-fetched_at: "2026-10-24"
+content_hash: "be9bef90989ae2f23e308ba29425b16725089628039663275e5a0ff479a22c92"
+fetched_at: "2026-10-25"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+10月26日
+県税に関するお知らせ
+
 10月24日
 いしかわ森林環境税
 
@@ -96,9 +99,6 @@ C
 
 10月23日
 所蔵ビデオ・DVD一覧
-
-10月23日
-11  文化／芸術／表現
 
 新着情報一覧
 新着情報RSS

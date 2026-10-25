@@ -1,6 +1,6 @@
 {
   "summary": {
-    "ran_at": "2026-10-24T23:39:27.493Z",
+    "ran_at": "2026-10-25T23:44:20.471Z",
     "pages_fetched": 800,
     "new": 0,
     "changed": 2,
@@ -9,8 +9,8 @@
   },
   "new": [],
   "changed": [
-    "https://www.pref.fukui.lg.jp/index.html",
-    "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html"
+    "https://www.mhlw.go.jp/index.html",
+    "https://www.pref.ishikawa.lg.jp/kurashi/index.html"
   ],
   "unchanged": [
     "https://www.chusho.meti.go.jp/saigai.html",
@@ -189,13 +189,13 @@
     "https://www.meti.go.jp/main/yosan/yosan_fy2023/pdf/yobihi_noto.pdf",
     "https://www.meti.go.jp/main/yosan/yosan_fy2023/pdf/pr_noto.pdf",
     "https://www.pref.ishikawa.lg.jp/saigai/202401jishin-mokutekibetsu.html",
+    "https://www.pref.fukui.lg.jp/index.html",
     "https://www.pref.niigata.lg.jp/sec/kikitaisaku/240101jishin.html",
     "https://www.jfc.go.jp/n/finance/search/index.html",
     "https://www.jfc.go.jp/n/finance/search/index_k.html",
     "https://www.jfc.go.jp/n/rate/index.html",
     "https://www.jfc.go.jp/n/finance/search/keitoku.html",
     "https://www.jfc.go.jp/n/finance/search/sogyo_tokurei_m.html",
-    "https://www.mhlw.go.jp/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/index.html",
@@ -756,7 +756,7 @@
     "https://www.pref.ishikawa.lg.jp/index.html",
     "https://www.pref.ishikawa.lg.jp/kinkyu/kanri.html",
     "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html",
-    "https://www.pref.ishikawa.lg.jp/kurashi/index.html",
+    "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html",
     "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html",
     "https://www.pref.ishikawa.lg.jp/kanko_koryu/index.html",
     "https://www.pref.ishikawa.lg.jp/shigoto/index.html",
