@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "07af9fe488230882773e891fb703ac96d092c4d67c186e9c433068a4392fe8ee"
-fetched_at: "2026-10-24"
+content_hash: "a68d4995d0b39d0dc69840044f8ad45ceb848e3dfa180af96ac98a9d2c2dc3d5"
+fetched_at: "2026-10-27"
 ---
 石川県
 
@@ -85,6 +85,12 @@ C
 
 新着情報
 
+10月26日
+石川県内企業の人材確保支援事業について
+
+10月26日
+活動日程
+
 10月23日
 伐採木の無償提供について
 
@@ -93,12 +99,6 @@ C
 
 10月23日
 要経験の内職情報
-
-10月23日
-経験不要の内職情報
-
-10月23日
-活動日程
 
 新着情報一覧
 新着情報RSS

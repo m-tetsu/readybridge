@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "be9bef90989ae2f23e308ba29425b16725089628039663275e5a0ff479a22c92"
-fetched_at: "2026-10-25"
+content_hash: "a5efca75f5b64495b3eb3ac9fd7d8febfecdcc8e12ba7db50ab8b634a450705f"
+fetched_at: "2026-10-27"
 ---
 石川県
 
@@ -86,19 +86,19 @@ C
 新着情報
 
 10月26日
+いしかわ環境フェア
+
+10月26日
+食品ロス削減
+
+10月26日
 県税に関するお知らせ
 
-10月24日
-いしかわ森林環境税
+10月26日
+公益財団法人 奥能登開発公社の概要
 
-10月24日
-「いしかわ森林環境基金事業の取組成果と今後の方向性（中間とりまとめ）」に関するご意見の募集について
-
-10月23日
-図書情報室
-
-10月23日
-所蔵ビデオ・DVD一覧
+10月26日
+いしかわグリーンウェイブ
 
 新着情報一覧
 新着情報RSS

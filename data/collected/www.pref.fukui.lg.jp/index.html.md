@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "35544861640c9cff21cc4817b0e71cc0061484ad2344adb71b6be12df5f1709d"
-fetched_at: "2026-10-24"
+content_hash: "1674eabd6c1e26bc39f4139b24093a0be6b711ac8e086cb3a65864a0db8ed687"
+fetched_at: "2026-10-27"
 ---
 注目キーワード
 
@@ -132,10 +132,6 @@ RSS
 2026年10月20日
 
 2027年国際園芸博覧会展示設計作成および出展ブース施工業務に係るプロポーザルの実施について
-
-2026年10月19日
-
-「ふくい畜産カレッジ」公式サイト
 
 新着情報一覧を見る
 

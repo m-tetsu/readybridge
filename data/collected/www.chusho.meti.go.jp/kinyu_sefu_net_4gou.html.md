@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "136eccb2caf8b45b7e1d78cb047467d84e1d7eef49efeeb9b9c650e925690695"
-fetched_at: "2026-10-10"
+content_hash: "c16296a1fc5e591f4e2d804749fea60aecdf9e9da6dd95dfa9e270e1e3ceeef6"
+fetched_at: "2026-10-27"
 ---
 4号:突発的災害(自然災害等)
 
@@ -31,6 +31,7 @@ fetched_at: "2026-10-10"
 令和8年7月17日から18日にかけての大雨に伴う災害(86KB)（2026年9月18日）
 令和8年8月27日からの大雨に伴う災害(197KB)（2026年9月29日）
 令和8年台風第24号及び前線による大雨に伴う災害(89KB)（2026年10月9日）
+令和8年台風第25号に伴う災害(214KB)（2026年10月26日）
 
 指定期間は3ヶ月ごとに調査の上、必要に応じて延長します。
 指定期間とは認定申請をすることができる期間をいいます。

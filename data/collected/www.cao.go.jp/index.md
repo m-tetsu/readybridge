@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "bb831955914c173ef90e6b2377c8c7fe1962441b63062d0a0c084e459e02231b"
-fetched_at: "2026-10-24"
+content_hash: "9a167c0e2a71c1ee745b262af75d9056405fd637acbc91f8389d880a070bdfa5"
+fetched_at: "2026-10-27"
 ---
 お知らせ
 
@@ -37,11 +37,11 @@ fetched_at: "2026-10-24"
 写真で見る大臣の動き
 大臣・副大臣・大臣政務官ページへ
 
+古川大臣
+フュージョンエネルギー分野の視察
+
 葉梨大臣
 古謝沖縄県知事及び翁長沖縄県副知事との面会（令和8年10月20日）
-
-古川大臣
-一元的なコンテンツ産業支援法人の設立検討タスクフォース（第1回）
 
 藤井大臣
 国と地方の協議の場（令和8年度第2回）への出席

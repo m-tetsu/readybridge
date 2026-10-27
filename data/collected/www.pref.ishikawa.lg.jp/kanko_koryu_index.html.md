@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "230fac7c74ca2ea50870ede3790d2145fa696c7184e4fe094007583110893334"
-fetched_at: "2026-10-24"
+content_hash: "66d28324bda9bef1748d863c9c42830b5a04b417e410dca313da72dd16f83f0c"
+fetched_at: "2026-10-27"
 ---
 石川県
 
@@ -85,7 +85,10 @@ C
 
 新着情報
 
-10月23日
+10月27日
+金沢城体験ツアー（石垣復旧編）
+
+10月26日
 金沢城調査研究所
 
 10月23日
@@ -96,9 +99,6 @@ C
 
 10月23日
 パスポート申請のマイナポータルサイトのメンテナンスについて
-
-10月22日
-いしかわ県民文化振興基金    公募助成事業(文化活動支援事業等)について
 
 新着情報一覧
 新着情報RSS
