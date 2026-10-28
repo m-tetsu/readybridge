@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "a68d4995d0b39d0dc69840044f8ad45ceb848e3dfa180af96ac98a9d2c2dc3d5"
-fetched_at: "2026-10-27"
+content_hash: "53950e5558c1a9a6d644f91d532925f372f6f1c243dbe21db5f5adfe4aa51dd1"
+fetched_at: "2026-10-28"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
-10月26日
-石川県内企業の人材確保支援事業について
+10月28日
+鳥獣による農作物被害額
 
-10月26日
+10月27日
 活動日程
 
-10月23日
-伐採木の無償提供について
+10月27日
+商工労働部労働企画課 - 随意契約
 
-10月23日
-内職情報のご案内
+10月27日
+いしかわ就職・定住総合サポートセンター（愛称：ILAC）について
 
-10月23日
-要経験の内職情報
+10月27日
+石川県内企業の人材確保支援事業について
 
 新着情報一覧
 新着情報RSS

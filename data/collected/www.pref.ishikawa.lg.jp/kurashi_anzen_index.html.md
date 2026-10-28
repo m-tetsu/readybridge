@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "6cd71887d047d61858aa2e6c11e4c35c0308c52987d524c04ba9d6663793d4b4"
-fetched_at: "2026-10-27"
+content_hash: "30afa828ad674cc085dfc06a559837a160bac3fbeec32aa3f50dbde00549d0df"
+fetched_at: "2026-10-28"
 ---
 石川県
 
@@ -86,10 +86,10 @@ C
 新着情報
 
 10月27日
-住宅の応急修理について（災害救助法:令和8年8月27日からの大雨に伴う災害）
-
-10月26日
 「のとピッと」コラボレーションイベント・キャンペーン一覧
+
+10月27日
+住宅の応急修理について（災害救助法:令和8年8月27日からの大雨に伴う災害）
 
 10月23日
 いしかわ防災フェア2026

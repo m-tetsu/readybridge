@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "a5efca75f5b64495b3eb3ac9fd7d8febfecdcc8e12ba7db50ab8b634a450705f"
-fetched_at: "2026-10-27"
+content_hash: "a5ae08091467ca7d75dc3b4ccc02903e23004274dd32de2508d24efa714d17f2"
+fetched_at: "2026-10-28"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
-10月26日
+10月27日
+高病原性鳥インフルエンザについて
+
+10月27日
 いしかわ環境フェア
 
-10月26日
+10月27日
 食品ロス削減
 
-10月26日
-県税に関するお知らせ
+10月27日
+令和8年度 石川県電気自動車等購入促進事業費補助金
 
-10月26日
-公益財団法人 奥能登開発公社の概要
-
-10月26日
-いしかわグリーンウェイブ
+10月27日
+橋梁点検講習会
 
 新着情報一覧
 新着情報RSS

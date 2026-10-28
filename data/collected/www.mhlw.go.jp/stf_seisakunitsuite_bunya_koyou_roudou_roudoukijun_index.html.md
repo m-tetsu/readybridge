@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "f2160b1b8af0672381694f07fc1d2a9266f92ef9ee54ae6da81206745cb19570"
-fetched_at: "2026-10-10"
+content_hash: "4c38472113a6acb86dcfefe088543c4b9389ef61498eead18bf4778f589024e1"
+fetched_at: "2026-10-28"
 ---
 ホーム
 >
@@ -56,15 +56,12 @@ fetched_at: "2026-10-10"
 
 2026年10月9日掲載
 労災保険事業月報(令和８年８月)
-NEW
 
 2026年10月9日掲載
 令和８年度第９回「石綿に係る疾病の業務上外に関する検討会」を開催します
-NEW
 
 2026年9月28日掲載
 第105回「電離放射線障害の業務上外に関する検討会」を開催します
-NEW
 
 2026年9月24日掲載
 労災保険事業月報(令和８年７月)

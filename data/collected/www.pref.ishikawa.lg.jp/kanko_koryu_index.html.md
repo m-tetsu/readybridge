@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "66d28324bda9bef1748d863c9c42830b5a04b417e410dca313da72dd16f83f0c"
-fetched_at: "2026-10-27"
+content_hash: "9cbf741797672eedebbdc9fe3d7e8cd3fbf1e9c7490490f8b3c7f0aa17c456dd"
+fetched_at: "2026-10-28"
 ---
 石川県
 
@@ -86,6 +86,9 @@ C
 新着情報
 
 10月27日
+千里浜なぎさドライブウェイ交通規制情報
+
+10月27日
 金沢城体験ツアー（石垣復旧編）
 
 10月26日
@@ -93,9 +96,6 @@ C
 
 10月23日
 【重要】「金沢城ARアプリ」 臨時メンテナンスのお知らせ
-
-10月23日
-千里浜なぎさドライブウェイ交通規制情報
 
 10月23日
 パスポート申請のマイナポータルサイトのメンテナンスについて
