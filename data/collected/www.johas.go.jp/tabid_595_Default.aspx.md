@@ -6,12 +6,16 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "f0705be67350af2b21306d3c0f163a8858343f4ec035a362fd01b32a0e1f89c9"
-fetched_at: "2026-10-27"
+content_hash: "23b5f1e8088deab04b42a55de4f4f39278f571a2283888b3100a5ad9c6bd23f3"
+fetched_at: "2026-10-29"
 ---
 > 
 
 お知らせ
+
+2026.10.28
+
+岐阜産業保健総合支援センターホームページの停止について
 
 2026.10.26
 
@@ -88,10 +92,6 @@ fetched_at: "2026-10-27"
 2026.07.08
 
 「労災病院治験ネットワーク 治験受託基本情報」を更新しました。
-
-2026.07.01
-
-情報誌『産業保健21』第125号を掲載しました。
 
 1234…34 
 

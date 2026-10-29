@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "c16296a1fc5e591f4e2d804749fea60aecdf9e9da6dd95dfa9e270e1e3ceeef6"
-fetched_at: "2026-10-27"
+content_hash: "856c6a492434d6f476d77de4a13aa1eb93ba9b9d027093e2ac9fbe34f08510dd"
+fetched_at: "2026-10-29"
 ---
 4号:突発的災害(自然災害等)
 
@@ -25,7 +25,6 @@ fetched_at: "2026-10-27"
 現在の指定案件
 
 令和6年能登半島地震(93KB)（2026年9月30日更新）
-令和8年6月24日からの大雨に伴う災害(88KB)（2026年7月29日）
 令和8年熊本地震(113KB)（2026年9月18日更新）
 令和8年8月13日からの大雨に伴う災害(209KB)（2026年9月15日）
 令和8年7月17日から18日にかけての大雨に伴う災害(86KB)（2026年9月18日）

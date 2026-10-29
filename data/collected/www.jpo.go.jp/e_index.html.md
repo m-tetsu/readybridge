@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "cf4f5f9ab53654c0afe0cf43fc8eede5a601a3d3ac2fa1286570dcc35eadf5e2"
-fetched_at: "2026-10-27"
+content_hash: "1ff05303292e5d79099b17e7d9e3d01ba3238334f31e09b8d22d372ba6068c84"
+fetched_at: "2026-10-29"
 ---
 JAPAN PATENT OFFICE
 
@@ -226,6 +226,12 @@ More
 More
 
 Pickup News
+The JPO holds bilateral discussions during the Trilateral Heads of Office Meeting
+
+Pickup News
+Trilateral Heads of Office Meeting Held
+
+Pickup News
 Judicial Symposium on Intellectual Property / TOKYO 2026
 
 Pickup News
@@ -233,12 +239,6 @@ The 7th TRIPO Trademark Expert Meeting and User Symposium Held
 
 Pickup News
 The JPO Participated in the 2026 IPO Annual Meeting
-
-Pickup News
-The JPO held a bilateral meeting with the Intellectual Property Office of Vietnam (IPVN)
-
-Pickup News
-JPO Provided Face-to-Face Examination Practice Training Program for the Department of Intellectual Property, Ministry of Industry and Commerce of Laos
 
 PR & Social Media
 

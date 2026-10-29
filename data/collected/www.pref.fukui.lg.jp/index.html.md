@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "9c3e2f4ef4e690b33c1794fcf9bc519dc207defb584b271af3fc87e0fe7b91da"
-fetched_at: "2026-10-28"
+content_hash: "5d15e9b6231f9803d0dc184815308ce5ae2090a7339815deef1da0df658a9d0b"
+fetched_at: "2026-10-29"
 ---
 注目キーワード
 
@@ -136,10 +136,6 @@ RSS
 2026年10月22日
 
 鉄道３社見学バスツアー（第２回）の開催について
-
-2026年10月21日
-
-ふるさと納税ポータルサイト「ふるさとチョイス」における、不正アクセスよる寄付者情報の外部流出について
 
 新着情報一覧を見る
 

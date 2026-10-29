@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "5b49cb4236b32a9dfbf62b910009830a81a490305aec07e9eec59a7fe246ebbc"
-fetched_at: "2026-10-27"
+content_hash: "e632cdce3f5a540f418569f0b8b20961110d2fd5464c2568e5be3af0cf7d4ece"
+fetched_at: "2026-10-29"
 ---
 特許庁
 
@@ -691,19 +691,19 @@ JPOちゅーぶ初の海外進出！DE&Iはいかにイノベーションを生�
 報道発表一覧を見る
 
 最近の動き
+株式会社NTTドコモと意見交換を行いました
+
+最近の動き
+三極特許庁長官会合の開催に伴い、EPO及びUSPTOとバイ会談を行いました
+
+最近の動き
+三極特許庁長官会合が開催されました
+
+最近の動き
 「国際知財司法シンポジウム2026」を開催しました
 
 最近の動き
 第7回日中韓商標専門家会合・ユーザーシンポジウムを開催しました
-
-最近の動き
-IPO年次総会に参加しました
-
-最近の動き
-ベトナム国家知的財産庁（IPVN）とバイ会談を実施しました
-
-最近の動き
-INPIT九州本部（INPIT-KYUSHU）の開所式が開催されました
 
 イベント情報
 

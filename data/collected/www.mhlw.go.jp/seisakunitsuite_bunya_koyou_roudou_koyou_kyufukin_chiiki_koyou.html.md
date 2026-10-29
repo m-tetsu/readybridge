@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "7cda2ecc875794406a85819f950544a5050029cd4ae648db1519b02e8572431f"
-fetched_at: "2026-10-10"
+content_hash: "2b1e8c4d6a6a8d180aeef373079f3cc8773d4e748873f1fa6c5763c12bc3319a"
+fetched_at: "2026-10-29"
 ---
 ひと、くらし、みらいのために
 
@@ -131,8 +131,8 @@ English
 
 支給要領
 
-令和８年４月１日付けで、所要の変更を行うため、支給要領を改正しました。
-地域雇用開発助成金（地域雇用開発コース） [771KB］
+令和８年10月22日付けで、所要の変更を行うため、支給要領を改正しました。
+地域雇用開発助成金（地域雇用開発コース） [1,210KB］
 
 特定受給資格者となる離職理由の判定基準
 
