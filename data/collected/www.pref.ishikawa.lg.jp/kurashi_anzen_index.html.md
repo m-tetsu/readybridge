@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "4b65203c117e069e14f39624590a78f0caa90ce42224820c84f612efec5e09a9"
-fetched_at: "2026-10-29"
+content_hash: "fc826231b8938d5efd41bce333b3cfd87b3a2e12aac2f694a290be84cdb34acd"
+fetched_at: "2026-10-30"
 ---
 石川県
 
@@ -85,6 +85,12 @@ C
 
 新着情報
 
+10月30日
+「のとピッとスポット」について
+
+10月29日
+石川県の国民保護
+
 10月28日
 災害時初動対応における計画・マニュアルについて
 
@@ -93,12 +99,6 @@ C
 
 10月27日
 「のとピッと」コラボレーションイベント・キャンペーン一覧
-
-10月27日
-住宅の応急修理について（災害救助法:令和8年8月27日からの大雨に伴う災害）
-
-10月23日
-いしかわ防災フェア2026
 
 新着情報一覧
 新着情報RSS

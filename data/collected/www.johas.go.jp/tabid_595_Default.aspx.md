@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "23b5f1e8088deab04b42a55de4f4f39278f571a2283888b3100a5ad9c6bd23f3"
-fetched_at: "2026-10-29"
+content_hash: "4f7ca6304b04a83ac9517f2372a8b54472161b4d542b13fd48e61b06eeef2a2d"
+fetched_at: "2026-10-30"
 ---
 > 
 
@@ -15,7 +15,7 @@ fetched_at: "2026-10-29"
 
 2026.10.28
 
-岐阜産業保健総合支援センターホームページの停止について
+岐阜産業保健総合支援センターへの不正アクセスについて
 
 2026.10.26
 

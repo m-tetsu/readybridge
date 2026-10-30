@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "d3cb5bf83b42d6d7c94df5ae3e86755b2a86ccbf32a1dcc08017bc1c2abe1169"
-fetched_at: "2026-10-29"
+content_hash: "de260ba6f317e84f97a37d470473a9b12988b6e14520b97fb25f000916bfadb9"
+fetched_at: "2026-10-30"
 ---
 お知らせ
 
@@ -37,6 +37,9 @@ fetched_at: "2026-10-29"
 写真で見る大臣の動き
 大臣・副大臣・大臣政務官ページへ
 
+中司大臣
+日本維新の会による中司大臣及び遠藤総理補佐官への提言手交
+
 城内大臣
 月例経済報告等に関する関係閣僚会議 ※首相官邸ホームページへのリンク
 
@@ -45,9 +48,6 @@ fetched_at: "2026-10-29"
 
 古川大臣
 AIセーフティ・インスティテュート（AISI）の視察
-
-中司大臣
-経団連「2026年度規制改革要望」に関する中司大臣への建議
 
 葉梨大臣
 古謝沖縄県知事及び翁長沖縄県副知事との面会（令和8年10月20日）

@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "dfef46cf49253ac0effca89689f26fe296db668fd44710b99a9cd2938866bbea"
-fetched_at: "2026-10-23"
+content_hash: "67e029a53603bbe2cbb603b91f42fb3f8c3ff0eecb5afabcde12ba9029c8d07f"
+fetched_at: "2026-10-30"
 ---
 石川県
 
@@ -230,6 +230,7 @@ C
 
 商工労働部経営支援課
 
+商店街にぎわい創出事業補助金
 金沢事業者支援センター
 賃上げ事業者支援センター
 経営力強化総合支援アドバイザー制度
@@ -242,7 +243,6 @@ C
 R8.8大雨被災事業者再建支援補助金
 石川県なりわい再建資金利子補給補助金
 営業再開支援補助金
-商店街にぎわい創出事業補助金
 令和8年8月27日からの大雨に伴う災害に関する特別相談窓口の設置
 チャレンジ支援補助金
 令和6年（2024年）能登半島地震等に係る事業者支援施策について
