@@ -6,12 +6,16 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "4f7ca6304b04a83ac9517f2372a8b54472161b4d542b13fd48e61b06eeef2a2d"
-fetched_at: "2026-10-30"
+content_hash: "c0c3eab41b75c7de46de5edc28da8bfafc2caf95dc37908c529e2848460122f9"
+fetched_at: "2026-10-31"
 ---
 > 
 
 お知らせ
+
+2026.10.30
+
+倫理指針不適合事案について
 
 2026.10.28
 
@@ -88,10 +92,6 @@ fetched_at: "2026-10-30"
 2026.07.10
 
 令和８年度における団体経由産業保健活動推進助成金は、予算上限に達したため令和８年７月10日を以って交付申請の受付を終了しました。
-
-2026.07.08
-
-「労災病院治験ネットワーク 治験受託基本情報」を更新しました。
 
 1234…34 
 

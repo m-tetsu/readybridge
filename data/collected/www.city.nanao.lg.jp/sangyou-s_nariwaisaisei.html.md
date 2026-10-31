@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "3780b3f19b26a609c98a3287e16785454a734ed54f27c0aef5b4ff55bcdfd3ff"
-fetched_at: "2026-10-13"
+content_hash: "ff6a3fcf61d709bada4847caf798bcbdfd3f37a7fe4f0916ffc1cf9ab7788933"
+fetched_at: "2026-10-31"
 ---
 本文へスキップします。
 
@@ -132,7 +132,6 @@ PDF形式のファイルをご覧いただく場合には、Adobe Acrobat Reader
 七尾おみやげコンテスト開催！
 七尾市チャレンジ支援補助金
 七尾市創業支援事業補助金
-台湾「裕毛屋」への出展事業者募集！
 ななおおみやげコンテスト2026開催！
 DX推進状況調査を実施します
 DX啓発セミナー兼プログラム説明会を開催します

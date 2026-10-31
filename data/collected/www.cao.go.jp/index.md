@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "de260ba6f317e84f97a37d470473a9b12988b6e14520b97fb25f000916bfadb9"
-fetched_at: "2026-10-30"
+content_hash: "4147c8d8d8c06b0eb8f1ada016f9d43952f883b2743edbe64463b0e25bccdb13"
+fetched_at: "2026-10-31"
 ---
 お知らせ
 
@@ -37,6 +37,9 @@ fetched_at: "2026-10-30"
 写真で見る大臣の動き
 大臣・副大臣・大臣政務官ページへ
 
+城内大臣
+経済財政諮問会議 ※首相官邸ホームページへのリンク
+
 中司大臣
 日本維新の会による中司大臣及び遠藤総理補佐官への提言手交
 
@@ -57,9 +60,6 @@ AIセーフティ・インスティテュート（AISI）の視察
 
 小野田大臣
 経済安全保障法制に関する有識者会議（第18回）
-
-城内大臣
-経済財政諮問会議 ※首相官邸ホームページへのリンク
 
 内閣府New Wave
 記事一覧へ

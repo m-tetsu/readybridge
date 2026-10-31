@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "da8c976b69545972825cf9b7bdb273266178dd6d851da348421f0a692c208327"
-fetched_at: "2026-10-20"
+content_hash: "37d959cc6d1a57d14df371603a1e91d8ded25e9add3abbba69e577ccb1235378"
+fetched_at: "2026-10-31"
 ---
 内閣府の政策
 
@@ -51,9 +51,9 @@ fetched_at: "2026-10-20"
 ＡＩ戦略
 原子力委員会
 
-知的財産・クールジャパン
+知的財産戦略
 
-知的財産戦略本部（首相官邸）
+国際標準戦略
 クールジャパン戦略
 コンテンツ産業官民協議会
 

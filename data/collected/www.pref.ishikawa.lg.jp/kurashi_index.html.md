@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "3c06d464ce274b7e33f0490a17d502c7664292bed731288020181f3eccebc93b"
-fetched_at: "2026-10-30"
+content_hash: "e8eb07498611ad32894b4ab40bdfcd568318225abadc17050038ae3168ae68c7"
+fetched_at: "2026-10-31"
 ---
 石川県
 
@@ -86,6 +86,9 @@ C
 新着情報
 
 10月30日
+トキの目撃情報更新
+
+10月30日
 令和8年ツキノワグマ目撃痕跡情報（10月28日時点）
 
 10月30日
@@ -96,9 +99,6 @@ C
 
 10月30日
 能登空港旅券窓口
-
-10月29日
-食の安全・安心の確保に関する講演会・意見交換会
 
 新着情報一覧
 新着情報RSS

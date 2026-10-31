@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "6a25b15f972b3832c386bb6167c2767380f103bc725e80cb923871046a6c2864"
-fetched_at: "2026-10-29"
+content_hash: "2ae05f28ceb6d8081403d6629fff91445654d74db2038da7a0857d46cabb8d61"
+fetched_at: "2026-10-31"
 ---
 お役立ち情報
 一般向け
@@ -22,6 +22,9 @@ fetched_at: "2026-10-29"
 
 ● 記者発表・公表資料
 これまでの「記者発表・公表資料」一覧
+
+令和8年10月30日公表
+令和８年９月８日からの大雨による災害に係る被災者生活再建支援法の適用について（愛知県）（PDF形式：121KB）
 
 令和8年10月28日公表
 令和８年台風第25号等に係る現場視察に関する報告（PDF形式：840KB）

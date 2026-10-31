@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "854b1c7ec77ff7179c8d64529a3b5205f96f6fcf90861f374de81cf39cdac901"
-fetched_at: "2026-10-30"
+content_hash: "8bae5ddfab65ecc6b2ed6c5c33b94fe3f75ce2c4152e73408c16a71548f6afb8"
+fetched_at: "2026-10-31"
 ---
 石川県
 
@@ -95,10 +95,10 @@ C
 なりわい支援補助金の事業完了期間の延長
 
 10月30日
-石川県地域おこし協力隊の募集！（第2次公募）終了しました。
+金沢港 大野緑地の利活用検討支援業務委託に係る公募型プロポーザルの実施について
 
 10月30日
-活動日程
+金沢港 大野緑地の新たな利活用に向けた「みなと拠点アイデアコンテスト」の実施について
 
 新着情報一覧
 新着情報RSS
