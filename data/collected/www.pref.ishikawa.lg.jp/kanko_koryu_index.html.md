@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "e93d9d42a9771b0cab5b6c369e76317f34aa775e8fc93a2b498154ec21b826b5"
-fetched_at: "2026-10-31"
+content_hash: "c93642bd572de7cf15e9ac935ea5fe0494a7a38d4cdb2d8052030723b24f4f22"
+fetched_at: "2026-11-01"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月1日
+千里浜なぎさドライブウェイ交通規制情報
+
 10月30日
 全国障害者スポーツ大会における県選手団の競技結果について
 
@@ -96,9 +99,6 @@ C
 
 10月29日
 金沢サムライズいしかわ（バスケットボール）県民スペシャル応援デー
-
-10月29日
-千里浜なぎさドライブウェイ交通規制情報
 
 新着情報一覧
 新着情報RSS

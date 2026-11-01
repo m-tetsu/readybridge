@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "8bae5ddfab65ecc6b2ed6c5c33b94fe3f75ce2c4152e73408c16a71548f6afb8"
-fetched_at: "2026-10-31"
+content_hash: "c27827b9a80adfcbc2ea0e9d344d98ef64ba2402653d9ce158d67921e09f03f7"
+fetched_at: "2026-11-01"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月1日
+漁業権免許について（令和8年11月1日免許）
+
 10月30日
 商店街にぎわい創出事業補助金
 
@@ -96,9 +99,6 @@ C
 
 10月30日
 金沢港 大野緑地の利活用検討支援業務委託に係る公募型プロポーザルの実施について
-
-10月30日
-金沢港 大野緑地の新たな利活用に向けた「みなと拠点アイデアコンテスト」の実施について
 
 新着情報一覧
 新着情報RSS

@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "e8eb07498611ad32894b4ab40bdfcd568318225abadc17050038ae3168ae68c7"
-fetched_at: "2026-10-31"
+content_hash: "0c6065cc0c9e4c66b1d1441e3345f85e0b3eb5a40caba7e934c6acf7f8f13f42"
+fetched_at: "2026-11-01"
 ---
 石川県
 
@@ -85,6 +85,12 @@ C
 
 新着情報
 
+11月1日
+高病原性鳥インフルエンザについて
+
+10月31日
+女性センターで開催されるイベント等
+
 10月30日
 トキの目撃情報更新
 
@@ -93,12 +99,6 @@ C
 
 10月30日
 令和8年度 第2回「狩猟の魅力発見セミナー」開催
-
-10月30日
-公示送達について
-
-10月30日
-能登空港旅券窓口
 
 新着情報一覧
 新着情報RSS
