@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/oukyu/hinankankoku/index.html"
 source_name: "内閣府(防災)"
-title: "避難情報の判断・伝達 : 防災情報のページ - 内閣府"
+title: "避難情報の判断・伝達 : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "9f8c602368875a1a402427ffd5b19c1002f4e5bb01025d2d580ef78758c80292"
-fetched_at: "2026-10-24"
+content_hash: "7b20baa442d2b6b69a0362b03c8cc7f967d08a7858314165ab526e4af3c0fe43"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -135,6 +135,3 @@ eラーニング「大雨の時にどう逃げる」（気象庁）
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

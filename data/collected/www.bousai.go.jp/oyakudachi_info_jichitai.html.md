@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/oyakudachi/info_jichitai.html"
 source_name: "内閣府(防災)"
-title: "お役立ち情報（地方自治体向け） : 防災情報のページ - 内閣府"
+title: "お役立ち情報（地方自治体向け） : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "2278d4e0bd3c29e348ef41b10d9875a15e7d536ababa516d353cdb1dbd831e22"
-fetched_at: "2026-10-11"
+content_hash: "711b6adaf1cb5c228a41686e23dd3fb06fa5fa49b5fe627950964948844361e5"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -58,6 +58,3 @@ ISUT（災害時情報集約支援チーム）
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

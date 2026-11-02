@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/fusuigai/tatsumakikyokucho/h25.html"
 source_name: "内閣府(防災)"
-title: "竜巻等突風対策局長級会議(平成25年) : 防災情報のページ - 内閣府"
+title: "竜巻等突風対策局長級会議(平成25年) : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "d9df4853d84134aa628eb8f04dfc40880368acd84a4f8bf143a612c0898c2ebb"
-fetched_at: "2026-10-11"
+content_hash: "20c44868acdb6519e82c47b2a2a28e4d8ae88d16e2c5677780a0dddfd40f6952"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -33,6 +33,3 @@ fetched_at: "2026-10-11"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

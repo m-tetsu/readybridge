@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "c15a9eaa1aba1a60e3bb1d5f208ff4d15797f9f70b4736f3186bfc599af088f1"
-fetched_at: "2026-10-11"
+content_hash: "8efcb24fe6cc5b2222fe3db99c9f5eef267892eea6c5e56d451192d67cb9f9d4"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -33,6 +33,3 @@ fetched_at: "2026-10-11"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

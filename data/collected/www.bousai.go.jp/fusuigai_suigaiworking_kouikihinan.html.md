@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/fusuigai/suigaiworking/kouikihinan.html"
 source_name: "内閣府(防災)"
-title: "首都圏における広域的な避難対策の具体化に向けた検討会 : 防災情報のページ - 内閣府"
+title: "首都圏における広域的な避難対策の具体化に向けた検討会 : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "d15307e8dede6e820fb8833bb564e98a33de252028d0e5cb07e8e2b41339190f"
-fetched_at: "2026-10-11"
+content_hash: "f5ba4ecf8bb1588a5bcc3150f30e205b7f79c16213fb368d83a0fb2334389b40"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -152,6 +152,3 @@ fetched_at: "2026-10-11"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

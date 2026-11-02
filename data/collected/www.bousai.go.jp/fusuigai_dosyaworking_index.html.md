@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/fusuigai/dosyaworking/index.html"
 source_name: "内閣府(防災)"
-title: "総合的な土砂災害対策検討ワーキンググループ : 防災情報のページ - 内閣府"
+title: "総合的な土砂災害対策検討ワーキンググループ : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "d260b085892c93037522a1aad3bb0cf586298520a93a6b3de041c4dd35af66cb"
-fetched_at: "2026-10-11"
+content_hash: "211d97607ca499de8c1af24a7a8d1a4446fefc8ffd7868f1e64e405b515670e0"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -112,6 +112,3 @@ fetched_at: "2026-10-11"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

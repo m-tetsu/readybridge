@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/fusuigai/080325kisya.html"
 source_name: "内閣府(防災)"
-title: "利根川の洪水氾濫時の死者数・孤立者数等の公表について : 防災情報のページ - 内閣府"
+title: "利根川の洪水氾濫時の死者数・孤立者数等の公表について : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "da43c6fba3787c57746200113544eaaa3e297f9c324eddf829386b186e4994e3"
-fetched_at: "2026-10-11"
+content_hash: "280569c709fffe16757d042240ffe56f3b6470ddbcd075d62fe779bb5187204f"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -33,6 +33,3 @@ fetched_at: "2026-10-11"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

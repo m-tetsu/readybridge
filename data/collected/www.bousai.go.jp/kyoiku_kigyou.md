@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/kyoiku/kigyou/"
 source_name: "内閣府(防災)"
-title: "企業防災のページ(内閣府防災担当) : 防災情報のページ - 内閣府"
+title: "企業防災のページ(内閣府防災担当) : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "facility-prep"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "bb2e60368b114add594adb98590e0352cd01f35c29f31af8e46840cb0dc6b788"
-fetched_at: "2026-10-11"
+content_hash: "01385009c3cfb6d13a288ef867f2008de1d24addaf9103bfb91ac8964b68bc2e"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -226,6 +226,3 @@ PDFファイルを閲覧するには、Adobe® Reader®（無料）が必要で�
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

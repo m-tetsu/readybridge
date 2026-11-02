@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/fusuigai/r3hinanworking/index.html"
 source_name: "内閣府(防災)"
-title: "令和３年７月からの一連の豪雨災害を踏まえた避難に関する検討会 : 防災情報のページ - 内閣府"
+title: "令和３年７月からの一連の豪雨災害を踏まえた避難に関する検討会 : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "0278f1eaf8749205d8ca0eae1597b0ba446afaf7ce0f72a8707b870a3455f2cf"
-fetched_at: "2026-10-11"
+content_hash: "d57b623955c9de32bdd409c353c2336bfded5d7019ddaab08ae20f44f2a1bfdb"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -79,6 +79,3 @@ fetched_at: "2026-10-11"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

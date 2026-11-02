@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/taisaku/index.html"
 source_name: "内閣府(防災)"
-title: "防災対策制度 : 防災情報のページ - 内閣府"
+title: "防災対策制度 : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "f116bd0bebf7a1a56ac4ef8d30cc308eaa4644670e7119e67e10225e3a987c01"
-fetched_at: "2026-10-20"
+content_hash: "597a56eaa35f5ab87aa1c6705906a021efb038c794a1d273cd1bcffa6c79c93e"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -158,6 +158,3 @@ ISUT（災害時情報集約支援チーム）
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

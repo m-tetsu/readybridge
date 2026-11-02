@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/oyakudachi/info_kigyou.html"
 source_name: "内閣府(防災)"
-title: "お役立ち情報（企業・団体向け） : 防災情報のページ - 内閣府"
+title: "お役立ち情報（企業・団体向け） : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "0ed41669d9c76298b532038d3ea053d6168347fe2149a12015f7131157b793ca"
-fetched_at: "2026-10-11"
+content_hash: "ec51d8d40cdfbbdf49473bfe384c898049bb374d318c29d5adeff673b3e46a35"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -36,6 +36,3 @@ fetched_at: "2026-10-11"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

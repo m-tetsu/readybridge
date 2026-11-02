@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/fusuigai/suigai_dosyaworking/index.html"
 source_name: "内閣府(防災)"
-title: "中央防災会議 防災対策実行会議「平成３０年７月豪雨による水害・土砂災害からの避難に関するワーキンググループ」 : 防災情報のページ - 内閣府"
+title: "中央防災会議 防災対策実行会議「平成３０年７月豪雨による水害・土砂災害からの避難に関するワーキンググループ」 : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "8c874bc9be29859b29e5ae7432dedf9f50790d9e7af911dc0b5b3ebb7f9adee7"
-fetched_at: "2026-10-11"
+content_hash: "c89d908dc4f756030c5b2d0d75758464a57821b130023c63c48f2ba0a3018f09"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -128,6 +128,3 @@ fetched_at: "2026-10-11"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

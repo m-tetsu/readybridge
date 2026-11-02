@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/fusuigai/subtyphoonworking/index.html"
 source_name: "内閣府(防災)"
-title: "令和元年台風第19号等を踏まえた避難情報及び広域避難等に関するサブワーキンググループ : 防災情報のページ - 内閣府"
+title: "令和元年台風第19号等を踏まえた避難情報及び広域避難等に関するサブワーキンググループ : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "024a792c121203fe3eac2fd8e96f06ac9b2cdfeb148ec24d8f4d5c7fbd51eef3"
-fetched_at: "2026-10-11"
+content_hash: "d6f3581580709ac258c19bebc0894a9ca2d3e8d9c89e7849cfc5924eeac6b6bf"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -133,6 +133,3 @@ fetched_at: "2026-10-11"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

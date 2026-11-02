@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/kyoiku/hokenkyousai/suigai.html"
 source_name: "内閣府(防災)"
-title: "水害被害（風水害・土砂災害） : 防災情報のページ - 内閣府"
+title: "水害被害（風水害・土砂災害） : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "fund-prep"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "dc4f222f0b356f33a51d4c668e76011895a66fa03dbfe4130c5272648010784e"
-fetched_at: "2026-10-10"
+content_hash: "74930116f85f52c0b35880af53dca299e506dabdfce37b696cc226abe4dc570c"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -107,6 +107,3 @@ fetched_at: "2026-10-10"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

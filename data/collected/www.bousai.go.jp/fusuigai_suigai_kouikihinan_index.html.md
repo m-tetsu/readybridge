@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/fusuigai/suigai_kouikihinan/index.html"
 source_name: "内閣府(防災)"
-title: "水害からの広域避難に関する基本的な考え方 : 防災情報のページ - 内閣府"
+title: "水害からの広域避難に関する基本的な考え方 : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "2c004d571e8c14be7da875b362544a1b8c2c9bbac1d838acc9d0bd13aa1a3f95"
-fetched_at: "2026-10-11"
+content_hash: "8b17dd1dc28e057ee47d2598e5078cac05dd71f6e2d98d88eb61d4f1874894a0"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -36,6 +36,3 @@ fetched_at: "2026-10-11"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

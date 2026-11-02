@@ -624,9 +624,9 @@
     "file": "data/collected/www.chusho.meti.go.jp/shogyo_shogyo_2024_240617kino_fukugo.html.md"
   },
   "https://www.chusho.meti.go.jp/kinyu/sefu_net_4gou.html": {
-    "hash": "856c6a492434d6f476d77de4a13aa1eb93ba9b9d027093e2ac9fbe34f08510dd",
+    "hash": "f2c8c7fa62435c4748c0dda5e731f7068db5d53bb8fc03c0cb2d441c3fa5f3d4",
     "title": "セーフティネット保証制度(4号:突発的災害(自然災害等)) | 中小企業庁",
-    "fetched_at": "2026-10-29",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.chusho.meti.go.jp/kinyu_sefu_net_4gou.html.md"
   },
   "https://www.chusho.meti.go.jp/shogyo/shogyo/2024/240607kino_fukugo.html": {
@@ -864,9 +864,9 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/saigai_202401jishin-mokutekibetsu.html.md"
   },
   "https://www.pref.fukui.lg.jp/index.html": {
-    "hash": "bd1886d98556a107698e357bd8dddd7a033b78f41bdba085d3711672fcc5a3e7",
+    "hash": "0e8832b1a5190f0d832e43eff572cfb307987f0fffa0ce978bbb2a99282c7da7",
     "title": "ホーム | 福井県ホームページ",
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.pref.fukui.lg.jp/index.html.md"
   },
   "https://www.pref.niigata.lg.jp/sec/kikitaisaku/240101jishin.html": {
@@ -888,9 +888,9 @@
     "file": "data/collected/www.jfc.go.jp/n_finance_search_index_k.html.md"
   },
   "https://www.jfc.go.jp/n/rate/index.html": {
-    "hash": "b5bcf1e109ff053263368a0f4cc751afa5b22f0013917dbb3f9584dd023fe6ae",
+    "hash": "af1299fae1524f73d80d33171bc0fceb0c757b0a1891424aaa127a41f3fcffad",
     "title": "金利情報 小規模事業者／個人事業主の方【国民生活事業】｜日本政策金融公庫",
-    "fetched_at": "2026-10-10",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.jfc.go.jp/n_rate_index.html.md"
   },
   "https://www.jfc.go.jp/n/finance/search/keitoku.html": {
@@ -906,9 +906,9 @@
     "file": "data/collected/www.jfc.go.jp/n_finance_search_sogyo_tokurei_m.html.md"
   },
   "https://www.mhlw.go.jp/index.html": {
-    "hash": "38051c3321de5e5ee109beb3d14bdc3deb0f59c58ebb0581c3b5a1ce2ecd2de3",
+    "hash": "ded7c3d31a92fba604564bc54fa6228e1c525a02d33d2d30cc4e8de9aca470dc",
     "title": "ホーム｜厚生労働省",
-    "fetched_at": "2026-10-31",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.mhlw.go.jp/index.html.md"
   },
   "https://www.mhlw.go.jp/stf/seisakunitsuite/index.html": {
@@ -1650,9 +1650,9 @@
     "file": "data/collected/www.mhlw.go.jp/content_001190166.pdf"
   },
   "https://www.bousai.go.jp/updates/r60101notojishin/index.html": {
-    "hash": "1ef8ffca7402fdf5fa58f788a5e39f996bb111c71b60aef10c91d2ece29094f7",
-    "title": "令和６年能登半島地震による被害状況等について : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-10",
+    "hash": "11391f2683b80e54d204d118b70fa7e8233923fd7d22ef431fb4e03166ed6e6b",
+    "title": "令和６年能登半島地震による被害状況等について : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/updates_r60101notojishin_index.html.md"
   },
   "https://www.soumu.go.jp/r6_noto_jishin/index.html": {
@@ -2982,15 +2982,15 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_anzen_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kurashi/index.html": {
-    "hash": "0c6065cc0c9e4c66b1d1441e3345f85e0b3eb5a40caba7e934c6acf7f8f13f42",
+    "hash": "67a3ea11b83486c3db5992f2147da21ae4e1666ccbc455275de52f6a2e1acd64",
     "title": "くらし・環境 | 石川県",
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html": {
-    "hash": "606f1fc962deb58095673fac29cf83deb19a867f6f9d402093588f1917ab53cd",
+    "hash": "aa8829b32f4e904d886acfa9a4f5887c58133d210b19953a001fe7f370bd9cc3",
     "title": "教育・子育て | 石川県",
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kyoikukosodate_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html": {
@@ -3480,9 +3480,9 @@
     "file": "data/collected/www.mlit.go.jp/river_bousai_main_saigai_jouhou_jieisuibou_bousai-gensai-suibou03.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/index.html": {
-    "hash": "f13ff16b5cea61cf1ce4784aa091a033ad11c4df03e6a2156c5cd25a970be442",
-    "title": "風水害対策 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-10",
+    "hash": "e2095d731b01359f726fe1bb9586ddadff5d8e4163a6b9731e92f97dcb7a076f",
+    "title": "風水害対策 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_index.html.md"
   },
   "https://www.jma.go.jp/jma/kishou/know/bosai/warning.html": {
@@ -3504,15 +3504,15 @@
     "file": "data/collected/www.gov-online.go.jp/article_202511_entry-10171.html.md"
   },
   "https://www.bousai.go.jp/kyoiku/hokenkyousai/suigai.html": {
-    "hash": "dc4f222f0b356f33a51d4c668e76011895a66fa03dbfe4130c5272648010784e",
-    "title": "水害被害（風水害・土砂災害） : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-10",
+    "hash": "74930116f85f52c0b35880af53dca299e506dabdfce37b696cc226abe4dc570c",
+    "title": "水害被害（風水害・土砂災害） : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/kyoiku_hokenkyousai_suigai.html.md"
   },
   "https://www.bousai.go.jp/kyoiku/hokenkyousai/kanyu.html": {
-    "hash": "68df1acb57b55d00238df1f774ccec0790bc8a0f8055aeeeb1fbfc0394fd3acf",
-    "title": "いざというときに備えて保険・共済に加入しよう : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-10",
+    "hash": "dd3fe420c464098a117f71c68f2f0f3b19fa67b5f2eb00b1a3f6c58557af34b3",
+    "title": "いざというときに備えて保険・共済に加入しよう : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/kyoiku_hokenkyousai_kanyu.html.md"
   },
   "https://www.sonpo.or.jp/insurance/shizen/index.html": {
@@ -3750,9 +3750,9 @@
     "file": "data/collected/www.cas.go.jp/jp_seisaku_kokudo_kyoujinka_minkan_torikumi_index.html.md"
   },
   "https://www.bousai.go.jp/kyoiku/kigyou/": {
-    "hash": "bb2e60368b114add594adb98590e0352cd01f35c29f31af8e46840cb0dc6b788",
-    "title": "企業防災のページ(内閣府防災担当) : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "01385009c3cfb6d13a288ef867f2008de1d24addaf9103bfb91ac8964b68bc2e",
+    "title": "企業防災のページ(内閣府防災担当) : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/kyoiku_kigyou.md"
   },
   "https://disaportal.gsi.go.jp/": {
@@ -3768,27 +3768,27 @@
     "file": "data/collected/www.river.go.jp/index.md"
   },
   "https://www.bousai.go.jp/index.html": {
-    "hash": "2ae05f28ceb6d8081403d6629fff91445654d74db2038da7a0857d46cabb8d61",
-    "title": "防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-31",
+    "hash": "2a1a6d0a1952a986415fca25128169edf038b2601bed5482d9eccd4c9b70f6f3",
+    "title": "防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/index.html.md"
   },
   "https://www.bousai.go.jp/oyakudachi/info_general.html": {
-    "hash": "3b16e7ad54385577766f534d9acb40c0dc4400dbb9f1085573d7da6acc51effc",
+    "hash": "da21329094c2d8dc11c8726a50f749c05fc01d3b713d3505b8b33d58e7877727",
     "title": "お役立ち情報（一般向け） | 防災情報",
-    "fetched_at": "2026-10-11",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/oyakudachi_info_general.html.md"
   },
   "https://www.bousai.go.jp/oyakudachi/info_kigyou.html": {
-    "hash": "0ed41669d9c76298b532038d3ea053d6168347fe2149a12015f7131157b793ca",
-    "title": "お役立ち情報（企業・団体向け） : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "ec51d8d40cdfbbdf49473bfe384c898049bb374d318c29d5adeff673b3e46a35",
+    "title": "お役立ち情報（企業・団体向け） : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/oyakudachi_info_kigyou.html.md"
   },
   "https://www.bousai.go.jp/oyakudachi/info_jichitai.html": {
-    "hash": "2278d4e0bd3c29e348ef41b10d9875a15e7d536ababa516d353cdb1dbd831e22",
-    "title": "お役立ち情報（地方自治体向け） : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "711b6adaf1cb5c228a41686e23dd3fb06fa5fa49b5fe627950964948844361e5",
+    "title": "お役立ち情報（地方自治体向け） : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/oyakudachi_info_jichitai.html.md"
   },
   "https://www.cao.go.jp/search/notice-search.html": {
@@ -3810,93 +3810,93 @@
     "file": "data/collected/www.cao.go.jp/seisaku_seisaku.html.md"
   },
   "https://www.bousai.go.jp/taisaku/index.html": {
-    "hash": "f116bd0bebf7a1a56ac4ef8d30cc308eaa4644670e7119e67e10225e3a987c01",
-    "title": "防災対策制度 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-20",
+    "hash": "597a56eaa35f5ab87aa1c6705906a021efb038c794a1d273cd1bcffa6c79c93e",
+    "title": "防災対策制度 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/taisaku_index.html.md"
   },
   "https://www.bousai.go.jp/oukyu/hinankankoku/index.html": {
-    "hash": "9f8c602368875a1a402427ffd5b19c1002f4e5bb01025d2d580ef78758c80292",
-    "title": "避難情報の判断・伝達 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-24",
+    "hash": "7b20baa442d2b6b69a0362b03c8cc7f967d08a7858314165ab526e4af3c0fe43",
+    "title": "避難情報の判断・伝達 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/oukyu_hinankankoku_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/suigai_kouikihinan/index.html": {
-    "hash": "2c004d571e8c14be7da875b362544a1b8c2c9bbac1d838acc9d0bd13aa1a3f95",
-    "title": "水害からの広域避難に関する基本的な考え方 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "8b17dd1dc28e057ee47d2598e5078cac05dd71f6e2d98d88eb61d4f1874894a0",
+    "title": "水害からの広域避難に関する基本的な考え方 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_suigai_kouikihinan_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/suigaiworking/kouikihinan.html": {
-    "hash": "d15307e8dede6e820fb8833bb564e98a33de252028d0e5cb07e8e2b41339190f",
-    "title": "首都圏における広域的な避難対策の具体化に向けた検討会 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "f5ba4ecf8bb1588a5bcc3150f30e205b7f79c16213fb368d83a0fb2334389b40",
+    "title": "首都圏における広域的な避難対策の具体化に向けた検討会 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_suigaiworking_kouikihinan.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/r8chiba_ooame_working/index.html": {
-    "hash": "0f2966da3bf558c8cd0edd9012a645eed56b1342766989b72983f146d6c23765",
-    "title": "令和８年８月千葉豪雨等を踏まえた内水氾濫対策検討会 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "870398c1ee231c36cc2fbed73e972f0ec5856ab82951353c116d5018a72692d5",
+    "title": "令和８年８月千葉豪雨等を踏まえた内水氾濫対策検討会 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_r8chiba_ooame_working_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/r3hinanworking/index.html": {
-    "hash": "0278f1eaf8749205d8ca0eae1597b0ba446afaf7ce0f72a8707b870a3455f2cf",
-    "title": "令和３年７月からの一連の豪雨災害を踏まえた避難に関する検討会 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "d57b623955c9de32bdd409c353c2336bfded5d7019ddaab08ae20f44f2a1bfdb",
+    "title": "令和３年７月からの一連の豪雨災害を踏まえた避難に関する検討会 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_r3hinanworking_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/koreisubtyphoonworking/index.html": {
-    "hash": "79ce3b4a03b7831ed0d45986c9d2b11e1e030be777a113575ade894074eeac57",
-    "title": "令和元年台風第19号等を踏まえた高齢者等の避難に関するサブワーキンググループ : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "41eeed8d97a322ba7eecd81d293c1142ff7ab5dadfe83c1d5f7f16daf2130256",
+    "title": "令和元年台風第19号等を踏まえた高齢者等の避難に関するサブワーキンググループ : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_koreisubtyphoonworking_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/subtyphoonworking/index.html": {
-    "hash": "024a792c121203fe3eac2fd8e96f06ac9b2cdfeb148ec24d8f4d5c7fbd51eef3",
-    "title": "令和元年台風第19号等を踏まえた避難情報及び広域避難等に関するサブワーキンググループ : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "d6f3581580709ac258c19bebc0894a9ca2d3e8d9c89e7849cfc5924eeac6b6bf",
+    "title": "令和元年台風第19号等を踏まえた避難情報及び広域避難等に関するサブワーキンググループ : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_subtyphoonworking_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/typhoonworking/index.html": {
-    "hash": "7a1d85e3ed5ee67b8b794535e90a7fc4d58ddd23117c1f9aa3a46d0a5c49fbd4",
-    "title": "中央防災会議 防災対策実行会議「令和元年台風第19号等による災害からの避難に関するワーキンググループ」 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "45db7ee450cf33fe46d20c5d8db70a46fe006e6cd1c714aab46bf66ff569b8f2",
+    "title": "中央防災会議 防災対策実行会議「令和元年台風第19号等による災害からの避難に関するワーキンググループ」 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_typhoonworking_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/suigai_dosyaworking/index.html": {
-    "hash": "8c874bc9be29859b29e5ae7432dedf9f50790d9e7af911dc0b5b3ebb7f9adee7",
-    "title": "中央防災会議 防災対策実行会議「平成３０年７月豪雨による水害・土砂災害からの避難に関するワーキンググループ」 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "c89d908dc4f756030c5b2d0d75758464a57821b130023c63c48f2ba0a3018f09",
+    "title": "中央防災会議 防災対策実行会議「平成３０年７月豪雨による水害・土砂災害からの避難に関するワーキンググループ」 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_suigai_dosyaworking_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/suigaiworking/suigaiworking.html": {
-    "hash": "d4cefcaf6b56badb999d2221976288a1734ac485ef499e5c262e33f02a9da2d9",
-    "title": "首都圏における大規模水害広域避難検討会 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "39efa1fb699854f63ba62c5b3215e74caf64289773582e42924b47117e819f56",
+    "title": "首都圏における大規模水害広域避難検討会 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_suigaiworking_suigaiworking.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/kozuiworking/index.html": {
-    "hash": "0e0bcc1661ad8bc9017c083d85cb8fa2c961dddbbc756af5bd4fc694f23d452f",
-    "title": "洪水・高潮氾濫からの大規模・広域避難検討ワーキンググループ : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "2d3b487cf9468ff7988cde540b153377e70ce268ff48d25b316d87aa6d29e6b2",
+    "title": "洪水・高潮氾濫からの大規模・広域避難検討ワーキンググループ : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_kozuiworking_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/suigaiworking/index.html": {
-    "hash": "ffec6b3ff55a0655fa22194386c740a46da17cccfb94cb4db18410c1694f3344",
-    "title": "水害時の避難・応急対策検討ワーキンググループ : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "dd2d3a95cc6af350d36268683650636e816863266230745e1a2be7c9a3270239",
+    "title": "水害時の避難・応急対策検討ワーキンググループ : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_suigaiworking_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/dosyaworking/index.html": {
-    "hash": "d260b085892c93037522a1aad3bb0cf586298520a93a6b3de041c4dd35af66cb",
-    "title": "総合的な土砂災害対策検討ワーキンググループ : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "211d97607ca499de8c1af24a7a8d1a4446fefc8ffd7868f1e64e405b515670e0",
+    "title": "総合的な土砂災害対策検討ワーキンググループ : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_dosyaworking_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/syutoken_suigai/h25/index.html": {
-    "hash": "df25a1b27beac7535e67f48cccc217ef748381d010f3e064c3cd7dd9e9f8bd49",
-    "title": "首都圏大規模水害対策協議会 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "5d2b1be8f03fa94e96ef2e2d156d73a03b94a58b6edd923243cb1e1c3692e98e",
+    "title": "首都圏大規模水害対策協議会 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_syutoken_suigai_h25_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/pdf/gaiyou.pdf": {
@@ -3912,9 +3912,9 @@
     "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_honbun.pdf"
   },
   "https://www.bousai.go.jp/kaigirep/chuobou/senmon/daikibosuigai/index.html": {
-    "hash": "c15a9eaa1aba1a60e3bb1d5f208ff4d15797f9f70b4736f3186bfc599af088f1",
+    "hash": "8efcb24fe6cc5b2222fe3db99c9f5eef267892eea6c5e56d451192d67cb9f9d4",
     "title": "大規模水害対策に関する専門調査会 | 防災情報",
-    "fetched_at": "2026-10-11",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/kaigirep_chuobou_senmon_daikibosuigai_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/pdf/higaisoutei_gaiyou.pdf": {
@@ -3924,9 +3924,9 @@
     "file": "data/collected/www.bousai.go.jp/fusuigai_pdf_higaisoutei_gaiyou.pdf"
   },
   "https://www.bousai.go.jp/fusuigai/080325kisya.html": {
-    "hash": "da43c6fba3787c57746200113544eaaa3e297f9c324eddf829386b186e4994e3",
-    "title": "利根川の洪水氾濫時の死者数・孤立者数等の公表について : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "280569c709fffe16757d042240ffe56f3b6470ddbcd075d62fe779bb5187204f",
+    "title": "利根川の洪水氾濫時の死者数・孤立者数等の公表について : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_080325kisya.html.md"
   },
   "https://www.bousai.go.jp/kaigirep/chuobou/senmon/daikibosuigai/pdf/080908_kisya.pdf": {
@@ -4110,21 +4110,21 @@
     "file": "data/collected/www.jma.go.jp/jma_menu_tatsumaki-portal.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/tatsumakikyokucho/h25.html": {
-    "hash": "d9df4853d84134aa628eb8f04dfc40880368acd84a4f8bf143a612c0898c2ebb",
-    "title": "竜巻等突風対策局長級会議(平成25年) : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "20c44868acdb6519e82c47b2a2a28e4d8ae88d16e2c5677780a0dddfd40f6952",
+    "title": "竜巻等突風対策局長級会議(平成25年) : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_tatsumakikyokucho_h25.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/tatsumakikyokucho/index.html": {
-    "hash": "40085788ebddb82486565debf42916ad1d5ff769a9c13fcd3d7911569fff6ef9",
-    "title": "竜巻等突風対策局長級会議(平成24年) : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "ad7cfc0456a8e91332a2b3c559f4b064a8380736acb27c2a8e1f5df999ab9fe9",
+    "title": "竜巻等突風対策局長級会議(平成24年) : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_tatsumakikyokucho_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/tatsumaki/index.html": {
-    "hash": "6e851f6fdebee84d6e36bfb6e970cea0c977208dd923765a8862a6d3c095964c",
-    "title": "竜巻等突風対策検討会 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "6603deb550b792ec39d09e03f3c3fdc9ed9d9197afbf56630e00d0f4873ddb7e",
+    "title": "竜巻等突風対策検討会 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_tatsumaki_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/pdf/takashio.pdf": {
@@ -4152,39 +4152,39 @@
     "file": "data/collected/www.bousai.go.jp/kyoiku_pdf_h30_tebikisho_english.pdf"
   },
   "https://www.bousai.go.jp/fusuigai/poster.html": {
-    "hash": "35b1721c2c363bc35b69b5d230cda7d527d0a78f08f72895b76042d5b103bb3c",
-    "title": "風水害対策 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "de4e5523eb8f3b79831f8b7b84645ec6fd70044fab7b672bbbca613f4aef62f2",
+    "title": "風水害対策 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_poster.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/sonota/index.html": {
-    "hash": "3a650c5956d4509a189dd1c2835da64c37144d912beff1052f1989b2dbefdf95",
-    "title": "地域コミュニティの力を活用した風水害対策の活動事例 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "4f5b095167969cd2559e0b932f0eb0a5c30b25ea3ffab8b3eaa3d5f37457dff1",
+    "title": "地域コミュニティの力を活用した風水害対策の活動事例 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_sonota_index.html.md"
   },
   "https://www.bousai.go.jp/fusuigai/sonota/tiikibousai/hinankunren.html": {
-    "hash": "624e1c65e4cdcaa24b178f0b69b220fd42572e65398c662cb05255f022d80dff",
-    "title": "地域防災協力 : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "a6c11ac4fe30d0b1abd6beda6d4275086cb8c6d8588d5a86f9e0794d8f78dc23",
+    "title": "地域防災協力 : 防災情報のページ - 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/fusuigai_sonota_tiikibousai_hinankunren.html.md"
   },
   "https://www.bousai.go.jp/webaccessibility.html": {
-    "hash": "25cdb50bfa1029b0cd8112312660c2a1daddccf054156353b81a54c72281d62a",
-    "title": "アクセシビリティ : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-31",
+    "hash": "ce436ff00096a2e23bb84b8c73203f26361c3fa466f10bf87d70b8f00f8df1a2",
+    "title": "アクセシビリティ | 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/webaccessibility.html.md"
   },
   "https://www.bousai.go.jp/sitemap.html": {
-    "hash": "ff0a1220381bd0d8e968c8b8dff3e56655b332e4f12f67c9f088427036b41838",
-    "title": "サイトマップ : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "9d48bd0ba20e62cd686cccf8723dd932738c1352bd6daa2a9bb50f05693b75d2",
+    "title": "サイトマップ | 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/sitemap.html.md"
   },
   "https://www.bousai.go.jp/notice.html": {
-    "hash": "0dcf7942ad4929a8c67ebe57fc114ccad346a3ca432a60649ed63339a42476f8",
-    "title": "このホームページについて : 防災情報のページ - 内閣府",
-    "fetched_at": "2026-10-11",
+    "hash": "b5253cfa3a08d971061bd1d217c622f1f0c83376c8947089586815491407dcda",
+    "title": "このホームページについて | 防災庁",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.bousai.go.jp/notice.html.md"
   },
   "https://www.cao.go.jp/notice/privacy.html": {
@@ -4374,9 +4374,9 @@
     "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_2022_220627.html.md"
   },
   "https://www.chusho.meti.go.jp/": {
-    "hash": "8ab8ed60915d74370e0c6d62155ffade5f31f099dd4aad75ca6f00383c8485d7",
+    "hash": "16dc4857393c4b8251ca0b0b07ce4940f9160d1d5594e147f52d35481147761c",
     "title": "経済産業省 中小企業庁",
-    "fetched_at": "2026-10-31",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.chusho.meti.go.jp/index.md"
   },
   "https://www.chusho.meti.go.jp/keiei/index.html": {
@@ -4788,9 +4788,9 @@
     "file": "data/collected/www.city.komatsu.lg.jp/soshiki_1018_oshirase_16432.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/index.html": {
-    "hash": "0f2e1d22e055c5d29d42abe2d51bd076da592f687d7312bfe3dc7489049ce0d9",
+    "hash": "a281497d5e6dccabe8937bed602c0cd50a00c66edbf0eaab23b1cd6f2aed4aeb",
     "title": "商工労働部経営支援課 | 石川県",
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/jishin/kigyou.html": {
@@ -4896,9 +4896,21 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/tenjikan_keieishien_2022421.html.md"
   },
   "https://www.chusho.meti.go.jp/kinyu/download/4gou_r8_0920saigai.pdf": {
-    "hash": "d3269c3b8ef6d7589fb1c8a71d0f7d40d2d4cf2b16cfd278f428fc9c1b44ca26",
+    "hash": "f1fd8d3ed70504cf3778508492ca0e640506be03132e14fa81568a161117440e",
     "title": "https://www.chusho.meti.go.jp/kinyu/download/4gou_r8_0920saigai.pdf",
-    "fetched_at": "2026-10-27",
+    "fetched_at": "2026-11-02",
     "file": "data/collected/www.chusho.meti.go.jp/kinyu_download_4gou_r8_0920saigai.pdf"
+  },
+  "https://www.bousai.go.jp/notice/privacy.html": {
+    "hash": "a434540a2411de66736ab331ca74ecb2dc2d7fa7f308d51cbc9d2b2cd9d9984a",
+    "title": "プライバシーポリシー | 防災庁",
+    "fetched_at": "2026-11-02",
+    "file": "data/collected/www.bousai.go.jp/notice_privacy.html.md"
+  },
+  "https://www.chusho.meti.go.jp/kinyu/download/4gou_r8_0825saigai.pdf": {
+    "hash": "28d18c9273faaf59269907d36a882e80702157226b000681f5f1743cbfe5dc9e",
+    "title": "https://www.chusho.meti.go.jp/kinyu/download/4gou_r8_0825saigai.pdf",
+    "fetched_at": "2026-11-02",
+    "file": "data/collected/www.chusho.meti.go.jp/kinyu_download_4gou_r8_0825saigai.pdf"
   }
 }

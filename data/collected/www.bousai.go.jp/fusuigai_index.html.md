@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/fusuigai/index.html"
 source_name: "内閣府(防災)"
-title: "風水害対策 : 防災情報のページ - 内閣府"
+title: "風水害対策 : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "f13ff16b5cea61cf1ce4784aa091a033ad11c4df03e6a2156c5cd25a970be442"
-fetched_at: "2026-10-10"
+content_hash: "e2095d731b01359f726fe1bb9586ddadff5d8e4163a6b9731e92f97dcb7a076f"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -182,6 +182,3 @@ fetched_at: "2026-10-10"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

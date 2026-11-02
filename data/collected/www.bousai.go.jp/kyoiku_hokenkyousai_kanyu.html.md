@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/kyoiku/hokenkyousai/kanyu.html"
 source_name: "内閣府(防災)"
-title: "いざというときに備えて保険・共済に加入しよう : 防災情報のページ - 内閣府"
+title: "いざというときに備えて保険・共済に加入しよう : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "fund-prep"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "68df1acb57b55d00238df1f774ccec0790bc8a0f8055aeeeb1fbfc0394fd3acf"
-fetched_at: "2026-10-10"
+content_hash: "dd3fe420c464098a117f71c68f2f0f3b19fa67b5f2eb00b1a3f6c58557af34b3"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -69,6 +69,3 @@ fetched_at: "2026-10-10"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.

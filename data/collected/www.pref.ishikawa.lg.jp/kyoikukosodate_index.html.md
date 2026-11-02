@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "606f1fc962deb58095673fac29cf83deb19a867f6f9d402093588f1917ab53cd"
-fetched_at: "2026-11-01"
+content_hash: "aa8829b32f4e904d886acfa9a4f5887c58133d210b19953a001fe7f370bd9cc3"
+fetched_at: "2026-11-02"
 ---
 石川県
 
@@ -86,6 +86,9 @@ C
 新着情報
 
 11月1日
+入学者募集
+
+11月1日
 「石川県ワークライフバランス企業」登録企業一覧
 
 11月1日
@@ -96,9 +99,6 @@ C
 
 11月1日
 株式会社プラネット・コンサルタント
-
-11月1日
-株式会社クリオ
 
 新着情報一覧
 新着情報RSS

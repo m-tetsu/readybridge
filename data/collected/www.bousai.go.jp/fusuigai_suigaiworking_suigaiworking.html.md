@@ -1,13 +1,13 @@
 ---
 url: "https://www.bousai.go.jp/fusuigai/suigaiworking/suigaiworking.html"
 source_name: "内閣府(防災)"
-title: "首都圏における大規模水害広域避難検討会 : 防災情報のページ - 内閣府"
+title: "首都圏における大規模水害広域避難検討会 : 防災情報のページ - 防災庁"
 pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "d4cefcaf6b56badb999d2221976288a1734ac485ef499e5c262e33f02a9da2d9"
-fetched_at: "2026-10-11"
+content_hash: "39efa1fb699854f63ba62c5b3215e74caf64289773582e42924b47117e819f56"
+fetched_at: "2026-11-02"
 ---
 お役立ち情報
 一般向け
@@ -137,6 +137,3 @@ fetched_at: "2026-10-11"
 このホームページについて
 プライバシーポリシー
 アクセス
-
-所在地 〒100-8914 東京都千代田区永田町1-6-1 電話番号 03-5253-2111（大代表）内閣府政策統括官（防災担当）
-Copyright 2017 Disaster Management, Cabinet Office.
