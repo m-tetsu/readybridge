@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "c65978af26635fc94b45144228cded96bd7e0d870bd5665a27c6849340d15456"
-fetched_at: "2026-10-22"
+content_hash: "dce42bff434653b9598fba34b3a5169d9f0f638d854692855ae787e62528c52d"
+fetched_at: "2026-11-03"
 ---
 事業継続力強化計画 
 
@@ -35,7 +35,7 @@ fetched_at: "2026-10-22"
 
 （2026年7月17日更新）
 
-事業継続力強化計画策定の手引き(1,234KB)
+事業継続力強化計画策定の手引き(1,233KB)
 
 （2026年10月22日更新）
 

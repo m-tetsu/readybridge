@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "c27827b9a80adfcbc2ea0e9d344d98ef64ba2402653d9ce158d67921e09f03f7"
-fetched_at: "2026-11-01"
+content_hash: "2d2c691059dd377b49a5e843117c38548d05c9e2aeb993cfec8a3b70ceb688c2"
+fetched_at: "2026-11-03"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
-11月1日
-漁業権免許について（令和8年11月1日免許）
+11月2日
+伐採木の無償提供について
 
-10月30日
-商店街にぎわい創出事業補助金
+11月2日
+中小企業経営革新支援制度
 
-10月30日
-障害者雇用にかかる県支援策
+11月2日
+石川県なりわい再建支援補助金
 
-10月30日
+11月2日
 なりわい支援補助金の事業完了期間の延長
 
-10月30日
-金沢港 大野緑地の利活用検討支援業務委託に係る公募型プロポーザルの実施について
+11月2日
+石川県職業能力開発プラザ  Plaza  Occupation ability development
 
 新着情報一覧
 新着情報RSS

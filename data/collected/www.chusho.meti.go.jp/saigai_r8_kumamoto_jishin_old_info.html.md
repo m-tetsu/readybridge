@@ -6,11 +6,13 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "f045b580b99ac4e573aeb81a7b193649c0b7bfde030d0373155d1148d0387dfd"
-fetched_at: "2026-10-28"
+content_hash: "4ad7ba838112bcc2c8c08e2b416a31a132e75db6e6fc04bf7a279712842ec1f7"
+fetched_at: "2026-11-03"
 ---
 令和8年熊本地震に伴う災害関連情報（過去のお知らせ情報）
 
+2026年11月2日
+「小規模事業者持続化補助金＜一般型 災害支援枠（令和8年熊本地震）＞（2次）」の申請受付を開始しました
 2026年10月28日更新
 令和8年度予備費「被災商店街等再建支援事業（商店街災害復旧事業・商店街にぎわい創出事業）」の概要について
 2026年9月19日

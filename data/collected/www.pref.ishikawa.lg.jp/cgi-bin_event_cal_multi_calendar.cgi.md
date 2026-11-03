@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "f0066128b6d3914252c096035b7241f6da5b21c79ed492081ca280f7e4757ef8"
-fetched_at: "2026-11-01"
+content_hash: "de19142396d60b1ecb1c1dec19b3a6439d75ad1c45f4ba8b43fb1f5826c29cdf"
+fetched_at: "2026-11-03"
 ---
 石川県
 
@@ -235,7 +235,7 @@ C
 
 草木染に挑戦しよう
 
-いしかわアーバンスポーツパークスin輪島
+子育て支援メッセいしかわ２０２６
 
  
 

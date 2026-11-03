@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "49baa16b72b1035ba2ea653f4b95d260978821cc0448f25d98557b23d2fa168d"
-fetched_at: "2026-10-30"
+content_hash: "0d903f24353c10e6f567d470bed0f477394cc9e40263703fc3ea0bd91f735aff"
+fetched_at: "2026-11-03"
 ---
 石川県
 
@@ -82,7 +82,7 @@ C
 閉じる
 
 印刷
-更新日：2026年10月30日
+更新日：2026年11月2日
 
 なりわい再建支援補助金の事業完了期間の延長
 令和９年度への繰越手続ついてお知らせします

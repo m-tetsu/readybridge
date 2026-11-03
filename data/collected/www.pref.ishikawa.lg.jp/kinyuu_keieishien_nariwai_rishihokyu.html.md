@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "472184c7ff08d9ae58e39d904ea01a4a0aeeb02ed3ec26e4e85dac3532e1a939"
-fetched_at: "2026-10-30"
+content_hash: "4b3fa63ae165b16ed2a262290c460ae5f337b5a18a2c57f41d989a8a5fa9e51e"
+fetched_at: "2026-11-03"
 ---
 石川県
 
@@ -154,13 +154,13 @@ C
 
 商工労働部経営支援課
 
+石川県なりわい再建支援補助金
 商店街にぎわい創出事業補助金
 金沢事業者支援センター
 賃上げ事業者支援センター
 経営力強化総合支援アドバイザー制度
 【能登在住の事業者の方へ】能登事業者支援センターの開設について
 石川県電気・ガス価格高騰緊急対策支援金 
-石川県なりわい再建支援補助金
 石川県なりわい再建支援補助金の交付決定について
 なりわい再建支援補助金の実績報告について
 起業促進補助金

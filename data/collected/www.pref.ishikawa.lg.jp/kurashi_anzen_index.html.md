@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "b98ca1f81062852624b6511fcc53d8cf77d6d5d9c14bebf6b41170c6667512b1"
-fetched_at: "2026-10-31"
+content_hash: "9a8008c6a4f326cd59d655ffc83029b7c27c706478abb3a7a1432fe14176a06e"
+fetched_at: "2026-11-03"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月2日
+石川県防災・減災推進条例について
+
 10月30日
 石川県消費生活支援センター
 
@@ -96,9 +99,6 @@ C
 
 10月30日
 いしかわ住宅耐震事業者リスト
-
-10月30日
-いしかわ住宅耐震事業者リスト／事業者の耐震改修事例
 
 新着情報一覧
 新着情報RSS

@@ -6,12 +6,16 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "c0c3eab41b75c7de46de5edc28da8bfafc2caf95dc37908c529e2848460122f9"
-fetched_at: "2026-10-31"
+content_hash: "f4ad6010226ecdb7f21e9d0433f120eb8c724056519359ffe26afc9efba4c982"
+fetched_at: "2026-11-03"
 ---
 > 
 
 お知らせ
+
+2026.11.02
+
+熊本労災病院への寄附募集終了のお知らせ
 
 2026.10.30
 
@@ -88,10 +92,6 @@ fetched_at: "2026-10-31"
 2026.07.17
 
 2027年度（令和９年４月１日付）新規採用事務職員（総合職候補コース）に係る第２期募集について
-
-2026.07.10
-
-令和８年度における団体経由産業保健活動推進助成金は、予算上限に達したため令和８年７月10日を以って交付申請の受付を終了しました。
 
 1234…34 
 

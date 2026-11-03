@@ -804,9 +804,9 @@
     "file": "data/collected/www.jpo.go.jp/news_koho_saigai_saigai-tetsuduki-20240104.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai.html": {
-    "hash": "f8f513205369ac10a3875dc640d03e2eb70c2416622a7111bb5ecef1f1d726c1",
+    "hash": "6b5dce40e0851e987db766c78c95df78776cde041e7e1f0712c3e86acd34acbd",
     "title": "石川県なりわい再建支援補助金 | 石川県",
-    "fetched_at": "2026-10-31",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_nariwai.html.md"
   },
   "https://www.pref.fukui.lg.jp/doc/sinsan/nariwai.html": {
@@ -816,9 +816,9 @@
     "file": "data/collected/www.pref.fukui.lg.jp/doc_sinsan_nariwai.html.md"
   },
   "https://www.pref.niigata.lg.jp/site/chiikishinko/nariwai.html": {
-    "hash": "31591722d71800397aca07fba8a1659041a94115de9db98367ed2308832536ca",
-    "title": "新潟県なりわい再建支援補助金について - 新潟県ホームページ",
-    "fetched_at": "2026-10-10",
+    "hash": "66e9325a403192f2dd1b003024697d83be90bc6038cd073dd47d3e16215b52f0",
+    "title": "【申請受付終了】新潟県なりわい再建支援補助金について - 新潟県ホームページ",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.niigata.lg.jp/site_chiikishinko_nariwai.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_question.pdf": {
@@ -864,9 +864,9 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/saigai_202401jishin-mokutekibetsu.html.md"
   },
   "https://www.pref.fukui.lg.jp/index.html": {
-    "hash": "0e8832b1a5190f0d832e43eff572cfb307987f0fffa0ce978bbb2a99282c7da7",
+    "hash": "107a5e8ae6df982e6524150b14edfdcf717e8777b3f16bf02604b203e093adf9",
     "title": "ホーム | 福井県ホームページ",
-    "fetched_at": "2026-11-02",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.fukui.lg.jp/index.html.md"
   },
   "https://www.pref.niigata.lg.jp/sec/kikitaisaku/240101jishin.html": {
@@ -906,9 +906,9 @@
     "file": "data/collected/www.jfc.go.jp/n_finance_search_sogyo_tokurei_m.html.md"
   },
   "https://www.mhlw.go.jp/index.html": {
-    "hash": "ded7c3d31a92fba604564bc54fa6228e1c525a02d33d2d30cc4e8de9aca470dc",
+    "hash": "f6009c38b31ee62f79fa23c5030112b2da1dd0968f36d26f754890774f5bce87",
     "title": "ホーム｜厚生労働省",
-    "fetched_at": "2026-11-02",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.mhlw.go.jp/index.html.md"
   },
   "https://www.mhlw.go.jp/stf/seisakunitsuite/index.html": {
@@ -978,9 +978,9 @@
     "file": "data/collected/www.mhlw.go.jp/content_001508489.pdf"
   },
   "https://www.johas.go.jp/tabid/595/Default.aspx": {
-    "hash": "c0c3eab41b75c7de46de5edc28da8bfafc2caf95dc37908c529e2848460122f9",
+    "hash": "f4ad6010226ecdb7f21e9d0433f120eb8c724056519359ffe26afc9efba4c982",
     "title": "お知らせ | JOHAS(労働者健康安全機構)",
-    "fetched_at": "2026-10-31",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.johas.go.jp/tabid_595_Default.aspx.md"
   },
   "https://www.mhlw.go.jp/content/000647899.pdf": {
@@ -1422,9 +1422,9 @@
     "file": "data/collected/www.mhlw.go.jp/content_001264285.pdf"
   },
   "https://www.otit.go.jp/": {
-    "hash": "46a206ed211803b8f884ca8ceef617768c48283dc444395cb8f4a52f88c4b857",
+    "hash": "1576f78323f93b9803263601440cf0f87776480255c23eccb26f2f47f6b3f224",
     "title": "外国人技能実習機構",
-    "fetched_at": "2026-10-29",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.otit.go.jp/index.md"
   },
   "https://www.mhlw.go.jp/content/001196814.pdf": {
@@ -1962,9 +1962,9 @@
     "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_dl_260616001.pdf"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_kettei.html": {
-    "hash": "2e933c3332b6b435db22e6a334a16c5df7d11c806cfe6f7098ae95ff84d97683",
+    "hash": "d94ec4df9049326c89683562170e12c5b521003c68d22e32ca81235d38c158ba",
     "title": "石川県なりわい再建支援補助金の交付決定について | 石川県",
-    "fetched_at": "2026-10-30",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_nariwai_kettei.html.md"
   },
   "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260612001.pdf": {
@@ -1980,9 +1980,9 @@
     "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_saitaku_2026_dl_260528001.pdf"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/hukkyuu_shotengai.html": {
-    "hash": "4d3bb876eda7f38eb8f5066a4462ac97c132b92c30a00880640f8ae3d511841d",
+    "hash": "3239e51371f404a5966438c78af601b027cd58cb307eb817e9a1c8713af71800",
     "title": "商店街災害復旧事業補助金 | 石川県",
-    "fetched_at": "2026-10-30",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_hukkyuu_shotengai.html.md"
   },
   "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260520001.pdf": {
@@ -2964,9 +2964,9 @@
     "file": "data/collected/www.jpo.go.jp/system_patent_pct_tetuzuki_yusenken_kaifuku.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/index.html": {
-    "hash": "ffe615166d92a984bc9ea66be9f90b8067b8d4777ec63b6027d3ecbf94df0b59",
+    "hash": "3c2a6fa675934744bbe9118b70811682e23a8941f01cc03816f57c5951f391b2",
     "title": "石川県ホームページ",
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinkyu/kanri.html": {
@@ -2976,27 +2976,27 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinkyu_kanri.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html": {
-    "hash": "b98ca1f81062852624b6511fcc53d8cf77d6d5d9c14bebf6b41170c6667512b1",
+    "hash": "9a8008c6a4f326cd59d655ffc83029b7c27c706478abb3a7a1432fe14176a06e",
     "title": "防災・安全・安心 | 石川県",
-    "fetched_at": "2026-10-31",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_anzen_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kurashi/index.html": {
-    "hash": "67a3ea11b83486c3db5992f2147da21ae4e1666ccbc455275de52f6a2e1acd64",
+    "hash": "f25a62211a64f3620ff49f272a616f9c9961df16e90befd35979ae74d5f1517d",
     "title": "くらし・環境 | 石川県",
-    "fetched_at": "2026-11-02",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html": {
-    "hash": "aa8829b32f4e904d886acfa9a4f5887c58133d210b19953a001fe7f370bd9cc3",
+    "hash": "4b65e75bf39a8de074ec825462d4f96d537dfce1d68777e54aaf037b492b44fa",
     "title": "教育・子育て | 石川県",
-    "fetched_at": "2026-11-02",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kyoikukosodate_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html": {
-    "hash": "dfbc81fd7828fdde2ede54bfbc7f27e9642869bba19d13347d72119dcd381b0b",
+    "hash": "d9f0192db3ccbf65ab1a71cbb58a4dc4be81190d80b88e7d9897f3c1d6445e91",
     "title": "医療・福祉 | 石川県",
-    "fetched_at": "2026-10-31",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/iryo_fukushi_index.html.md"
   },
   "https://www.chusho.meti.go.jp/saigai.html": {
@@ -3006,9 +3006,9 @@
     "file": "data/collected/www.chusho.meti.go.jp/saigai.html.md"
   },
   "https://www.chusho.meti.go.jp/saigai/r8_kumamoto_jishin/index.html": {
-    "hash": "428a4ab561ba15442276cb9bb4a851850e2cd6431d624b0fd7f114674a3ad6f4",
+    "hash": "aa4925da0653e09303118d8cc1d5d5a7ad9d29b7c4c872d137ef7d09ee4fe75b",
     "title": "令和8年熊本地震に伴う災害関連情報 | 中小企業庁",
-    "fetched_at": "2026-10-29",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.chusho.meti.go.jp/saigai_r8_kumamoto_jishin_index.html.md"
   },
   "https://www.chusho.meti.go.jp/saigai/2020/202007gouu/index.html": {
@@ -3210,9 +3210,9 @@
     "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_kobo_2026_260916001.html.md"
   },
   "https://www.chusho.meti.go.jp/saigai/r8_kumamoto_jishin/old_info.html": {
-    "hash": "f045b580b99ac4e573aeb81a7b193649c0b7bfde030d0373155d1148d0387dfd",
+    "hash": "4ad7ba838112bcc2c8c08e2b416a31a132e75db6e6fc04bf7a279712842ec1f7",
     "title": "令和8年熊本地震に伴う災害関連情報（過去のお知らせ情報） | 中小企業庁",
-    "fetched_at": "2026-10-28",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.chusho.meti.go.jp/saigai_r8_kumamoto_jishin_old_info.html.md"
   },
   "https://www.chusho.meti.go.jp/saigai/2020/202007gouu/pdf/kumamoto_guidebook.pdf?0322": {
@@ -3546,9 +3546,9 @@
     "file": "data/collected/policies.env.go.jp/recycle_disaster_waste.md"
   },
   "https://www.chusho.meti.go.jp/keiei/antei/bousai/keizokuryoku.html": {
-    "hash": "c65978af26635fc94b45144228cded96bd7e0d870bd5665a27c6849340d15456",
+    "hash": "dce42bff434653b9598fba34b3a5169d9f0f638d854692855ae787e62528c52d",
     "title": "事業継続力強化計画 | 中小企業庁",
-    "fetched_at": "2026-10-22",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_keizokuryoku.html.md"
   },
   "https://www.chusho.meti.go.jp/bcp/": {
@@ -3768,9 +3768,9 @@
     "file": "data/collected/www.river.go.jp/index.md"
   },
   "https://www.bousai.go.jp/index.html": {
-    "hash": "2a1a6d0a1952a986415fca25128169edf038b2601bed5482d9eccd4c9b70f6f3",
+    "hash": "1b607deb174e6fb983665d63120136254cd1e216633eb93c3d04712e642d8882",
     "title": "防災庁",
-    "fetched_at": "2026-11-02",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.bousai.go.jp/index.html.md"
   },
   "https://www.bousai.go.jp/oyakudachi/info_general.html": {
@@ -3798,9 +3798,9 @@
     "file": "data/collected/www.cao.go.jp/search_notice-search.html.md"
   },
   "https://www.cao.go.jp/": {
-    "hash": "4147c8d8d8c06b0eb8f1ada016f9d43952f883b2743edbe64463b0e25bccdb13",
+    "hash": "3730d3cdd900cbea62fe88558baa939ad8d362981e36ef08b7f39940ce86664e",
     "title": "内閣府ホームページ",
-    "fetched_at": "2026-10-31",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.cao.go.jp/index.md"
   },
   "https://www.cao.go.jp/seisaku/seisaku.html": {
@@ -4218,9 +4218,9 @@
     "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_tebiki_gaiyo.pdf"
   },
   "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_tandoku.pdf": {
-    "hash": "83c1ff4cddaddb52be45f38dfa54d18e86a1a489beb00d9d8478711d3114eab3",
+    "hash": "5e43067445d7bb415942fac256bdec8ff79aa4b78dab99c92452701abe230384",
     "title": "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_tandoku.pdf",
-    "fetched_at": "2026-10-22",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_download_keizokuryoku_tebiki_tandoku.pdf"
   },
   "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/tebiki_renkei.pdf": {
@@ -4374,9 +4374,9 @@
     "file": "data/collected/www.chusho.meti.go.jp/keiei_antei_bousai_2022_220627.html.md"
   },
   "https://www.chusho.meti.go.jp/": {
-    "hash": "16dc4857393c4b8251ca0b0b07ce4940f9160d1d5594e147f52d35481147761c",
+    "hash": "b1930f3278d7bc2728961ddfc5dc2b3942c44c8e0f2929ed6621a78e3925b644",
     "title": "経済産業省 中小企業庁",
-    "fetched_at": "2026-11-02",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.chusho.meti.go.jp/index.md"
   },
   "https://www.chusho.meti.go.jp/keiei/index.html": {
@@ -4512,21 +4512,21 @@
     "file": "data/collected/www.chusho.meti.go.jp/keiei_shokibo_2024_240411nariwai.pdf"
   },
   "https://www.pref.ishikawa.lg.jp/kanko_koryu/index.html": {
-    "hash": "c93642bd572de7cf15e9ac935ea5fe0494a7a38d4cdb2d8052030723b24f4f22",
+    "hash": "d2886ef1bee7a20648dcbdab0da23112a9523fc1a3d3c12bf8689ded32798aec",
     "title": "観光・文化・スポーツ | 石川県",
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kanko_koryu_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/shigoto/index.html": {
-    "hash": "c27827b9a80adfcbc2ea0e9d344d98ef64ba2402653d9ce158d67921e09f03f7",
+    "hash": "2d2c691059dd377b49a5e843117c38548d05c9e2aeb993cfec8a3b70ceb688c2",
     "title": "しごと・産業 | 石川県",
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/shigoto_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kensei/index.html": {
-    "hash": "61ca22586856079d9d7bc1febcc0d4318d4a61ab5921ad2bc7c9e5419590b136",
+    "hash": "bed4c09b4e0dc777624eaf58ba2d57dafcf41dc790ca7810621e1e230e1514d8",
     "title": "県政情報・統計 | 石川県",
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kensei_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/about_site/tsukaikata/index.html": {
@@ -4566,15 +4566,15 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/shisetsu_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/shinchaku/index.html": {
-    "hash": "ebf316363284c89e8274a5f97b70417a65389ceffdfc09a5057d45c9319dac09",
+    "hash": "4d223dcee0571b895304cf710801fc9d13a979d37844924e5a9c5d3cd55711a9",
     "title": "新着情報 | 石川県",
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/shinchaku_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/cgi-bin/event_cal_multi/calendar.cgi": {
-    "hash": "f0066128b6d3914252c096035b7241f6da5b21c79ed492081ca280f7e4757ef8",
+    "hash": "de19142396d60b1ecb1c1dec19b3a6439d75ad1c45f4ba8b43fb1f5826c29cdf",
     "title": "イベント情報 | 石川県ホームページ",
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/cgi-bin_event_cal_multi_calendar.cgi.md"
   },
   "https://www.pref.ishikawa.lg.jp/kensei/soshiki/soshiki/renrakusaki/index.html": {
@@ -4590,15 +4590,15 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/jigyosha.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_jisseki.html": {
-    "hash": "58bf2a82142093aea14724755a627123eea955262373f6506afe0ca14004da47",
+    "hash": "bfd8e3b5a334b2976545bcb756449a47a08197e41de3b51edfef3fec4d77065a",
     "title": "なりわい再建支援補助金の実績報告について | 石川県",
-    "fetched_at": "2026-10-30",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_nariwai_jisseki.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_extension.html": {
-    "hash": "49baa16b72b1035ba2ea653f4b95d260978821cc0448f25d98557b23d2fa168d",
+    "hash": "0d903f24353c10e6f567d470bed0f477394cc9e40263703fc3ea0bd91f735aff",
     "title": "なりわい支援補助金の事業完了期間の延長 | 石川県",
-    "fetched_at": "2026-10-30",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_nariwai_extension.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/r6notocenter.html": {
@@ -4728,9 +4728,9 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_hisai_attention.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_rishihokyu.html": {
-    "hash": "472184c7ff08d9ae58e39d904ea01a4a0aeeb02ed3ec26e4e85dac3532e1a939",
+    "hash": "4b3fa63ae165b16ed2a262290c460ae5f337b5a18a2c57f41d989a8a5fa9e51e",
     "title": "石川県なりわい再建資金利子補給補助金 | 石川県",
-    "fetched_at": "2026-10-30",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_nariwai_rishihokyu.html.md"
   },
   "https://www.city.suzu.lg.jp/soshiki/7/16267.html": {
@@ -4788,9 +4788,9 @@
     "file": "data/collected/www.city.komatsu.lg.jp/soshiki_1018_oshirase_16432.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/index.html": {
-    "hash": "a281497d5e6dccabe8937bed602c0cd50a00c66edbf0eaab23b1cd6f2aed4aeb",
+    "hash": "d249211d19cb460c031b160af90ad139d98ebe55cc5802792c277b212658d4ba",
     "title": "商工労働部経営支援課 | 石川県",
-    "fetched_at": "2026-11-02",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/jishin/kigyou.html": {
@@ -4806,9 +4806,9 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_r8ooamehojyo.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/baseup.html": {
-    "hash": "7709c6f15f32bd99b59ff25800bf25bde47ce1278227c3618165937ad7c70bb8",
+    "hash": "af55947a8e864015541887406a35b1ac3e0978b418ac271d55fe3964032f72b0",
     "title": "賃上げ事業者支援センター | 石川県",
-    "fetched_at": "2026-10-30",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_baseup.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/jishin/eigyousaikai.html": {
@@ -4818,9 +4818,9 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_jishin_eigyousaikai.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/hisai_shotengai.html": {
-    "hash": "3e45d714e617b4f01c71705cf6675a7bfde4d6f42c43b80f43117fa9a66ae31c",
+    "hash": "4507fc9f0cc739d4e6edf67316a206623b14bca5bd91def7991963626cb32a53",
     "title": "商店街にぎわい創出事業補助金 | 石川県",
-    "fetched_at": "2026-10-31",
+    "fetched_at": "2026-11-03",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinyuu_keieishien_hisai_shotengai.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/20260828_soudan.html": {
@@ -4912,5 +4912,11 @@
     "title": "https://www.chusho.meti.go.jp/kinyu/download/4gou_r8_0825saigai.pdf",
     "fetched_at": "2026-11-02",
     "file": "data/collected/www.chusho.meti.go.jp/kinyu_download_4gou_r8_0825saigai.pdf"
+  },
+  "https://www.chusho.meti.go.jp/koukai/hojyokin/kobo/2026/261102001.html": {
+    "hash": "4f1a0d9e761058940167c4b1c8973484dc28c11e71f131783b65eca0e1a6c2f7",
+    "title": "「小規模事業者持続化補助金＜一般型　災害支援枠（令和8年熊本地震）＞（2次）」の申請受付を開始しました | 中小企業庁",
+    "fetched_at": "2026-11-03",
+    "file": "data/collected/www.chusho.meti.go.jp/koukai_hojyokin_kobo_2026_261102001.html.md"
   }
 }
