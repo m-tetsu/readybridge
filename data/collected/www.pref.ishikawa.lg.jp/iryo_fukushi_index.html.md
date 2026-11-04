@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "d9f0192db3ccbf65ab1a71cbb58a4dc4be81190d80b88e7d9897f3c1d6445e91"
-fetched_at: "2026-11-03"
+content_hash: "99bd8714173817ee0db1c04fea6bfe185e400e8a34fe2abcdd76ffd841634fe7"
+fetched_at: "2026-11-04"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
-11月2日
-評価結果について
+11月4日
+先天性血液凝固因子障害等治療研究事業
 
-11月2日
-いしかわ魅力ある福祉職場
+11月4日
+難病指定医療機関について
 
-11月2日
-いしかわ魅力ある福祉職場
+11月4日
+指定小児慢性特定疾病医療機関について
 
-11月2日
-令和8年度評価結果一覧(外部評価)
+11月4日
+難病指定医について
 
-11月2日
-令和8年度評価結果一覧
+11月4日
+小児慢性特定疾病指定医について
 
 新着情報一覧
 新着情報RSS

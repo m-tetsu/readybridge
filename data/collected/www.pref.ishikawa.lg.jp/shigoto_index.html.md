@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "2d2c691059dd377b49a5e843117c38548d05c9e2aeb993cfec8a3b70ceb688c2"
-fetched_at: "2026-11-03"
+content_hash: "7eac372d130ca90c44f84e45fba4c618025210d97f0f814e963aa9725e7d04f4"
+fetched_at: "2026-11-04"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月4日
+漁海況情報
+
 11月2日
 伐採木の無償提供について
 
@@ -96,9 +99,6 @@ C
 
 11月2日
 なりわい支援補助金の事業完了期間の延長
-
-11月2日
-石川県職業能力開発プラザ  Plaza  Occupation ability development
 
 新着情報一覧
 新着情報RSS

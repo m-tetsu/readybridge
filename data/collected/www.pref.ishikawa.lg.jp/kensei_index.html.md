@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "bed4c09b4e0dc777624eaf58ba2d57dafcf41dc790ca7810621e1e230e1514d8"
-fetched_at: "2026-11-03"
+content_hash: "90e214fe16286547bd981da8e2527bc09769e19f89fbdf835866aea2da25c159"
+fetched_at: "2026-11-04"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月4日
+新聞 広報いしかわ
+
 11月2日
 記者発表資料 令和8年度
 
@@ -96,9 +99,6 @@ C
 
 11月2日
 戦略広報課の記者発表資料（令和8年度）
-
-11月2日
-長寿社会課の記者発表資料（令和8年度）
 
 新着情報一覧
 新着情報RSS
