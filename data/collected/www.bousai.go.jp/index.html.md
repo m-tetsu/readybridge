@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "1b607deb174e6fb983665d63120136254cd1e216633eb93c3d04712e642d8882"
-fetched_at: "2026-11-03"
+content_hash: "b6d84ad516600f68aff2ea62c2c7d684c0d44560dac0cdeeb3f61ba7602a30cd"
+fetched_at: "2026-11-05"
 ---
 日本の防災をかえていく。
 
@@ -15,6 +15,7 @@ fetched_at: "2026-11-03"
 ここから、その一歩を踏み出します。
 ともに考え、ともに備え、ともに守る。
 
+令和8年11月2日 防災庁が発足しました(看板掛け・発足式)
 令和8年11月2日 防災庁ミッション・基本理念・行動原則
 令和8年11月2日 事前防災徹底のための緊急要請
 「内閣府防災情報のページ」から移行したコンテンツについて

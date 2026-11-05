@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "d2886ef1bee7a20648dcbdab0da23112a9523fc1a3d3c12bf8689ded32798aec"
-fetched_at: "2026-11-03"
+content_hash: "2a2a355f7ea861fb08d3ef1072fbcc4db3159d08c0f408b2f76a7f68d887999d"
+fetched_at: "2026-11-05"
 ---
 石川県
 
@@ -85,6 +85,12 @@ C
 
 新着情報
 
+11月4日
+金沢サムライズいしかわ（バスケットボール）県民スペシャル応援デー
+
+11月4日
+金沢城体験ツアー（石垣復旧編）
+
 11月2日
 千里浜なぎさドライブウェイ交通規制情報
 
@@ -93,12 +99,6 @@ C
 
 11月2日
 【重要】「金沢城ARアプリ」 臨時メンテナンス終了のお知らせ
-
-10月30日
-全国障害者スポーツ大会における県選手団の競技結果について
-
-10月30日
-いしかわっ子能登駅伝交流大会
 
 新着情報一覧
 新着情報RSS

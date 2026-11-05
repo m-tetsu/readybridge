@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "6d0de74c90196b6cac16b24fad206a86e8a1167b02c0e451cd9a279959a578ed"
-fetched_at: "2026-11-04"
+content_hash: "fffe943971e1d21a3e7db4c1fc12006e23be4e1ecb274016f1bb28bef4859067"
+fetched_at: "2026-11-05"
 ---
 石川県
 
@@ -94,11 +94,11 @@ C
 11月4日
 専攻科
 
-11月2日
-子育て支援メッセいしかわ２０２６
+11月4日
+教育委員会生涯学習課
 
 11月2日
-奥能登未来創造センター（仮称）（設計・施工）整備工事にかかる公募型プロポーザルの実施について
+子育て支援メッセいしかわ２０２６
 
 新着情報一覧
 新着情報RSS

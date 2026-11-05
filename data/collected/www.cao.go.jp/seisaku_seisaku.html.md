@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "37d959cc6d1a57d14df371603a1e91d8ded25e9add3abbba69e577ccb1235378"
-fetched_at: "2026-10-31"
+content_hash: "f604b9186adc2bdb220fecf71d0fff9107fca64e39ec0df6b0ea5c9d1f0f5c11"
+fetched_at: "2026-11-05"
 ---
 内閣府の政策
 
@@ -78,11 +78,6 @@ fetched_at: "2026-10-31"
 アイヌ政策
 
 防災
-
-防災
-
-災害情報
-中央防災会議
 
 原子力防災
 

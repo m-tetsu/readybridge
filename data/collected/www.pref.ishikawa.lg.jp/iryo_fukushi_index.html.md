@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "99bd8714173817ee0db1c04fea6bfe185e400e8a34fe2abcdd76ffd841634fe7"
-fetched_at: "2026-11-04"
+content_hash: "0f0b2cd9bd5bdf810dbf7cd65b5b887025ad315d9be6f4fd35d4ecfca16ce8d7"
+fetched_at: "2026-11-05"
 ---
 石川県
 
@@ -86,19 +86,19 @@ C
 新着情報
 
 11月4日
-先天性血液凝固因子障害等治療研究事業
+インフルエンザ様疾患及び新型コロナウイルス感染症による集団感染事例
 
 11月4日
-難病指定医療機関について
+急性呼吸器感染症（ARI）の発生状況
 
 11月4日
-指定小児慢性特定疾病医療機関について
+石川県感染症情報センター
 
 11月4日
-難病指定医について
+患者情報
 
 11月4日
-小児慢性特定疾病指定医について
+病原体情報
 
 新着情報一覧
 新着情報RSS

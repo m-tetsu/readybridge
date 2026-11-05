@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "e632cdce3f5a540f418569f0b8b20961110d2fd5464c2568e5be3af0cf7d4ece"
-fetched_at: "2026-10-29"
+content_hash: "1931737172c829bb5e11ce721fb43806997be359fa6aa58bea7a7be284349595"
+fetched_at: "2026-11-05"
 ---
 特許庁
 
@@ -691,6 +691,9 @@ JPOちゅーぶ初の海外進出！DE&Iはいかにイノベーションを生�
 報道発表一覧を見る
 
 最近の動き
+ドイツ特許商標庁（DPMA）と審査官協議を実施しました
+
+最近の動き
 株式会社NTTドコモと意見交換を行いました
 
 最近の動き
@@ -701,9 +704,6 @@ JPOちゅーぶ初の海外進出！DE&Iはいかにイノベーションを生�
 
 最近の動き
 「国際知財司法シンポジウム2026」を開催しました
-
-最近の動き
-第7回日中韓商標専門家会合・ユーザーシンポジウムを開催しました
 
 イベント情報
 
