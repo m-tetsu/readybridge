@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "c5cff24370fe950c18eb04a173c6067fd1003e8bd4fa5ac33b27c1ebfd13672b"
-fetched_at: "2026-11-05"
+content_hash: "fd2dfa1218142eaddff399d77e77dbaad0116a7cfd1362cb4bed5462ef7aeb6b"
+fetched_at: "2026-11-06"
 ---
 石川県
 
@@ -86,19 +86,19 @@ C
 新着情報
 
 11月5日
+これまでの検査結果
+
+11月5日
+商店街にぎわい創出事業補助金
+
+11月5日
 旅行業について
+
+11月5日
+活動日程
 
 11月4日
 漁海況情報
-
-11月4日
-国際ビジネスサポートデスク INTERNATIONAL BUSINESS SUPPORT DESK
-
-11月4日
-令和8年度 インドネシアにおける 飲食店フェア参加事業者募集案内
-
-11月4日
-商工労働部労働企画課 - 随意契約
 
 新着情報一覧
 新着情報RSS

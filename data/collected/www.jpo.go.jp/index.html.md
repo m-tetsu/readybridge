@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "1931737172c829bb5e11ce721fb43806997be359fa6aa58bea7a7be284349595"
-fetched_at: "2026-11-05"
+content_hash: "4d15c043f25c0fd820542ab4953393e197b8c17dccded29b5dd54b160b3c3cd7"
+fetched_at: "2026-11-06"
 ---
 特許庁
 
@@ -691,6 +691,9 @@ JPOちゅーぶ初の海外進出！DE&Iはいかにイノベーションを生�
 報道発表一覧を見る
 
 最近の動き
+インドネシアDGIP職員等に大学・中小企業支援に関する研修を実施しました
+
+最近の動き
 ドイツ特許商標庁（DPMA）と審査官協議を実施しました
 
 最近の動き
@@ -701,9 +704,6 @@ JPOちゅーぶ初の海外進出！DE&Iはいかにイノベーションを生�
 
 最近の動き
 三極特許庁長官会合が開催されました
-
-最近の動き
-「国際知財司法シンポジウム2026」を開催しました
 
 イベント情報
 

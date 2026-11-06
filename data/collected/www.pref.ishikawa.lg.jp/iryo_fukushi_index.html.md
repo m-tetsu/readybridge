@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "0f0b2cd9bd5bdf810dbf7cd65b5b887025ad315d9be6f4fd35d4ecfca16ce8d7"
-fetched_at: "2026-11-05"
+content_hash: "07de8681daab20bbf484324a29ffb34e601aecc9bc0e90703f2ae521983fd067"
+fetched_at: "2026-11-06"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
+11月5日
+スクールライフ
+
+11月5日
+アレルギー疾患対策について
+
+11月5日
+令和7年度アレルギー疾患医療従事者研修会
+
 11月4日
 インフルエンザ様疾患及び新型コロナウイルス感染症による集団感染事例
 
 11月4日
 急性呼吸器感染症（ARI）の発生状況
-
-11月4日
-石川県感染症情報センター
-
-11月4日
-患者情報
-
-11月4日
-病原体情報
 
 新着情報一覧
 新着情報RSS

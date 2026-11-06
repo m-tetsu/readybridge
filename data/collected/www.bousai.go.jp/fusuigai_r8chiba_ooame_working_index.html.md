@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "870398c1ee231c36cc2fbed73e972f0ec5856ab82951353c116d5018a72692d5"
-fetched_at: "2026-11-02"
+content_hash: "47d300f750f2bbc2dde287f233b5037e3cc602876bc59a3ec522b9c784e91a89"
+fetched_at: "2026-11-06"
 ---
 お役立ち情報
 一般向け
@@ -35,7 +35,7 @@ fetched_at: "2026-11-02"
 日時：令和８年10月７日（水）9:30～15:00
 場所：①現地視察（JR蘇我駅、末広地下道、千葉大学医学部附属病院、都川周辺農地）
 ②意見交換（千葉県庁 本庁舎 5階大会議室）
-議事要旨等 :（準備中）
+議事要旨等 :議事要旨 (PDF形式：218KB)
 資料   
 
 議事次第 (PDF形式：294KB)

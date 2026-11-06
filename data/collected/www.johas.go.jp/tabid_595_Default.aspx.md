@@ -6,12 +6,16 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "f4ad6010226ecdb7f21e9d0433f120eb8c724056519359ffe26afc9efba4c982"
-fetched_at: "2026-11-03"
+content_hash: "cab559d7790f009aee94b2100467276548b9cd993d3587f502bcbdb52b2aa40e"
+fetched_at: "2026-11-06"
 ---
 > 
 
 お知らせ
+
+2026.11.05
+
+両立支援コーディネーター基礎研修に関するアンケートのご依頼
 
 2026.11.02
 
@@ -88,10 +92,6 @@ fetched_at: "2026-11-03"
 2026.07.27
 
 「労働者健康安全機構中央治験審査委員会(第62回)会議の記録の概要」を掲載しました。
-
-2026.07.17
-
-2027年度（令和９年４月１日付）新規採用事務職員（総合職候補コース）に係る第２期募集について
 
 1234…34 
 

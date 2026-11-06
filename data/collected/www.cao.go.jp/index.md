@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "ef9cbdbe1a02ecabd9d9b70f48441616e844f14934a4973d507bd4544806037b"
-fetched_at: "2026-11-05"
+content_hash: "b02c0b54e1588748bd7b8f2c623f38e5f03ab9de194737939f6e3aa25a30be94"
+fetched_at: "2026-11-06"
 ---
 お知らせ
 
@@ -37,6 +37,9 @@ fetched_at: "2026-11-05"
 写真で見る大臣の動き
 大臣・副大臣・大臣政務官ページへ
 
+小野田大臣
+「経済安全保障対策会議・展示会 ECONOSEC JAPAN 2026」
+
 葉梨大臣
 第12回 沖縄科学技術大学院大学学園の今後の在り方に関する検討会
 
@@ -57,9 +60,6 @@ fetched_at: "2026-11-05"
 
 藤井大臣
 国と地方の協議の場（令和8年度第2回）への出席
-
-小野田大臣
-経済安全保障法制に関する有識者会議（第18回）
 
 内閣府New Wave
 記事一覧へ
