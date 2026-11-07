@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "5338364e28f6070a1789a664d9f121c4458a2f62f23966edce36a3026d3db6cd"
-fetched_at: "2026-11-06"
+content_hash: "831a0168d4cb22d563645650d50647e85375c6a8fab68ade14ddf742af956a19"
+fetched_at: "2026-11-07"
 ---
 重要なお知らせ
 
@@ -22,6 +22,8 @@ fetched_at: "2026-11-06"
 
 公式X
 
+2026年11月6日
+中小企業・小規模事業者向けのサイバーセキュリティ対策・支援情報をまとめた特設ページを開設しました
 2026年11月6日
 中小企業・小規模事業者における事前防災の取組を推進します
 2026年11月5日更新

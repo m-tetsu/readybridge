@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "fd2dfa1218142eaddff399d77e77dbaad0116a7cfd1362cb4bed5462ef7aeb6b"
-fetched_at: "2026-11-06"
+content_hash: "3513fb1129497354575b1302f4dc7f5495ab95b6c9d6718b932c545e2957bac3"
+fetched_at: "2026-11-07"
 ---
 石川県
 
@@ -95,10 +95,10 @@ C
 旅行業について
 
 11月5日
-活動日程
+成長戦略ファンドについて
 
-11月4日
-漁海況情報
+11月5日
+活動日程
 
 新着情報一覧
 新着情報RSS

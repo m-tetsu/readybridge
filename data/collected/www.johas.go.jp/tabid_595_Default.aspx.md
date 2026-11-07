@@ -6,12 +6,16 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "cab559d7790f009aee94b2100467276548b9cd993d3587f502bcbdb52b2aa40e"
-fetched_at: "2026-11-06"
+content_hash: "ed1ed2eec8627f29c2f589ef2826c9e2bf5ae5466ffa6103b530c4d95a238aed"
+fetched_at: "2026-11-07"
 ---
 > 
 
 お知らせ
+
+2026.11.06
+
+岐阜産業保健総合支援センターへの不正アクセス及び個人情報等の漏えいについて
 
 2026.11.05
 
@@ -88,10 +92,6 @@ fetched_at: "2026-11-06"
 2026.08.03
 
 第19回じん肺診断技術研修の日程について掲載しました。
-
-2026.07.27
-
-「労働者健康安全機構中央治験審査委員会(第62回)会議の記録の概要」を掲載しました。
 
 1234…34 
 

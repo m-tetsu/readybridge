@@ -6,8 +6,8 @@ pillar: "recover"
 category: "tax"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "36168be7ed7decaaf8b08713cfd7da686b9ffa0e7449748bfab54cf9fdc48c7c"
-fetched_at: "2026-11-06"
+content_hash: "c4a65a548cc9652814574742ce543ae13b57f547392e66b3c4d46f24cbdef6c8"
+fetched_at: "2026-11-07"
 ---
 新着情報
 
@@ -16,6 +16,8 @@ fetched_at: "2026-11-06"
 法令等
 お知らせ
 国税庁等について
+
+令和8年度（第76回）税理士試験問題、答案用紙及び正誤表（再試験）（令和8年11月6日）
 
 令和８年度（第76回）税理士試験（熊本県）の再試験実施に係る留意事項について(PDF/231KB)（令和8年9月18日）
 

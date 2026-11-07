@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "d9dd0896e971982f4886df2ceada8ec7e995a8c89ab7dca15e116e4cc99dbb65"
-fetched_at: "2026-11-06"
+content_hash: "34e29f5fd8a55943069bb28c2d1267eb4c608a9ac3b3cb4d9de70bc7d89aed5b"
+fetched_at: "2026-11-07"
 ---
 石川県
 
@@ -91,14 +91,14 @@ C
 11月6日
 令和9年度公募説明会の開催について
 
-11月5日
-いしかわ県民文化振興基金   文化活動支援事業
+11月6日
+いしかわっ子能登駅伝交流大会
 
-11月5日
-パスポート申請のマイナポータルサイトのメンテナンスについて
+11月6日
+国際情勢講演会【申込受付を終了しました】
 
-11月4日
-金沢サムライズいしかわ（バスケットボール）県民スペシャル応援デー
+11月6日
+千里浜なぎさドライブウェイ交通規制情報
 
 新着情報一覧
 新着情報RSS
