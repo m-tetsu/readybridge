@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "a82caa4a268b4aa9579fdaf37e5d77c526b21f23716eac5c9a68e4fffcd789c2"
-fetched_at: "2026-11-07"
+content_hash: "96589dd3bb99d1d799a5d16abd10d029bbdc1e8a76d8a09e21b171ba3e6dbc1d"
+fetched_at: "2026-11-09"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月9日
+石川県職員（薬剤師）の採用選考試験情報について
+
 11月6日
 石川県外国人介護人材日本語能力向上支援事業費補助金について
 
@@ -96,9 +99,6 @@ C
 
 11月6日
 令和8年度アレルギー疾患医療従事者研修会
-
-11月6日
-予防接種について
 
 新着情報一覧
 新着情報RSS

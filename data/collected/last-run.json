@@ -1,15 +1,23 @@
 {
   "summary": {
-    "ran_at": "2026-11-08T00:57:00.065Z",
+    "ran_at": "2026-11-09T01:17:18.292Z",
     "pages_fetched": 800,
     "new": 0,
-    "changed": 1,
-    "unchanged": 799,
+    "changed": 9,
+    "unchanged": 791,
     "skipped": 107
   },
   "new": [],
   "changed": [
-    "https://www.mlit.go.jp/mizukokudo/index.html"
+    "https://www.pref.fukui.lg.jp/index.html",
+    "https://www.mhlw.go.jp/index.html",
+    "https://www.pref.ishikawa.lg.jp/index.html",
+    "https://www.pref.ishikawa.lg.jp/kurashi/index.html",
+    "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html",
+    "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html",
+    "https://www.pref.ishikawa.lg.jp/shigoto/index.html",
+    "https://www.pref.ishikawa.lg.jp/kensei/soshiki/kenshokuin/index.html",
+    "https://www.pref.ishikawa.lg.jp/shinchaku/index.html"
   ],
   "unchanged": [
     "https://www.chusho.meti.go.jp/saigai.html",
@@ -189,14 +197,12 @@
     "https://www.meti.go.jp/main/yosan/yosan_fy2023/pdf/yobihi_noto.pdf",
     "https://www.meti.go.jp/main/yosan/yosan_fy2023/pdf/pr_noto.pdf",
     "https://www.pref.ishikawa.lg.jp/saigai/202401jishin-mokutekibetsu.html",
-    "https://www.pref.fukui.lg.jp/index.html",
     "https://www.pref.niigata.lg.jp/sec/kikitaisaku/240101jishin.html",
     "https://www.jfc.go.jp/n/finance/search/index.html",
     "https://www.jfc.go.jp/n/finance/search/index_k.html",
     "https://www.jfc.go.jp/n/rate/index.html",
     "https://www.jfc.go.jp/n/finance/search/keitoku.html",
     "https://www.jfc.go.jp/n/finance/search/sogyo_tokurei_m.html",
-    "https://www.mhlw.go.jp/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/index.html",
@@ -378,6 +384,7 @@
     "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/qa.htm",
     "https://www.nta.go.jp/taxes/sake/index.htm",
     "https://www.nta.go.jp/taxes/kids/index.htm",
+    "https://www.mlit.go.jp/mizukokudo/index.html",
     "https://www.mlit.go.jp/river/kasen/index.html",
     "https://www.mlit.go.jp/river/dam/index.html",
     "https://www.mlit.go.jp/mizukokudo/sabo/index.html",
@@ -756,22 +763,15 @@
     "https://www.jpo.go.jp/news/koho/saigai/2024_noto/soudan-madoguchi.html",
     "http://www.pcinfo.jpo.go.jp/site/4_news/3_appl/03_06.html",
     "https://www.jpo.go.jp/system/patent/pct/tetuzuki/yusenken_kaifuku.html",
-    "https://www.pref.ishikawa.lg.jp/index.html",
     "https://www.pref.ishikawa.lg.jp/kinkyu/kanri.html",
     "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html",
-    "https://www.pref.ishikawa.lg.jp/kurashi/index.html",
-    "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html",
-    "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html",
     "https://www.pref.ishikawa.lg.jp/kanko_koryu/index.html",
-    "https://www.pref.ishikawa.lg.jp/shigoto/index.html",
     "https://www.pref.ishikawa.lg.jp/kensei/index.html",
     "https://www.pref.ishikawa.lg.jp/about_site/tsukaikata/index.html",
     "https://www.pref.ishikawa.lg.jp/shinsei/index.html",
-    "https://www.pref.ishikawa.lg.jp/kensei/soshiki/kenshokuin/index.html",
     "https://www.pref.ishikawa.lg.jp/sodammadoguchi/index.html",
     "https://www.pref.ishikawa.lg.jp/kurashi/seikatsu/kenzei/index.html",
     "https://www.pref.ishikawa.lg.jp/shisetsu/index.html",
-    "https://www.pref.ishikawa.lg.jp/shinchaku/index.html",
     "https://www.pref.ishikawa.lg.jp/cgi-bin/event_cal_multi/calendar.cgi",
     "https://www.pref.ishikawa.lg.jp/kensei/soshiki/soshiki/renrakusaki/index.html",
     "https://www.pref.ishikawa.lg.jp/jigyosha.html",
@@ -951,7 +951,7 @@
     ],
     [
       "https://warp.da.ndl.go.jp/info:ndljp/pid/11295955/www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
-      "empty"
+      "status 403"
     ],
     [
       "https://www.mlit.go.jp/mizukokudo/sewerage/index.html",

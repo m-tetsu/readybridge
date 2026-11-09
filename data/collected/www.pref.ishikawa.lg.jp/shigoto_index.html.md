@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "3513fb1129497354575b1302f4dc7f5495ab95b6c9d6718b932c545e2957bac3"
-fetched_at: "2026-11-07"
+content_hash: "d69a6c68ccebbdec4323d911df4d17ebff2d87a2c6aac2f8ba4a0102908caa8d"
+fetched_at: "2026-11-09"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
+11月9日
+内職情報のご案内
+
+11月9日
+要経験の内職情報
+
+11月9日
+ICT施工実施要領（農業農村整備事業）について
+
+11月9日
+活動日程
+
 11月5日
 これまでの検査結果
-
-11月5日
-商店街にぎわい創出事業補助金
-
-11月5日
-旅行業について
-
-11月5日
-成長戦略ファンドについて
-
-11月5日
-活動日程
 
 新着情報一覧
 新着情報RSS

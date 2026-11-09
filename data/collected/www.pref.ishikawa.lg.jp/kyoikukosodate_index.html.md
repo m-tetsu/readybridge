@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "9d721d2abe26a331d05320697e8d432cb17a76cde97251de0ef34cfacc01bf14"
-fetched_at: "2026-11-06"
+content_hash: "146999a38247beda36f37a9346c92ed90eda90be8bc6108b526ff8d3321564a9"
+fetched_at: "2026-11-09"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
+11月9日
+プレコンセプションケアについて
+
+11月7日
+石川県民大学校
+
 11月6日
 教育委員会記者発表資料 令和8年度
 
 11月6日
 教育委員会記者発表資料 令和8年度11月分
 
-11月5日
-学校祭
-
-11月4日
-県内高等教育機関との学生の県内定着に関する協定の締結について
-
-11月4日
-入学希望の方へ（保育学科）
+11月6日
+入学者募集
 
 新着情報一覧
 新着情報RSS
