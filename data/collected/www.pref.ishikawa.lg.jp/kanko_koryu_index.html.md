@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "34e29f5fd8a55943069bb28c2d1267eb4c608a9ac3b3cb4d9de70bc7d89aed5b"
-fetched_at: "2026-11-07"
+content_hash: "20fe76902fc92f073aea41067d9fb94aabc0ccab0c5e9163fee5a05ef4079cd4"
+fetched_at: "2026-11-10"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
-11月6日
+11月9日
 いしかわ県民文化振興基金    公募助成事業(文化活動支援事業等)について
+
+11月9日
+千里浜なぎさドライブウェイ交通規制情報
+
+11月9日
+金沢城調査研究所
 
 11月6日
 令和9年度公募説明会の開催について
 
 11月6日
 いしかわっ子能登駅伝交流大会
-
-11月6日
-国際情勢講演会【申込受付を終了しました】
-
-11月6日
-千里浜なぎさドライブウェイ交通規制情報
 
 新着情報一覧
 新着情報RSS

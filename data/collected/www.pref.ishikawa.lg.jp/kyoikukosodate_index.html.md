@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "146999a38247beda36f37a9346c92ed90eda90be8bc6108b526ff8d3321564a9"
-fetched_at: "2026-11-09"
+content_hash: "0e9a569efab09699899a2ad058aff9614feb48f5aad2e50e7b6b5f30ecc8cc61"
+fetched_at: "2026-11-10"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月10日
+県民企画展示（マナビィコーナー）
+
 11月9日
 プレコンセプションケアについて
 
@@ -96,9 +99,6 @@ C
 
 11月6日
 教育委員会記者発表資料 令和8年度11月分
-
-11月6日
-入学者募集
 
 新着情報一覧
 新着情報RSS

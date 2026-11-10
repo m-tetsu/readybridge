@@ -6,8 +6,8 @@ pillar: "recover"
 category: "tax"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "f99caa04c978d70c53e72ba26bba3902899e9e46f21ed2d4a1d1f6bfd0d1761c"
-fetched_at: "2026-10-15"
+content_hash: "5238dff2ee34b549a4eb56069b539e03aef66ae210b1ae8b53d1bbb3b0e7be7c"
+fetched_at: "2026-11-10"
 ---
 もくじ
 はじめに
@@ -170,8 +170,8 @@ Zei君の税金クイズ
 
 紙しばい・絵本のコーナー
 
-令和8年度中学生の「税についての作文」募集
-令和8年度「税に関する高校生の作文」募集
+令和８年度中学生の「税についての作文」各大臣賞・国税庁長官賞受賞者発表
+令和８年度「税に関する高校生の作文」国税庁長官賞受賞者発表
 税の作文（中学生・高校生）
 
 Q&A（よくある質問）

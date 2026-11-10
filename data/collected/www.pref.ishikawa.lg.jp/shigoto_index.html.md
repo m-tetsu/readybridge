@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "d69a6c68ccebbdec4323d911df4d17ebff2d87a2c6aac2f8ba4a0102908caa8d"
-fetched_at: "2026-11-09"
+content_hash: "0c92949f1a0e2d42a96b79e36689d075221268d494639f00e7698be3b0f6f63f"
+fetched_at: "2026-11-10"
 ---
 石川県
 
@@ -86,6 +86,9 @@ C
 新着情報
 
 11月9日
+【障害者のある方対象】オンライン合同企業説明会の開催
+
+11月9日
 内職情報のご案内
 
 11月9日
@@ -96,9 +99,6 @@ ICT施工実施要領（農業農村整備事業）について
 
 11月9日
 活動日程
-
-11月5日
-これまでの検査結果
 
 新着情報一覧
 新着情報RSS

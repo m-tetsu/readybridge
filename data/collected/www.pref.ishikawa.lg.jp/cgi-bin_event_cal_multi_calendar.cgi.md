@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "de19142396d60b1ecb1c1dec19b3a6439d75ad1c45f4ba8b43fb1f5826c29cdf"
-fetched_at: "2026-11-03"
+content_hash: "5f15da61e118fd7d9852264a17650a0e5ed962237a3239856ccb58751d7c8d8e"
+fetched_at: "2026-11-10"
 ---
 石川県
 
@@ -203,7 +203,7 @@ C
 
 石川・金沢の観光を考えるトークセッション（令和8年11月12日）
 
- 
+復興フェア「のともっとMARCHE TOKYO」開催
 
 ジオファミリーチャレンジ 新そば打ち（いしかわ子ども自然学校）
 

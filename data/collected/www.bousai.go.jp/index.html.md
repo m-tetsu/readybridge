@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "dcb2f26e813d582f18522d2630c908f1427027333047bb1fffa3b0dfe2c08f22"
-fetched_at: "2026-11-06"
+content_hash: "713e67c9b40aaa29747eb5edd12492d8f2152daaba597f6ce77d9c99ad782e23"
+fetched_at: "2026-11-10"
 ---
 日本の防災をかえていく。
 
@@ -75,6 +75,10 @@ fetched_at: "2026-11-06"
 9月14日公表令和８年防災功労者内閣総理大臣表彰の受賞者決定について【差替え】（PDF形式：543KB）
 
 記者発表一覧
+
+令和8年11月3日 細野防災大臣による令和８年熊本地震に係る現地視察
+
+令和8年11月2日 防災庁が発足しました(看板掛け・発足式)
 
 気象警報・注意報（気象庁）
 

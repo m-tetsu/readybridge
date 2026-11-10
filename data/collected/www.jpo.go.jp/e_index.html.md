@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "3f61f566380dd2731de8ed719caf47fb69d094e6723cfd7d95135b8aefba2033"
-fetched_at: "2026-11-06"
+content_hash: "284ef56eb67ab524bde049bd9ad42dd089635841840d3b462b4cbbdbde542a8e"
+fetched_at: "2026-11-10"
 ---
 JAPAN PATENT OFFICE
 
@@ -226,6 +226,9 @@ More
 More
 
 Pickup News
+The JPO Exchanged Views with Turkish Intellectual Property-Related Institutions
+
+Pickup News
 JPO Conducted a Training Program on University and SME Support for Officials from Indonesia’s DGIP and Related Agencies
 
 Pickup News
@@ -236,9 +239,6 @@ The JPO holds bilateral discussions during the Trilateral Heads of Office Meetin
 
 Pickup News
 Trilateral Heads of Office Meeting Held
-
-Pickup News
-Judicial Symposium on Intellectual Property / TOKYO 2026
 
 PR & Social Media
 
