@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "609bdc3ba02cdb1b90bcad594dd4b0fe0b037314f34fc69d2709e7409944b845"
-fetched_at: "2026-11-10"
+content_hash: "26dc25cefef2475de55b9e19e98a43bc32a48e26a1468656698b4334cfbd3c6e"
+fetched_at: "2026-11-11"
 ---
 石川県
 
@@ -228,6 +228,9 @@ keikin@pref.ishikawa.lg.jp 
 
 連絡先一覧
 
+石川県立小松産業技術専門校
+健康福祉部 薬事衛生課
+健康福祉部少子化対策監室（子育て支援課）
 金沢城調査研究所
 生活環境部自然環境課
 土木部監理課技術管理室
@@ -239,7 +242,6 @@ keikin@pref.ishikawa.lg.jp 
 石川県発達障害支援センター
 総務部総務課
 白山自然保護センター
-石川県立小松産業技術専門校
 土木部河川課
 土木部水道企業課
 石川県立総合看護専門学校
@@ -292,7 +294,6 @@ keikin@pref.ishikawa.lg.jp 
 企画振興部  交通総合対策監室（交通政策課）
 石川中央保健福祉センター
 農林水産部 農業経営戦略課 技術管理室
-健康福祉部少子化対策監室（子育て支援課）
 教育委員会文化財課・文化遺産活用推進室
 健康福祉部障害保健福祉課
 土木部建築住宅課
@@ -307,7 +308,6 @@ keikin@pref.ishikawa.lg.jp 
 令和8年度  狩猟免許試験のご案内
 東京事務所
 内部統制制度
-健康福祉部 薬事衛生課
 生活環境部環境政策課
 デジタル化推進本部
 手取川水道事務所

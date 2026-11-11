@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "c6c2cf58cb2db08e45dfe95cda59c3c36c6e2226cd93b37fec08e9980daa8404"
-fetched_at: "2026-11-10"
+content_hash: "bc5874f3415795b90b8a14f6e123e902a2824e52ff1464b60dc5a14136df16f5"
+fetched_at: "2026-11-11"
 ---
 お知らせ
 
@@ -38,7 +38,7 @@ fetched_at: "2026-11-10"
 大臣・副大臣・大臣政務官ページへ
 
 古川大臣
-日本学術会議役員の表敬訪問
+日越海洋政策対話への出席及び「海洋政策分野に関する協力覚書」への署名（令和8年11月6日）
 
 藤井大臣
 第8回地域未来戦略に関する関係副大臣等会議に出席（令和8年10月30日）

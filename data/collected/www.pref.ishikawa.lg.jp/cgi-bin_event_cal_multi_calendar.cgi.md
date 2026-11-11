@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "5f15da61e118fd7d9852264a17650a0e5ed962237a3239856ccb58751d7c8d8e"
-fetched_at: "2026-11-10"
+content_hash: "5c9b2414f940b7b175025b35ad0b8d099969a57ae2c810e5b6f8c503b0cc33b8"
+fetched_at: "2026-11-11"
 ---
 石川県
 
@@ -283,7 +283,7 @@ C
 
  
 
-人権シリーズ講座のご案内
+運輸事業の合同企業説明会
 
 いしかわ歴史講座「加賀・能登の中世武士たち」
 
@@ -297,7 +297,7 @@ C
 
  
 
- 
+人権シリーズ講座のご案内
 
  
 

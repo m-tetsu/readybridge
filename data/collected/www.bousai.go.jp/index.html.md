@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "713e67c9b40aaa29747eb5edd12492d8f2152daaba597f6ce77d9c99ad782e23"
-fetched_at: "2026-11-10"
+content_hash: "6c4e3b213196db484a1d5efd8e7ed8f9d1b0a8982c80b945a42d6f18d576ba5d"
+fetched_at: "2026-11-11"
 ---
 日本の防災をかえていく。
 
@@ -26,6 +26,7 @@ fetched_at: "2026-11-10"
 新着情報
 記者発表
 
+11月10日公表「防災立国シンポジウム２０２６ ～防災庁始動、この国の防災はどう変わるか～」の開催について
 11月5日公表令和８年熊本地震に係る現地視察に関する報告（PDF形式：884KB）
 11月2日公表防災庁人事異動（令和８年１１月２日付）（PDF形式：288KB）
 10月28日公表令和８年台風第25号等に係る現場視察に関する報告（PDF形式：840KB）

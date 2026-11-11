@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "998b3dce3e50a0d4d90054afb7fae4169d9a4825df1dd380f0e476a4de1836e1"
-fetched_at: "2026-10-31"
+content_hash: "12dedd36c8685f215c5bcc1357a3687ba4072c19bc12b4fb853da612cd6db23f"
+fetched_at: "2026-11-11"
 ---
 ホーム
 >
@@ -369,7 +369,7 @@ http://www.mhlw.go.jp/bunya/roudoukijun/hokenryou/kouza_kaijo.html
 
 ※口座振替の登録状況等の確認については、管轄労働局労働保険徴収課（室）までお願いいたします。
 
-都道府県労働局(労働基準監督署、公共職業安定所)所在地一覧｜厚生労働省
+労働局・労働基準監督署・ハローワーク｜厚生労働省
 
 厚生労働省労働基準局 労働保険徴収課徴収係
 

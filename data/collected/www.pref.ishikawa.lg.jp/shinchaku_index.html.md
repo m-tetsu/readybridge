@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "5b8960541b854cfcf41d50779c64e166c3478b0234682b7432b2ffbaa70f7417"
-fetched_at: "2026-11-10"
+content_hash: "12e1ab87a7af399b4b1e015acddcbd676c047ad4ca987769b21254963c14d1d1"
+fetched_at: "2026-11-11"
 ---
 石川県
 
@@ -85,7 +85,7 @@ C
 
 新着情報
 
-意見募集（パブリックコメント）（2026年11月10日）
+意見募集（パブリックコメント）（2026年11月11日）
 石川県環境総合計画を改定しました（2026年11月9日）
 石川県職員（薬剤師）の採用選考試験情報について（2026年11月9日）
 知事定例記者会見（令和8年11月4日）（2026年11月5日）

@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "6796d2fb37952058a50a28413beb1970db299bf32a30a090530f4e5060a3a3e6"
-fetched_at: "2026-11-10"
+content_hash: "a7343777953118141967e110f3fd27e3429414ff2340d989ec0a4834be061bc8"
+fetched_at: "2026-11-11"
 ---
 石川県
 
@@ -94,11 +94,11 @@ C
 11月10日
 石川県におけるイノシシ及びニホンジカの狩猟期間延長について
 
-11月9日
-石川県環境総合計画を改定しました
+11月10日
+ふるさと石川応援サイト（ふるさと納税制度）
 
 11月9日
-第2回「女性を対象とした狩猟の魅力体験ツアー」開催
+石川県環境総合計画を改定しました
 
 新着情報一覧
 新着情報RSS
