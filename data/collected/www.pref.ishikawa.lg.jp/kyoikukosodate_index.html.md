@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "06218f9c5f21178253d19a4c9d8d51154480f6cfaa7da3b500c34dcc9818b28f"
-fetched_at: "2026-11-11"
+content_hash: "bcd9e4d9e5322e9abe785d50f53ce4ae7c3967c0b6e781c1e74442c73cbc5b38"
+fetched_at: "2026-11-12"
 ---
 石川県
 
@@ -91,14 +91,14 @@ C
 11月11日
 入学希望の方へ（保育学科）
 
+11月11日
+学校安全
+
 11月10日
 スクールカウンセラー等活用事業
 
 11月10日
 国民スポーツ大会について
-
-11月10日
-「いつか」を「いま」に。いま、里親に！
 
 新着情報一覧
 新着情報RSS

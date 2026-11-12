@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "29e499c198af3f8adb525ea0ba3dcbbff2f25d6e2d3b4432aec4a11ad091020f"
-fetched_at: "2026-11-06"
+content_hash: "ced662181730345e1e6d3b09d2e83320c1f0a3aea55aba690aaba3f7bf92d40a"
+fetched_at: "2026-11-12"
 ---
 石川県
 
@@ -85,6 +85,12 @@ C
 
 新着情報
 
+11月11日
+防災学習動画制作業務委託に係るプロポーザルの実施について
+
+11月10日
+石川県防災アドバイザリー会議
+
 11月5日
 石川県防災・減災推進条例について
 
@@ -93,12 +99,6 @@ C
 
 11月5日
 消費生活グループ
-
-11月5日
-北陸三県統一  年末の交通安全県民運動
-
-11月5日
-消費者庁からのお知らせ
 
 新着情報一覧
 新着情報RSS

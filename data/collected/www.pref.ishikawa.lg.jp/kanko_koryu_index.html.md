@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "20fe76902fc92f073aea41067d9fb94aabc0ccab0c5e9163fee5a05ef4079cd4"
-fetched_at: "2026-11-10"
+content_hash: "87b797268692071b249079736fa6317e8891aee3f5ba3ca05f65684c8a939552"
+fetched_at: "2026-11-12"
 ---
 石川県
 
@@ -85,7 +85,7 @@ C
 
 新着情報
 
-11月9日
+11月12日
 いしかわ県民文化振興基金    公募助成事業(文化活動支援事業等)について
 
 11月9日

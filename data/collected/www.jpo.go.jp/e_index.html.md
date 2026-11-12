@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "284ef56eb67ab524bde049bd9ad42dd089635841840d3b462b4cbbdbde542a8e"
-fetched_at: "2026-11-10"
+content_hash: "459449185521cb4ac2f7004f8d873322b74192be519e635a842ec4f1068ed049"
+fetched_at: "2026-11-12"
 ---
 JAPAN PATENT OFFICE
 
@@ -226,6 +226,9 @@ More
 More
 
 Pickup News
+JPO holds meeting with US Bar Liaison Council
+
+Pickup News
 The JPO Exchanged Views with Turkish Intellectual Property-Related Institutions
 
 Pickup News
@@ -236,9 +239,6 @@ JPO-DPMA Examiner Exchange Program Held
 
 Pickup News
 The JPO holds bilateral discussions during the Trilateral Heads of Office Meeting
-
-Pickup News
-Trilateral Heads of Office Meeting Held
 
 PR & Social Media
 
