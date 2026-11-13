@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "bcd9e4d9e5322e9abe785d50f53ce4ae7c3967c0b6e781c1e74442c73cbc5b38"
-fetched_at: "2026-11-12"
+content_hash: "c38dcad81c03ec609e0388a372197781ef676b8418970152b0b5354fc8c974ac"
+fetched_at: "2026-11-13"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月12日
+生涯学習担当者研修
+
 11月11日
 交通案内
 
@@ -96,9 +99,6 @@ C
 
 11月10日
 スクールカウンセラー等活用事業
-
-11月10日
-国民スポーツ大会について
 
 新着情報一覧
 新着情報RSS

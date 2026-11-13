@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "ef1b359e8e0885b18a8dd2fbd937efd24d6cc5d388f718d06d8367f057fc5097"
-fetched_at: "2026-11-12"
+content_hash: "555999de2a37e6d7d3cb44913cf49acc4189861c0e8ba41cc4e78532c5c9c1ed"
+fetched_at: "2026-11-13"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
+11月13日
+令和８年度第２回ワークセミナー
+
+11月12日
+これまでの検査結果
+
+11月12日
+カスタマーハラスメント対策について
+
 11月12日
 活動日程
 
 11月11日
 チャレンジ支援補助金
-
-11月11日
-チャレンジ支援補助金交付決定
-
-11月11日
-石川県内企業の人材確保支援事業について
-
-11月11日
-令和6年能登半島地震からの復旧・復興について
 
 新着情報一覧
 新着情報RSS

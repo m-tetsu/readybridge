@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "14deb302a0950d915fc29c99c4eed4455b3f7633d10bca772673a801dd16511f"
-fetched_at: "2026-11-12"
+content_hash: "9c4956efaca8228d93cabbb2b37ccb8f6bb2e82c514c4c40b73ac4d7386fa7df"
+fetched_at: "2026-11-13"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
+11月12日
+がん治療と仕事の両立支援
+
+11月12日
+石川県肝炎医療コーディネーターについて
+
+11月12日
+石川県南加賀保健福祉センター
+
 11月11日
 インフルエンザ様疾患及び新型コロナウイルス感染症による集団感染事例
 
 11月11日
 急性呼吸器感染症（ARI）の発生状況
-
-11月11日
-石川県感染症情報センター
-
-11月11日
-患者情報
-
-11月11日
-病原体情報
 
 新着情報一覧
 新着情報RSS

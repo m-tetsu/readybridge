@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "185fe0b5f188e1305a3bf4d45f03ad82c38d5df8e2ffca5a2d30319cad9b1a1b"
-fetched_at: "2026-11-12"
+content_hash: "5b10a42a57d13ab1fecb7485c12dce9c3f301423c675d9418a1920ffc943c2f7"
+fetched_at: "2026-11-13"
 ---
 お知らせ
 
@@ -37,14 +37,14 @@ fetched_at: "2026-11-12"
 写真で見る大臣の動き
 大臣・副大臣・大臣政務官ページへ
 
+古川大臣
+「創薬・先端医療」分野の視察 
+
 城内大臣
 経済財政諮問会議 ※首相官邸ホームページへのリンク
 
 古川大臣
 一般社団法人フュージョンエネルギー産業協議会（J-Fusion）の表敬
-
-古川大臣
-日越海洋政策対話への出席及び「海洋政策分野に関する協力覚書」への署名（令和8年11月6日）
 
 藤井大臣
 第8回地域未来戦略に関する関係副大臣等会議に出席（令和8年10月30日）

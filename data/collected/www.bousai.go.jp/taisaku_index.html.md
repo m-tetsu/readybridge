@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "597a56eaa35f5ab87aa1c6705906a021efb038c794a1d273cd1bcffa6c79c93e"
-fetched_at: "2026-11-02"
+content_hash: "bfa4eb8eb402f9695624a674cd2a44076bd3927eb08893c1132e7bd2e7ee692e"
+fetched_at: "2026-11-13"
 ---
 お役立ち情報
 一般向け
@@ -143,9 +143,9 @@ ISUT（災害時情報集約支援チーム）
 地方公共団体の備蓄状況（PDF形式：748KB）
 自治体備蓄に関するガイドライン（工事中）
 
-内閣府防災担当が所掌する交付金
+防災庁が所掌する交付金
 
-内閣府防災担当が所掌する交付金
+防災庁が所掌する交付金
 
 事前防災対策総合推進費
 

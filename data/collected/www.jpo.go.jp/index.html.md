@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "236e39ab83e58c745eac962b5b062b5db7c5703953ea36b94a8cd117600a8e16"
-fetched_at: "2026-11-12"
+content_hash: "cf98f9605f5f85d67f1e3ee0cb49d98ab730c3b20a967e92eabbe66548ed3fa9"
+fetched_at: "2026-11-13"
 ---
 特許庁
 
@@ -691,6 +691,9 @@ JPOちゅーぶ初の海外進出！DE&Iはいかにイノベーションを生�
 報道発表一覧を見る
 
 最近の動き
+マレーシア知的財産公社（MyIPO）の特許審査官に審査実務研修を対面形式で実施しました
+
+最近の動き
 US-Bar リエゾンカウンシルと意見交換を実施しました
 
 最近の動き
@@ -701,9 +704,6 @@ US-Bar リエゾンカウンシルと意見交換を実施しました
 
 最近の動き
 トルコ知財関連機関と意見交換を行いました
-
-最近の動き
-インドネシアDGIP職員等に大学・中小企業支援に関する研修を実施しました
 
 イベント情報
 

@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "459449185521cb4ac2f7004f8d873322b74192be519e635a842ec4f1068ed049"
-fetched_at: "2026-11-12"
+content_hash: "a8a1656310e83e053a22837f2379e43d2026d9252576832eacda9fa011468eb2"
+fetched_at: "2026-11-13"
 ---
 JAPAN PATENT OFFICE
 
@@ -226,6 +226,9 @@ More
 More
 
 Pickup News
+JPO Provided MyIPO Examiners with Face-to-Face Examination Practice Training Program
+
+Pickup News
 JPO holds meeting with US Bar Liaison Council
 
 Pickup News
@@ -236,9 +239,6 @@ JPO Conducted a Training Program on University and SME Support for Officials fro
 
 Pickup News
 JPO-DPMA Examiner Exchange Program Held
-
-Pickup News
-The JPO holds bilateral discussions during the Trilateral Heads of Office Meeting
 
 PR & Social Media
 

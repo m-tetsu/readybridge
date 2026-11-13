@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "ced662181730345e1e6d3b09d2e83320c1f0a3aea55aba690aaba3f7bf92d40a"
-fetched_at: "2026-11-12"
+content_hash: "ba899e8b8f60a54f07870529136f71dff8ba3a60b8f6575efb4a53691e78e36c"
+fetched_at: "2026-11-13"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月12日
+【企業版ふるさと納税】令和6年奥能登豪雨への寄付受付
+
 11月11日
 防災学習動画制作業務委託に係るプロポーザルの実施について
 
@@ -96,9 +99,6 @@ C
 
 11月5日
 「石川県防災・減災推進条例」（案）に対するご意見の募集について
-
-11月5日
-消費生活グループ
 
 新着情報一覧
 新着情報RSS
