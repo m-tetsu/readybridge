@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "555999de2a37e6d7d3cb44913cf49acc4189861c0e8ba41cc4e78532c5c9c1ed"
-fetched_at: "2026-11-13"
+content_hash: "e982ed39522327f8a61b71ca6583260b017512dc052f64dd007c2b8ec64bca9d"
+fetched_at: "2026-11-14"
 ---
 石川県
 
@@ -86,19 +86,19 @@ C
 新着情報
 
 11月13日
+ふるさとの匠
+
+11月13日
+石川県委託訓練受講申込等について
+
+11月13日
 令和８年度第２回ワークセミナー
+
+11月13日
+石川県職業能力開発プラザ  Plaza  Occupation ability development
 
 11月12日
 これまでの検査結果
-
-11月12日
-カスタマーハラスメント対策について
-
-11月12日
-活動日程
-
-11月11日
-チャレンジ支援補助金
 
 新着情報一覧
 新着情報RSS

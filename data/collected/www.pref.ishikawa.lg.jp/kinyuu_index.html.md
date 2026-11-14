@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "2b9118ad1312c611a07ef0f2f2b07d44a94987c244aedfedb7f57b34cbb95bed"
-fetched_at: "2026-11-13"
+content_hash: "0225e3cf3709ab7f5c63ac52492f38805881c82b8ca12d8c6684f8114fb0a241"
+fetched_at: "2026-11-14"
 ---
 石川県
 
@@ -228,6 +228,8 @@ keikin@pref.ishikawa.lg.jp 
 
 連絡先一覧
 
+石川県生活環境部カーボンニュートラル推進課
+石川県消費生活支援センター
 総務部財政課
 石川障害者職業能力開発校
 監査委員
@@ -244,7 +246,6 @@ keikin@pref.ishikawa.lg.jp 
 生活環境部自然環境課
 土木部監理課技術管理室
 医療機関へ各種のお知らせ
-石川県生活環境部カーボンニュートラル推進課
 石川県発達障害支援センター
 総務部総務課
 白山自然保護センター
@@ -268,7 +269,6 @@ keikin@pref.ishikawa.lg.jp 
 農林水産部農業経営戦略課
 石川県女性センター
 中能登土木総合事務所
-石川県消費生活支援センター
 石川県人事委員会
 中能登土木総合事務所のと里山海道課
 文化観光スポーツ部スポーツ振興課

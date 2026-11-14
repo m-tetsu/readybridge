@@ -6,11 +6,12 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "d25c56bc3dafc16358b7854294a7d512178af7ebf26e1fcb4134fee4926a4c08"
-fetched_at: "2026-11-13"
+content_hash: "a8807267aed98ffb3137868518534dd383bba575427b9f6a72a93c502e8b44d2"
+fetched_at: "2026-11-14"
 ---
 重要なお知らせ
 
+大規模なシステム障害に伴うメールシステムの不具合への対応について
 令和8年熊本地震に伴う災害関連情報（中小企業向け支援策ガイドブックなど）
 中東情勢等を踏まえた中小企業・小規模事業者向け支援について
 

@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "47f381d90b081c80efee8fcc1eb6e32593f09d9b3e4c367edbe1e26a60a9181d"
-fetched_at: "2026-11-13"
+content_hash: "66f6a16132c242c4f4ecf35c057afa5ba6d97a8c68c73bf5382276d4415dbd5a"
+fetched_at: "2026-11-14"
 ---
 特別相談窓口
 
@@ -160,14 +160,6 @@ RSS
 
 セミナー・相談会
 店舗別セミナー・相談会一覧
-
-開催期間 2026年11月13日
-
-糸満市商工会における出張相談会の開催について
-
-開催期間 2026年11月13日
-
-那覇商工会議所における出張相談会の開催について
 
 開催期間 2026年11月17日
 

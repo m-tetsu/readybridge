@@ -6,8 +6,8 @@ pillar: "recover"
 category: "tax"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "8f7f1b0c91022b94c8f23dc29170dbd9878e4750adb715e2536357b377710f6d"
-fetched_at: "2026-11-07"
+content_hash: "014ecb1ece186e27750d9ce13b4d0cc16d34ad8180db6a23c0ccff1fd300908c"
+fetched_at: "2026-11-14"
 ---
 税理士試験の概要
 詳細はこちら
@@ -28,6 +28,7 @@ fetched_at: "2026-11-07"
 
 令和８年度（第76回）税理士試験
 
+令和8年度（第76回）税理士試験出題のポイント（再試験）
 令和8年度（第76回）税理士試験問題、答案用紙及び正誤表（再試験）
 令和８年度（第76回）税理士試験（熊本県）の再試験実施に係る留意事項について(PDF/231KB) 
 令和８年度（第76回）税理士試験において適正な試験時間が確保されなかった事案について(PDF/96KB) 

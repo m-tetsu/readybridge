@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "cf98f9605f5f85d67f1e3ee0cb49d98ab730c3b20a967e92eabbe66548ed3fa9"
-fetched_at: "2026-11-13"
+content_hash: "8dd6bff8f07ff17d2ba2c73ee3da6bd9e2eb92ae833c9560a5fdce0d5fb66c3c"
+fetched_at: "2026-11-14"
 ---
 特許庁
 
@@ -21,7 +21,7 @@ English
 メニュー
 
 重要なお知らせ
-令和8年10月13日にインターネット出願ソフトで発生した障害について（外部サイトへ） 
+大規模なシステム障害に伴うメールシステムの不具合への対応について
 
 重要なお知らせ
 特許庁を装った不審なメールにご注意ください
