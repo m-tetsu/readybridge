@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "945e2c8a161bb7688c9cf6389dc0aadd4e90edb83f6223b1747f46c57e7bb922"
-fetched_at: "2026-11-14"
+content_hash: "c2b6f371c1654472a576a1f4f39a8a7bb556c43d7e449938830e91634560443c"
+fetched_at: "2026-11-16"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月16日
+建設型応急住宅の住宅事業者への無償提供について
+
 11月13日
 石川県消費生活支援センター
 
@@ -96,9 +99,6 @@ C
 
 11月11日
 防災学習動画制作業務委託に係るプロポーザルの実施について
-
-11月10日
-石川県防災アドバイザリー会議
 
 新着情報一覧
 新着情報RSS

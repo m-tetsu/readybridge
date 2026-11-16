@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "fc3801c1a83b02041560006911a76c21e3fca78032225baaac858ac85fd1a9ec"
-fetched_at: "2026-11-14"
+content_hash: "8130e0f7d6c9dbada835f72aa849e4571709ed37c61895b54aba5f212c1625db"
+fetched_at: "2026-11-16"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月16日
+【ほっと石川／北陸放送】過去に既に放送された番組の一部をご覧いただけます！
+
 11月13日
 スポーツ振興課の記者発表資料（令和8年度）
 
@@ -96,9 +99,6 @@ C
 
 11月13日
 防災対策課の記者発表資料（令和8年度）
-
-11月13日
-市町支援課の記者発表資料（令和8年度）
 
 新着情報一覧
 新着情報RSS
