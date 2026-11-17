@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "21791884556a1c0c25df4efbb9a57fffd9a04c1a42a4a7d39adf92fc86716f8a"
-fetched_at: "2026-11-14"
+content_hash: "9ef642d8865067c5559600cd7f8a2228b4ea192bc7aae654d9a121f2ae110215"
+fetched_at: "2026-11-17"
 ---
 注目キーワード
 
@@ -109,6 +109,10 @@ RSS
 県政情報
 
 「知りたいこと」を選択してください。
+2026年11月17日
+
+福井空港 新空港ビル基本設計をまとめました
+
 2026年11月13日
 
 スポカルFUKUI2026を開催します！

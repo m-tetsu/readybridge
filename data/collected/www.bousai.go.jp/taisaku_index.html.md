@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "bfa4eb8eb402f9695624a674cd2a44076bd3927eb08893c1132e7bd2e7ee692e"
-fetched_at: "2026-11-13"
+content_hash: "3956b8da6f64316404dc374ff8216d678ed7c2daefe20e5a5776719e4eb39666"
+fetched_at: "2026-11-17"
 ---
 お役立ち情報
 一般向け
@@ -150,6 +150,10 @@ ISUT（災害時情報集約支援チーム）
 事前防災対策総合推進費
 
 事前防災対策総合推進費
+
+船舶活用医療
+
+船舶活用医療
 
 このページの先頭へ
 

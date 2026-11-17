@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "8dd6bff8f07ff17d2ba2c73ee3da6bd9e2eb92ae833c9560a5fdce0d5fb66c3c"
-fetched_at: "2026-11-14"
+content_hash: "3a583acb69baccf0ef9273a2d31c51a276adf1242c6c413c650ed8b53e7a5e09"
+fetched_at: "2026-11-17"
 ---
 特許庁
 
@@ -21,7 +21,7 @@ English
 メニュー
 
 重要なお知らせ
-大規模なシステム障害に伴うメールシステムの不具合への対応について
+大規模なシステム障害に伴うメールシステムの不具合への対応について（11月16日更新）
 
 重要なお知らせ
 特許庁を装った不審なメールにご注意ください
