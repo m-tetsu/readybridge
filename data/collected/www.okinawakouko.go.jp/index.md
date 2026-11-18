@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "66f6a16132c242c4f4ecf35c057afa5ba6d97a8c68c73bf5382276d4415dbd5a"
-fetched_at: "2026-11-14"
+content_hash: "900ea3759711fbfbac099406a6d020713ef7f1a2b0ab6287dc9cc7b3a4477302"
+fetched_at: "2026-11-18"
 ---
 特別相談窓口
 
@@ -160,10 +160,6 @@ RSS
 
 セミナー・相談会
 店舗別セミナー・相談会一覧
-
-開催期間 2026年11月17日
-
-八重瀬町商工会における出張相談会の開催について
 
 開催期間 2026年11月18日
 

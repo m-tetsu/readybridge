@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "7a2726286e76f90e014173cac37d49bc441d54d1e8edfcd4417396b5ae8a8146"
-fetched_at: "2026-11-17"
+content_hash: "69fd101325276c94c5a7b149f6ab6add0c148b05633bbd0eaf2925da48b78bfe"
+fetched_at: "2026-11-18"
 ---
 石川県
 
@@ -89,6 +89,9 @@ C
 地方自治法施行令第167条の2第1項第3号による随意契約について
 
 11月17日
+石川県肝炎医療コーディネーターについて
+
+11月17日
 アレルギー疾患対策について
 
 11月17日
@@ -96,9 +99,6 @@ C
 
 11月17日
 催しもの
-
-11月16日
-県内老人福祉施設等一覧
 
 新着情報一覧
 新着情報RSS

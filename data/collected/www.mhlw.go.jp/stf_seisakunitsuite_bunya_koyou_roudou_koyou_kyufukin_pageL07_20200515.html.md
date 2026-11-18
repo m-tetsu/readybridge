@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "6bdba5b9a3139b41e6b7e7d7a622e2a5771880b6ae5a85ecf785741ff2fabc0b"
-fetched_at: "2026-10-10"
+content_hash: "b077b1e2b850f25fd96401253dbe61375935bf0a947d3110e307aeb724b244ba"
+fetched_at: "2026-11-18"
 ---
 ホーム
 >
@@ -150,7 +150,7 @@ URLのドメイン（厚生労働省発行のものはmhlw.go.jp）や掲載内�
 
 パンフレット等
 
-雇用調整助成金ガイドブック（令和８年８月１日現在版）［3.8MB］New
+雇用調整助成金ガイドブック（令和８年８月１日現在版）［3.9MB］New
 過去のガイドブックはこちら
 
 支給要領

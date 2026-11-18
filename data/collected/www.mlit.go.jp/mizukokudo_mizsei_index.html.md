@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "facility-prep"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "0688bc7a0d54fc61d2137bf0dba429bdaed73684c2d1c406460baf40f7cc9fa1"
-fetched_at: "2026-10-20"
+content_hash: "6928899c167168a6f68be4fd5544e30bfcf137af471459841f65939c6ee7b7ee"
+fetched_at: "2026-11-18"
 ---
 水管理・国土保全局トップ水資源トップ水資源部についてENGLISH
 
@@ -31,11 +31,11 @@ fetched_at: "2026-10-20"
 
 新着情報
 
-渇水情報総合ポータル（2026年9月14日）
-
 ｢気候変動による水資源への影響評価ガイドライン｣ を作成しました～流域の関係者による水管理の調整に向けて～（2026年8月21日）
 
 ｢水の未来を考える国際シンポジウム｣開催報告（2026年8月10日）
+
+「令和８年版 日本の水資源の現況」を公表～水資源の現状及び取組状況についてとりまとめました～（2026年8月7日）
 
 過去の新着情報一覧
 

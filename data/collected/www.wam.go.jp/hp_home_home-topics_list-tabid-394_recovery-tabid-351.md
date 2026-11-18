@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "0be73379c2eacfb590b7c9455de39ac083408893fb574aa9f09c32da280b2902"
-fetched_at: "2026-10-10"
+content_hash: "45fa86826a3335784c73dc585a4568b4c2bfe080acd21e98415203c09c6d4b44"
+fetched_at: "2026-11-18"
 ---
 小
 
@@ -290,10 +290,6 @@ TOP
 令和7年青森県東方沖を震源とする地震に伴う災害
 
 青森県、岩手県
-
-令和7年11月18日大分市佐賀関の大規模火災に伴う災害
-
-大分県
 
 令和7年カムチャツカ半島付近の地震に伴う津波による災害
 

@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "5fdedfd9414bb7391cb2ac2f55cca1e40d99a6c8986f592aeacbc506272be4e7"
-fetched_at: "2026-10-10"
+content_hash: "79b820cc932e291a02831008b780993050797c71414a0c6cb830e63ea8d7ff0c"
+fetched_at: "2026-11-18"
 ---
 小
 
@@ -302,7 +302,6 @@ TOP
 令和8年岩手県大槌町の林野火災による災害
 令和8年1月21日からの大雪による被害
 令和7年青森県東方沖を震源とする地震に伴う被害
-令和7年11月18日大分市佐賀関の大規模火災による被害
 
  ※東日本大震災により被災された皆さまは 「(平成23年)東日本大震災で被災された皆さまへのお知らせ」をご覧ください。
 4.お問い合わせ先
