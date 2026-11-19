@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "a8a1656310e83e053a22837f2379e43d2026d9252576832eacda9fa011468eb2"
-fetched_at: "2026-11-13"
+content_hash: "55d65ac35e6fa0c592a8dfbf645cbfbd7555f1f21c36a2daffb3dcf1c0db25c2"
+fetched_at: "2026-11-19"
 ---
 JAPAN PATENT OFFICE
 
@@ -226,6 +226,9 @@ More
 More
 
 Pickup News
+WIPO First Global Forum on Intellectual Property and Artificial Intelligence held
+
+Pickup News
 JPO Provided MyIPO Examiners with Face-to-Face Examination Practice Training Program
 
 Pickup News
@@ -236,9 +239,6 @@ The JPO Exchanged Views with Turkish Intellectual Property-Related Institutions
 
 Pickup News
 JPO Conducted a Training Program on University and SME Support for Officials from Indonesia’s DGIP and Related Agencies
-
-Pickup News
-JPO-DPMA Examiner Exchange Program Held
 
 PR & Social Media
 

@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "c9caf50834530fa280db855aac8d27cc50aff49a8c82ceda97c4c24b7cd0e2aa"
-fetched_at: "2026-11-18"
+content_hash: "6d0efea1e5d69d4c486ce063fdd89fb7b69302178b1b6ad79447f04b6031c968"
+fetched_at: "2026-11-19"
 ---
 石川県
 
@@ -86,6 +86,12 @@ C
 新着情報
 
 11月18日
+千里浜なぎさドライブウェイ交通規制情報
+
+11月18日
+「能登とつながる文化まつり」(東京国立博物館『博物館に初もうで』関連イベント)の開催について
+
+11月18日
 きらめく！アート展
 
 11月17日
@@ -93,12 +99,6 @@ C
 
 11月17日
 無形文化財（県指定）
-
-11月17日
-石川県文化財一覧（県指定）
-
-11月16日
-いしかわ県民文化振興基金    公募助成事業(文化活動支援事業等)について
 
 新着情報一覧
 新着情報RSS

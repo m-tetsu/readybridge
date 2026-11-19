@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "900ea3759711fbfbac099406a6d020713ef7f1a2b0ab6287dc9cc7b3a4477302"
-fetched_at: "2026-11-18"
+content_hash: "05fa30b4eab73f7dcfef0cfb9fb2e08acb3c37d7afb5e7087d065a6fc3415979"
+fetched_at: "2026-11-19"
 ---
 特別相談窓口
 
@@ -160,10 +160,6 @@ RSS
 
 セミナー・相談会
 店舗別セミナー・相談会一覧
-
-開催期間 2026年11月18日
-
-与那原町商工会における出張相談会の開催について
 
 開催期間 2026年11月19日 ～ 2026年11月20日
 

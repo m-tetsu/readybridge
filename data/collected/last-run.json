@@ -1,24 +1,31 @@
 {
   "summary": {
-    "ran_at": "2026-11-18T03:28:32.313Z",
+    "ran_at": "2026-11-19T03:03:10.936Z",
     "pages_fetched": 800,
-    "new": 0,
-    "changed": 18,
-    "unchanged": 782,
-    "skipped": 106
+    "new": 7,
+    "changed": 17,
+    "unchanged": 776,
+    "skipped": 110
   },
-  "new": [],
+  "new": [
+    "https://www.chusho.meti.go.jp/cybersecurity/index.html",
+    "https://www.ipa.go.jp/security/security-action/",
+    "https://www.ipa.go.jp/security/otasuketai-pr/",
+    "https://www.ipa.go.jp/security/guide/sme/about.html",
+    "https://www.ipa.go.jp/security/sme/shien/list.html",
+    "https://www.ipa.go.jp/security/support/incident-support.html",
+    "https://mirasapo-plus.go.jp/wordpress/wp-content/uploads/2026/10/27160028/000006722.pdf"
+  ],
   "changed": [
+    "https://www.chusho.meti.go.jp/saigai.html",
     "https://www.pref.fukui.lg.jp/index.html",
     "https://www.mhlw.go.jp/index.html",
-    "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/pageL07_20200515.html",
-    "https://www.wam.go.jp/hp/home/home-topics_list-tabid-394/recovery-tabid-351/",
-    "https://www.wam.go.jp/hp/home-topics_list-recovery-recovery-tabid-1129/",
     "https://www.mlit.go.jp/mizukokudo/index.html",
-    "https://www.mlit.go.jp/mizukokudo/mizsei/index.html",
+    "https://www.bousai.go.jp/index.html",
     "https://www.cao.go.jp/",
-    "https://www.bousai.go.jp/fusuigai/r8chiba_ooame_working/index.html",
     "http://www.okinawakouko.go.jp/",
+    "https://www.jpo.go.jp/index.html",
+    "https://www.jpo.go.jp/e/index.html",
     "https://www.pref.ishikawa.lg.jp/index.html",
     "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html",
     "https://www.pref.ishikawa.lg.jp/kurashi/index.html",
@@ -29,7 +36,6 @@
     "https://www.pref.ishikawa.lg.jp/kensei/index.html"
   ],
   "unchanged": [
-    "https://www.chusho.meti.go.jp/saigai.html",
     "https://www.chusho.meti.go.jp/saigai/r6_noto_jishin/index.html",
     "https://www.jfc.go.jp/n/finance/search/saigaikashitsuke_m.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00177.html",
@@ -217,6 +223,7 @@
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/index.html",
+    "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/pageL07_20200515.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000055967.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000134526_00005.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00494.html",
@@ -267,6 +274,7 @@
     "https://www.mhlw.go.jp/stf/newpage_37331.html",
     "https://www.mhlw.go.jp/stf/newpage_06756.html",
     "https://www.mhlw.go.jp/content/001186722.pdf",
+    "https://www.wam.go.jp/hp/home/home-topics_list-tabid-394/recovery-tabid-351/",
     "https://www.mhlw.go.jp/content/001186724.pdf",
     "https://www.mhlw.go.jp/content/001186728.pdf",
     "https://www.mhlw.go.jp/content/001186729.pdf",
@@ -332,6 +340,7 @@
     "https://www.mhlw.go.jp/stf/newpage_37221.html",
     "https://www.nenkin.go.jp/section/soudan/index.html",
     "https://www.mhlw.go.jp/stf/newpage_37424.html",
+    "https://www.wam.go.jp/hp/home-topics_list-recovery-recovery-tabid-1129/",
     "https://www.mhlw.go.jp/stf/newpage_37351.html",
     "https://www.mhlw.go.jp/content/001213457.pdf",
     "https://www.mhlw.go.jp/stf/newpage_37199.html",
@@ -395,6 +404,7 @@
     "https://www.mlit.go.jp/river/dam/index.html",
     "https://www.mlit.go.jp/mizukokudo/sabo/index.html",
     "https://www.mlit.go.jp/river/kaigan/index.html",
+    "https://www.mlit.go.jp/mizukokudo/mizsei/index.html",
     "https://www.mlit.go.jp/river/bousai/index.html",
     "https://www.mlit.go.jp/river/kankyo/index.html",
     "https://www.mlit.go.jp/river/riyou/index.html",
@@ -424,7 +434,6 @@
     "https://www.bousai.go.jp/kyoiku/kigyou/",
     "https://disaportal.gsi.go.jp/",
     "https://www.river.go.jp/",
-    "https://www.bousai.go.jp/index.html",
     "https://www.bousai.go.jp/oyakudachi/info_general.html",
     "https://www.bousai.go.jp/oyakudachi/info_kigyou.html",
     "https://www.bousai.go.jp/oyakudachi/info_jichitai.html",
@@ -434,6 +443,7 @@
     "https://www.bousai.go.jp/oukyu/hinankankoku/index.html",
     "https://www.bousai.go.jp/fusuigai/suigai_kouikihinan/index.html",
     "https://www.bousai.go.jp/fusuigai/suigaiworking/kouikihinan.html",
+    "https://www.bousai.go.jp/fusuigai/r8chiba_ooame_working/index.html",
     "https://www.bousai.go.jp/fusuigai/r3hinanworking/index.html",
     "https://www.bousai.go.jp/fusuigai/koreisubtyphoonworking/index.html",
     "https://www.bousai.go.jp/fusuigai/subtyphoonworking/index.html",
@@ -716,8 +726,6 @@
     "https://www.mhlw.go.jp/content/11700000/001195027.pdf",
     "https://www.mhlw.go.jp/content/11700000/001195029.pdf",
     "https://www.bousai.go.jp/pdf/240101_kyuujo2.pdf",
-    "https://www.jpo.go.jp/index.html",
-    "https://www.jpo.go.jp/e/index.html",
     "https://www.jpo.go.jp/faq/tousyo/index.html",
     "https://www.jpo.go.jp/toppage/tsukaikata/index.html",
     "https://www.jpo.go.jp/introduction/access/index.html",
@@ -803,14 +811,7 @@
     "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/hisai_attention.html",
     "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_rishihokyu.html",
     "https://www.city.suzu.lg.jp/soshiki/7/16267.html",
-    "https://www.town.anamizu.lg.jp/site/r6notohantojishin/100691.html",
-    "https://www.town.noto.lg.jp/kakuka/1009/gyomu/9/2/1284.html",
-    "https://www.city.nanao.lg.jp/sangyou-s/nariwaisaisei.html",
-    "https://www.town.shika.lg.jp/page/2131.html",
-    "https://www.city.hakui.lg.jp/soshiki/sangyoukensetsubu/syoukoukankouka/6notoearthquakeforbusiness/14942.html",
-    "https://www.town.tsubata.lg.jp/division/sangyou/W064H0000172.html",
-    "https://www.town.uchinada.lg.jp/site/earthquake/20539.html",
-    "https://www.city.komatsu.lg.jp/soshiki/1018/oshirase/16432.html"
+    "https://www.town.anamizu.lg.jp/site/r6notohantojishin/100691.html"
   ],
   "skipped": [
     [
@@ -1040,6 +1041,22 @@
     [
       "https://www.meti.go.jp/press/2021/08/20210802001/20210802001.html",
       "status 403"
+    ],
+    [
+      "https://www.meti.go.jp/policy/netsecurity/index.html",
+      "empty"
+    ],
+    [
+      "https://yorozu.smrj.go.jp/base/",
+      "empty"
+    ],
+    [
+      "https://www.smrj.go.jp/important/qsktgp000000fj4a.html",
+      "empty"
+    ],
+    [
+      "https://www.npa.go.jp/bureau/cyber/soudan.html",
+      "empty"
     ],
     [
       "https://www.smrj.go.jp/",

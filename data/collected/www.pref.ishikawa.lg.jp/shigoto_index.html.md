@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "7a713d154d84f1facd4f914080e0dd3ee92b027f84653dcefc756ddc871c4634"
-fetched_at: "2026-11-18"
+content_hash: "d4a43597905aa41aa36e40a539637d7ea1f0a4dd1158c69f7a0918d080842080"
+fetched_at: "2026-11-19"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
+11月19日
+石川県職業能力開発プラザ  Plaza  Occupation ability development
+
+11月19日
+石川県農林総合研究センター  林業試験場
+
+11月19日
+石川県農林総合研究センター 林業試験場  樹木公園について
+
 11月18日
 【障害者のある方対象】オンライン合同企業説明会の開催
 
 11月18日
 経験不要の内職情報
-
-11月18日
-地域森林計画の変更案の縦覧について
-
-11月17日
-活動日程
-
-11月17日
-商工労働部労働企画課 - 随意契約
 
 新着情報一覧
 新着情報RSS

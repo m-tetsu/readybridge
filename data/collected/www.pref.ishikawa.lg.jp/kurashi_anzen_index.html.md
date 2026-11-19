@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "7c8422ddce8baed291ca2f0f2c43ffbfc575f4db7e56f06af0ac476ac93dda9a"
-fetched_at: "2026-11-18"
+content_hash: "a578951b973b72cfa41f97364390adbc4445ca94e8334f497e18664606a5e550"
+fetched_at: "2026-11-19"
 ---
 石川県
 
@@ -86,6 +86,9 @@ C
 新着情報
 
 11月18日
+「石川県避難計画要綱」（案）に関する意見募集（パブリックコメント）について
+
+11月18日
 防災学習動画制作業務委託に係るプロポーザルの実施について
 
 11月17日
@@ -96,9 +99,6 @@ C
 
 11月17日
 消費生活審議会・開催状況
-
-11月17日
-石川県消費生活審議会委員名簿
 
 新着情報一覧
 新着情報RSS

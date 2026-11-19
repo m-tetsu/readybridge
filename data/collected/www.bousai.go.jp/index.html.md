@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "54118c272b2fa432b725ce3ef8e1083209f46963bd32256201a1b11285999b3b"
-fetched_at: "2026-11-17"
+content_hash: "35307da28524641709736075483e8ba25e67166702c2079b2f58e92bd917788b"
+fetched_at: "2026-11-19"
 ---
 日本の防災をかえていく。
 
@@ -80,6 +80,8 @@ fetched_at: "2026-11-17"
 9月14日公表令和８年防災功労者内閣総理大臣表彰の受賞者決定について【差替え】（PDF形式：543KB）
 
 記者発表一覧
+
+令和8年11月14日 金子防災副大臣による令和８年熊本地震に係る現地視察
 
 令和8年11月3日 細野防災大臣による令和８年熊本地震に係る現地視察
 

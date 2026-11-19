@@ -6,10 +6,12 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "0232ad0724fe15e57e07ecc30f554e136aedadd254a7bf1d963f4aa9ba55959a"
-fetched_at: "2026-10-10"
+content_hash: "e7c36b172fe80d4040b32838fa2e3cf61b908fc7b46cde24e37935dd9c3f2c22"
+fetched_at: "2026-11-19"
 ---
 災害関連情報
+
+中小企業・小規模事業者向けサイバーセキュリティ関連情報
 
 令和8年熊本地震に伴う災害関連情報
 令和6年能登半島災害（地震、大雨）関連情報

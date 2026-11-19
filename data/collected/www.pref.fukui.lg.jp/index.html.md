@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "e4a99eecc8d1896f4d2e3f6aff653f95ca62cc6f53f2190b7106e124b5a095fe"
-fetched_at: "2026-11-18"
+content_hash: "8c2634b589f6093662bbf18baa5439266ac79670e098a657035a4c85f2f7d9f3"
+fetched_at: "2026-11-19"
 ---
 注目キーワード
 
@@ -108,6 +108,14 @@ RSS
 県政情報
 
 「知りたいこと」を選択してください。
+2026年11月19日
+
+福井県産休・育休代替職員（看護師）募集のお知らせ（若狭健康福祉センター）
+
+2026年11月19日
+
+令和８年度 福井県優良工事小浜土木事務所長表彰式を開催しました
+
 2026年11月18日
 
 高速道路で最大５０％還元の「平日朝夕割引」実施中！
