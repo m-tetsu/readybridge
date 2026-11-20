@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "d4a43597905aa41aa36e40a539637d7ea1f0a4dd1158c69f7a0918d080842080"
-fetched_at: "2026-11-19"
+content_hash: "58dc100e50485a497a23b9b8c0a522594a8bc70d29a19fd13084810410859ae2"
+fetched_at: "2026-11-20"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
-11月19日
-石川県職業能力開発プラザ  Plaza  Occupation ability development
+11月20日
+内職情報のご案内
 
-11月19日
-石川県農林総合研究センター  林業試験場
-
-11月19日
-石川県農林総合研究センター 林業試験場  樹木公園について
-
-11月18日
-【障害者のある方対象】オンライン合同企業説明会の開催
-
-11月18日
+11月20日
 経験不要の内職情報
+
+11月20日
+石川の農林漁業文化賞
+
+11月20日
+沿岸漁場管理について
+
+11月20日
+七尾湾情報
 
 新着情報一覧
 新着情報RSS

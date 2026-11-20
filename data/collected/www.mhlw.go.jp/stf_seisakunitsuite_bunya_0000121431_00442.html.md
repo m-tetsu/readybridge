@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "41ab19e3702b2fb7e4a799b427c6953ce2ed48db2068029890acd95d548a7db7"
-fetched_at: "2026-10-10"
+content_hash: "471ac0c07456ca276b874b473e706129b8e23fce60e4b9e44f1003569ac36a33"
+fetched_at: "2026-11-20"
 ---
 ホーム
 >
@@ -34,7 +34,7 @@ fetched_at: "2026-10-10"
 
 ・令和6年能登半島地震における厚生労働省の取組概要について［3.4MB］
 
-・令和6年能登半島地震・豪雨における厚生労働省の1年の取組等について（令和８年９月30日時点）［613KB］
+・令和6年能登半島地震・豪雨における厚生労働省の1年の取組等について（令和８年10月31日時点）［613KB］
 
 被害状況等について
 

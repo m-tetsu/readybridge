@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "6d0efea1e5d69d4c486ce063fdd89fb7b69302178b1b6ad79447f04b6031c968"
-fetched_at: "2026-11-19"
+content_hash: "53b12b0076e1ba9cb015d87d12a2298e02330bdc21d2d299584c1df7b16dcd6e"
+fetched_at: "2026-11-20"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月19日
+パスポート申請のマイナポータルサイトのメンテナンスについて
+
 11月18日
 千里浜なぎさドライブウェイ交通規制情報
 
@@ -96,9 +99,6 @@ C
 
 11月17日
 石川県立航空プラザ
-
-11月17日
-無形文化財（県指定）
 
 新着情報一覧
 新着情報RSS

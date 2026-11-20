@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "05fa30b4eab73f7dcfef0cfb9fb2e08acb3c37d7afb5e7087d065a6fc3415979"
-fetched_at: "2026-11-19"
+content_hash: "9b74ffe86a1761f23951c2543b6d1fa3179932999a3578b120c9bc1377d2b142"
+fetched_at: "2026-11-20"
 ---
 特別相談窓口
 
@@ -135,6 +135,10 @@ RSS
 
 お知らせ
 
+2026年11月19日
+
+「沖縄地域PPP/PFIプラットフォーム 第2回PPP実践講座」のご案内
+
 2026年11月13日
 
 「沖縄公庫フォーラム2026」を開催（当日の動画もご覧になれます）
@@ -150,10 +154,6 @@ RSS
 2026年10月30日
 
 「Lagoon KOZA融資座談会」に参加
-
-2026年10月16日
-
-公庫農林漁業資金活用推進会議を開催
 
 お知らせ一覧
 RSS
@@ -184,6 +184,10 @@ RSS
 開催期間 2026年12月02日
 
 沖縄商工会議所における出張相談会の開催について
+
+開催期間 2026年12月21日
+
+「沖縄地域PPP/PFIプラットフォーム 第2回PPP実践講座」のご案内
 
 セミナー・相談会
 RSS

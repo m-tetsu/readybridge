@@ -6,14 +6,13 @@ pillar: "recover"
 category: "tax"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "97d0ad8fbb08bdebb4a8eafcf963f34d6317847c12a1300c30ef20d23258dbf7"
-fetched_at: "2026-10-10"
+content_hash: "96522831d144705110c1c1c994b5ae12dd2c9e2b8370ee866ad865973ba9897d"
+fetched_at: "2026-11-20"
 ---
 トピックス
 
 高騰する原料米価格にお困りの酒類業者の皆様へ
 米国の関税措置により影響を受ける酒類事業者の皆様へ
-発泡性酒類の段階的な税率変更に係る品目及び税率適用区分の表示方法の手引き（PDF/1,382KB）
 
 主な項目
 資料関係
