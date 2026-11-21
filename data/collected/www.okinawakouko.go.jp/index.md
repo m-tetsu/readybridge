@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "9b74ffe86a1761f23951c2543b6d1fa3179932999a3578b120c9bc1377d2b142"
-fetched_at: "2026-11-20"
+content_hash: "9b37df65a35302a0bd966e5c32267faff43468879ef0f5f9a5c1a690f587bc77"
+fetched_at: "2026-11-21"
 ---
 特別相談窓口
 
@@ -160,10 +160,6 @@ RSS
 
 セミナー・相談会
 店舗別セミナー・相談会一覧
-
-開催期間 2026年11月19日 ～ 2026年11月20日
-
-久米島商工会における出張相談会の開催について
 
 開催期間 2026年11月25日
 

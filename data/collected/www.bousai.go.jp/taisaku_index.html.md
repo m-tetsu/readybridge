@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "3956b8da6f64316404dc374ff8216d678ed7c2daefe20e5a5776719e4eb39666"
-fetched_at: "2026-11-17"
+content_hash: "23f300634861332b81c5cbdc9fd663b00aec70c05355729e9e4b2634ba5c942a"
+fetched_at: "2026-11-21"
 ---
 お役立ち情報
 一般向け
@@ -142,6 +142,7 @@ ISUT（災害時情報集約支援チーム）
 
 地方公共団体の備蓄状況（PDF形式：748KB）
 自治体備蓄に関するガイドライン（工事中）
+災害時用備蓄食料の有効活用について（通知）（PDF形式：227KB）
 
 防災庁が所掌する交付金
 

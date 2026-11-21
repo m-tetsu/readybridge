@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "53b12b0076e1ba9cb015d87d12a2298e02330bdc21d2d299584c1df7b16dcd6e"
-fetched_at: "2026-11-20"
+content_hash: "1e7a91fa8db271b209ccb61a458bbb6d1b7a7a67c0bc714b6d80c5f62f7dfba9"
+fetched_at: "2026-11-21"
 ---
 石川県
 
@@ -86,6 +86,9 @@ C
 新着情報
 
 11月19日
+金沢学院クラブ（バドミントン）  県民スペシャル応援デー
+
+11月19日
 パスポート申請のマイナポータルサイトのメンテナンスについて
 
 11月18日
@@ -96,9 +99,6 @@ C
 
 11月18日
 きらめく！アート展
-
-11月17日
-石川県立航空プラザ
 
 新着情報一覧
 新着情報RSS

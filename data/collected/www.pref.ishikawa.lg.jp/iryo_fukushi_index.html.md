@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "208169dfdba9fd6dbc2976ab6e17bdcde5d0107d59f505c44a3ac3344ab5038f"
-fetched_at: "2026-11-20"
+content_hash: "ac8e8ccc554291967fd1fe4c3dfb021cb6fc0662c662529ddf13686fdfff5cbe"
+fetched_at: "2026-11-21"
 ---
 石川県
 
@@ -86,6 +86,9 @@ C
 新着情報
 
 11月20日
+障害者虐待防止
+
+11月20日
 ＝北朝鮮当局による人権侵害問題に対する認識を深めよう＝
 
 11月20日
@@ -94,11 +97,8 @@ C
 11月20日
 令和8年度毒物劇物取扱者試験実施案内
 
-11月19日
-地域医療構想
-
-11月19日
-令和8年度第1回石川県地域医療構想部会
+11月20日
+DV関連事業
 
 新着情報一覧
 新着情報RSS

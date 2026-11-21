@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "ddb50160d69f386bb5a1420b2827380d6d06ffa45af15fa7e27f90f782bb0f0a"
-fetched_at: "2026-11-20"
+content_hash: "9863b38486f1c15dd0b124b5a431a67786310271bb7427b784fba47e3b6fa2cc"
+fetched_at: "2026-11-21"
 ---
 日本の防災をかえていく。
 
@@ -54,6 +54,7 @@ fetched_at: "2026-11-20"
 
 新着情報一覧
 
+11月20日公表令和８年度大規模地震時医療活動訓練について（PDF形式：2.8MB）
 11月16日公表令和８年８月千葉豪雨等を踏まえた内水氾濫対策検討会（第３回）の開催について（PDF形式：400KB）
 11月13日公表災害対応車両登録制度のシンボルマークの決定及び登録ステッカー等の配布について
 11月2日公表「攻めの防災庁」による戦略的な危機管理投資について（PDF形式：405KB）
