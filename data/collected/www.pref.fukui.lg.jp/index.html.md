@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "d2fb4dc95eb8666029b11dbb4b984c3b33d46a2a2f264eceaae851101e7ee05f"
-fetched_at: "2026-11-21"
+content_hash: "6f60030848cc892fde3a43f28cc4c2c5b69d4db8240a371d64f730ceef265de0"
+fetched_at: "2026-11-22"
 ---
 注目キーワード
 
@@ -108,6 +108,14 @@ RSS
 県政情報
 
 「知りたいこと」を選択してください。
+2026年11月21日
+
+アンコンシャス・バイアス（無意識の思い込み）啓発動画を制作しました！
+
+2026年11月21日
+
+航空機による医療物資活動実証イベント＆小型航空機とふれあおう！の開催について
+
 2026年11月20日
 
 六呂師高原に星を観にいこう（自然保護センター）

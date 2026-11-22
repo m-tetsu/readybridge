@@ -864,9 +864,9 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/saigai_202401jishin-mokutekibetsu.html.md"
   },
   "https://www.pref.fukui.lg.jp/index.html": {
-    "hash": "d2fb4dc95eb8666029b11dbb4b984c3b33d46a2a2f264eceaae851101e7ee05f",
+    "hash": "6f60030848cc892fde3a43f28cc4c2c5b69d4db8240a371d64f730ceef265de0",
     "title": "ホーム | 福井県ホームページ",
-    "fetched_at": "2026-11-21",
+    "fetched_at": "2026-11-22",
     "file": "data/collected/www.pref.fukui.lg.jp/index.html.md"
   },
   "https://www.pref.niigata.lg.jp/sec/kikitaisaku/240101jishin.html": {
@@ -2976,9 +2976,9 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/kinkyu_kanri.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html": {
-    "hash": "137ca9a08479711e1af70327fd556259f2937e117a198be3f358f5eaec057d70",
+    "hash": "239139a298bb9ac61fb3b651364c04d288ce0588c517082eb422239e1dd67686",
     "title": "防災・安全・安心 | 石川県",
-    "fetched_at": "2026-11-21",
+    "fetched_at": "2026-11-22",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_anzen_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kurashi/index.html": {
