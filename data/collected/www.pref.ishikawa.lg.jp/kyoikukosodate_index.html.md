@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "a1585c9ca9d380517c055e37349e05251d83321cb537285ca3759871c54fc231"
-fetched_at: "2026-11-19"
+content_hash: "f7d34f8e9c382ecf2146814ecab078e3b6a5ac2f3f89e98205a4f0d4a78644e1"
+fetched_at: "2026-11-23"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月23日
+教育委員会生涯学習課
+
 11月18日
 あすなろ悠々塾 in 能登
 
@@ -96,9 +99,6 @@ C
 
 11月18日
 里山里海ファミリーチャレンジ  親子里山物語 ～門松編 PARTⅡ～（いしかわ子ども自然学校）
-
-11月17日
-石川県私立学校審議会委員名簿
 
 新着情報一覧
 新着情報RSS

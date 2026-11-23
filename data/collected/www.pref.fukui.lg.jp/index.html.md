@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "6f60030848cc892fde3a43f28cc4c2c5b69d4db8240a371d64f730ceef265de0"
-fetched_at: "2026-11-22"
+content_hash: "5971d8dafba525ec7cadc2c8fad36141ee827cfe065b2ed5f4eb038a73678db8"
+fetched_at: "2026-11-23"
 ---
 注目キーワード
 
@@ -111,10 +111,6 @@ RSS
 2026年11月21日
 
 アンコンシャス・バイアス（無意識の思い込み）啓発動画を制作しました！
-
-2026年11月21日
-
-航空機による医療物資活動実証イベント＆小型航空機とふれあおう！の開催について
 
 2026年11月20日
 

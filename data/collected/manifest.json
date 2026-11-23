@@ -864,9 +864,9 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/saigai_202401jishin-mokutekibetsu.html.md"
   },
   "https://www.pref.fukui.lg.jp/index.html": {
-    "hash": "6f60030848cc892fde3a43f28cc4c2c5b69d4db8240a371d64f730ceef265de0",
+    "hash": "5971d8dafba525ec7cadc2c8fad36141ee827cfe065b2ed5f4eb038a73678db8",
     "title": "ホーム | 福井県ホームページ",
-    "fetched_at": "2026-11-22",
+    "fetched_at": "2026-11-23",
     "file": "data/collected/www.pref.fukui.lg.jp/index.html.md"
   },
   "https://www.pref.niigata.lg.jp/sec/kikitaisaku/240101jishin.html": {
@@ -2988,9 +2988,9 @@
     "file": "data/collected/www.pref.ishikawa.lg.jp/kurashi_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html": {
-    "hash": "a1585c9ca9d380517c055e37349e05251d83321cb537285ca3759871c54fc231",
+    "hash": "f7d34f8e9c382ecf2146814ecab078e3b6a5ac2f3f89e98205a4f0d4a78644e1",
     "title": "教育・子育て | 石川県",
-    "fetched_at": "2026-11-19",
+    "fetched_at": "2026-11-23",
     "file": "data/collected/www.pref.ishikawa.lg.jp/kyoikukosodate_index.html.md"
   },
   "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html": {

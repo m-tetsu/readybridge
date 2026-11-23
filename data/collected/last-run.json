@@ -1,6 +1,6 @@
 {
   "summary": {
-    "ran_at": "2026-11-22T01:39:55.988Z",
+    "ran_at": "2026-11-23T02:06:51.496Z",
     "pages_fetched": 800,
     "new": 0,
     "changed": 2,
@@ -10,7 +10,7 @@
   "new": [],
   "changed": [
     "https://www.pref.fukui.lg.jp/index.html",
-    "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html"
+    "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html"
   ],
   "unchanged": [
     "https://www.chusho.meti.go.jp/saigai.html",
@@ -768,8 +768,8 @@
     "https://www.jpo.go.jp/system/patent/pct/tetuzuki/yusenken_kaifuku.html",
     "https://www.pref.ishikawa.lg.jp/index.html",
     "https://www.pref.ishikawa.lg.jp/kinkyu/kanri.html",
+    "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html",
     "https://www.pref.ishikawa.lg.jp/kurashi/index.html",
-    "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html",
     "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html",
     "https://www.pref.ishikawa.lg.jp/kanko_koryu/index.html",
     "https://www.pref.ishikawa.lg.jp/shigoto/index.html",
@@ -959,7 +959,7 @@
     ],
     [
       "https://warp.da.ndl.go.jp/info:ndljp/pid/11295955/www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
-      "empty"
+      "status 403"
     ],
     [
       "https://www.mlit.go.jp/mizukokudo/sewerage/index.html",
