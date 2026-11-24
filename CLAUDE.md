@@ -161,6 +161,9 @@ URL構成：`/prepare/` + `hazard` / `safety` / `damage` / `bcp` / `life` / `tra
 2. 同じ `collect.yml` から `upsert.yml` を呼び出し → `npm run rag:upsert` → Vectorize 反映（GITHUB_TOKEN のプッシュでは push トリガーが動かないため直接呼ぶ）
    - 手でデータを変えて main に入れたときは `upsert.yml` の push トリガーで動く
    - `upsert.yml` は Secrets 未登録時はスキップして成功扱い（失敗メール抑止）。登録済みなら本実行。
+   - 2026-11：**差分のみ反映**に変更。文書ごとの内容ハッシュを `.cache/rag-state.json`（Actions キャッシュで引き継ぎ）に記録し、変化のない文書は埋め込まない。キャッシュが消えたら全件反映になるだけ。全件やり直しは `upsert.yml` の手動実行で `full` にチェック。チャンク分割等を変えたら `upsert.mjs` の `STATE_VERSION` を上げる
+   - Workers AI の一時エラー（code 8007「Cog prediction failed」）は再試行＋原因チャンクだけ見送りで吸収（見送り5%超でジョブ失敗）。11/20〜11/24 の失敗はこれが原因
+   - 未対応：文書が短くなった／消えたときの古いチャンクは Vectorize に残る（記録に `chunks` 数は保存済みなので、削除処理を足すときに使える）
    - 旧 PR 方式の `auto/rag-collected-update` ブランチ・PR #17 は 2026-10-10 にマージ済みで役目終了
 
 ### 残タスク
