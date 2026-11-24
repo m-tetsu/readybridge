@@ -149,28 +149,61 @@ async function upsertNdjson(lines) {
   return json.result;
 }
 
+async function deleteByIds(ids) {
+  const res = await fetch(
+    `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/vectorize/v2/indexes/${INDEX}/delete_by_ids`,
+    {
+      method: 'POST',
+      headers: { authorization: `Bearer ${API_TOKEN}`, 'content-type': 'application/json' },
+      body: JSON.stringify({ ids }),
+    }
+  );
+  const raw = await res.text();
+  let json;
+  try {
+    json = JSON.parse(raw);
+  } catch {
+    throw new Error(`delete failed: HTTP ${res.status} ${raw.slice(0, 200)}`);
+  }
+  if (!json.success) throw new Error('delete failed: ' + JSON.stringify(json.errors));
+  return json.result;
+}
+
+const chunkIds = (url, from, to) => Array.from({ length: Math.max(0, to - from) }, (_, k) => `${sha(url)}-${from + k}`);
+
+// 前回より文書数がこの割合以上（かつ6文書以上）減った回は、収集側の不具合を疑って削除を保留する（full なら実行）
+const MASS_DELETE_RATIO = 0.2;
+
 async function loadState() {
-  if (FULL) return {};
   try {
     const s = JSON.parse(await readFile(STATE_FILE, 'utf8'));
-    if (s.version !== STATE_VERSION || s.index !== INDEX) return {};
-    return s.docs || {};
+    if (s.version !== STATE_VERSION || s.index !== INDEX) return { docs: {}, deletes: [] };
+    // full でも「削除待ち」と「消えた文書の検出」のために記録自体は読む
+    return { docs: s.docs || {}, deletes: s.deletes || [] };
   } catch {
-    return {}; // 記録なし → 全件
+    return { docs: {}, deletes: [] }; // 記録なし → 全件
   }
 }
 
-async function saveState(docs) {
+async function saveState(docs, deletes) {
   await mkdir(path.dirname(STATE_FILE), { recursive: true });
-  await writeFile(STATE_FILE, JSON.stringify({ version: STATE_VERSION, index: INDEX, docs }));
+  await writeFile(STATE_FILE, JSON.stringify({ version: STATE_VERSION, index: INDEX, docs, deletes }));
 }
 
 async function main() {
-  const prev = await loadState();
-  const hasState = Object.keys(prev).length > 0;
-  console.log(hasState ? `反映記録 ${Object.keys(prev).length} 件を読み込み（差分のみ反映）` : '反映記録なし：全件を反映します');
+  const loaded = await loadState();
+  const known = loaded.docs; // 反映済みの記録（消えた文書の検出に使う）
+  const prev = FULL ? {} : known; // 差分判定に使う記録（full のときは空＝全件埋め込み直し）
+  const deletes = new Set(loaded.deletes); // Vectorize から消すべきID（失敗しても次回に持ち越す）
+  console.log(
+    Object.keys(prev).length
+      ? `反映記録 ${Object.keys(prev).length} 件を読み込み（差分のみ反映）`
+      : '反映記録なし（または full）：全件を反映します'
+  );
 
   const state = {}; // 今回の結果（現存する文書のみ。消えた文書は記録から落とす）
+  const seen = new Set();
+  const saveState_ = () => saveState(state, [...deletes]);
   let pending = []; // まだ upsert していないベクトル
   let pendingDocs = []; // pending に含まれる文書の [url, 記録]
   let unchangedDocs = 0;
@@ -186,10 +219,15 @@ async function main() {
       upserted += batch.length;
       console.log(`upserted ${upserted}`, r?.mutationId || '');
     }
-    for (const [url, rec] of pendingDocs) state[url] = rec;
+    for (const [url, rec] of pendingDocs) {
+      // 文書が短くなってチャンク数が減ったら、余った古いチャンクを削除待ちに入れる
+      const old = known[url]?.chunks || 0;
+      for (const id of chunkIds(url, rec.chunks, old)) deletes.add(id);
+      state[url] = rec;
+    }
     pending = [];
     pendingDocs = [];
-    await saveState(state);
+    await saveState_();
   };
 
   try {
@@ -197,6 +235,7 @@ async function main() {
       const raw = await readFile(file, 'utf8');
       const { meta, body } = parseDoc(raw);
       if (!meta.url) continue;
+      seen.add(meta.url);
       const hash = sha(raw);
       if (prev[meta.url]?.hash === hash) {
         state[meta.url] = prev[meta.url];
@@ -207,7 +246,7 @@ async function main() {
       const embeds = await embed(parts);
       if (embeds.some((e) => !e)) {
         // 一部でも埋め込めなかった文書は丸ごと見送る（記録を更新しないので次回再挑戦）
-        if (prev[meta.url]) state[meta.url] = prev[meta.url];
+        if (known[meta.url]) state[meta.url] = { ...known[meta.url], hash: '' };
         continue;
       }
       embeddedDocs++;
@@ -232,12 +271,45 @@ async function main() {
     await flush();
   } catch (e) {
     // 途中までの成果は残す。まだ見ていない文書は前回の記録をそのまま引き継ぐ
-    await saveState({ ...prev, ...state }).catch(() => {});
+    await saveState({ ...known, ...state }, [...deletes]).catch(() => {});
     throw e;
+  }
+
+  // 収集対象から消えた文書（記録にあるが data/collected に無い）のチャンクを削除待ちに入れる
+  const removed = Object.keys(known).filter((url) => !seen.has(url));
+  let removedDocs = 0;
+  const mass = removed.length > 5 && removed.length >= Object.keys(known).length * MASS_DELETE_RATIO;
+  if (mass && !FULL) {
+    // 一度に大量に消えるのは収集側の不具合の可能性が高い。消さずに記録を残して警告する
+    for (const url of removed) state[url] = known[url];
+    console.log(
+      `::warning title=削除を保留::前回反映した ${Object.keys(known).length} 文書のうち ${removed.length} 文書が見当たりません。` +
+        `収集の不具合の可能性があるため Vectorize からは削除していません。意図した削除なら upsert.yml を full で手動実行してください。`
+    );
+  } else {
+    for (const url of removed) {
+      for (const id of chunkIds(url, 0, known[url].chunks || 0)) deletes.add(id);
+      console.log(`removed: ${url}`);
+      removedDocs++;
+    }
+  }
+  await saveState_();
+
+  // 削除待ちを Vectorize から消す（成功した分だけ記録から外す）
+  const ids = [...deletes];
+  let deleted = 0;
+  for (let i = 0; i < ids.length; i += 100) {
+    const batch = ids.slice(i, i + 100);
+    const r = await deleteByIds(batch); // 失敗したら削除待ちは記録に残ったまま次回再挑戦
+    for (const id of batch) deletes.delete(id);
+    deleted += batch.length;
+    await saveState_();
+    console.log(`deleted ${deleted}/${ids.length}`, r?.mutationId || '');
   }
 
   console.log(
     `done: 変更なし ${unchangedDocs} 文書・反映 ${embeddedDocs} 文書（${upserted} vectors）` +
+      `・削除 ${removedDocs} 文書（${deleted} vectors）` +
       (skippedChunks ? `・見送り ${skippedChunks} チャンク` : '')
   );
   // 一部だけの失敗は許容するが、大量に失敗した回は障害とみなしてジョブを失敗させる
