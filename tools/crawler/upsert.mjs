@@ -5,8 +5,13 @@
 //    初回は少数ファイルで挙動を確認し、APIのレスポンス形に合わせて調整すること。
 //
 // 実行：CLOUDFLARE_ACCOUNT_ID=... CLOUDFLARE_API_TOKEN=... node tools/crawler/upsert.mjs
+//
+// 差分反映：反映済みの文書ごとの内容ハッシュを RAG_STATE（既定 .cache/rag-state.json）に記録し、
+// 前回から変わっていない文書は埋め込み・upsert を省く。記録が無い（初回・キャッシュ消失）ときは全件。
+// 全件やり直したいとき：RAG_FULL=1（Actions では upsert.yml の手動実行で full にチェック）。
+// チャンク分割やメタデータの作りを変えたら STATE_VERSION を上げる（全件が再反映される）。
 
-import { readFile, readdir } from 'node:fs/promises';
+import { readFile, readdir, writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
 
@@ -17,6 +22,9 @@ const EMBED_MODEL = '@cf/baai/bge-m3';
 const OUT_DIR = path.join(process.cwd(), 'data/collected');
 const CHUNK_CHARS = 800;
 const CHUNK_OVERLAP = 120;
+const STATE_VERSION = 1;
+const STATE_FILE = process.env.RAG_STATE || path.join(process.cwd(), '.cache/rag-state.json');
+const FULL = process.env.RAG_FULL === '1' || process.env.RAG_FULL === 'true';
 
 if (!ACCOUNT_ID || !API_TOKEN) {
   console.error('CLOUDFLARE_ACCOUNT_ID と CLOUDFLARE_API_TOKEN が必要です。');
@@ -141,16 +149,69 @@ async function upsertNdjson(lines) {
   return json.result;
 }
 
+async function loadState() {
+  if (FULL) return {};
+  try {
+    const s = JSON.parse(await readFile(STATE_FILE, 'utf8'));
+    if (s.version !== STATE_VERSION || s.index !== INDEX) return {};
+    return s.docs || {};
+  } catch {
+    return {}; // 記録なし → 全件
+  }
+}
+
+async function saveState(docs) {
+  await mkdir(path.dirname(STATE_FILE), { recursive: true });
+  await writeFile(STATE_FILE, JSON.stringify({ version: STATE_VERSION, index: INDEX, docs }));
+}
+
 async function main() {
-  const vectors = [];
-  for await (const file of walk(OUT_DIR)) {
-    const { meta, body } = parseDoc(await readFile(file, 'utf8'));
-    if (!meta.url) continue;
-    const parts = chunk(body);
-    const embeds = await embed(parts);
-    parts.forEach((text, i) => {
-      if (!embeds[i]) return; // 埋め込みに失敗したチャンクは今回は見送る（次回再挑戦）
-      vectors.push({
+  const prev = await loadState();
+  const hasState = Object.keys(prev).length > 0;
+  console.log(hasState ? `反映記録 ${Object.keys(prev).length} 件を読み込み（差分のみ反映）` : '反映記録なし：全件を反映します');
+
+  const state = {}; // 今回の結果（現存する文書のみ。消えた文書は記録から落とす）
+  let pending = []; // まだ upsert していないベクトル
+  let pendingDocs = []; // pending に含まれる文書の [url, 記録]
+  let unchangedDocs = 0;
+  let embeddedDocs = 0;
+  let upserted = 0;
+
+  // pending を Vectorize に送り、送り終えた文書だけを反映済みとして記録する。
+  // 途中で失敗しても、送り終えた分は記録に残るので次回やり直さずに済む。
+  const flush = async () => {
+    for (let i = 0; i < pending.length; i += 100) {
+      const batch = pending.slice(i, i + 100);
+      const r = await upsertNdjson(batch);
+      upserted += batch.length;
+      console.log(`upserted ${upserted}`, r?.mutationId || '');
+    }
+    for (const [url, rec] of pendingDocs) state[url] = rec;
+    pending = [];
+    pendingDocs = [];
+    await saveState(state);
+  };
+
+  try {
+    for await (const file of walk(OUT_DIR)) {
+      const raw = await readFile(file, 'utf8');
+      const { meta, body } = parseDoc(raw);
+      if (!meta.url) continue;
+      const hash = sha(raw);
+      if (prev[meta.url]?.hash === hash) {
+        state[meta.url] = prev[meta.url];
+        unchangedDocs++;
+        continue;
+      }
+      const parts = chunk(body);
+      const embeds = await embed(parts);
+      if (embeds.some((e) => !e)) {
+        // 一部でも埋め込めなかった文書は丸ごと見送る（記録を更新しないので次回再挑戦）
+        if (prev[meta.url]) state[meta.url] = prev[meta.url];
+        continue;
+      }
+      embeddedDocs++;
+      const docVectors = parts.map((text, i) => ({
         id: `${sha(meta.url)}-${i}`,
         values: embeds[i],
         metadata: {
@@ -163,23 +224,29 @@ async function main() {
           category: meta.category || '',
           disaster_scope: meta.disaster_scope || 'general',
         },
-      });
-    });
+      }));
+      pending.push(...docVectors);
+      pendingDocs.push([meta.url, { hash, chunks: parts.length }]);
+      if (pending.length >= 100) await flush();
+    }
+    await flush();
+  } catch (e) {
+    // 途中までの成果は残す。まだ見ていない文書は前回の記録をそのまま引き継ぐ
+    await saveState({ ...prev, ...state }).catch(() => {});
+    throw e;
   }
-  // 100件ずつ upsert
-  for (let i = 0; i < vectors.length; i += 100) {
-    const batch = vectors.slice(i, i + 100);
-    const r = await upsertNdjson(batch);
-    console.log(`upserted ${i + batch.length}/${vectors.length}`, r?.mutationId || '');
-  }
-  console.log('done:', vectors.length, 'vectors', skippedChunks ? `（skip ${skippedChunks}）` : '');
+
+  console.log(
+    `done: 変更なし ${unchangedDocs} 文書・反映 ${embeddedDocs} 文書（${upserted} vectors）` +
+      (skippedChunks ? `・見送り ${skippedChunks} チャンク` : '')
+  );
   // 一部だけの失敗は許容するが、大量に失敗した回は障害とみなしてジョブを失敗させる
-  const total = vectors.length + skippedChunks;
-  if (total === 0 || skippedChunks / total > 0.05) {
+  const total = upserted + skippedChunks;
+  if (total > 0 && skippedChunks / total > 0.05) {
     throw new Error(`埋め込み失敗が多すぎます: ${skippedChunks}/${total}`);
   }
   if (skippedChunks) {
-    console.log(`::warning title=一部チャンクを見送り::埋め込みに失敗した ${skippedChunks} チャンクを今回は反映していません（次回再挑戦）。`);
+    console.log(`::warning title=一部文書を見送り::埋め込みに失敗した ${skippedChunks} チャンクを含む文書を今回は反映していません（次回再挑戦）。`);
   }
 }
 

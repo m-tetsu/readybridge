@@ -29,3 +29,6 @@ Thumbs.db
 
 # AI相談ログの書き出し（質問本文を含むためコミットしない）
 chat-logs-*.csv
+
+# RAG upsert の反映記録（Actions ではキャッシュに保存）
+.cache/

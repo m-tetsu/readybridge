@@ -3,6 +3,7 @@ name: Upsert to Vectorize (RAG)
 # 収集データが main に反映されたら、自動で埋め込み生成 → Vectorize へ upsert する。
 # 反映フロー：クロール（collect.yml）→ main へ自動コミット → collect.yml からこのワークフローを呼び出し。
 # 手でデータや upsert.mjs を変えて main に入れた場合は push トリガーで動く。
+# 差分のみ反映：前回から内容が変わった文書だけ埋め込む（記録は Actions キャッシュ。消えたら全件）。
 #
 # 必要な Secrets（リポジトリ Settings > Secrets and variables > Actions）:
 #   - CLOUDFLARE_ACCOUNT_ID : Cloudflare アカウントID
@@ -17,7 +18,12 @@ on:
     paths:
       - 'data/collected/**'
       - 'tools/crawler/upsert.mjs'
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      full:
+        description: '全件を埋め込み直す（通常は差分のみ。インデックスを作り直したとき等に使う）'
+        type: boolean
+        default: false
   workflow_call:
     inputs:
       ref:
@@ -56,6 +62,23 @@ jobs:
           node-version: '22'
       - run: npm ci
         if: steps.check.outputs.configured == 'true'
+      # 反映済みの文書ごとの内容ハッシュ（差分反映の記録）。キャッシュが消えても全件反映になるだけで壊れない。
+      - name: Restore upsert state
+        if: steps.check.outputs.configured == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/rag-state.json
+          key: rag-state-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: rag-state-
       - name: Upsert collected docs to Vectorize
         if: steps.check.outputs.configured == 'true'
+        env:
+          RAG_FULL: ${{ inputs.full && '1' || '' }}
         run: npm run rag:upsert
+      # 途中で失敗しても、送り終えた分の記録は残して次回に活かす
+      - name: Save upsert state
+        if: always() && steps.check.outputs.configured == 'true' && hashFiles('.cache/rag-state.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/rag-state.json
+          key: rag-state-${{ github.run_id }}-${{ github.run_attempt }}
