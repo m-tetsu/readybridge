@@ -6,8 +6,8 @@ pillar: "recover"
 category: "wage"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "45fa86826a3335784c73dc585a4568b4c2bfe080acd21e98415203c09c6d4b44"
-fetched_at: "2026-11-18"
+content_hash: "071eb17ebe63e2994d3b2befc26916404255511396dccc59b757516550da82a4"
+fetched_at: "2026-11-24"
 ---
 小
 
@@ -233,16 +233,18 @@ TOP
 主な被災地
 
 追加
+令和8年11月20日からの大雪に伴う災害
+
+福島県
+
 令和8年台風第18号に伴う災害
 
 鹿児島県
 
-追加
 令和8年台風第25号に伴う災害
 
 千葉県、東京都
 
-追加
 令和8年台風第24号及び前線による大雨に伴う災害
 
 愛知県、鹿児島県

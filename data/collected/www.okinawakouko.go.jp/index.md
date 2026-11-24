@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "9b37df65a35302a0bd966e5c32267faff43468879ef0f5f9a5c1a690f587bc77"
-fetched_at: "2026-11-21"
+content_hash: "49b72fc81d5752428d5310ce1d232214a81139487fcf8b79ab3594ba96bc8fab"
+fetched_at: "2026-11-24"
 ---
 特別相談窓口
 
@@ -180,6 +180,10 @@ RSS
 開催期間 2026年12月02日
 
 沖縄商工会議所における出張相談会の開催について
+
+開催期間 2026年12月17日
+
+宮古島市伊良部商工会における融資個別相談会の開催について
 
 開催期間 2026年12月21日
 

@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "1e7a91fa8db271b209ccb61a458bbb6d1b7a7a67c0bc714b6d80c5f62f7dfba9"
-fetched_at: "2026-11-21"
+content_hash: "15f72f6db79530a72dd5a2e3611eef2c3564a6caca1c00439dc7f4fe4a07377e"
+fetched_at: "2026-11-24"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月24日
+きらめく！アート展
+
 11月19日
 金沢学院クラブ（バドミントン）  県民スペシャル応援デー
 
@@ -96,9 +99,6 @@ C
 
 11月18日
 「能登とつながる文化まつり」(東京国立博物館『博物館に初もうで』関連イベント)の開催について
-
-11月18日
-きらめく！アート展
 
 新着情報一覧
 新着情報RSS

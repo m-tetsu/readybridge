@@ -6,20 +6,20 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "d82d7e0ac9e01c9af782d678d2a87580bfe61930282b6110533cc8924db34703"
-fetched_at: "2026-11-11"
+content_hash: "d3df67279962c5469426f085363336c03eb843892175f153c9196838b1f99309"
+fetched_at: "2026-11-24"
 ---
-ジギョケイ策定・運用の
+ジギョケイが
+気になる方
 
-支援者の方
+ジギョケイを
+作りたい方
 
-はこちら
+ジギョケイを
+活かしたい方
 
-ジギョケイ策定・運用を行いたい
-
-中小企業の方
-
-はこちら
+ジギョケイで
+支援したい方
 
 ジギョケイ
 

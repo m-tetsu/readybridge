@@ -1,16 +1,37 @@
 {
   "summary": {
-    "ran_at": "2026-11-23T02:06:51.496Z",
+    "ran_at": "2026-11-24T05:50:10.876Z",
     "pages_fetched": 800,
     "new": 0,
-    "changed": 2,
-    "unchanged": 798,
-    "skipped": 112
+    "changed": 23,
+    "unchanged": 777,
+    "skipped": 110
   },
   "new": [],
   "changed": [
+    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai.html",
     "https://www.pref.fukui.lg.jp/index.html",
-    "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html"
+    "https://www.mhlw.go.jp/index.html",
+    "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/index.html",
+    "https://www.wam.go.jp/hp/home/home-topics_list-tabid-394/recovery-tabid-351/",
+    "https://www.mlit.go.jp/mizukokudo/index.html",
+    "https://www.bousai.go.jp/index.html",
+    "https://www.cao.go.jp/",
+    "https://kyoujinnka.smrj.go.jp/",
+    "http://www.okinawakouko.go.jp/",
+    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_kettei.html",
+    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/hukkyuu_shotengai.html",
+    "https://www.pref.ishikawa.lg.jp/index.html",
+    "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html",
+    "https://www.pref.ishikawa.lg.jp/kurashi/index.html",
+    "https://www.pref.ishikawa.lg.jp/kyoikukosodate/index.html",
+    "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html",
+    "https://www.pref.ishikawa.lg.jp/kanko_koryu/index.html",
+    "https://www.pref.ishikawa.lg.jp/shigoto/index.html",
+    "https://www.pref.ishikawa.lg.jp/kensei/index.html",
+    "https://www.pref.ishikawa.lg.jp/shinchaku/index.html",
+    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_jisseki.html",
+    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_rishihokyu.html"
   ],
   "unchanged": [
     "https://www.chusho.meti.go.jp/saigai.html",
@@ -182,7 +203,6 @@
     "https://www.jpo.go.jp/news/koho/saigai/20240112_encho.html",
     "https://www.jpo.go.jp/news/koho/saigai/2024_noto/index.html",
     "https://www.jpo.go.jp/news/koho/saigai/saigai-tetsuduki-20240104.html",
-    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai.html",
     "https://www.pref.fukui.lg.jp/doc/sinsan/nariwai.html",
     "https://www.pref.niigata.lg.jp/site/chiikishinko/nariwai.html",
     "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/0_nariwai_question.pdf",
@@ -198,11 +218,9 @@
     "https://www.jfc.go.jp/n/rate/index.html",
     "https://www.jfc.go.jp/n/finance/search/keitoku.html",
     "https://www.jfc.go.jp/n/finance/search/sogyo_tokurei_m.html",
-    "https://www.mhlw.go.jp/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/index.html",
-    "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/index.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/pageL07_20200515.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000055967.html",
     "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000134526_00005.html",
@@ -319,6 +337,7 @@
     "https://www.mhlw.go.jp/stf/newpage_37221.html",
     "https://www.nenkin.go.jp/section/soudan/index.html",
     "https://www.mhlw.go.jp/stf/newpage_37424.html",
+    "https://www.wam.go.jp/hp/home-topics_list-recovery-recovery-tabid-1129/",
     "https://www.mhlw.go.jp/stf/newpage_37351.html",
     "https://www.mhlw.go.jp/content/001213457.pdf",
     "https://www.mhlw.go.jp/stf/newpage_37199.html",
@@ -378,7 +397,6 @@
     "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/qa.htm",
     "https://www.nta.go.jp/taxes/sake/index.htm",
     "https://www.nta.go.jp/taxes/kids/index.htm",
-    "https://www.mlit.go.jp/mizukokudo/index.html",
     "https://www.mlit.go.jp/river/kasen/index.html",
     "https://www.mlit.go.jp/river/dam/index.html",
     "https://www.mlit.go.jp/mizukokudo/sabo/index.html",
@@ -413,12 +431,10 @@
     "https://www.bousai.go.jp/kyoiku/kigyou/",
     "https://disaportal.gsi.go.jp/",
     "https://www.river.go.jp/",
-    "https://www.bousai.go.jp/index.html",
     "https://www.bousai.go.jp/oyakudachi/info_general.html",
     "https://www.bousai.go.jp/oyakudachi/info_kigyou.html",
     "https://www.bousai.go.jp/oyakudachi/info_jichitai.html",
     "https://www.cao.go.jp/search/notice-search.html",
-    "https://www.cao.go.jp/",
     "https://www.cao.go.jp/seisaku/seisaku.html",
     "https://www.bousai.go.jp/taisaku/index.html",
     "https://www.bousai.go.jp/oukyu/hinankankoku/index.html",
@@ -501,7 +517,6 @@
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/bousaizeisei_gaiyo.pdf",
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/bousaizeisei_yoryo.pdf",
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/bousaizeisei_yoryo_taishou.pdf",
-    "https://kyoujinnka.smrj.go.jp/",
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/nintei_ichiran_chiiki.pdf",
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/list.html",
     "https://www.chusho.meti.go.jp/keiei/antei/bousai/download/keizokuryoku/logo/nintei_logo_kiyaku.pdf",
@@ -570,7 +585,6 @@
     "https://www.chusho.meti.go.jp/keiei/shokibo/2022/221117nariwai.html",
     "https://www.chusho.meti.go.jp/keiei/shokibo/2022/221006nariwai.html",
     "https://www.chusho.meti.go.jp/earthquake2011/download/110829NDC.pdf",
-    "http://www.okinawakouko.go.jp/",
     "https://www.chusho.meti.go.jp/pamflet/g_book/h28/index.html",
     "https://www.chusho.meti.go.jp/keiei/antei/download/110531Bcp-Reserch.pdf",
     "https://www.chusho.meti.go.jp/earthquake2011/download/0302jirei-0.pdf",
@@ -582,7 +596,6 @@
     "https://www.chusho.meti.go.jp/keiei/shokibo/2023/230403group.html",
     "https://www.chusho.meti.go.jp/shogyo/shogyo/2022/220428saigai.html",
     "https://www.chusho.meti.go.jp/keiei/shokibo/2022/220401group.html",
-    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_kettei.html",
     "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/261116001.pdf",
     "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/261105001.pdf",
     "https://www.chusho.meti.go.jp/shogyo/shogyo/hojyokin/kino_fukugo/dl/01yokou.pdf",
@@ -614,7 +627,6 @@
     "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260616001.pdf",
     "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260612001.pdf",
     "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260528001.pdf",
-    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/hukkyuu_shotengai.html",
     "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260520001.pdf",
     "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260515001.pdf",
     "https://www.chusho.meti.go.jp/koukai/hojyokin/saitaku/2026/dl/260501001.pdf",
@@ -766,25 +778,16 @@
     "https://www.jpo.go.jp/news/koho/saigai/2024_noto/soudan-madoguchi.html",
     "http://www.pcinfo.jpo.go.jp/site/4_news/3_appl/03_06.html",
     "https://www.jpo.go.jp/system/patent/pct/tetuzuki/yusenken_kaifuku.html",
-    "https://www.pref.ishikawa.lg.jp/index.html",
     "https://www.pref.ishikawa.lg.jp/kinkyu/kanri.html",
-    "https://www.pref.ishikawa.lg.jp/kurashi/anzen/index.html",
-    "https://www.pref.ishikawa.lg.jp/kurashi/index.html",
-    "https://www.pref.ishikawa.lg.jp/iryo_fukushi/index.html",
-    "https://www.pref.ishikawa.lg.jp/kanko_koryu/index.html",
-    "https://www.pref.ishikawa.lg.jp/shigoto/index.html",
-    "https://www.pref.ishikawa.lg.jp/kensei/index.html",
     "https://www.pref.ishikawa.lg.jp/about_site/tsukaikata/index.html",
     "https://www.pref.ishikawa.lg.jp/shinsei/index.html",
     "https://www.pref.ishikawa.lg.jp/kensei/soshiki/kenshokuin/index.html",
     "https://www.pref.ishikawa.lg.jp/sodammadoguchi/index.html",
     "https://www.pref.ishikawa.lg.jp/kurashi/seikatsu/kenzei/index.html",
     "https://www.pref.ishikawa.lg.jp/shisetsu/index.html",
-    "https://www.pref.ishikawa.lg.jp/shinchaku/index.html",
     "https://www.pref.ishikawa.lg.jp/cgi-bin/event_cal_multi/calendar.cgi",
     "https://www.pref.ishikawa.lg.jp/kensei/soshiki/soshiki/renrakusaki/index.html",
     "https://www.pref.ishikawa.lg.jp/jigyosha.html",
-    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_jisseki.html",
     "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_extension.html",
     "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/r6notocenter.html",
     "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/r6kanazawa_siencenter.html",
@@ -807,10 +810,7 @@
     "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/999_kohuyoukou_hikaku.pdf",
     "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/documents/999_kohuyoukou_format.pdf",
     "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/hisai_attention.html",
-    "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/nariwai_rishihokyu.html",
-    "https://www.city.suzu.lg.jp/soshiki/7/16267.html",
-    "https://www.town.anamizu.lg.jp/site/r6notohantojishin/100691.html",
-    "https://www.town.noto.lg.jp/kakuka/1009/gyomu/9/2/1284.html"
+    "https://www.city.suzu.lg.jp/soshiki/7/16267.html"
   ],
   "skipped": [
     [
@@ -918,10 +918,6 @@
       "empty"
     ],
     [
-      "https://www.wam.go.jp/hp/home/home-topics_list-tabid-394/recovery-tabid-351/",
-      "status 404"
-    ],
-    [
       "https://www.mhlw.go.jp/content/001186725.pdf",
       "empty"
     ],
@@ -943,10 +939,6 @@
     ],
     [
       "https://www.mhlw.go.jp/content/001186969.pdf",
-      "status 404"
-    ],
-    [
-      "https://www.wam.go.jp/hp/home-topics_list-recovery-recovery-tabid-1129/",
       "status 404"
     ],
     [
