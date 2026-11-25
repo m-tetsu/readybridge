@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "93a8f237cc9d3759d75cca07d201545846294c2a010653c9debdbbf65f2eee05"
-fetched_at: "2026-11-24"
+content_hash: "a13f47c2e4ee3dee9d7eedf0b0c924511d62d7d664cfac8cfa7d7f6d0a1ae33e"
+fetched_at: "2026-11-25"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
+11月25日
+依存症対策
+
 11月24日
 石川県介護支援専門員実務研修受講試験について
+
+11月24日
+旧軍人等の個人情報の開示について
 
 11月24日
 医療機関へ各種のお知らせ
 
 11月24日
-令和8年度の研修
-
-11月20日
-障害者虐待防止
-
-11月20日
-＝北朝鮮当局による人権侵害問題に対する認識を深めよう＝
+がん検診精密検査機関登録について
 
 新着情報一覧
 新着情報RSS
