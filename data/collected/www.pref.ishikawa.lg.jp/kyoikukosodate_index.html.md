@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "00f99a097fab155c89d0e504e85e2d31256d73d6ab3dc88507ce37084ce4d4bb"
-fetched_at: "2026-11-24"
+content_hash: "9127b1f90e3af915797b6a5535d1da8c7dfdd40bea9f7429e775a332207a6d6f"
+fetched_at: "2026-11-26"
 ---
 石川県
 
@@ -85,20 +85,20 @@ C
 
 新着情報
 
+11月26日
+最新の刊行物を掲載しました。
+
+11月25日
+教育委員会会議
+
+11月25日
+第19回教育委員会会議の開催結果について
+
 11月24日
 スーパーサイエンスハイスクール（SSH）事業
 
 11月24日
 教育委員会記者発表資料 令和8年度11月分
-
-11月24日
-いしかわ高校生グローバル人材育成推進事業
-
-11月23日
-教育委員会生涯学習課
-
-11月18日
-あすなろ悠々塾 in 能登
 
 新着情報一覧
 新着情報RSS

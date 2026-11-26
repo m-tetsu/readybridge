@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "15f72f6db79530a72dd5a2e3611eef2c3564a6caca1c00439dc7f4fe4a07377e"
-fetched_at: "2026-11-24"
+content_hash: "9785f67e93c09d6dd467f08de5fb77cd9cf3e5d34b509ffe584a4e7ef5a11e40"
+fetched_at: "2026-11-26"
 ---
 石川県
 
@@ -85,6 +85,12 @@ C
 
 新着情報
 
+11月26日
+金沢城二の丸御殿復元整備への寄進募集
+
+11月25日
+国際情勢講演会【終了しました】
+
 11月24日
 きらめく！アート展
 
@@ -93,12 +99,6 @@ C
 
 11月19日
 パスポート申請のマイナポータルサイトのメンテナンスについて
-
-11月18日
-千里浜なぎさドライブウェイ交通規制情報
-
-11月18日
-「能登とつながる文化まつり」(東京国立博物館『博物館に初もうで』関連イベント)の開催について
 
 新着情報一覧
 新着情報RSS

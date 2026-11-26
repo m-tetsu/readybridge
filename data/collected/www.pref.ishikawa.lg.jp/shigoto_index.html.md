@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "0f6d0629f7508ebf3e3869694ac6914010563163fdc482666fe7708a11f747ce"
-fetched_at: "2026-11-25"
+content_hash: "e69bca135f5ffe050dc259b444f3d3d34521ad44045f93197ccd0aae3c12eeb8"
+fetched_at: "2026-11-26"
 ---
 石川県
 
@@ -86,19 +86,19 @@ C
 新着情報
 
 11月25日
+株式会社PPIHと連携した北陸フェア開催に係る出品募集について
+
+11月25日
 石川県内企業の人材確保支援事業について
 
 11月25日
 活動日程
 
-11月24日
-障害者雇用にかかる県支援策
+11月25日
+作物名（宿主名）で検索
 
-11月24日
-なりわい支援補助金の事業完了期間の延長
-
-11月24日
-R8.8大雨被災事業者再建支援補助金
+11月25日
+病名で検索
 
 新着情報一覧
 新着情報RSS
