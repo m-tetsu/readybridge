@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "facility-prep"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "17fc480d860fb18295a1d539a96bddfd1e6f558434ca9c52e9682944e95b1d8a"
-fetched_at: "2026-11-10"
+content_hash: "6607363b117e677aa92d881c1c9c975b41775fd3373cc3680fc366e190e4e3f5"
+fetched_at: "2026-11-27"
 ---
 水管理・国土保全トップ水資源部下水道部砂防部
 
@@ -32,6 +32,8 @@ fetched_at: "2026-11-10"
 過去のトピックス一覧
 
 報道発表資料
+
+「今後の土砂災害対策のあり方検討会」提言がとりまとめられました（令和８年１１月２６日）
 
 令和８年11月８日01時04分頃の静岡県西部の地震に伴う土砂災害に関する警報等の暫定的な運用について（令和８年１１月８日）
 

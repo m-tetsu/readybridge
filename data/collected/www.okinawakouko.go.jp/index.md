@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "1c519dc10d11915a2f2f2e33816f427364ee1fb9d1fa1b9d276faf31ddf356f7"
-fetched_at: "2026-11-26"
+content_hash: "f1ec181c6fa6d28b7e7bde84acfea736ca4eeeb9f49783d8d9df7f41e69ceed2"
+fetched_at: "2026-11-27"
 ---
 特別相談窓口
 
@@ -160,10 +160,6 @@ RSS
 
 セミナー・相談会
 店舗別セミナー・相談会一覧
-
-開催期間 2026年11月26日
-
-石垣市商工会における事業資金に関する個別融資相談会の開催について
 
 開催期間 2026年12月01日
 

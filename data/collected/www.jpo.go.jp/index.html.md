@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "00260ad822782c2d4c4ebe343bca0991939be9c8b889aa64f4aa5d47caa97e08"
-fetched_at: "2026-11-19"
+content_hash: "708fb0dedc4283945258837100eb27b6ce194b32e58b91c3ddd8fbf1c57744d0"
+fetched_at: "2026-11-27"
 ---
 特許庁
 
@@ -691,6 +691,9 @@ JPOちゅーぶ初の海外進出！DE&Iはいかにイノベーションを生�
 報道発表一覧を見る
 
 最近の動き
+インドネシア知的財産総局（DGIP）とフォローアップセミナーを開催しました
+
+最近の動き
 WIPO第1回知財とAIに関するグローバルフォーラムに参加しました
 
 最近の動き
@@ -701,9 +704,6 @@ US-Bar リエゾンカウンシルと意見交換を実施しました
 
 最近の動き
 ベトナム国家知的財産庁と「PPH Navigator」に関する共同意図表明文書を交換
-
-最近の動き
-ベトナム国家知的財産庁と新たな特許審査協力「PPH Navigator」の開始に合意しました
 
 イベント情報
 

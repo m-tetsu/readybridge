@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "55d65ac35e6fa0c592a8dfbf645cbfbd7555f1f21c36a2daffb3dcf1c0db25c2"
-fetched_at: "2026-11-19"
+content_hash: "8e11d9bf05597ae1d6228f9acfb84bdb0d726cb830208f679237918cfe18cb9f"
+fetched_at: "2026-11-27"
 ---
 JAPAN PATENT OFFICE
 
@@ -226,6 +226,9 @@ More
 More
 
 Pickup News
+JPO and Directorate General of Intellectual Property (DGIP) Hold Joint Follow-up Seminar
+
+Pickup News
 WIPO First Global Forum on Intellectual Property and Artificial Intelligence held
 
 Pickup News
@@ -236,9 +239,6 @@ JPO holds meeting with US Bar Liaison Council
 
 Pickup News
 The JPO Exchanged Views with Turkish Intellectual Property-Related Institutions
-
-Pickup News
-JPO Conducted a Training Program on University and SME Support for Officials from Indonesia’s DGIP and Related Agencies
 
 PR & Social Media
 
