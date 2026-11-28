@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "77c22f878f1b18a72bbbf96bea4adbf4abc3e4270167c728950bdacb6e5c9815"
-fetched_at: "2026-11-27"
+content_hash: "22a438109e8131254fd8b1b9492bc14956cf1e6cc1f8682b8d19d0ab6683ec78"
+fetched_at: "2026-11-28"
 ---
 お知らせ
 
@@ -16,6 +16,8 @@ Microsoft365の大規模障害に伴うメールシステムの不具合につ�
 内閣府を騙った電子メールにご注意ください。
 
 トピックス
+
+12月3日～9日は「障害者週間」です。
 
 国立公文書館で企画展「遊ぶ もののけ ―妖怪と幻獣の江戸時代―」を開催中（～12/6）
 

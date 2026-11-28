@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "88f4dfcfa1322503ff815e67d623ef8398a344cf779478f2d1f8abd5ee28f92c"
-fetched_at: "2026-11-27"
+content_hash: "5e8b97beef5994c638972513291cafd26ffe0604720ca420ed37e02d4015193f"
+fetched_at: "2026-11-28"
 ---
 石川県
 
@@ -85,6 +85,9 @@ C
 
 新着情報
 
+11月27日
+令和8年度 病床数適正化緊急支援事業
+
 11月26日
 保健師、助産師、看護師及び准看護師の業務従事者届について
 
@@ -96,9 +99,6 @@ C
 
 11月26日
 施設一覧・利用実績・活動紹介
-
-11月25日
-インフルエンザ様疾患及び新型コロナウイルス感染症による集団感染事例
 
 新着情報一覧
 新着情報RSS

@@ -6,8 +6,8 @@ pillar: "recover"
 category: "finance"
 disaster_scope: "reiwa-6-noto"
 content_type: "html"
-content_hash: "276b3163a0e73d37933ca8a4b9f6fb2b00bc272946f98691ba4ae03ecae60a57"
-fetched_at: "2026-11-27"
+content_hash: "96102f01bc1abb6ae25b2c9d1b0dd4bf4effc104852873c230050d6ffbec851d"
+fetched_at: "2026-11-28"
 ---
 石川県
 
@@ -86,6 +86,9 @@ C
 新着情報
 
 11月27日
+教育委員会生涯学習課
+
+11月27日
 障害者の生涯学習の推進について
 
 11月26日
@@ -96,9 +99,6 @@ C
 
 11月26日
 最新の刊行物を掲載しました。
-
-11月25日
-第19回教育委員会会議の開催結果について
 
 新着情報一覧
 新着情報RSS

@@ -6,8 +6,8 @@ pillar: "prepare"
 category: "bcp"
 disaster_scope: "general"
 content_type: "html"
-content_hash: "8378b3156aa3b54ceba2a93378285549caf10f9831e3d2e6b0e0f8280aacf8ea"
-fetched_at: "2026-11-27"
+content_hash: "8b03fee1da9a630fbc32924ee57cfa4ac7d8d3ecc956fb74c1368a47d88e322a"
+fetched_at: "2026-11-28"
 ---
 日本の防災をかえていく。
 
@@ -84,11 +84,11 @@ fetched_at: "2026-11-27"
 
 記者発表一覧
 
+令和8年11月27日 第47回中央防災会議
+
 令和8年11月18日 「全国防災・危機管理トップセミナー」を開催しました
 
 令和8年11月14日 金子防災副大臣による令和８年熊本地震に係る現地視察
-
-令和8年11月3日 細野防災大臣による令和８年熊本地震に係る現地視察
 
 気象警報・注意報（気象庁）
 
